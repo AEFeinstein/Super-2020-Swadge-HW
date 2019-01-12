@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MMA8452Q
+#
+DEF MMA8452Q U 0 40 Y Y 1 L N
+F0 "U" -300 420 50 H V L BNN
+F1 "MMA8452Q" -300 -491 50 H V L BNN
+F3 "Sensor: accelerometer; Range: 2/4/8g; -40÷85°C; 1.95÷3.6V" 0 0 50 H I L BNN
+F4 "Unavailable" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "NXP Semiconductors" 0 0 50 H I L BNN
+F8 "MMA8452Q" 0 0 50 H I L BNN
+$FPLIST
+ QFN-16_0.5MM
+ QFN-16_0.5MM-EXTRA
+$ENDFPLIST
+DRAW
+P 2 0 0 10 -300 400 -300 -400 N
+P 2 0 0 10 -300 -400 400 -400 N
+P 2 0 0 10 400 -400 400 400 N
+P 2 0 0 10 400 400 -300 400 N
+X VDDIO 1 -400 200 100 R 40 40 0 0 B 
+X BYP 2 -400 100 100 R 40 40 0 0 B 
+X SCL 4 500 300 100 L 40 40 0 0 B 
+X GND@0 5 -400 -300 100 R 40 40 0 0 B 
+X SDA 6 500 200 100 L 40 40 0 0 B 
+X SA0 7 500 -300 100 L 40 40 0 0 B 
+X INT2 9 500 0 100 L 40 40 0 0 B 
+X GND@1 10 -400 -200 100 R 40 40 0 0 B 
+X INT1 11 500 -100 100 L 40 40 0 0 B 
+X GND@2 12 -400 -100 100 R 40 40 0 0 B 
+X VDD 14 -400 300 100 R 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
