@@ -88,11 +88,6 @@ F 3 "~" H 2500 1400 50  0001 C CNN
 	1    2500 1400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2400 1250 2500 1250
-Wire Wire Line
-	2500 1250 2600 1250
-Connection ~ 2500 1250
 $Comp
 L Device:R_US R2
 U 1 1 5C3A2ABB
@@ -133,7 +128,6 @@ Wire Wire Line
 	1500 1250 1700 1250
 Wire Wire Line
 	1500 850  1500 950 
-Connection ~ 1700 1250
 $Comp
 L Device:R_US R4
 U 1 1 5C3A27A1
@@ -143,7 +137,7 @@ F 1 "47K" V 1736 1250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1890 1240 50  0001 C CNN
 F 3 "~" H 1850 1250 50  0001 C CNN
 	1    1850 1250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R6
@@ -165,7 +159,7 @@ F 1 "0.22u" H 1115 955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1038 850 50  0001 C CNN
 F 3 "~" H 1000 1000 50  0001 C CNN
 	1    1000 1000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C1
@@ -176,10 +170,8 @@ F 1 "22u" H 765 955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 688 850 50  0001 C CNN
 F 3 "~" H 650 1000 50  0001 C CNN
 	1    650  1000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	650  850  1000 850 
 $Comp
 L power:GND #PWR02
 U 1 1 5C3A3CC2
@@ -202,9 +194,6 @@ F 3 "" H 650 1150 50  0001 C CNN
 	1    650  1150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 850  1350 850 
-Connection ~ 1000 850 
 Wire Wire Line
 	1700 1050 2600 1050
 Wire Wire Line
@@ -248,7 +237,7 @@ F 1 "10K" V 1786 1800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1940 1790 50  0001 C CNN
 F 3 "~" H 1900 1800 50  0001 C CNN
 	1    1900 1800
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1750 1800 1350 1800
@@ -261,7 +250,6 @@ Wire Wire Line
 	2050 1800 2050 1700
 Wire Wire Line
 	2150 1800 2050 1800
-Connection ~ 2050 1800
 $Comp
 L power:GND #PWR04
 U 1 1 5C3A5213
@@ -1375,4 +1363,16 @@ Wire Notes Line
 	3700 2650 4100 2650
 Wire Notes Line
 	4100 2650 4100 2500
+Connection ~ 2050 1800
+Connection ~ 1700 1250
+Wire Wire Line
+	2400 1250 2500 1250
+Connection ~ 2500 1250
+Wire Wire Line
+	2500 1250 2600 1250
+Wire Wire Line
+	650  850  1000 850 
+Connection ~ 1000 850 
+Wire Wire Line
+	1000 850  1350 850 
 $EndSCHEMATC
