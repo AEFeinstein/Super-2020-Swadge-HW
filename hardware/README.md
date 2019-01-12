@@ -1,0 +1,1 @@
+More libraries can be found at https://github.com/kitspace/kicad_footprints
