@@ -787,16 +787,16 @@ Wire Notes Line
 $Comp
 L power:+3.3V #PWR0103
 U 1 1 5C3B284C
-P 650 3750
-F 0 "#PWR0103" H 650 3600 50  0001 C CNN
-F 1 "+3.3V" H 665 3923 50  0000 C CNN
-F 2 "" H 650 3750 50  0001 C CNN
-F 3 "" H 650 3750 50  0001 C CNN
-	1    650  3750
+P 600 3250
+F 0 "#PWR0103" H 600 3100 50  0001 C CNN
+F 1 "+3.3V" H 615 3423 50  0000 C CNN
+F 2 "" H 600 3250 50  0001 C CNN
+F 3 "" H 600 3250 50  0001 C CNN
+	1    600  3250
 	1    0    0    -1  
 $EndComp
 Text GLabel 2100 4250 3    50   Input ~ 0
-GPIO10
+SW2
 Text GLabel 2950 3650 2    50   Input ~ 0
 GPIO15
 Wire Notes Line
@@ -1098,16 +1098,16 @@ Wire Notes Line
 Wire Notes Line
 	1150 4850 1150 4700
 Text Notes 5850 2800 0    50   ~ 0
-TODO: Display\nTODO: M.2 Connector\nTODO: Bypass Caps
+TODO: Display\nTODO: Bypass Caps
 $Comp
 L Regulator_Linear:AP1117-33 U4
 U 1 1 5C3ED77E
-P 10150 1500
-F 0 "U4" H 10150 1742 50  0000 C CNN
-F 1 "AP1117-33" H 10150 1651 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 10150 1700 50  0001 C CNN
-F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 10250 1250 50  0001 C CNN
-	1    10150 1500
+P 10150 1700
+F 0 "U4" H 10150 1942 50  0000 C CNN
+F 1 "AP1117-33" H 10150 1851 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 10150 1900 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 10250 1450 50  0001 C CNN
+	1    10150 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1148,12 +1148,6 @@ F 3 "" H 10650 1300 50  0001 C CNN
 	1    10650 1300
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9800 1500 9850 1500
-Wire Wire Line
-	10150 1800 10150 2100
-Wire Wire Line
-	10150 2100 9850 2100
 Connection ~ 9500 2100
 $Comp
 L Device:Battery BT1
@@ -1188,7 +1182,6 @@ F 3 "" H 9850 1050 50  0001 C CNN
 	1    9850 1050
 	1    0    0    -1  
 $EndComp
-Connection ~ 9850 2100
 Wire Wire Line
 	9850 2100 9500 2100
 Wire Notes Line
@@ -1203,8 +1196,6 @@ Wire Wire Line
 	10250 1050 10450 1050
 Wire Wire Line
 	10450 1050 10450 1200
-Wire Wire Line
-	10450 1400 10450 1500
 Wire Wire Line
 	10850 1300 11000 1300
 Text Notes 9250 600  0    50   ~ 0
@@ -1245,22 +1236,18 @@ Wire Wire Line
 	3050 6350 3200 6350
 Text GLabel 2950 3350 2    50   Input ~ 0
 SDA
-Wire Wire Line
-	1150 3750 650  3750
 Text GLabel 4150 3300 0    50   Input ~ 0
-GPIO10
+SW2
 Text GLabel 1150 3550 0    50   Input ~ 0
-GPIO12
+SW4
 Text GLabel 1150 3650 0    50   Input ~ 0
-GPIO13
-Text GLabel 1150 3350 0    50   Input ~ 0
-GPIO16
+SW3
 Text GLabel 5100 3850 0    50   Input ~ 0
-GPIO16
+SW5
 Text GLabel 5100 3300 0    50   Input ~ 0
-GPIO12
+SW4
 Text GLabel 4150 3850 0    50   Input ~ 0
-GPIO13
+SW3
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5C443129
@@ -1375,4 +1362,176 @@ Wire Wire Line
 Connection ~ 1000 850 
 Wire Wire Line
 	1000 850  1350 850 
+$Comp
+L Connector_PCBEdge:BUS_PCIexpress U5
+U 1 1 5C3B5040
+P 4700 6250
+F 0 "U5" H 4700 7325 50  0000 C CNN
+F 1 "BUS_PCIexpress" H 4700 7234 50  0000 C CNN
+F 2 "Connector_PCBEdge:BUS_PCIexpress" H 4700 6600 50  0001 C CNN
+F 3 "https://www.digikey.com/products/en/connectors-interconnects/card-edge-connectors-edgeboard-connectors/303?FV=1600024%2C85c0002%2C1f140000%2Cffe0012f&quantity=0&ColumnSort=1000011&page=1&stock=1&pageSize=25" H 4700 6600 50  0001 C CNN
+	1    4700 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1100 3050 1    50   Input ~ 0
+REST
+Text GLabel 4500 5400 0    50   Input ~ 0
+REST
+Text GLabel 4900 5400 2    50   Input ~ 0
+ADC_PIN
+Text GLabel 4500 5600 0    50   Input ~ 0
+AUD_PWR
+Text GLabel 4900 5600 2    50   Input ~ 0
+SW4
+Text GLabel 4500 6400 0    50   Input ~ 0
+SW3
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 5C3B6600
+P 5000 6200
+F 0 "#PWR0110" H 5000 6050 50  0001 C CNN
+F 1 "+3.3V" H 5015 6373 50  0000 C CNN
+F 2 "" H 5000 6200 50  0001 C CNN
+F 3 "" H 5000 6200 50  0001 C CNN
+	1    5000 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 4250 3    50   Input ~ 0
+CS0
+Text GLabel 1900 4250 3    50   Input ~ 0
+MISO
+Text GLabel 2000 4250 3    50   Input ~ 0
+SW5
+Text GLabel 2200 4250 3    50   Input ~ 0
+MOSI
+Text GLabel 2300 4250 3    50   Input ~ 0
+SCLK
+Text GLabel 4500 6500 0    50   Input ~ 0
+CS0
+Text GLabel 4900 6400 2    50   Input ~ 0
+MISO
+Text GLabel 4500 6600 0    50   Input ~ 0
+SW5
+Text GLabel 4900 6500 2    50   Input ~ 0
+SW2
+Text GLabel 4500 6800 0    50   Input ~ 0
+MOSI
+Text GLabel 4900 6600 2    50   Input ~ 0
+SCLK
+Text GLabel 4900 6800 2    50   Input ~ 0
+GPIO15
+Text GLabel 4900 6900 2    50   Input ~ 0
+GPIO0
+Text GLabel 4900 7000 2    50   Input ~ 0
+SCL
+Text GLabel 4900 7100 2    50   Input ~ 0
+TX
+Text GLabel 4500 6900 0    50   Input ~ 0
+GPIO2
+Text GLabel 4500 7000 0    50   Input ~ 0
+SDA
+Text GLabel 4500 7100 0    50   Input ~ 0
+RX
+$Comp
+L power:GND #PWR0111
+U 1 1 5C3BA3DC
+P 4300 6000
+F 0 "#PWR0111" H 4300 5750 50  0001 C CNN
+F 1 "GND" H 4305 5827 50  0000 C CNN
+F 2 "" H 4300 6000 50  0001 C CNN
+F 3 "" H 4300 6000 50  0001 C CNN
+	1    4300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR038
+U 1 1 5C3BE999
+P 9900 1500
+F 0 "#PWR038" H 9900 1350 50  0001 C CNN
+F 1 "+5V" H 9915 1673 50  0000 C CNN
+F 2 "" H 9900 1500 50  0001 C CNN
+F 3 "" H 9900 1500 50  0001 C CNN
+	1    9900 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 1500 9850 1500
+Connection ~ 9850 1500
+Wire Wire Line
+	9850 1500 9900 1500
+Wire Wire Line
+	10150 2100 9850 2100
+Connection ~ 9850 2100
+Wire Wire Line
+	10450 1700 10450 1400
+Wire Wire Line
+	9850 1700 9850 1500
+Wire Wire Line
+	10150 2000 10150 2100
+$Comp
+L power:+5V #PWR037
+U 1 1 5C3CDED6
+P 5000 5900
+F 0 "#PWR037" H 5000 5750 50  0001 C CNN
+F 1 "+5V" H 5015 6073 50  0000 C CNN
+F 2 "" H 5000 5900 50  0001 C CNN
+F 3 "" H 5000 5900 50  0001 C CNN
+	1    5000 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5800 4900 5900
+Wire Wire Line
+	5000 5900 4900 5900
+Connection ~ 4900 5900
+Wire Wire Line
+	4900 6100 4900 6200
+Wire Wire Line
+	4900 6200 5000 6200
+Connection ~ 4900 6200
+Wire Wire Line
+	4500 5800 4500 5900
+Wire Wire Line
+	4500 5900 4500 6000
+Connection ~ 4500 5900
+Wire Wire Line
+	4500 6000 4500 6100
+Connection ~ 4500 6000
+Wire Wire Line
+	4500 6100 4500 6200
+Connection ~ 4500 6100
+Wire Wire Line
+	4300 6000 4500 6000
+Wire Notes Line
+	3700 4700 3700 7750
+Wire Notes Line
+	3700 7750 5700 7750
+Wire Notes Line
+	5700 7750 5700 4700
+Wire Notes Line
+	5700 4700 3700 4700
+Text Notes 3750 4800 0    50   ~ 0
+Edge Connector
+Wire Notes Line
+	3700 4850 4400 4850
+Wire Notes Line
+	4400 4850 4400 4700
+Wire Wire Line
+	4500 5500 4500 5400
+Wire Wire Line
+	1150 3750 600  3750
+Wire Wire Line
+	600  3750 600  3250
+Wire Wire Line
+	1150 3250 600  3250
+Connection ~ 600  3250
+Wire Wire Line
+	1150 3350 750  3350
+Wire Wire Line
+	750  3350 750  3050
+Wire Wire Line
+	750  3050 1100 3050
+Connection ~ 1100 3050
+Wire Wire Line
+	1100 3050 1150 3050
 $EndSCHEMATC
