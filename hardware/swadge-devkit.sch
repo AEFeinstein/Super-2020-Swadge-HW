@@ -608,9 +608,6 @@ F 3 "" H 7700 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7700 900  7550 900 
-Wire Wire Line
-	7550 1350 7550 900 
-Connection ~ 7550 900 
 $Comp
 L power:GND #PWR021
 U 1 1 5C3A9758
@@ -924,7 +921,7 @@ L Device:C C13
 U 1 1 5C3BE2AC
 P 1150 7000
 F 0 "C13" H 1265 7046 50  0000 L CNN
-F 1 "4.7u" H 1265 6955 50  0000 L CNN
+F 1 "0.1u" H 1265 6955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1188 6850 50  0001 C CNN
 F 3 "~" H 1150 7000 50  0001 C CNN
 	1    1150 7000
@@ -935,7 +932,7 @@ L Device:C C12
 U 1 1 5C3BE30E
 P 750 6900
 F 0 "C12" H 865 6946 50  0000 L CNN
-F 1 "0.1u" H 865 6855 50  0000 L CNN
+F 1 "4.7u" H 865 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 788 6750 50  0001 C CNN
 F 3 "~" H 750 6900 50  0001 C CNN
 	1    750  6900
@@ -1078,8 +1075,8 @@ Wire Notes Line
 	500  4850 1150 4850
 Wire Notes Line
 	1150 4850 1150 4700
-Text Notes 5850 2800 0    50   ~ 0
-TODO: Display\nTODO: Bypass Caps
+Text Notes 9050 2800 0    50   ~ 0
+TODO: Bypass Caps\nTODO: ESP-12F GND on bottom?
 $Comp
 L Regulator_Linear:AP1117-33 U4
 U 1 1 5C3ED77E
@@ -1702,4 +1699,265 @@ Wire Wire Line
 	10600 1200 10600 1550
 Wire Wire Line
 	10600 1750 10600 2100
+$Comp
+L disp_oled:DISP_OLED_UG-2864HSWEG01 U6
+U 1 1 5C3C7BBF
+P 8000 4050
+F 0 "U6" H 7150 2300 45  0000 L CNN
+F 1 "DISP_OLED_UG-2864HSWEG01" H 7150 2400 45  0000 L CNN
+F 2 "disp_oled:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND" H 8030 4200 20  0001 C CNN
+F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/overview" H 8000 4050 50  0001 C CNN
+	1    8000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5C3D117F
+P 6700 5500
+F 0 "C20" H 6815 5546 50  0000 L CNN
+F 1 "10u" H 6815 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6738 5350 50  0001 C CNN
+F 3 "~" H 6700 5500 50  0001 C CNN
+	1    6700 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5C3D163A
+P 6300 5400
+F 0 "C18" H 6415 5446 50  0000 L CNN
+F 1 "2.2u" H 6415 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 5250 50  0001 C CNN
+F 3 "~" H 6300 5400 50  0001 C CNN
+	1    6300 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR039
+U 1 1 5C437019
+P 6050 3150
+F 0 "#PWR039" H 6050 3000 50  0001 C CNN
+F 1 "+3.3V" H 5900 3150 50  0000 C CNN
+F 2 "" H 6050 3150 50  0001 C CNN
+F 3 "" H 6050 3150 50  0001 C CNN
+	1    6050 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7000 3250
+Wire Wire Line
+	7000 3550 6950 3550
+Wire Wire Line
+	6950 3550 6950 3750
+Wire Wire Line
+	6950 3750 7000 3750
+$Comp
+L power:GND #PWR040
+U 1 1 5C478C8A
+P 6050 3750
+F 0 "#PWR040" H 6050 3500 50  0001 C CNN
+F 1 "GND" H 6055 3577 50  0000 C CNN
+F 2 "" H 6050 3750 50  0001 C CNN
+F 3 "" H 6050 3750 50  0001 C CNN
+	1    6050 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 3750
+Wire Wire Line
+	7000 3650 6800 3650
+NoConn ~ 7000 4150
+NoConn ~ 7000 4250
+NoConn ~ 7000 5050
+NoConn ~ 7000 4950
+NoConn ~ 7000 4850
+NoConn ~ 7000 4750
+NoConn ~ 7000 4650
+Wire Wire Line
+	7000 5250 6300 5250
+Wire Wire Line
+	7000 5350 6700 5350
+$Comp
+L Device:R_US R14
+U 1 1 5C5639B1
+P 6300 5150
+F 0 "R14" V 6400 5150 50  0000 C CNN
+F 1 "390k" V 6350 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6340 5140 50  0001 C CNN
+F 3 "~" H 6300 5150 50  0001 C CNN
+	1    6300 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 5150 7000 5150
+Wire Wire Line
+	7000 5450 7000 5550
+Wire Wire Line
+	7000 5550 7000 5650
+Connection ~ 7000 5550
+Wire Wire Line
+	6300 5650 6300 5550
+Wire Wire Line
+	6300 5650 6150 5650
+Connection ~ 6300 5650
+$Comp
+L power:GND #PWR041
+U 1 1 5C59A53E
+P 7000 5650
+F 0 "#PWR041" H 7000 5400 50  0001 C CNN
+F 1 "GND" H 7005 5477 50  0000 C CNN
+F 2 "" H 7000 5650 50  0001 C CNN
+F 3 "" H 7000 5650 50  0001 C CNN
+	1    7000 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 5650
+$Comp
+L Device:C C17
+U 1 1 5C5EA1C9
+P 6200 3600
+F 0 "C17" H 6315 3646 50  0000 L CNN
+F 1 "2.2u" H 6315 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6238 3450 50  0001 C CNN
+F 3 "~" H 6200 3600 50  0001 C CNN
+	1    6200 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5C5EA421
+P 6050 3300
+F 0 "C15" H 6165 3346 50  0000 L CNN
+F 1 "2.2u" H 6165 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6088 3150 50  0001 C CNN
+F 3 "~" H 6050 3300 50  0001 C CNN
+	1    6050 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 3150 6800 3150
+Wire Wire Line
+	7000 3350 6950 3350
+Wire Wire Line
+	6950 3350 6950 3550
+Connection ~ 6950 3550
+Wire Wire Line
+	6350 3150 6350 3450
+Connection ~ 6350 3150
+Wire Wire Line
+	6350 3450 6200 3450
+$Comp
+L Device:C C19
+U 1 1 5C655AC1
+P 6500 2700
+F 0 "C19" H 6615 2746 50  0000 L CNN
+F 1 "2.2u" H 6615 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 2550 50  0001 C CNN
+F 3 "~" H 6500 2700 50  0001 C CNN
+	1    6500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2850 6500 2850
+Wire Wire Line
+	7000 2750 6800 2750
+Wire Wire Line
+	6800 2750 6800 2550
+Wire Wire Line
+	6800 2550 6500 2550
+$Comp
+L Device:C C16
+U 1 1 5C66AFCB
+P 6100 2900
+F 0 "C16" H 6215 2946 50  0000 L CNN
+F 1 "2.2u" H 6215 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 2750 50  0001 C CNN
+F 3 "~" H 6100 2900 50  0001 C CNN
+	1    6100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3050 6100 3050
+Wire Wire Line
+	7000 2950 6400 2950
+Wire Wire Line
+	6400 2950 6400 2750
+Wire Wire Line
+	6400 2750 6100 2750
+Wire Wire Line
+	6050 3150 6350 3150
+Wire Wire Line
+	7000 2650 6950 2650
+Wire Wire Line
+	6950 2650 6950 3350
+Connection ~ 6950 3350
+Connection ~ 6050 3750
+Wire Wire Line
+	6800 3650 6800 3150
+Connection ~ 6800 3150
+Wire Wire Line
+	6800 3150 6350 3150
+Wire Wire Line
+	7000 4450 6950 4450
+Wire Wire Line
+	6950 4450 6950 4550
+Wire Wire Line
+	6950 4550 7000 4550
+Text GLabel 6950 4450 0    50   Input ~ 0
+SDA
+Text GLabel 6950 4350 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	7000 4350 6950 4350
+Text Notes 5850 4450 0    50   ~ 0
+10k pullups are in the\naccelerometer section
+Text GLabel 6950 3950 0    50   Input ~ 0
+MOSI
+NoConn ~ 7000 3850
+Wire Wire Line
+	7000 4050 6650 4050
+Wire Wire Line
+	6650 4050 6650 3750
+Connection ~ 6650 3750
+Wire Wire Line
+	6650 3750 6950 3750
+Text Notes 7550 4100 0    50   ~ 0
+I2C Address 0x78\nw/ SA0 at GND
+Wire Wire Line
+	6950 3950 7000 3950
+Wire Notes Line
+	8900 2500 5750 2500
+Wire Notes Line
+	5750 2500 5750 5900
+Wire Notes Line
+	5750 5900 8900 5900
+Wire Notes Line
+	8900 5900 8900 2500
+Text Notes 5800 2600 0    50   ~ 0
+Display Circuit
+Wire Notes Line
+	5750 2650 6400 2650
+Wire Notes Line
+	6400 2650 6400 2500
+Wire Wire Line
+	6150 5150 6150 5650
+Wire Wire Line
+	6300 5650 6700 5650
+Connection ~ 6700 5650
+Wire Wire Line
+	6700 5650 7000 5650
+Wire Wire Line
+	6050 3750 6200 3750
+Connection ~ 6200 3750
+Wire Wire Line
+	6200 3750 6650 3750
+Wire Wire Line
+	6050 3450 6050 3750
+Connection ~ 6050 3150
+Wire Wire Line
+	7550 1350 7550 900 
+Connection ~ 7550 900 
+Wire Wire Line
+	7000 3450 6350 3450
+Connection ~ 6350 3450
+Text Notes 2900 7450 0    50   ~ 0
+I2C address 0x1C\nw/SA0 at GND
 $EndSCHEMATC
