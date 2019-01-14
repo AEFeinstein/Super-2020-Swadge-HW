@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name disp_oled)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/disp_oled.mod)(options "")(descr ""))
+  (lib (name MMA8452Q)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/MMA8452Q/MMA8452Q.mod)(options "")(descr ""))
+  (lib (name ESP8266)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/kicad-ESP8266/ESP8266.pretty)(options "")(descr ""))
+)

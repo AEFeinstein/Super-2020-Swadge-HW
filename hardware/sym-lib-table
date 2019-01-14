@@ -1,2 +1,6 @@
 (sym_lib_table
+  (lib (name Connector_PCBEdge)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/Connector_PCBEdge.lib)(options "")(descr ""))
+  (lib (name disp_oled)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/disp_oled.lib)(options "")(descr ""))
+  (lib (name MMA8452Q)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/MMA8452Q/MMA8452Q.lib)(options "")(descr ""))
+  (lib (name ESP8266)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
 )
