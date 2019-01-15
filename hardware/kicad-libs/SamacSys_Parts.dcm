@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555D
+D NE555DG4, Timer, 4.5 To 16V, 8-Pin SOIC-8
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 2460
+D Battery Holder; AA; Polypropylene; PC Mount; 1; Spring; PC Lug
+K
+F https://componentsearchengine.com/Datasheets/1/2460.pdf
+$ENDCMP
+#
+#End Doc Library

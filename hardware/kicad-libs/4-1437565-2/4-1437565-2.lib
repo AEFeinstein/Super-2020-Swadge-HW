@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 4-1437565-2
+#
+DEF 4-1437565-2 SW 0 40 Y N 1 L N
+F0 "SW" -160 170 50 H V L BNN
+F1 "4-1437565-2" -180 -240 50 H V L BNN
+F2 "SW_4-1437565-2" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F5 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" 0 0 50 H I L BNN
+F6 "450-1759-1-ND" 0 0 50 H I L BNN
+F7 "https://www.te.com/usa-en/product-4-1437565-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F8 "TE Connectivity" 0 0 50 H I L BNN
+F9 "4-1437565-2" 0 0 50 H I L BNN
+F10 "FSM4JSMATR" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 5 -150 150 -150 100 N
+P 2 0 0 5 -150 100 -150 -100 N
+P 2 0 0 5 -150 -100 -150 -150 N
+P 2 0 0 5 150 150 150 100 N
+C -50 0 10 0 0 9 N
+C 50 0 10 0 0 9 N
+P 2 0 0 5 150 100 150 -100 N
+P 2 0 0 5 150 -100 150 -150 N
+P 2 0 0 5 -50 0 50 50 N
+P 2 0 0 5 -150 150 150 150 N
+P 2 0 0 5 -150 -150 150 -150 N
+P 2 0 0 5 -100 0 -50 0 N
+P 2 0 0 5 50 0 100 0 N
+P 2 0 0 5 -150 100 -100 100 N
+P 2 0 0 5 -100 100 -100 -100 N
+P 2 0 0 5 -100 -100 -150 -100 N
+P 2 0 0 5 150 100 100 100 N
+P 2 0 0 5 100 100 100 -100 N
+P 2 0 0 5 100 -100 150 -100 N
+X 1 1 -250 100 100 R 40 40 0 0 P 
+X 2 2 -250 -100 100 R 40 40 0 0 P 
+X 3 3 250 100 100 L 40 40 0 0 P 
+X 4 4 250 -100 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
