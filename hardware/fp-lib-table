@@ -7,4 +7,5 @@
   (lib (name microphone)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/microphone.pretty)(options "")(descr ""))
   (lib (name MSA300)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/MSA300.pretty)(options "")(descr ""))
   (lib (name 10018784-10210TLF)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/10018784-10210TLF.pretty)(options "")(descr ""))
+  (lib (name JS202011CQN)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/JS202011CQN.pretty)(options "")(descr ""))
 )
