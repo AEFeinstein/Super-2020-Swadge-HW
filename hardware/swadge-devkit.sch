@@ -1240,7 +1240,6 @@ Wire Wire Line
 	8500 3500 8550 3500
 Wire Wire Line
 	8950 3600 9150 3600
-Connection ~ 8950 3600
 Wire Wire Line
 	9000 3700 8950 3700
 Wire Wire Line
@@ -1281,7 +1280,6 @@ Wire Wire Line
 	9000 4800 8950 4800
 Wire Wire Line
 	8950 5200 9150 5200
-Connection ~ 8950 5200
 Wire Wire Line
 	4300 1950 4300 2000
 Wire Wire Line
@@ -2136,4 +2134,6 @@ I2C address 0x1C\nw/SA0 at GND
 NoConn ~ 1900 7000
 NoConn ~ 2250 7250
 NoConn ~ 2350 7250
+Connection ~ 8950 5200
+Connection ~ 8950 3600
 $EndSCHEMATC
