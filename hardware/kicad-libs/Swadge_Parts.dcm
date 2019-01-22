@@ -1,0 +1,106 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2460
+D Battery Holder; AA; Polypropylene; PC Mount; 1; Spring; PC Lug
+F https://www.digikey.com/product-detail/en/keystone-electronics/2460/36-2460-ND/280629
+$ENDCMP
+#
+$CMP 4-1437565-2
+D Tactile Switch
+F https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638
+$ENDCMP
+#
+$CMP AP1117-15
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-33
+D 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP BUS_PCIexpress
+D Edge Connector
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP DISP_OLED_UG-2864HSWEG01
+D Display
+F https://lcsc.com/product-detail/_WiseChip-VG-2864KSWEG01_C194313.html
+$ENDCMP
+#
+$CMP ESP-12E
+D ESP8266 ESP-12E module, 22 pins, 2mm, PCB antenna
+K MODULE ESP8266 ESP-8266
+F http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/
+$ENDCMP
+#
+$CMP ESP-12F
+F https://www.electrodragon.com/product/esp-12f-esp8266-wifi-board/
+$ENDCMP
+#
+$CMP MCP6001-OT
+D 1MHz, Low-Power Op Amp, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP6L91T-EOT
+D 10 MHz, 850 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+$CMP MMA8452Q
+D Accelerometer
+F https://www.digikey.com/catalog/en/partgroup/mma8452q/11242
+$ENDCMP
+#
+$CMP MSA300
+D Accelerometer
+F https://lcsc.com/product-detail/Motion-Sensors-Accelerometers_MSA300_C107276.html
+$ENDCMP
+#
+$CMP Microphone
+D Microphone
+K Microphone
+F https://www.digikey.com/product-detail/en/pui-audio-inc/POM-2738P-R/668-1158-ND/1464897
+$ENDCMP
+#
+$CMP R_US
+D Resistor US symbol
+K r res resistor
+F ~
+$ENDCMP
+#
+$CMP SW_DPDT_x2
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
+$CMP SW_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F https://www.digikey.com/product-detail/en/molex-llc/0473460001/WM17141CT-ND/1782474
+$ENDCMP
+#
+$CMP WS2812B
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+$ENDCMP
+#
+#End Doc Library

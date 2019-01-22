@@ -15,23 +15,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ESP8266:ESP-12F U1
+L Swadge_Parts:ESP-12F U1
 U 1 1 5C3A0058
 P 2100 3350
 F 0 "U1" H 2100 4115 50  0000 C CNN
 F 1 "ESP-12F" H 2100 4024 50  0000 C CNN
-F 2 "ESP8266:ESP-12E_SMD" H 2100 3350 50  0001 C CNN
+F 2 "Swadge_Parts:ESP-12E_SMD" H 2100 3350 50  0001 C CNN
 F 3 "https://www.elecrow.com/download/ESP-12F.pdf" H 2100 3350 50  0001 C CNN
 	1    2100 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6001-OT U2
+L Swadge_Parts:MCP6001-OT U2
 U 1 1 5C3A211F
 P 2900 1150
 F 0 "U2" H 3300 1400 50  0000 C CNN
 F 1 "MCP6001-OT" H 3150 1300 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2800 950 50  0001 L CNN
+F 2 "Swadge_Parts:SOT-23-5" H 2800 950 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2900 1350 50  0001 C CNN
 	1    2900 1150
 	1    0    0    -1  
@@ -41,12 +41,12 @@ ADC_PIN
 Text GLabel 1150 3450 0    50   Input ~ 0
 AUD_PWR
 $Comp
-L Device:R_US R1
+L Swadge_Parts:R_US R1
 U 1 1 5C3A222A
 P 2950 700
 F 0 "R1" V 3050 700 50  0000 C CNN
 F 1 "1K" V 2836 700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2990 690 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 2990 690 50  0001 C CNN
 F 3 "~" H 2950 700 50  0001 C CNN
 	1    2950 700 
 	0    1    1    0   
@@ -78,35 +78,35 @@ F 3 "" H 3050 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R7
+L Swadge_Parts:R_US R7
 U 1 1 5C3A270F
 P 2500 1400
 F 0 "R7" V 2600 1400 50  0000 C CNN
 F 1 "220K" V 2386 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2540 1390 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 2540 1390 50  0001 C CNN
 F 3 "~" H 2500 1400 50  0001 C CNN
 	1    2500 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_US R2
+L Swadge_Parts:R_US R2
 U 1 1 5C3A2ABB
 P 1500 1100
 F 0 "R2" V 1600 1100 50  0000 C CNN
 F 1 "47K" V 1386 1100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1540 1090 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1540 1090 50  0001 C CNN
 F 3 "~" H 1500 1100 50  0001 C CNN
 	1    1500 1100
 	-1   0    0    1   
 $EndComp
 Connection ~ 1500 1250
 $Comp
-L Device:R_US R3
+L Swadge_Parts:R_US R3
 U 1 1 5C3A2B0A
 P 1500 1400
 F 0 "R3" V 1600 1400 50  0000 C CNN
 F 1 "10K" V 1386 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1540 1390 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1540 1390 50  0001 C CNN
 F 3 "~" H 1500 1400 50  0001 C CNN
 	1    1500 1400
 	-1   0    0    1   
@@ -129,45 +129,45 @@ Wire Wire Line
 Wire Wire Line
 	1500 850  1500 950 
 $Comp
-L Device:R_US R4
+L Swadge_Parts:R_US R4
 U 1 1 5C3A27A1
 P 1850 1250
 F 0 "R4" V 1950 1250 50  0000 C CNN
 F 1 "47K" V 1736 1250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1890 1240 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1890 1240 50  0001 C CNN
 F 3 "~" H 1850 1250 50  0001 C CNN
 	1    1850 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US R6
+L Swadge_Parts:R_US R6
 U 1 1 5C3A275D
 P 2250 1250
 F 0 "R6" V 2350 1250 50  0000 C CNN
 F 1 "10K" V 2136 1250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2290 1240 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 2290 1240 50  0001 C CNN
 F 3 "~" H 2250 1250 50  0001 C CNN
 	1    2250 1250
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C2
+L Swadge_Parts:C C2
 U 1 1 5C3A35DB
 P 1150 1000
 F 0 "C2" H 1265 1046 50  0000 L CNN
 F 1 "0.22u" H 1265 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1188 850 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 1188 850 50  0001 C CNN
 F 3 "~" H 1150 1000 50  0001 C CNN
 	1    1150 1000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C1
+L Swadge_Parts:C C1
 U 1 1 5C3A398E
 P 800 1100
 F 0 "C1" H 915 1146 50  0000 L CNN
 F 1 "22u" H 915 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 838 950 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 838 950 50  0001 C CNN
 F 3 "~" H 800 1100 50  0001 C CNN
 	1    800  1100
 	-1   0    0    1   
@@ -200,12 +200,12 @@ Wire Wire Line
 	1500 850  2800 850 
 Connection ~ 1500 850 
 $Comp
-L Device:C C3
+L Swadge_Parts:C C3
 U 1 1 5C3A466B
 P 2050 1550
 F 0 "C3" H 2165 1596 50  0000 L CNN
 F 1 "0.22u" H 2165 1505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 1400 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 2088 1400 50  0001 C CNN
 F 3 "~" H 2050 1550 50  0001 C CNN
 	1    2050 1550
 	1    0    0    -1  
@@ -218,23 +218,23 @@ Connection ~ 2050 1250
 Wire Wire Line
 	2050 1250 2100 1250
 $Comp
-L Device:Microphone MK1
+L Swadge_Parts:Microphone MK1
 U 1 1 5C3A4BBD
 P 2150 2000
 F 0 "MK1" H 2280 2046 50  0000 L CNN
 F 1 "Microphone" H 2280 1955 50  0000 L CNN
-F 2 "microphone:POM-2738P-R" V 2150 2100 50  0001 C CNN
+F 2 "Swadge_Parts:POM-2738P-R" V 2150 2100 50  0001 C CNN
 F 3 "~" V 2150 2100 50  0001 C CNN
 	1    2150 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R5
+L Swadge_Parts:R_US R5
 U 1 1 5C3A4C3B
 P 1900 1800
 F 0 "R5" V 2000 1800 50  0000 C CNN
 F 1 "10K" V 1786 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1940 1790 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1940 1790 50  0001 C CNN
 F 3 "~" H 1900 1800 50  0001 C CNN
 	1    1900 1800
 	0    -1   -1   0   
@@ -271,12 +271,12 @@ Wire Wire Line
 	3250 1150 3200 1150
 Connection ~ 3200 1150
 $Comp
-L LED:WS2812B D1
+L Swadge_Parts:WS2812B D1
 U 1 1 5C3A6CB0
 P 4300 1650
 F 0 "D1" V 4100 2050 50  0000 L CNN
 F 1 "WS2812B" V 4200 1900 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4350 1350 50  0001 L TNN
+F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4350 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4400 1275 50  0001 L TNN
 	1    4300 1650
 	1    0    0    -1  
@@ -293,12 +293,12 @@ F 3 "" H 4300 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L Swadge_Parts:C C4
 U 1 1 5C3A6F66
 P 4450 1050
 F 0 "C4" H 4565 1096 50  0000 L CNN
 F 1 "1u" H 4565 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4488 900 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4488 900 50  0001 C CNN
 F 3 "~" H 4450 1050 50  0001 C CNN
 	1    4450 1050
 	1    0    0    -1  
@@ -331,12 +331,12 @@ F 3 "" H 4300 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D2
+L Swadge_Parts:WS2812B D2
 U 1 1 5C3A88A5
 P 4950 1650
 F 0 "D2" V 4750 2050 50  0000 L CNN
 F 1 "WS2812B" V 4850 1900 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5000 1350 50  0001 L TNN
+F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5000 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5050 1275 50  0001 L TNN
 	1    4950 1650
 	1    0    0    -1  
@@ -353,12 +353,12 @@ F 3 "" H 4950 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L Swadge_Parts:C C5
 U 1 1 5C3A88B1
 P 5100 1050
 F 0 "C5" H 5215 1096 50  0000 L CNN
 F 1 "1u" H 5215 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5138 900 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 5138 900 50  0001 C CNN
 F 3 "~" H 5100 1050 50  0001 C CNN
 	1    5100 1050
 	1    0    0    -1  
@@ -388,12 +388,12 @@ F 3 "" H 4950 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D3
+L Swadge_Parts:WS2812B D3
 U 1 1 5C3A91D9
 P 5600 1650
 F 0 "D3" V 5400 2050 50  0000 L CNN
 F 1 "WS2812B" V 5500 1900 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5650 1350 50  0001 L TNN
+F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5650 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5700 1275 50  0001 L TNN
 	1    5600 1650
 	1    0    0    -1  
@@ -410,12 +410,12 @@ F 3 "" H 5600 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L Swadge_Parts:C C6
 U 1 1 5C3A91E5
 P 5750 1050
 F 0 "C6" H 5865 1096 50  0000 L CNN
 F 1 "1u" H 5865 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 900 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 5788 900 50  0001 C CNN
 F 3 "~" H 5750 1050 50  0001 C CNN
 	1    5750 1050
 	1    0    0    -1  
@@ -443,12 +443,12 @@ F 3 "" H 5600 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D4
+L Swadge_Parts:WS2812B D4
 U 1 1 5C3A91FA
 P 6250 1650
 F 0 "D4" V 6050 2050 50  0000 L CNN
 F 1 "WS2812B" V 6150 1900 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6300 1350 50  0001 L TNN
+F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6300 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6350 1275 50  0001 L TNN
 	1    6250 1650
 	1    0    0    -1  
@@ -465,12 +465,12 @@ F 3 "" H 6250 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Swadge_Parts:C C7
 U 1 1 5C3A9206
 P 6400 1050
 F 0 "C7" H 6515 1096 50  0000 L CNN
 F 1 "1u" H 6515 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6438 900 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 6438 900 50  0001 C CNN
 F 3 "~" H 6400 1050 50  0001 C CNN
 	1    6400 1050
 	1    0    0    -1  
@@ -503,12 +503,12 @@ F 3 "" H 6250 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D5
+L Swadge_Parts:WS2812B D5
 U 1 1 5C3A971C
 P 6900 1650
 F 0 "D5" V 6700 2050 50  0000 L CNN
 F 1 "WS2812B" V 6800 1900 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6950 1350 50  0001 L TNN
+F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6950 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7000 1275 50  0001 L TNN
 	1    6900 1650
 	1    0    0    -1  
@@ -525,12 +525,12 @@ F 3 "" H 6900 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L Swadge_Parts:C C8
 U 1 1 5C3A9728
 P 7050 1050
 F 0 "C8" H 7165 1096 50  0000 L CNN
 F 1 "1u" H 7165 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7088 900 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 7088 900 50  0001 C CNN
 F 3 "~" H 7050 1050 50  0001 C CNN
 	1    7050 1050
 	1    0    0    -1  
@@ -563,12 +563,12 @@ F 3 "" H 6900 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D6
+L Swadge_Parts:WS2812B D6
 U 1 1 5C3A973D
 P 7550 1650
 F 0 "D6" V 7350 2050 50  0000 L CNN
 F 1 "WS2812B" V 7450 1900 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7600 1350 50  0001 L TNN
+F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7600 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 1275 50  0001 L TNN
 	1    7550 1650
 	1    0    0    -1  
@@ -585,12 +585,12 @@ F 3 "" H 7550 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L Swadge_Parts:C C9
 U 1 1 5C3A9749
 P 7700 1050
 F 0 "C9" H 7815 1096 50  0000 L CNN
 F 1 "1u" H 7815 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7738 900 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 7738 900 50  0001 C CNN
 F 3 "~" H 7700 1050 50  0001 C CNN
 	1    7700 1050
 	1    0    0    -1  
@@ -620,12 +620,12 @@ F 3 "" H 7550 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D7
+L Swadge_Parts:WS2812B D7
 U 1 1 5C3A975E
 P 8200 1650
 F 0 "D7" V 8000 2050 50  0000 L CNN
 F 1 "WS2812B" V 8100 1900 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8250 1350 50  0001 L TNN
+F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8250 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8300 1275 50  0001 L TNN
 	1    8200 1650
 	1    0    0    -1  
@@ -642,12 +642,12 @@ F 3 "" H 8200 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L Swadge_Parts:C C10
 U 1 1 5C3A976A
 P 8350 1050
 F 0 "C10" H 8465 1096 50  0000 L CNN
 F 1 "1u" H 8465 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8388 900 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 8388 900 50  0001 C CNN
 F 3 "~" H 8350 1050 50  0001 C CNN
 	1    8350 1050
 	1    0    0    -1  
@@ -675,12 +675,12 @@ F 3 "" H 8200 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D8
+L Swadge_Parts:WS2812B D8
 U 1 1 5C3A977F
 P 8850 1650
 F 0 "D8" V 8650 2050 50  0000 L CNN
 F 1 "WS2812B" V 8750 1900 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8900 1350 50  0001 L TNN
+F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8900 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8950 1275 50  0001 L TNN
 	1    8850 1650
 	1    0    0    -1  
@@ -697,12 +697,12 @@ F 3 "" H 8850 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L Swadge_Parts:C C11
 U 1 1 5C3A978B
 P 9000 1050
 F 0 "C11" H 9115 1096 50  0000 L CNN
 F 1 "1u" H 9115 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9038 900 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 9038 900 50  0001 C CNN
 F 3 "~" H 9000 1050 50  0001 C CNN
 	1    9000 1050
 	1    0    0    -1  
@@ -756,12 +756,12 @@ Microphone Circuit
 Text Notes 3750 600  0    50   ~ 0
 LED Circuit
 $Comp
-L Device:R_US R8
+L Swadge_Parts:R_US R8
 U 1 1 5C3AEE0E
 P 3900 1500
 F 0 "R8" V 4000 1500 50  0000 C CNN
 F 1 "70" V 3786 1500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3940 1490 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 3940 1490 50  0001 C CNN
 F 3 "~" H 3900 1500 50  0001 C CNN
 	1    3900 1500
 	-1   0    0    1   
@@ -796,34 +796,34 @@ GPIO2
 Text GLabel 1500 5650 0    50   Input ~ 0
 GPIO15
 $Comp
-L Device:R_US R9
+L Swadge_Parts:R_US R9
 U 1 1 5C3B6874
 P 1700 4950
 F 0 "R9" V 1800 4950 50  0000 C CNN
 F 1 "10K" V 1586 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1740 4940 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1740 4940 50  0001 C CNN
 F 3 "~" H 1700 4950 50  0001 C CNN
 	1    1700 4950
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R10
+L Swadge_Parts:R_US R10
 U 1 1 5C3B6CAF
 P 1700 5300
 F 0 "R10" V 1800 5300 50  0000 C CNN
 F 1 "10K" V 1586 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1740 5290 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1740 5290 50  0001 C CNN
 F 3 "~" H 1700 5300 50  0001 C CNN
 	1    1700 5300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R11
+L Swadge_Parts:R_US R11
 U 1 1 5C3B6D0D
 P 1700 5650
 F 0 "R11" V 1800 5650 50  0000 C CNN
 F 1 "10K" V 1586 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1740 5640 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1740 5640 50  0001 C CNN
 F 3 "~" H 1700 5650 50  0001 C CNN
 	1    1700 5650
 	0    1    1    0   
@@ -918,23 +918,23 @@ Wire Notes Line
 Text Notes 13050 3700 0    50   ~ 0
 TODO: Bypass Caps\nTODO: ESP-12F GND on bottom?
 $Comp
-L Regulator_Linear:AP1117-33 U4
+L Swadge_Parts:AP1117-33 U4
 U 1 1 5C3ED77E
 P 10350 1150
 F 0 "U4" H 10350 1392 50  0000 C CNN
 F 1 "AP1117-33" H 10350 1301 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 10350 1350 50  0001 C CNN
+F 2 "Swadge_Parts:SOT-223-3_TabPin2" H 10350 1350 50  0001 C CNN
 F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 10450 900 50  0001 C CNN
 	1    10350 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J1
+L Swadge_Parts:USB_B_Micro J1
 U 1 1 5C3ED8E1
 P 9650 1150
 F 0 "J1" H 9705 1617 50  0000 C CNN
 F 1 "USB_B_Micro" H 9705 1526 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 9800 1100 50  0001 C CNN
+F 2 "Swadge_Parts:USB_Micro-B_Molex_47346-0001" H 9800 1100 50  0001 C CNN
 F 3 "~" H 9800 1100 50  0001 C CNN
 	1    9650 1150
 	1    0    0    -1  
@@ -956,12 +956,12 @@ Wire Wire Line
 	9650 1550 9550 1550
 NoConn ~ 9950 1350
 $Comp
-L Switch:SW_SPDT SW1
+L Swadge_Parts:SW_SPDT SW1
 U 1 1 5C3F7306
 P 10850 1500
 F 0 "SW1" H 10850 1800 50  0000 C CNN
 F 1 "SW_SPDT" H 10850 1700 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 10850 1500 50  0001 C CNN
+F 2 "Swadge_Parts:SW_SPDT_PCM12" H 10850 1500 50  0001 C CNN
 F 3 "" H 10850 1500 50  0001 C CNN
 	1    10850 1500
 	-1   0    0    1   
@@ -1025,12 +1025,12 @@ Connection ~ 2500 1250
 Wire Wire Line
 	2500 1250 2600 1250
 $Comp
-L Connector_PCBEdge:BUS_PCIexpress U5
+L Swadge_Parts:BUS_PCIexpress U5
 U 1 1 5C3B5040
 P 8750 4350
 F 0 "U5" H 8750 5425 50  0000 C CNN
 F 1 "BUS_PCIexpress" H 8750 5334 50  0000 C CNN
-F 2 "Connector_PCBEdge:BUS_PCIexpress" H 8750 4700 50  0001 C CNN
+F 2 "Swadge_Parts:BUS_PCIexpress" H 8750 4700 50  0001 C CNN
 F 3 "https://www.digikey.com/products/en/connectors-interconnects/card-edge-connectors-edgeboard-connectors/303?FV=1600024%2C85c0002%2C1f140000%2Cffe0012f&quantity=0&ColumnSort=1000011&page=1&stock=1&pageSize=25" H 8750 4700 50  0001 C CNN
 	1    8750 4350
 	1    0    0    -1  
@@ -1359,34 +1359,34 @@ Wire Notes Line
 Wire Wire Line
 	10650 1150 10650 1400
 $Comp
-L disp_oled:DISP_OLED_UG-2864HSWEG01 U6
+L Swadge_Parts:DISP_OLED_UG-2864HSWEG01 U6
 U 1 1 5C3C7BBF
 P 5950 4050
 F 0 "U6" H 5100 2300 45  0000 L CNN
 F 1 "DISP_OLED_UG-2864HSWEG01" H 5100 2400 45  0000 L CNN
-F 2 "disp_oled:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND" H 5980 4200 20  0001 C CNN
+F 2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND" H 5980 4200 20  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/overview" H 5950 4050 50  0001 C CNN
 	1    5950 4050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C20
+L Swadge_Parts:C C20
 U 1 1 5C3D117F
 P 4650 5500
 F 0 "C20" H 4765 5546 50  0000 L CNN
 F 1 "10u" H 4765 5455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 5350 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4688 5350 50  0001 C CNN
 F 3 "~" H 4650 5500 50  0001 C CNN
 	1    4650 5500
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C18
+L Swadge_Parts:C C18
 U 1 1 5C3D163A
 P 4250 5400
 F 0 "C18" H 4365 5446 50  0000 L CNN
 F 1 "2.2u" H 4365 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 5250 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4288 5250 50  0001 C CNN
 F 3 "~" H 4250 5400 50  0001 C CNN
 	1    4250 5400
 	-1   0    0    1   
@@ -1435,23 +1435,18 @@ Wire Wire Line
 Wire Wire Line
 	4950 5350 4650 5350
 $Comp
-L Device:R_US R14
+L Swadge_Parts:R_US R14
 U 1 1 5C5639B1
 P 4250 5150
 F 0 "R14" V 4350 5150 50  0000 C CNN
 F 1 "390k" V 4300 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4290 5140 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 4290 5140 50  0001 C CNN
 F 3 "~" H 4250 5150 50  0001 C CNN
 	1    4250 5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4400 5150 4950 5150
-Wire Wire Line
-	4950 5450 4950 5550
-Wire Wire Line
-	4950 5550 4950 5650
-Connection ~ 4950 5550
 Wire Wire Line
 	4250 5650 4250 5550
 Wire Wire Line
@@ -1470,23 +1465,23 @@ F 3 "" H 4950 5650 50  0001 C CNN
 $EndComp
 Connection ~ 4950 5650
 $Comp
-L Device:C C17
+L Swadge_Parts:C C17
 U 1 1 5C5EA1C9
 P 4150 3600
 F 0 "C17" H 3850 3650 50  0000 L CNN
 F 1 "2.2u" H 3850 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 3450 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4188 3450 50  0001 C CNN
 F 3 "~" H 4150 3600 50  0001 C CNN
 	1    4150 3600
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C15
+L Swadge_Parts:C C15
 U 1 1 5C5EA421
 P 4000 3300
 F 0 "C15" H 4115 3346 50  0000 L CNN
 F 1 "2.2u" H 4115 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 3150 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4038 3150 50  0001 C CNN
 F 3 "~" H 4000 3300 50  0001 C CNN
 	1    4000 3300
 	-1   0    0    1   
@@ -1504,12 +1499,12 @@ Connection ~ 4300 3150
 Wire Wire Line
 	4300 3450 4150 3450
 $Comp
-L Device:C C19
+L Swadge_Parts:C C19
 U 1 1 5C655AC1
 P 4450 2700
 F 0 "C19" H 4565 2746 50  0000 L CNN
 F 1 "2.2u" H 4565 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4488 2550 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4488 2550 50  0001 C CNN
 F 3 "~" H 4450 2700 50  0001 C CNN
 	1    4450 2700
 	1    0    0    -1  
@@ -1523,12 +1518,12 @@ Wire Wire Line
 Wire Wire Line
 	4750 2550 4450 2550
 $Comp
-L Device:C C16
+L Swadge_Parts:C C16
 U 1 1 5C66AFCB
 P 4050 2900
 F 0 "C16" H 4165 2946 50  0000 L CNN
 F 1 "2.2u" H 4165 2855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 2750 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4088 2750 50  0001 C CNN
 F 3 "~" H 4050 2900 50  0001 C CNN
 	1    4050 2900
 	1    0    0    -1  
@@ -1618,12 +1613,12 @@ Wire Wire Line
 	4950 3450 4300 3450
 Connection ~ 4300 3450
 $Comp
-L SamacSys_Parts:2460 U7
+L Swadge_Parts:2460 U7
 U 1 1 5C3EC94C
 P 9950 1600
 F 0 "U7" V 10304 1728 50  0000 L CNN
 F 1 "2460" V 10395 1728 50  0000 L CNN
-F 2 "SamacSys_Parts:2460" H 10600 1700 50  0001 L CNN
+F 2 "Swadge_Parts:2460" H 10600 1700 50  0001 L CNN
 F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/2460/36-2460-ND/280629" H 10600 1600 50  0001 L CNN
 F 4 "Battery Holder; AA; Polypropylene; PC Mount; 1; Spring; PC Lug" H 10600 1500 50  0001 L CNN "Description"
 F 5 "14" H 10600 1400 50  0001 L CNN "Height"
@@ -1644,28 +1639,17 @@ Connection ~ 9850 1550
 Wire Wire Line
 	9850 1550 10350 1550
 Wire Wire Line
-	9850 2400 9950 2400
-Connection ~ 9950 2400
-Wire Wire Line
-	9850 2400 9700 2400
-Wire Wire Line
 	9700 2400 9700 1550
-Connection ~ 9850 2400
 Connection ~ 9700 1550
 Wire Wire Line
 	9700 1550 9850 1550
-Wire Wire Line
-	10400 2400 10500 2400
-Wire Wire Line
-	9950 2400 10400 2400
-Connection ~ 10400 2400
 $Comp
-L SamacSys_Parts:2460 U8
+L Swadge_Parts:2460 U8
 U 1 1 5C3EC85A
 P 10500 1600
 F 0 "U8" V 10854 1728 50  0000 L CNN
 F 1 "2460" V 10945 1728 50  0000 L CNN
-F 2 "SamacSys_Parts:2460" H 11150 1700 50  0001 L CNN
+F 2 "Swadge_Parts:2460" H 11150 1700 50  0001 L CNN
 F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/2460/36-2460-ND/280629" H 11150 1600 50  0001 L CNN
 F 4 "Battery Holder; AA; Polypropylene; PC Mount; 1; Spring; PC Lug" H 11150 1500 50  0001 L CNN "Description"
 F 5 "14" H 11150 1400 50  0001 L CNN "Height"
@@ -1681,12 +1665,12 @@ Connection ~ 10050 950
 Wire Wire Line
 	10050 950  10050 1150
 $Comp
-L 4-1437565-2:4-1437565-2 SW3
+L Swadge_Parts:4-1437565-2 SW3
 U 1 1 5C53358A
 P 7550 4100
 F 0 "SW3" H 7550 4415 50  0000 C CNN
 F 1 "4-1437565-2" H 7550 4324 50  0000 C CNN
-F 2 "4-1437565-2:SW_4-1437565-2" H 7550 4100 50  0001 L BNN
+F 2 "Swadge_Parts:SW_4-1437565-2" H 7550 4100 50  0001 L BNN
 F 3 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 4100 50  0001 L BNN
 F 4 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 4100 50  0001 L BNN "Field4"
 F 5 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 7550 4100 50  0001 L BNN "Field5"
@@ -1699,22 +1683,16 @@ F 10 "FSM4JSMATR" H 7550 4100 50  0001 L BNN "Field10"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 4000 7800 4200
-Wire Wire Line
-	7800 4200 7800 4250
-Connection ~ 7800 4200
-Wire Wire Line
 	7250 4000 7300 4000
 Wire Wire Line
 	7300 4000 7300 4200
-Connection ~ 7300 4000
 $Comp
-L 4-1437565-2:4-1437565-2 SW5
+L Swadge_Parts:4-1437565-2 SW5
 U 1 1 5C5720FB
 P 7550 5650
 F 0 "SW5" H 7550 5965 50  0000 C CNN
 F 1 "4-1437565-2" H 7550 5874 50  0000 C CNN
-F 2 "4-1437565-2:SW_4-1437565-2" H 7550 5650 50  0001 L BNN
+F 2 "Swadge_Parts:SW_4-1437565-2" H 7550 5650 50  0001 L BNN
 F 3 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 5650 50  0001 L BNN
 F 4 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 5650 50  0001 L BNN "Field4"
 F 5 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 7550 5650 50  0001 L BNN "Field5"
@@ -1730,7 +1708,6 @@ Wire Wire Line
 	7250 5550 7300 5550
 Wire Wire Line
 	7300 5550 7300 5750
-Connection ~ 7300 5550
 $Comp
 L power:GND #PWR0106
 U 1 1 5C589AB9
@@ -1752,12 +1729,12 @@ Wire Wire Line
 	7850 5550 7850 5750
 Connection ~ 7850 5750
 $Comp
-L 4-1437565-2:4-1437565-2 SW2
+L Swadge_Parts:4-1437565-2 SW2
 U 1 1 5C5BAE26
 P 7550 3350
 F 0 "SW2" H 7550 3665 50  0000 C CNN
 F 1 "4-1437565-2" H 7550 3574 50  0000 C CNN
-F 2 "4-1437565-2:SW_4-1437565-2" H 7550 3350 50  0001 L BNN
+F 2 "Swadge_Parts:SW_4-1437565-2" H 7550 3350 50  0001 L BNN
 F 3 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 3350 50  0001 L BNN
 F 4 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 3350 50  0001 L BNN "Field4"
 F 5 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 7550 3350 50  0001 L BNN "Field5"
@@ -1770,12 +1747,12 @@ F 10 "FSM4JSMATR" H 7550 3350 50  0001 L BNN "Field10"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4-1437565-2:4-1437565-2 SW4
+L Swadge_Parts:4-1437565-2 SW4
 U 1 1 5C5BAECA
 P 7550 4850
 F 0 "SW4" H 7550 5165 50  0000 C CNN
 F 1 "4-1437565-2" H 7550 5074 50  0000 C CNN
-F 2 "4-1437565-2:SW_4-1437565-2" H 7550 4850 50  0001 L BNN
+F 2 "Swadge_Parts:SW_4-1437565-2" H 7550 4850 50  0001 L BNN
 F 3 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 4850 50  0001 L BNN
 F 4 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 4850 50  0001 L BNN "Field4"
 F 5 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 7550 4850 50  0001 L BNN "Field5"
@@ -1813,22 +1790,10 @@ Wire Wire Line
 	7250 3250 7300 3250
 Wire Wire Line
 	7300 3250 7300 3450
-Connection ~ 7300 3250
-Wire Wire Line
-	7800 3250 7800 3450
-Connection ~ 7800 3450
-Wire Wire Line
-	7800 3450 7800 3500
 Wire Wire Line
 	7250 4750 7300 4750
 Wire Wire Line
 	7300 4750 7300 4950
-Connection ~ 7300 4750
-Wire Wire Line
-	7800 4950 7800 5000
-Wire Wire Line
-	7800 4750 7800 4950
-Connection ~ 7800 4950
 Wire Wire Line
 	2700 6800 2700 6700
 $Comp
@@ -1858,34 +1823,34 @@ F 3 "" H 2700 6450 50  0001 C CNN
 $EndComp
 Connection ~ 2700 6700
 $Comp
-L Device:C C13
+L Swadge_Parts:C C13
 U 1 1 5C4508DD
 P 3400 6850
 F 0 "C13" H 3515 6896 50  0000 L CNN
 F 1 "0.1u" H 3515 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3438 6700 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 3438 6700 50  0001 C CNN
 F 3 "~" H 3400 6850 50  0001 C CNN
 	1    3400 6850
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C12
+L Swadge_Parts:C C12
 U 1 1 5C45097D
 P 2850 6950
 F 0 "C12" H 2965 6996 50  0000 L CNN
 F 1 "0.1u" H 2965 6905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 6800 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 2888 6800 50  0001 C CNN
 F 3 "~" H 2850 6950 50  0001 C CNN
 	1    2850 6950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R13
+L Swadge_Parts:R_US R13
 U 1 1 5C450A37
 P 1600 6600
 F 0 "R13" V 1700 6600 50  0000 C CNN
 F 1 "4.7k" V 1486 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1640 6590 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1640 6590 50  0001 C CNN
 F 3 "~" H 1600 6600 50  0001 C CNN
 	1    1600 6600
 	-1   0    0    1   
@@ -1898,12 +1863,12 @@ Wire Wire Line
 	2700 7100 2850 7100
 Connection ~ 2850 7100
 $Comp
-L Device:R_US R12
+L Swadge_Parts:R_US R12
 U 1 1 5C450AE1
 P 1300 6600
 F 0 "R12" V 1400 6600 50  0000 C CNN
 F 1 "4.7k" V 1186 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1340 6590 50  0001 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1340 6590 50  0001 C CNN
 F 3 "~" H 1300 6600 50  0001 C CNN
 	1    1300 6600
 	-1   0    0    1   
@@ -1943,19 +1908,13 @@ Connection ~ 1600 6450
 Connection ~ 1800 6450
 Text Notes 900  7350 0    50   ~ 0
 I2C mode w/PS at VCC\nI2C address 0x4C&\n0x4D w/SD0 at GND
-Wire Wire Line
-	2700 7000 2700 7100
-Wire Wire Line
-	2700 6900 2700 7000
-Connection ~ 2700 7000
-Connection ~ 2700 6800
 $Comp
-L MSA300:MSA300 U3
+L Swadge_Parts:MSA300 U3
 U 1 1 5C40C355
 P 2300 6900
 F 0 "U3" H 2550 7200 50  0000 C CNN
 F 1 "MSA300" H 2150 7200 50  0000 C CNN
-F 2 "MSA300:MSA300" H 2200 7500 50  0001 C CNN
+F 2 "Swadge_Parts:MSA300" H 2200 7500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/MEMSensing-Microsystems-MSA300_C107276.pdf" H 2200 7500 50  0001 C CNN
 	1    2300 6900
 	1    0    0    -1  
@@ -1972,12 +1931,12 @@ Wire Wire Line
 Wire Wire Line
 	2850 7100 3400 7100
 $Comp
-L MMA8452Q:MMA8452Q U9
+L Swadge_Parts:MMA8452Q U9
 U 1 1 5C4380F4
 P 5650 6850
 F 0 "U9" H 5700 7417 50  0000 C CNN
 F 1 "MMA8452Q" H 5700 7326 50  0000 C CNN
-F 2 "MMA8452Q:QFN-16_0.5MM" H 5650 6850 50  0001 C CNN
+F 2 "Swadge_Parts:QFN-16_0.5MM" H 5650 6850 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/MMA8452Q.pdf" H 5650 6850 50  0001 L BNN
 F 4 "Unavailable" H 5650 6850 50  0001 L BNN "Field4"
 F 5 "None" H 5650 6850 50  0001 L BNN "Field5"
@@ -1988,34 +1947,34 @@ F 8 "MMA8452Q" H 5650 6850 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L Swadge_Parts:C C14
 U 1 1 5C438604
 P 4250 6700
 F 0 "C14" H 4365 6746 50  0000 L CNN
 F 1 "0.1u" H 4365 6655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 6550 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4288 6550 50  0001 C CNN
 F 3 "~" H 4250 6700 50  0001 C CNN
 	1    4250 6700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C21
+L Swadge_Parts:C C21
 U 1 1 5C4386E8
 P 4650 6800
 F 0 "C21" H 4765 6846 50  0000 L CNN
 F 1 "0.1u" H 4765 6755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 6650 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4688 6650 50  0001 C CNN
 F 3 "~" H 4650 6800 50  0001 C CNN
 	1    4650 6800
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C22
+L Swadge_Parts:C C22
 U 1 1 5C438782
 P 5050 6900
 F 0 "C22" H 5165 6946 50  0000 L CNN
 F 1 "0.1u" H 5165 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 6750 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 5088 6750 50  0001 C CNN
 F 3 "~" H 5050 6900 50  0001 C CNN
 	1    5050 6900
 	-1   0    0    1   
@@ -2134,6 +2093,40 @@ I2C address 0x1C\nw/SA0 at GND
 NoConn ~ 1900 7000
 NoConn ~ 2250 7250
 NoConn ~ 2350 7250
-Connection ~ 8950 5200
-Connection ~ 8950 3600
+Wire Wire Line
+	4950 5450 4950 5550
+Wire Wire Line
+	7800 4000 7800 4200
+Wire Wire Line
+	7800 3250 7800 3450
+Wire Wire Line
+	7800 4750 7800 4950
+Wire Wire Line
+	2700 6900 2700 7000
+Wire Wire Line
+	9700 2400 9850 2400
+Connection ~ 2700 7000
+Wire Wire Line
+	2700 7000 2700 7100
+Connection ~ 4950 5550
+Wire Wire Line
+	4950 5550 4950 5650
+Connection ~ 7800 3450
+Wire Wire Line
+	7800 3450 7800 3500
+Connection ~ 7800 4200
+Wire Wire Line
+	7800 4200 7800 4250
+Connection ~ 7800 4950
+Wire Wire Line
+	7800 4950 7800 5000
+Connection ~ 9850 2400
+Wire Wire Line
+	9850 2400 9950 2400
+Connection ~ 9950 2400
+Wire Wire Line
+	9950 2400 10400 2400
+Connection ~ 10400 2400
+Wire Wire Line
+	10400 2400 10500 2400
 $EndSCHEMATC
