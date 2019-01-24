@@ -1612,55 +1612,7 @@ Connection ~ 7550 900
 Wire Wire Line
 	4950 3450 4300 3450
 Connection ~ 4300 3450
-$Comp
-L Swadge_Parts:2460 U7
-U 1 1 5C3EC94C
-P 9950 1600
-F 0 "U7" V 10304 1728 50  0000 L CNN
-F 1 "2460" V 10395 1728 50  0000 L CNN
-F 2 "Swadge_Parts:2460" H 10600 1700 50  0001 L CNN
-F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/2460/36-2460-ND/280629" H 10600 1600 50  0001 L CNN
-F 4 "Battery Holder; AA; Polypropylene; PC Mount; 1; Spring; PC Lug" H 10600 1500 50  0001 L CNN "Description"
-F 5 "14" H 10600 1400 50  0001 L CNN "Height"
-F 6 "534-2460" H 10600 1300 50  0001 L CNN "Mouser Part Number"
-F 7 "Keystone Electronics" H 10600 1200 50  0001 L CNN "Manufacturer_Name"
-F 8 "2460" H 10600 1100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9950 1600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9950 1600 10400 1600
 Connection ~ 9550 1550
-Wire Wire Line
-	9650 1550 9700 1550
-Wire Wire Line
-	9850 1600 9850 1550
-Connection ~ 9850 1550
-Wire Wire Line
-	9850 1550 10350 1550
-Wire Wire Line
-	9700 2400 9700 1550
-Connection ~ 9700 1550
-Wire Wire Line
-	9700 1550 9850 1550
-$Comp
-L Swadge_Parts:2460 U8
-U 1 1 5C3EC85A
-P 10500 1600
-F 0 "U8" V 10854 1728 50  0000 L CNN
-F 1 "2460" V 10945 1728 50  0000 L CNN
-F 2 "Swadge_Parts:2460" H 11150 1700 50  0001 L CNN
-F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/2460/36-2460-ND/280629" H 11150 1600 50  0001 L CNN
-F 4 "Battery Holder; AA; Polypropylene; PC Mount; 1; Spring; PC Lug" H 11150 1500 50  0001 L CNN "Description"
-F 5 "14" H 11150 1400 50  0001 L CNN "Height"
-F 6 "534-2460" H 11150 1300 50  0001 L CNN "Mouser Part Number"
-F 7 "Keystone Electronics" H 11150 1200 50  0001 L CNN "Manufacturer_Name"
-F 8 "2460" H 11150 1100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10500 1600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10500 1600 10650 1600
 Connection ~ 10050 950 
 Wire Wire Line
 	10050 950  10050 1150
@@ -2103,8 +2055,6 @@ Wire Wire Line
 	7800 4750 7800 4950
 Wire Wire Line
 	2700 6900 2700 7000
-Wire Wire Line
-	9700 2400 9850 2400
 Connection ~ 2700 7000
 Wire Wire Line
 	2700 7000 2700 7100
@@ -2120,13 +2070,37 @@ Wire Wire Line
 Connection ~ 7800 4950
 Wire Wire Line
 	7800 4950 7800 5000
-Connection ~ 9850 2400
+$Comp
+L Device:Battery BT2
+U 1 1 5C4A23EF
+P 10450 2000
+F 0 "BT2" V 10205 2000 50  0000 C CNN
+F 1 "Battery" V 10296 2000 50  0000 C CNN
+F 2 "Swadge_Parts:BCAAPC" V 10450 2060 50  0001 C CNN
+F 3 "~" V 10450 2060 50  0001 C CNN
+	1    10450 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 5C4A255C
+P 10000 2000
+F 0 "BT1" V 9755 2000 50  0000 C CNN
+F 1 "Battery" V 9846 2000 50  0000 C CNN
+F 2 "Swadge_Parts:BCAAPC" V 10000 2060 50  0001 C CNN
+F 3 "~" V 10000 2060 50  0001 C CNN
+	1    10000 2000
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	9850 2400 9950 2400
-Connection ~ 9950 2400
+	9650 1550 9800 1550
 Wire Wire Line
-	9950 2400 10400 2400
-Connection ~ 10400 2400
+	10650 1600 10650 2000
 Wire Wire Line
-	10400 2400 10500 2400
+	10250 2000 10200 2000
+Wire Wire Line
+	9800 2000 9800 1550
+Connection ~ 9800 1550
+Wire Wire Line
+	9800 1550 10350 1550
 $EndSCHEMATC
