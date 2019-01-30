@@ -32,6 +32,18 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP CP2102N-A01-GQFN24
+D USB to UART master bridge
+K USB UART bridge
+F http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP Conn_02x21_Top_Bottom
+D Generic connector, double row, 02x21, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP DISP_OLED_UG-2864HSWEG01
 D Display
 F https://lcsc.com/product-detail/_WiseChip-VG-2864KSWEG01_C194313.html
@@ -79,6 +91,12 @@ $CMP R_US
 D Resistor US symbol
 K r res resistor
 F ~
+$ENDCMP
+#
+$CMP SP0503BAHT
+D TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package
+K usb esd protection suppression transient
+F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
 $ENDCMP
 #
 $CMP SW_DPDT_x2
