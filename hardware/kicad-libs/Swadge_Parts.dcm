@@ -6,24 +6,18 @@ F https://www.digikey.com/product-detail/en/keystone-electronics/2460/36-2460-ND
 $ENDCMP
 #
 $CMP 4-1437565-2
-D Tactile Switch
-F https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638
-$ENDCMP
-#
-$CMP AP1117-15
-D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
-K linear regulator ldo fixed positive obsolete
-F http://www.diodes.com/datasheets/AP1117.pdf
-$ENDCMP
-#
-$CMP AP1117-33
-D 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223
-K linear regulator ldo fixed positive obsolete
-F http://www.diodes.com/datasheets/AP1117.pdf
+D Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 1A SOT-223
+F https://www.diodes.com/assets/Datasheets/AP2114.pdf
 $ENDCMP
 #
 $CMP BUS_PCIexpress
 D Edge Connector
+$ENDCMP
+#
+$CMP Battery
+D Multiple-cell battery
+K batt voltage-source cell
+F ~
 $ENDCMP
 #
 $CMP C
@@ -49,23 +43,13 @@ D Display
 F https://lcsc.com/product-detail/_WiseChip-VG-2864KSWEG01_C194313.html
 $ENDCMP
 #
-$CMP ESP-12E
-D ESP8266 ESP-12E module, 22 pins, 2mm, PCB antenna
-K MODULE ESP8266 ESP-8266
-F http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/
-$ENDCMP
-#
 $CMP ESP-12F
+D ESP8266 ESP-12F module, 22 pins, 2mm, PCB antenna
+K MODULE ESP8266 ESP-8266
 F https://www.electrodragon.com/product/esp-12f-esp8266-wifi-board/
 $ENDCMP
 #
-$CMP MCP6001-OT
-D 1MHz, Low-Power Op Amp, SOT-23-5
-K single opamp
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
-$ENDCMP
-#
-$CMP MCP6L91T-EOT
+$CMP MCP6001UT-I_OT
 D 10 MHz, 850 µA Op Amps, SOT-23-5
 K single opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf

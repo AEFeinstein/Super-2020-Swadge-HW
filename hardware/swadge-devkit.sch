@@ -22,17 +22,25 @@ F 0 "U1" H 2100 4115 50  0000 C CNN
 F 1 "ESP-12F" H 2100 4024 50  0000 C CNN
 F 2 "Swadge_Parts:ESP-12E_SMD" H 2100 3350 50  0001 C CNN
 F 3 "https://www.elecrow.com/download/ESP-12F.pdf" H 2100 3350 50  0001 C CNN
+F 4 "260" H 0   0   50  0001 C CNN "Cost100"
+F 5 "Electrodragon SKU NWI1059" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2100 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:MCP6001-OT U2
+L Swadge_Parts:MCP6001UT-I_OT U2
 U 1 1 5C3A211F
 P 2900 1150
 F 0 "U2" H 3300 1400 50  0000 C CNN
 F 1 "MCP6001-OT" H 3150 1300 50  0000 C CNN
 F 2 "Swadge_Parts:SOT-23-5" H 2800 950 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2900 1350 50  0001 C CNN
+F 4 "25" H 0   0   50  0001 C CNN "Cost100"
+F 5 "MCP6001UT-I/OTCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2900 1150
 	1    0    0    -1  
 $EndComp
@@ -48,6 +56,10 @@ F 0 "R1" V 3050 700 50  0000 C CNN
 F 1 "1K" V 2836 700 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 2990 690 50  0001 C CNN
 F 3 "~" H 2950 700 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2950 700 
 	0    1    1    0   
 $EndComp
@@ -85,6 +97,10 @@ F 0 "R7" V 2600 1400 50  0000 C CNN
 F 1 "220K" V 2386 1400 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 2540 1390 50  0001 C CNN
 F 3 "~" H 2500 1400 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2500 1400
 	-1   0    0    1   
 $EndComp
@@ -96,6 +112,10 @@ F 0 "R2" V 1600 1100 50  0000 C CNN
 F 1 "47K" V 1386 1100 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1540 1090 50  0001 C CNN
 F 3 "~" H 1500 1100 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1500 1100
 	-1   0    0    1   
 $EndComp
@@ -108,6 +128,10 @@ F 0 "R3" V 1600 1400 50  0000 C CNN
 F 1 "10K" V 1386 1400 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1540 1390 50  0001 C CNN
 F 3 "~" H 1500 1400 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1500 1400
 	-1   0    0    1   
 $EndComp
@@ -136,6 +160,10 @@ F 0 "R4" V 1950 1250 50  0000 C CNN
 F 1 "47K" V 1736 1250 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1890 1240 50  0001 C CNN
 F 3 "~" H 1850 1250 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1850 1250
 	0    -1   -1   0   
 $EndComp
@@ -147,6 +175,10 @@ F 0 "R6" V 2350 1250 50  0000 C CNN
 F 1 "10K" V 2136 1250 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 2290 1240 50  0001 C CNN
 F 3 "~" H 2250 1250 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2250 1250
 	0    1    1    0   
 $EndComp
@@ -158,6 +190,10 @@ F 0 "C2" H 1265 1046 50  0000 L CNN
 F 1 "0.22u" H 1265 955 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 1188 850 50  0001 C CNN
 F 3 "~" H 1150 1000 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1150 1000
 	-1   0    0    1   
 $EndComp
@@ -169,6 +205,10 @@ F 0 "C1" H 915 1146 50  0000 L CNN
 F 1 "22u" H 915 1055 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 838 950 50  0001 C CNN
 F 3 "~" H 800 1100 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    800  1100
 	-1   0    0    1   
 $EndComp
@@ -207,6 +247,10 @@ F 0 "C3" H 2165 1596 50  0000 L CNN
 F 1 "0.22u" H 2165 1505 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 2088 1400 50  0001 C CNN
 F 3 "~" H 2050 1550 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2050 1550
 	1    0    0    -1  
 $EndComp
@@ -223,8 +267,12 @@ U 1 1 5C3A4BBD
 P 2150 2000
 F 0 "MK1" H 2280 2046 50  0000 L CNN
 F 1 "Microphone" H 2280 1955 50  0000 L CNN
-F 2 "Swadge_Parts:POM-2738P-R" V 2150 2100 50  0001 C CNN
-F 3 "~" V 2150 2100 50  0001 C CNN
+F 2 "Swadge_Parts:CMA-4544PF-W" V 2150 2100 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/cma-4544pf-w.pdf" V 2150 2100 50  0001 C CNN
+F 4 "70" H 0   0   50  0001 C CNN "Cost100"
+F 5 "102-1721-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2150 2000
 	1    0    0    -1  
 $EndComp
@@ -236,6 +284,10 @@ F 0 "R5" V 2000 1800 50  0000 C CNN
 F 1 "10K" V 1786 1800 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1940 1790 50  0001 C CNN
 F 3 "~" H 1900 1800 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1900 1800
 	0    -1   -1   0   
 $EndComp
@@ -269,7 +321,6 @@ Wire Wire Line
 	3200 1750 3200 1150
 Wire Wire Line
 	3250 1150 3200 1150
-Connection ~ 3200 1150
 $Comp
 L Swadge_Parts:WS2812B D1
 U 1 1 5C3A6CB0
@@ -278,6 +329,11 @@ F 0 "D1" V 4100 2050 50  0000 L CNN
 F 1 "WS2812B" V 4200 1900 50  0000 L CNN
 F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4350 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4400 1275 50  0001 L TNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 8 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4300 1650
 	1    0    0    -1  
 $EndComp
@@ -300,6 +356,10 @@ F 0 "C4" H 4565 1096 50  0000 L CNN
 F 1 "1u" H 4565 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4488 900 50  0001 C CNN
 F 3 "~" H 4450 1050 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4450 1050
 	1    0    0    -1  
 $EndComp
@@ -338,6 +398,11 @@ F 0 "D2" V 4750 2050 50  0000 L CNN
 F 1 "WS2812B" V 4850 1900 50  0000 L CNN
 F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5000 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5050 1275 50  0001 L TNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 8 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4950 1650
 	1    0    0    -1  
 $EndComp
@@ -360,6 +425,10 @@ F 0 "C5" H 5215 1096 50  0000 L CNN
 F 1 "1u" H 5215 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 5138 900 50  0001 C CNN
 F 3 "~" H 5100 1050 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5100 1050
 	1    0    0    -1  
 $EndComp
@@ -395,6 +464,11 @@ F 0 "D3" V 5400 2050 50  0000 L CNN
 F 1 "WS2812B" V 5500 1900 50  0000 L CNN
 F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5650 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5700 1275 50  0001 L TNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 8 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5600 1650
 	1    0    0    -1  
 $EndComp
@@ -417,6 +491,10 @@ F 0 "C6" H 5865 1096 50  0000 L CNN
 F 1 "1u" H 5865 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 5788 900 50  0001 C CNN
 F 3 "~" H 5750 1050 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5750 1050
 	1    0    0    -1  
 $EndComp
@@ -450,6 +528,11 @@ F 0 "D4" V 6050 2050 50  0000 L CNN
 F 1 "WS2812B" V 6150 1900 50  0000 L CNN
 F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6300 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6350 1275 50  0001 L TNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 8 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    6250 1650
 	1    0    0    -1  
 $EndComp
@@ -472,6 +555,10 @@ F 0 "C7" H 6515 1096 50  0000 L CNN
 F 1 "1u" H 6515 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 6438 900 50  0001 C CNN
 F 3 "~" H 6400 1050 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    6400 1050
 	1    0    0    -1  
 $EndComp
@@ -510,6 +597,11 @@ F 0 "D5" V 6700 2050 50  0000 L CNN
 F 1 "WS2812B" V 6800 1900 50  0000 L CNN
 F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6950 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7000 1275 50  0001 L TNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 8 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    6900 1650
 	1    0    0    -1  
 $EndComp
@@ -532,6 +624,10 @@ F 0 "C8" H 7165 1096 50  0000 L CNN
 F 1 "1u" H 7165 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 7088 900 50  0001 C CNN
 F 3 "~" H 7050 1050 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    7050 1050
 	1    0    0    -1  
 $EndComp
@@ -570,6 +666,11 @@ F 0 "D6" V 7350 2050 50  0000 L CNN
 F 1 "WS2812B" V 7450 1900 50  0000 L CNN
 F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7600 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 1275 50  0001 L TNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 8 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    7550 1650
 	1    0    0    -1  
 $EndComp
@@ -592,6 +693,10 @@ F 0 "C9" H 7815 1096 50  0000 L CNN
 F 1 "1u" H 7815 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 7738 900 50  0001 C CNN
 F 3 "~" H 7700 1050 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    7700 1050
 	1    0    0    -1  
 $EndComp
@@ -627,6 +732,11 @@ F 0 "D7" V 8000 2050 50  0000 L CNN
 F 1 "WS2812B" V 8100 1900 50  0000 L CNN
 F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8250 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8300 1275 50  0001 L TNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 8 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    8200 1650
 	1    0    0    -1  
 $EndComp
@@ -649,6 +759,10 @@ F 0 "C10" H 8465 1096 50  0000 L CNN
 F 1 "1u" H 8465 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 8388 900 50  0001 C CNN
 F 3 "~" H 8350 1050 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    8350 1050
 	1    0    0    -1  
 $EndComp
@@ -682,6 +796,11 @@ F 0 "D8" V 8650 2050 50  0000 L CNN
 F 1 "WS2812B" V 8750 1900 50  0000 L CNN
 F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8900 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8950 1275 50  0001 L TNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 8 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    8850 1650
 	1    0    0    -1  
 $EndComp
@@ -704,6 +823,10 @@ F 0 "C11" H 9115 1096 50  0000 L CNN
 F 1 "1u" H 9115 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 9038 900 50  0001 C CNN
 F 3 "~" H 9000 1050 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    9000 1050
 	1    0    0    -1  
 $EndComp
@@ -742,7 +865,6 @@ Text GLabel 3900 1300 1    50   Input ~ 0
 RX
 Wire Wire Line
 	2800 700  2800 850 
-Connection ~ 2800 850 
 Wire Notes Line
 	3650 500  3650 2450
 Wire Notes Line
@@ -763,6 +885,10 @@ F 0 "R8" V 4000 1500 50  0000 C CNN
 F 1 "70" V 3786 1500 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 3940 1490 50  0001 C CNN
 F 3 "~" H 3900 1500 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    3900 1500
 	-1   0    0    1   
 $EndComp
@@ -803,6 +929,10 @@ F 0 "R9" V 1800 4950 50  0000 C CNN
 F 1 "10K" V 1586 4950 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1740 4940 50  0001 C CNN
 F 3 "~" H 1700 4950 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1700 4950
 	0    1    1    0   
 $EndComp
@@ -814,6 +944,10 @@ F 0 "R10" V 1800 5300 50  0000 C CNN
 F 1 "10K" V 1586 5300 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1740 5290 50  0001 C CNN
 F 3 "~" H 1700 5300 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1700 5300
 	0    1    1    0   
 $EndComp
@@ -825,6 +959,10 @@ F 0 "R11" V 1800 5650 50  0000 C CNN
 F 1 "10K" V 1586 5650 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1740 5640 50  0001 C CNN
 F 3 "~" H 1700 5650 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1700 5650
 	0    1    1    0   
 $EndComp
@@ -915,16 +1053,18 @@ Wire Notes Line
 	500  4850 1150 4850
 Wire Notes Line
 	1150 4850 1150 4700
-Text Notes 13050 3700 0    50   ~ 0
-TODO: Bypass Caps\nTODO: ESP-12F GND on bottom?
 $Comp
-L Swadge_Parts:AP1117-33 U4
+L Swadge_Parts:AP2114H-3.3TRG1 U4
 U 1 1 5C3ED77E
 P 10350 1150
 F 0 "U4" H 10350 1392 50  0000 C CNN
 F 1 "AP1117-33" H 10350 1301 50  0000 C CNN
 F 2 "Swadge_Parts:SOT-223-3_TabPin2" H 10350 1350 50  0001 C CNN
-F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 10450 900 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 10450 900 50  0001 C CNN
+F 4 "37" H 0   0   50  0001 C CNN "Cost100"
+F 5 "AP2114H-3.3TRG1DICT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    10350 1150
 	1    0    0    -1  
 $EndComp
@@ -935,7 +1075,11 @@ P 9650 1150
 F 0 "J1" H 9705 1617 50  0000 C CNN
 F 1 "USB_B_Micro" H 9705 1526 50  0000 C CNN
 F 2 "Swadge_Parts:USB_Micro-B_Molex_47346-0001" H 9800 1100 50  0001 C CNN
-F 3 "~" H 9800 1100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 9800 1100 50  0001 C CNN
+F 4 "112" H 0   0   50  0001 C CNN "Cost100"
+F 5 "WM17141CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    9650 1150
 	1    0    0    -1  
 $EndComp
@@ -962,7 +1106,11 @@ P 10850 1500
 F 0 "SW1" H 10850 1800 50  0000 C CNN
 F 1 "SW_SPDT" H 10850 1700 50  0000 C CNN
 F 2 "Swadge_Parts:SW_SPDT_PCM12" H 10850 1500 50  0001 C CNN
-F 3 "" H 10850 1500 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1424/pcm.pdf" H 10850 1500 50  0001 C CNN
+F 4 "96" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2016-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    10850 1500
 	-1   0    0    1   
 $EndComp
@@ -1031,7 +1179,11 @@ P 8750 4350
 F 0 "U5" H 8750 5425 50  0000 C CNN
 F 1 "BUS_PCIexpress" H 8750 5334 50  0000 C CNN
 F 2 "Swadge_Parts:BUS_PCIexpress" H 8750 4700 50  0001 C CNN
-F 3 "https://www.digikey.com/products/en/connectors-interconnects/card-edge-connectors-edgeboard-connectors/303?FV=1600024%2C85c0002%2C1f140000%2Cffe0012f&quantity=0&ColumnSort=1000011&page=1&stock=1&pageSize=25" H 8750 4700 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" H 8750 4700 50  0001 C CNN
+F 4 "0" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    8750 4350
 	1    0    0    -1  
 $EndComp
@@ -1365,7 +1517,11 @@ P 5950 4050
 F 0 "U6" H 5100 2300 45  0000 L CNN
 F 1 "DISP_OLED_UG-2864HSWEG01" H 5100 2400 45  0000 L CNN
 F 2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND" H 5980 4200 20  0001 C CNN
-F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/overview" H 5950 4050 50  0001 C CNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" H 5950 4050 50  0001 C CNN
+F 4 "1995" H 0   0   50  0001 C CNN "Cost100"
+F 5 "1528-1512-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5950 4050
 	1    0    0    -1  
 $EndComp
@@ -1377,6 +1533,10 @@ F 0 "C20" H 4765 5546 50  0000 L CNN
 F 1 "10u" H 4765 5455 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4688 5350 50  0001 C CNN
 F 3 "~" H 4650 5500 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4650 5500
 	-1   0    0    1   
 $EndComp
@@ -1388,6 +1548,10 @@ F 0 "C18" H 4365 5446 50  0000 L CNN
 F 1 "2.2u" H 4365 5355 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4288 5250 50  0001 C CNN
 F 3 "~" H 4250 5400 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4250 5400
 	-1   0    0    1   
 $EndComp
@@ -1442,6 +1606,10 @@ F 0 "R14" V 4350 5150 50  0000 C CNN
 F 1 "390k" V 4300 5350 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 4290 5140 50  0001 C CNN
 F 3 "~" H 4250 5150 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4250 5150
 	0    -1   -1   0   
 $EndComp
@@ -1472,6 +1640,10 @@ F 0 "C17" H 3850 3650 50  0000 L CNN
 F 1 "2.2u" H 3850 3550 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4188 3450 50  0001 C CNN
 F 3 "~" H 4150 3600 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4150 3600
 	-1   0    0    1   
 $EndComp
@@ -1483,6 +1655,10 @@ F 0 "C15" H 4115 3346 50  0000 L CNN
 F 1 "2.2u" H 4115 3255 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4038 3150 50  0001 C CNN
 F 3 "~" H 4000 3300 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4000 3300
 	-1   0    0    1   
 $EndComp
@@ -1506,6 +1682,10 @@ F 0 "C19" H 4565 2746 50  0000 L CNN
 F 1 "2.2u" H 4565 2655 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4488 2550 50  0001 C CNN
 F 3 "~" H 4450 2700 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4450 2700
 	1    0    0    -1  
 $EndComp
@@ -1525,6 +1705,10 @@ F 0 "C16" H 4165 2946 50  0000 L CNN
 F 1 "2.2u" H 4165 2855 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4088 2750 50  0001 C CNN
 F 3 "~" H 4050 2900 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4050 2900
 	1    0    0    -1  
 $EndComp
@@ -1623,14 +1807,14 @@ P 7550 4100
 F 0 "SW3" H 7550 4415 50  0000 C CNN
 F 1 "4-1437565-2" H 7550 4324 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 7550 4100 50  0001 L BNN
-F 3 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 4100 50  0001 L BNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 4100 50  0001 L BNN "Field4"
-F 5 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 7550 4100 50  0001 L BNN "Field5"
-F 6 "450-1759-1-ND" H 7550 4100 50  0001 L BNN "Field6"
-F 7 "https://www.te.com/usa-en/product-4-1437565-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 7550 4100 50  0001 L BNN "Field7"
-F 8 "TE Connectivity" H 7550 4100 50  0001 L BNN "Field8"
-F 9 "4-1437565-2" H 7550 4100 50  0001 L BNN "Field9"
-F 10 "FSM4JSMATR" H 7550 4100 50  0001 L BNN "Field10"
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 7550 4100 50  0001 L BNN
+F 4 "34" H 0   0   50  0001 C CNN "Cost100"
+F 5 "450-1759-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 8 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 0   0   50  0001 C CNN "Description"
+F 9 "FSM4JSMATR" H 0   0   50  0001 C CNN "MPN"
+F 10 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7550 4100
 	1    0    0    -1  
 $EndComp
@@ -1645,14 +1829,14 @@ P 7550 5650
 F 0 "SW5" H 7550 5965 50  0000 C CNN
 F 1 "4-1437565-2" H 7550 5874 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 7550 5650 50  0001 L BNN
-F 3 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 5650 50  0001 L BNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 5650 50  0001 L BNN "Field4"
-F 5 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 7550 5650 50  0001 L BNN "Field5"
-F 6 "450-1759-1-ND" H 7550 5650 50  0001 L BNN "Field6"
-F 7 "https://www.te.com/usa-en/product-4-1437565-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 7550 5650 50  0001 L BNN "Field7"
-F 8 "TE Connectivity" H 7550 5650 50  0001 L BNN "Field8"
-F 9 "4-1437565-2" H 7550 5650 50  0001 L BNN "Field9"
-F 10 "FSM4JSMATR" H 7550 5650 50  0001 L BNN "Field10"
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 7550 5650 50  0001 L BNN
+F 4 "34" H 0   0   50  0001 C CNN "Cost100"
+F 5 "450-1759-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 8 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 0   0   50  0001 C CNN "Description"
+F 9 "FSM4JSMATR" H 0   0   50  0001 C CNN "MPN"
+F 10 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7550 5650
 	1    0    0    -1  
 $EndComp
@@ -1687,14 +1871,14 @@ P 7550 3350
 F 0 "SW2" H 7550 3665 50  0000 C CNN
 F 1 "4-1437565-2" H 7550 3574 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 7550 3350 50  0001 L BNN
-F 3 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 3350 50  0001 L BNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 3350 50  0001 L BNN "Field4"
-F 5 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 7550 3350 50  0001 L BNN "Field5"
-F 6 "450-1759-1-ND" H 7550 3350 50  0001 L BNN "Field6"
-F 7 "https://www.te.com/usa-en/product-4-1437565-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 7550 3350 50  0001 L BNN "Field7"
-F 8 "TE Connectivity" H 7550 3350 50  0001 L BNN "Field8"
-F 9 "4-1437565-2" H 7550 3350 50  0001 L BNN "Field9"
-F 10 "FSM4JSMATR" H 7550 3350 50  0001 L BNN "Field10"
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 7550 3350 50  0001 L BNN
+F 4 "34" H 0   0   50  0001 C CNN "Cost100"
+F 5 "450-1759-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 8 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 0   0   50  0001 C CNN "Description"
+F 9 "FSM4JSMATR" H 0   0   50  0001 C CNN "MPN"
+F 10 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7550 3350
 	1    0    0    -1  
 $EndComp
@@ -1705,14 +1889,14 @@ P 7550 4850
 F 0 "SW4" H 7550 5165 50  0000 C CNN
 F 1 "4-1437565-2" H 7550 5074 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 7550 4850 50  0001 L BNN
-F 3 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 4850 50  0001 L BNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 4850 50  0001 L BNN "Field4"
-F 5 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 7550 4850 50  0001 L BNN "Field5"
-F 6 "450-1759-1-ND" H 7550 4850 50  0001 L BNN "Field6"
-F 7 "https://www.te.com/usa-en/product-4-1437565-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 7550 4850 50  0001 L BNN "Field7"
-F 8 "TE Connectivity" H 7550 4850 50  0001 L BNN "Field8"
-F 9 "4-1437565-2" H 7550 4850 50  0001 L BNN "Field9"
-F 10 "FSM4JSMATR" H 7550 4850 50  0001 L BNN "Field10"
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 7550 4850 50  0001 L BNN
+F 4 "34" H 0   0   50  0001 C CNN "Cost100"
+F 5 "450-1759-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 8 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 0   0   50  0001 C CNN "Description"
+F 9 "FSM4JSMATR" H 0   0   50  0001 C CNN "MPN"
+F 10 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7550 4850
 	1    0    0    -1  
 $EndComp
@@ -1782,6 +1966,10 @@ F 0 "C13" H 3515 6896 50  0000 L CNN
 F 1 "0.1u" H 3515 6805 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 3438 6700 50  0001 C CNN
 F 3 "~" H 3400 6850 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    3400 6850
 	-1   0    0    1   
 $EndComp
@@ -1793,6 +1981,10 @@ F 0 "C12" H 2965 6996 50  0000 L CNN
 F 1 "0.1u" H 2965 6905 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 2888 6800 50  0001 C CNN
 F 3 "~" H 2850 6950 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2850 6950
 	1    0    0    -1  
 $EndComp
@@ -1804,6 +1996,10 @@ F 0 "R13" V 1700 6600 50  0000 C CNN
 F 1 "4.7k" V 1486 6600 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1640 6590 50  0001 C CNN
 F 3 "~" H 1600 6600 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1600 6600
 	-1   0    0    1   
 $EndComp
@@ -1822,6 +2018,10 @@ F 0 "R12" V 1400 6600 50  0000 C CNN
 F 1 "4.7k" V 1186 6600 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1340 6590 50  0001 C CNN
 F 3 "~" H 1300 6600 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1300 6600
 	-1   0    0    1   
 $EndComp
@@ -1868,6 +2068,10 @@ F 0 "U3" H 2550 7200 50  0000 C CNN
 F 1 "MSA300" H 2150 7200 50  0000 C CNN
 F 2 "Swadge_Parts:MSA300" H 2200 7500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/MEMSensing-Microsystems-MSA300_C107276.pdf" H 2200 7500 50  0001 C CNN
+F 4 "34" H 0   0   50  0001 C CNN "Cost100"
+F 5 "LCSC Part #C107276" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2300 6900
 	1    0    0    -1  
 $EndComp
@@ -1889,12 +2093,12 @@ P 5650 6850
 F 0 "U9" H 5700 7417 50  0000 C CNN
 F 1 "MMA8452Q" H 5700 7326 50  0000 C CNN
 F 2 "Swadge_Parts:QFN-16_0.5MM" H 5650 6850 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/MMA8452Q.pdf" H 5650 6850 50  0001 L BNN
-F 4 "Unavailable" H 5650 6850 50  0001 L BNN "Field4"
-F 5 "None" H 5650 6850 50  0001 L BNN "Field5"
-F 6 "None" H 5650 6850 50  0001 L BNN "Field6"
-F 7 "NXP Semiconductors" H 5650 6850 50  0001 L BNN "Field7"
-F 8 "MMA8452Q" H 5650 6850 50  0001 L BNN "Field8"
+F 3 "http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8452Q.pdf" H 5650 6850 50  0001 L BNN
+F 4 "264" H 0   0   50  0001 C CNN "Cost100"
+F 5 "MMA8452QR1CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 8 "NXP Semiconductors" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5650 6850
 	1    0    0    -1  
 $EndComp
@@ -1906,6 +2110,10 @@ F 0 "C14" H 4365 6746 50  0000 L CNN
 F 1 "0.1u" H 4365 6655 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4288 6550 50  0001 C CNN
 F 3 "~" H 4250 6700 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4250 6700
 	-1   0    0    1   
 $EndComp
@@ -1917,6 +2125,10 @@ F 0 "C21" H 4765 6846 50  0000 L CNN
 F 1 "0.1u" H 4765 6755 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4688 6650 50  0001 C CNN
 F 3 "~" H 4650 6800 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4650 6800
 	-1   0    0    1   
 $EndComp
@@ -1928,6 +2140,10 @@ F 0 "C22" H 5165 6946 50  0000 L CNN
 F 1 "0.1u" H 5165 6855 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 5088 6750 50  0001 C CNN
 F 3 "~" H 5050 6900 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "n" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5050 6900
 	-1   0    0    1   
 $EndComp
@@ -2071,24 +2287,32 @@ Connection ~ 7800 4950
 Wire Wire Line
 	7800 4950 7800 5000
 $Comp
-L Device:Battery BT2
+L Swadge_Parts:Battery BT2
 U 1 1 5C4A23EF
 P 10450 2000
 F 0 "BT2" V 10205 2000 50  0000 C CNN
 F 1 "Battery" V 10296 2000 50  0000 C CNN
 F 2 "Swadge_Parts:BCAAPC" V 10450 2060 50  0001 C CNN
-F 3 "~" V 10450 2060 50  0001 C CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BCAAPC-datasheet.pdf" V 10450 2060 50  0001 C CNN
+F 4 "114" H 0   0   50  0001 C CNN "Cost100"
+F 5 "BCAAPC-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "n" H 0   0   50  0001 C CNN "NOBOM"
 	1    10450 2000
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Battery BT1
+L Swadge_Parts:Battery BT1
 U 1 1 5C4A255C
 P 10000 2000
 F 0 "BT1" V 9755 2000 50  0000 C CNN
 F 1 "Battery" V 9846 2000 50  0000 C CNN
 F 2 "Swadge_Parts:BCAAPC" V 10000 2060 50  0001 C CNN
-F 3 "~" V 10000 2060 50  0001 C CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BCAAPC-datasheet.pdf" V 10000 2060 50  0001 C CNN
+F 4 "114" H 0   0   50  0001 C CNN "Cost100"
+F 5 "BCAAPC-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "n" H 0   0   50  0001 C CNN "NOBOM"
 	1    10000 2000
 	0    1    1    0   
 $EndComp

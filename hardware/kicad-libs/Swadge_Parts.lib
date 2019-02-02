@@ -6,13 +6,17 @@ EESchema-LIBRARY Version 2.4
 DEF 2460 U 0 30 Y Y 1 F N
 F0 "U" 650 300 50 H V L CNN
 F1 "2460" 650 200 50 H V L CNN
-F2 "2460" 650 100 50 H I L CNN
+F2 "Swadge_Parts:2460" 650 100 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/1/2460.pdf" 650 0 50 H I L CNN
 F4 "Battery Holder; AA; Polypropylene; PC Mount; 1; Spring; PC Lug" 650 -100 50 H I L CNN "Description"
 F5 "14" 650 -200 50 H I L CNN "Height"
 F6 "534-2460" 650 -300 50 H I L CNN "Mouser Part Number"
 F7 "Keystone Electronics" 650 -400 50 H I L CNN "Manufacturer_Name"
 F8 "2460" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+F9 "36-2460-ND" 1250 900 50 H I C CNN "Digikey"
+F10 "116" 0 0 10 H I C CNN "Cost100"
+F11 "Y" 0 0 0 H I C CNN "Substitutable"
+F12 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:2460
 $ENDFPLIST
@@ -30,15 +34,15 @@ ENDDEF
 DEF 4-1437565-2 SW 0 40 Y N 1 F N
 F0 "SW" -160 170 50 H V L BNN
 F1 "4-1437565-2" -180 -240 50 H V L BNN
-F2 "SW_4-1437565-2" 0 0 50 H I L BNN
-F3 "None" 0 0 50 H I L BNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
-F5 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" 0 0 50 H I L BNN
-F6 "450-1759-1-ND" 0 0 50 H I L BNN
-F7 "https://www.te.com/usa-en/product-4-1437565-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
-F8 "TE Connectivity" 0 0 50 H I L BNN
-F9 "4-1437565-2" 0 0 50 H I L BNN
-F10 "FSM4JSMATR" 0 0 50 H I L BNN
+F2 "Swadge_Parts:SW_4-1437565-2" 0 0 50 H I L BNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" 0 0 50 H I L BNN
+F4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" 0 0 50 H I L BNN "Description"
+F5 "TE Connectivity" 0 0 50 H I L BNN "Manufacturer"
+F6 "FSM4JSMATR" 0 0 50 H I L BNN "MPN"
+F7 "450-1759-1-ND" 640 970 50 H I C CNN "Digikey"
+F8 "34" 0 0 10 H I C CNN "Cost100"
+F9 "Y" 0 0 10 H I C CNN "Substitutable"
+F10 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:SW_4-1437565-2
 $ENDFPLIST
@@ -69,14 +73,17 @@ X 4 4 250 -100 100 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# AP1117-15
+# AP2114H-3.3TRG1
 #
-DEF AP1117-15 U 0 10 Y Y 1 F N
+DEF AP2114H-3.3TRG1 U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "AP1117-15" 0 125 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 200 50 H I C CNN
-F3 "" 100 -250 50 H I C CNN
-ALIAS AP1117-33
+F1 "AP2114H-3.3TRG1" 0 125 50 H V L CNN
+F2 "Swadge_Parts:SOT-223-3_TabPin2" 0 200 50 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" 100 -250 50 H I C CNN
+F4 "AP2114H-3.3TRG1DICT-ND" -50 225 50 H I C CNN "Digikey"
+F5 "37" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 10 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:SOT-223-3_TabPin2
 $ENDFPLIST
@@ -93,8 +100,12 @@ ENDDEF
 DEF BUS_PCIexpress U 0 40 Y Y 1 F N
 F0 "U" 0 -1050 50 H V C CNN
 F1 "BUS_PCIexpress" 0 -950 50 H V C CNN
-F2 "" 0 350 50 H I C CNN
-F3 "" 0 350 50 H I C CNN
+F2 "Swadge_Parts:BUS_PCIexpress" 0 350 50 H I C CNN
+F3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" 0 350 50 H I C CNN
+F4 "n/a" 100 -950 50 H I C CNN "Digikey"
+F5 "0" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:BUS_PCIexpress
 $ENDFPLIST
@@ -139,13 +150,49 @@ X ~ B9 200 50 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Battery
+#
+DEF Battery BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Battery" 100 0 50 H V L CNN
+F2 "Swadge_Parts:BCAAPC" -300 450 50 V I C CNN
+F3 "http://www.memoryprotectiondevices.com/datasheets/BCAAPC-datasheet.pdf" -450 700 50 V I C CNN
+F4 "BCAAPC-ND" 0 500 50 H I C CNN "Digikey"
+F5 "114" 300 300 50 H I C CNN "Cost100"
+F6 "Y" 400 400 50 H I C CNN "Substitutable"
+F7 "n" 600 600 50 H I C CNN "NOBOM"
+$FPLIST
+ Swadge_Parts:BCAAPC
+$ENDFPLIST
+DRAW
+S -80 -55 80 -65 0 1 0 F
+S -80 70 80 60 0 1 0 F
+S -52 -78 50 -98 0 1 0 F
+S -52 47 50 27 0 1 0 F
+P 2 0 1 0 0 -60 0 -50 N
+P 2 0 1 0 0 -40 0 -30 N
+P 2 0 1 0 0 -20 0 -10 N
+P 2 0 1 0 0 0 0 10 N
+P 2 0 1 0 0 20 0 30 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 10 105 50 105 N
+P 2 0 1 10 30 125 30 85 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # C
 #
 DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
+F2 "Swadge_Parts:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "n/a" 125 200 50 H V C CNN "Digikey"
+F5 "10" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:C_0603_1608Metric
 $ENDFPLIST
@@ -162,8 +209,12 @@ ENDDEF
 DEF CP2102N-A01-GQFN24 U 0 40 Y Y 1 F N
 F0 "U" -200 875 50 H V R CNN
 F1 "CP2102N-A01-GQFN24" -200 800 50 H V R CNN
-F2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 450 -800 50 H I L CNN
-F3 "" 50 -1050 50 H I C CNN
+F2 "Swadge_Parts:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 450 -800 50 H I L CNN
+F3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" 50 -1050 50 H I C CNN
+F4 "336-4737-1-ND" -100 975 50 H I C CNN "Digikey"
+F5 "135" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
 $ENDFPLIST
@@ -202,8 +253,12 @@ ENDDEF
 DEF Conn_02x21_Top_Bottom J 0 40 Y N 1 F N
 F0 "J" 50 1100 50 H V C CNN
 F1 "Conn_02x21_Top_Bottom" 50 -1100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "Swadge_Parts:PinHeader_2x21_P2.54mm_Vertical" -50 1000 50 H I C CNN
+F3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" 50 1100 50 H I C CNN
+F4 "S2012EC-21-ND" 150 1200 50 H I C CNN "Digikey"
+F5 "$0.00" 0 0 10 H I C CNN "73"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:PinHeader_2x21_P2.54mm_Vertical
 $ENDFPLIST
@@ -301,8 +356,12 @@ ENDDEF
 DEF DISP_OLED_UG-2864HSWEG01 U 0 40 Y Y 1 F N
 F0 "U" -900 1600 45 H V L BNN
 F1 "DISP_OLED_UG-2864HSWEG01" -900 -1700 45 H V L BNN
-F2 "microbuilder_UG-2864HSWEG01_1.3_WRAPAROUND" 30 150 20 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND" 30 150 20 H I C CNN
+F3 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" -900 1600 50 H I C CNN
+F4 "1528-1512-ND" -800 1700 50 H I C CNN "Digikey"
+F5 "1995" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND
  Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND
@@ -327,16 +386,13 @@ T 0 257 628 56 0 1 0 SPI3 Normal 0 C C
 T 0 557 628 56 0 1 0 SPI4 Normal 0 C C
 T 0 388 928 56 0 1 0 SSD1306 Normal 0 C C
 T 0 -393 828 56 0 1 0 VDD: Normal 0 C C
-P 2 1 0 0 -900 -1600 -900 1500 N
-P 2 1 0 0 -900 1500 850 1500 N
+S -900 1500 750 -1550 1 0 0 f
 P 2 1 0 0 -575 300 -225 300 N
 P 2 1 0 0 -575 400 -225 400 N
 P 2 1 0 0 -575 500 -225 500 N
 P 2 1 0 0 250 -400 300 -400 N
 P 2 1 0 0 300 -500 -200 -500 N
 P 2 1 0 0 300 -400 300 -500 N
-P 2 1 0 0 850 -1600 -900 -1600 N
-P 2 1 0 0 850 1500 850 -1600 N
 X NC(GND) 1 -1000 1400 100 R 40 40 1 1 I
 X BS0 10 -1000 500 100 R 40 40 1 1 I
 X BS1 11 -1000 400 100 R 40 40 1 1 I
@@ -370,19 +426,22 @@ X VDD 9 -1000 600 100 R 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ESP-12E
+# ESP-12F
 #
-DEF ESP-12E U 0 40 Y Y 1 F N
+DEF ESP-12F U 0 40 Y Y 1 F N
 F0 "U" 0 -100 50 H V C CNN
-F1 "ESP-12E" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS ESP-12F
+F1 "ESP-12F" 0 100 50 H V C CNN
+F2 "Swadge_Parts:ESP-12E_SMD" -650 750 50 H I C CNN
+F3 "https://www.elecrow.com/download/ESP-12F.pdf" -800 850 50 H I C CNN
+F4 "Electrodragon SKU NWI1059" 100 0 50 H I C CNN "Digikey"
+F5 "260" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:ESP-12E_SMD
 $ENDFPLIST
 DRAW
-S -600 -600 600 600 1 0 0 N
+S -600 -600 600 600 1 0 0 f
 X REST 1 -900 300 300 R 50 50 1 1 I
 X GPIO15 10 900 -300 300 L 50 50 1 1 B
 X GPIO2 11 900 -200 300 L 50 50 1 1 B
@@ -413,8 +472,12 @@ ENDDEF
 DEF Hole H 0 40 Y Y 1 F N
 F0 "H" 0 50 50 H V C CNN
 F1 "Hole" 0 -50 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "Swadge_Parts:Hole" -100 -50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+F4 "n/a" 100 150 50 H V C CNN "Digikey"
+F5 "0" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "y" 0 0 10 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:Hole
 $ENDFPLIST
@@ -423,14 +486,17 @@ C 0 0 112 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# MCP6L91T-EOT
+# MCP6001UT-I_OT
 #
-DEF MCP6L91T-EOT U 0 5 Y Y 1 F N
+DEF MCP6001UT-I_OT U 0 5 Y Y 1 F N
 F0 "U" -50 250 50 H V L CNN
-F1 "MCP6L91T-EOT" -50 150 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" -100 -200 50 H I L CNN
-F3 "" 0 200 50 H I C CNN
-ALIAS MCP6001-OT
+F1 "MCP6001UT-I_OT" -50 150 50 H V L CNN
+F2 "Swadge_Parts:SOT-23-5" -100 -200 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
+F4 "MCP6001UT-I/OTCT-ND" 50 350 50 H I C CNN "Digikey"
+F5 "25" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:SOT-23-5
 $ENDFPLIST
@@ -449,21 +515,18 @@ ENDDEF
 DEF MMA8452Q U 0 40 Y Y 1 F N
 F0 "U" -300 420 50 H V L BNN
 F1 "MMA8452Q" -300 -491 50 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "Sensor: accelerometer; Range: 2/4/8g; -40÷85°C; 1.95÷3.6V" 0 0 50 H I L BNN
-F4 "Unavailable" 0 0 50 H I L BNN
-F5 "None" 0 0 50 H I L BNN
-F6 "None" 0 0 50 H I L BNN
-F7 "NXP Semiconductors" 0 0 50 H I L BNN
-F8 "MMA8452Q" 0 0 50 H I L BNN
+F2 "Swadge_Parts:QFN-16_0.5MM" -400 320 50 H I C CNN
+F3 "http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8452Q.pdf" 0 0 50 H I L BNN
+F4 "NXP Semiconductors" 0 0 50 H I L BNN "Manufacturer"
+F5 "MMA8452QR1CT-ND" -100 620 50 H I C CNN "Digikey"
+F6 "264" 0 0 10 H I C CNN "Cost100"
+F7 "Y" 0 0 0 H I C CNN "Substitutable"
+F8 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:QFN-16_0.5MM
 $ENDFPLIST
 DRAW
-P 2 0 0 10 -300 -400 400 -400 N
-P 2 0 0 10 -300 400 -300 -400 N
-P 2 0 0 10 400 -400 400 400 N
-P 2 0 0 10 400 400 -300 400 N
+S -300 -400 400 400 0 0 10 f
 X VDDIO 1 -400 200 100 R 40 40 0 0 B
 X GND@1 10 -400 -200 100 R 40 40 0 0 B
 X INT1 11 500 -100 100 L 40 40 0 0 B
@@ -483,8 +546,12 @@ ENDDEF
 DEF MSA300 U 0 40 Y Y 1 F N
 F0 "U" -1000 100 50 H V C CNN
 F1 "MSA300" -1000 350 50 V V C CNN
-F2 "" -100 600 50 H I C CNN
-F3 "" -100 600 50 H I C CNN
+F2 "Swadge_Parts:MSA300" -100 600 50 H I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/MEMSensing-Microsystems-MSA300_C107276.pdf" -100 600 50 H I C CNN
+F4 "LCSC Part #C107276" -900 200 50 H I C CNN "Digikey"
+F5 "34" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:MSA300
 $ENDFPLIST
@@ -510,10 +577,14 @@ ENDDEF
 DEF Microphone MK 0 1 Y N 1 F N
 F0 "MK" -150 50 50 H V R CNN
 F1 "Microphone" -150 -25 50 H V R CNN
-F2 "" 0 100 50 V I C CNN
-F3 "" 0 100 50 V I C CNN
+F2 "Swadge_Parts:CMA-4544PF-W" 400 400 50 V I C CNN
+F3 "https://www.cui.com/product/resource/cma-4544pf-w.pdf" 750 250 50 V I C CNN
+F4 "102-1721-ND" -400 350 50 H I C CNN "Digikey"
+F5 "70" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 10 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
- Swadge_Parts:POM-2738P-R
+ Swadge_Parts:CMA-4544PF-W
 $ENDFPLIST
 DRAW
 C 0 0 100 0 1 10 N
@@ -530,8 +601,12 @@ ENDDEF
 DEF R_US R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
 F1 "R_US" -100 0 50 V V C CNN
-F2 "" 40 -10 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "Swadge_Parts:R_0603_1608Metric" 40 -10 50 V I C CNN
+F3 "" 100 0 50 V I C CNN
+F4 "n/a" 200 100 50 V V C CNN "Digikey"
+F5 "10" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 10 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:R_0603_1608Metric
 $ENDFPLIST
@@ -551,8 +626,12 @@ ENDDEF
 DEF SP0503BAHT D 0 40 Y N 1 F N
 F0 "D" 225 100 50 H V L CNN
 F1 "SP0503BAHT" 225 25 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-143" 225 -50 50 H I L CNN
-F3 "" 125 125 50 H I C CNN
+F2 "Swadge_Parts:SOT-143" 225 -50 50 H I L CNN
+F3 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" 125 125 50 H I C CNN
+F4 "F2715CT-ND" 325 200 50 H I C CNN "Digikey"
+F5 "95" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:SOT-143
 $ENDFPLIST
@@ -583,8 +662,12 @@ ENDDEF
 DEF SW_DPDT_x2 SW 0 0 Y N 2 F N
 F0 "SW" 0 170 50 H V C CNN
 F1 "SW_DPDT_x2" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "Swadge_Parts:JS202011CQN" -100 70 50 H I C CNN
+F3 "https://www.ckswitches.com/media/1422/js.pdf" 0 170 50 H I C CNN
+F4 "401-2001-ND" 100 270 50 H I C CNN "Digikey"
+F5 "45" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:JS202011CQN
 $ENDFPLIST
@@ -607,8 +690,12 @@ ENDDEF
 DEF SW_SPDT SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
 F1 "SW_SPDT" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "Swadge_Parts:SW_SPDT_PCM12" -100 70 50 H I C CNN
+F3 "https://www.ckswitches.com/media/1424/pcm.pdf" 0 170 50 H I C CNN
+F4 "401-2016-1-ND" 100 270 50 H I C CNN "Digikey"
+F5 "96" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:SW_SPDT_PCM12
 $ENDFPLIST
@@ -628,8 +715,12 @@ ENDDEF
 DEF USB_B_Micro J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
 F1 "USB_B_Micro" -200 350 50 H V L CNN
-F2 "" 150 -50 50 H I C CNN
-F3 "" 150 -50 50 H I C CNN
+F2 "Swadge_Parts:USB_Micro-B_Molex_47346-0001" 150 -50 50 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" 150 -50 50 H I C CNN
+F4 "WM17141CT-ND" -100 550 50 H I C CNN "Digikey"
+F5 "112" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:USB_Micro-B_Molex_47346-0001
 $ENDFPLIST
@@ -663,8 +754,13 @@ ENDDEF
 DEF WS2812B D 0 10 Y Y 1 F N
 F0 "D" 200 225 50 H V R BNN
 F1 "WS2812B" 50 -225 50 H V L TNN
-F2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" 50 -300 50 H I L TNN
-F3 "" 100 -375 50 H I L TNN
+F2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" 50 -300 50 H I L TNN
+F3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" 100 -375 50 H I L TNN
+F4 "1528-1104-ND" 300 325 50 H I C CNN "Digikey"
+F5 "45" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "n" 0 0 0 H I C CNN "NOBOM"
+F8 "Digikey item is x10" 400 425 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
 $ENDFPLIST
