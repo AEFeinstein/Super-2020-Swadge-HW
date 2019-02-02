@@ -250,7 +250,7 @@ F1 "Conn_02x21_Top_Bottom" 50 -1100 50 H V C CNN
 F2 "Swadge_Parts:PinHeader_2x21_P2.54mm_Vertical" -50 1000 50 H I C CNN
 F3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" 50 1100 50 H I C CNN
 F4 "S2012EC-21-ND" 150 1200 50 H I C CNN "Digikey"
-F5 "$0.00" 0 0 10 H I C CNN "73"
+F5 "73" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
 $FPLIST
  Swadge_Parts:PinHeader_2x21_P2.54mm_Vertical
@@ -741,7 +741,7 @@ F3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" 100 -375 50 H I L TNN
 F4 "1528-1104-ND" 300 325 50 H I C CNN "Digikey"
 F5 "45" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F8 "Digikey item is x10" 400 425 50 H I C CNN "Notes"
+F7 "Digikey item is x10" 400 425 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
 $ENDFPLIST

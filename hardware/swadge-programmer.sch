@@ -44,7 +44,11 @@ P 1200 4950
 F 0 "U1" H 1200 6025 50  0000 C CNN
 F 1 "BUS_PCIexpress" H 1200 5934 50  0000 C CNN
 F 2 "Swadge_Parts:10018784-10210TLF" H 1200 5300 50  0001 C CNN
-F 3 "" H 1200 5300 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" H 1200 5300 50  0001 C CNN
+F 4 "0" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1200 4950
 	1    0    0    -1  
 $EndComp
@@ -195,7 +199,10 @@ P 800 2650
 F 0 "J1" H 855 3117 50  0000 C CNN
 F 1 "USB_B_Micro" H 855 3026 50  0000 C CNN
 F 2 "Swadge_Parts:USB_Micro-B_Molex_47346-0001" H 950 2600 50  0001 C CNN
-F 3 "~" H 950 2600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 950 2600 50  0001 C CNN
+F 4 "112" H 0   0   50  0001 C CNN "Cost100"
+F 5 "WM17141CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    800  2650
 	1    0    0    -1  
 $EndComp
@@ -224,7 +231,10 @@ P 1300 3100
 F 0 "D1" H 1505 3146 50  0000 L CNN
 F 1 "SP0503BAHT" H 1505 3055 50  0000 L CNN
 F 2 "Swadge_Parts:SOT-143" H 1525 3050 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1425 3225 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1425 3225 50  0001 C CNN
+F 4 "95" H 0   0   50  0001 C CNN "Cost100"
+F 5 "F2715CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1300 3100
 	1    0    0    -1  
 $EndComp
@@ -249,7 +259,10 @@ P 1300 1800
 F 0 "R1" H 1368 1846 50  0000 L CNN
 F 1 "22.1k" H 1368 1755 50  0000 L CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1340 1790 50  0001 C CNN
-F 3 "~" H 1300 1800 50  0001 C CNN
+F 3 "" H 1300 1800 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1300 1800
 	1    0    0    -1  
 $EndComp
@@ -260,7 +273,10 @@ P 1300 2200
 F 0 "R2" H 1368 2246 50  0000 L CNN
 F 1 "47.5k" H 1368 2155 50  0000 L CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1340 2190 50  0001 C CNN
-F 3 "~" H 1300 2200 50  0001 C CNN
+F 3 "" H 1300 2200 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1300 2200
 	1    0    0    -1  
 $EndComp
@@ -287,7 +303,10 @@ P 3150 2250
 F 0 "U2" H 3300 3150 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN24" H 3650 3050 50  0000 C CNN
 F 2 "Swadge_Parts:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 3600 1450 50  0001 L CNN
-F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 3200 1200 50  0001 C CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 3200 1200 50  0001 C CNN
+F 4 "135" H 0   0   50  0001 C CNN "Cost100"
+F 5 "336-4737-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    3150 2250
 	1    0    0    -1  
 $EndComp
@@ -319,7 +338,10 @@ P 2550 1250
 F 0 "R3" H 2482 1204 50  0000 R CNN
 F 1 "1k" H 2482 1295 50  0000 R CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 2590 1240 50  0001 C CNN
-F 3 "~" H 2550 1250 50  0001 C CNN
+F 3 "" H 2550 1250 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2550 1250
 	-1   0    0    1   
 $EndComp
@@ -354,7 +376,10 @@ P 2150 1800
 F 0 "C4" H 2265 1846 50  0000 L CNN
 F 1 "4.7u" H 2265 1755 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 2188 1650 50  0001 C CNN
-F 3 "~" H 2150 1800 50  0001 C CNN
+F 3 "" H 2150 1800 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2150 1800
 	1    0    0    -1  
 $EndComp
@@ -365,7 +390,10 @@ P 1750 1800
 F 0 "C3" H 1865 1846 50  0000 L CNN
 F 1 "0.1u" H 1865 1755 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 1788 1650 50  0001 C CNN
-F 3 "~" H 1750 1800 50  0001 C CNN
+F 3 "" H 1750 1800 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1750 1800
 	1    0    0    -1  
 $EndComp
@@ -376,7 +404,10 @@ P 3750 1000
 F 0 "C2" H 3865 1046 50  0000 L CNN
 F 1 "4.7u" H 3865 955 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 3788 850 50  0001 C CNN
-F 3 "~" H 3750 1000 50  0001 C CNN
+F 3 "" H 3750 1000 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    3750 1000
 	1    0    0    -1  
 $EndComp
@@ -387,7 +418,10 @@ P 3300 1000
 F 0 "C1" H 3415 1046 50  0000 L CNN
 F 1 "0.1u" H 3415 955 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 3338 850 50  0001 C CNN
-F 3 "~" H 3300 1000 50  0001 C CNN
+F 3 "" H 3300 1000 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    3300 1000
 	1    0    0    -1  
 $EndComp
@@ -543,7 +577,10 @@ P 4250 4950
 F 0 "J2" H 4300 6167 50  0000 C CNN
 F 1 "Conn_02x21_Top_Bottom" H 4300 6076 50  0000 C CNN
 F 2 "Swadge_Parts:PinHeader_2x21_P2.54mm_Vertical" H 4250 4950 50  0001 C CNN
-F 3 "~" H 4250 4950 50  0001 C CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 4250 4950 50  0001 C CNN
+F 4 "S2012EC-21-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 6 "73" H 0   0   50  0001 C CNN "Cost100"
 	1    4250 4950
 	1    0    0    -1  
 $EndComp
@@ -618,7 +655,10 @@ P 4800 1000
 F 0 "SW4" H 4800 1285 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 4800 1194 50  0000 C CNN
 F 2 "Swadge_Parts:JS202011CQN" H 4800 1000 50  0001 C CNN
-F 3 "" H 4800 1000 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 4800 1000 50  0001 C CNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4800 1000
 	1    0    0    -1  
 $EndComp
@@ -629,7 +669,10 @@ P 4800 1550
 F 0 "SW4" H 4800 1835 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 4800 1744 50  0000 C CNN
 F 2 "Swadge_Parts:JS202011CQN" H 4800 1550 50  0001 C CNN
-F 3 "" H 4800 1550 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 4800 1550 50  0001 C CNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	2    4800 1550
 	1    0    0    -1  
 $EndComp
@@ -691,7 +734,10 @@ P 5500 900
 F 0 "SW5" H 5500 1185 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 5500 1094 50  0000 C CNN
 F 2 "Swadge_Parts:JS202011CQN" H 5500 900 50  0001 C CNN
-F 3 "" H 5500 900 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 5500 900 50  0001 C CNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	2    5500 900 
 	1    0    0    -1  
 $EndComp
@@ -702,7 +748,10 @@ P 5450 1650
 F 0 "SW5" H 5450 1935 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 5450 1844 50  0000 C CNN
 F 2 "Swadge_Parts:JS202011CQN" H 5450 1650 50  0001 C CNN
-F 3 "" H 5450 1650 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 5450 1650 50  0001 C CNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5450 1650
 	1    0    0    -1  
 $EndComp
@@ -784,7 +833,10 @@ P 6750 1000
 F 0 "SW1" H 6750 1285 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 6750 1194 50  0000 C CNN
 F 2 "Swadge_Parts:JS202011CQN" H 6750 1000 50  0001 C CNN
-F 3 "" H 6750 1000 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6750 1000 50  0001 C CNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    6750 1000
 	1    0    0    -1  
 $EndComp
@@ -795,7 +847,10 @@ P 6750 2300
 F 0 "SW2" H 6750 2585 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 6750 2494 50  0000 C CNN
 F 2 "Swadge_Parts:JS202011CQN" H 6750 2300 50  0001 C CNN
-F 3 "" H 6750 2300 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6750 2300 50  0001 C CNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    6750 2300
 	1    0    0    -1  
 $EndComp
@@ -808,7 +863,10 @@ AR Path="/5C51AA60" Ref="SW3"  Part="2"
 F 0 "SW3" H 7650 1935 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 7650 1844 50  0000 C CNN
 F 2 "Swadge_Parts:JS202011CQN" H 7650 1650 50  0001 C CNN
-F 3 "" H 7650 1650 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7650 1650 50  0001 C CNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	2    7650 1650
 	1    0    0    -1  
 $EndComp
@@ -821,7 +879,10 @@ AR Path="/5C51B068" Ref="SW1"  Part="2"
 F 0 "SW1" H 7650 1285 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 7650 1194 50  0000 C CNN
 F 2 "Swadge_Parts:JS202011CQN" H 7650 1000 50  0001 C CNN
-F 3 "" H 7650 1000 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7650 1000 50  0001 C CNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	2    7650 1000
 	1    0    0    -1  
 $EndComp
@@ -832,7 +893,10 @@ P 7650 2300
 F 0 "SW2" H 7650 2585 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 7650 2494 50  0000 C CNN
 F 2 "Swadge_Parts:JS202011CQN" H 7650 2300 50  0001 C CNN
-F 3 "" H 7650 2300 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7650 2300 50  0001 C CNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	2    7650 2300
 	1    0    0    -1  
 $EndComp
@@ -845,7 +909,10 @@ AR Path="/5C51B164" Ref="SW3"  Part="1"
 F 0 "SW3" H 6750 1935 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 6750 1844 50  0000 C CNN
 F 2 "Swadge_Parts:JS202011CQN" H 6750 1650 50  0001 C CNN
-F 3 "" H 6750 1650 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6750 1650 50  0001 C CNN
+F 4 "45" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    6750 1650
 	1    0    0    -1  
 $EndComp
@@ -913,7 +980,10 @@ P 2700 4950
 F 0 "J3" H 2750 6167 50  0000 C CNN
 F 1 "Conn_02x21_Top_Bottom" H 2750 6076 50  0000 C CNN
 F 2 "Swadge_Parts:PinHeader_2x21_P2.54mm_Vertical" H 2700 4950 50  0001 C CNN
-F 3 "~" H 2700 4950 50  0001 C CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 2700 4950 50  0001 C CNN
+F 4 "S2012EC-21-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 6 "73" H 0   0   50  0001 C CNN "Cost100"
 	1    2700 4950
 	1    0    0    -1  
 $EndComp
@@ -1029,7 +1099,10 @@ P 1600 4100
 F 0 "R4" V 1700 4050 50  0000 L CNN
 F 1 "1" V 1500 4000 50  0000 L CNN
 F 2 "Swadge_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1640 4090 50  0001 C CNN
-F 3 "~" H 1600 4100 50  0001 C CNN
+F 3 "" H 1600 4100 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1600 4100
 	0    -1   -1   0   
 $EndComp
@@ -1043,7 +1116,10 @@ P 1600 5200
 F 0 "R5" V 1700 5150 50  0000 L CNN
 F 1 "1" V 1500 5100 50  0000 L CNN
 F 2 "Swadge_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1640 5190 50  0001 C CNN
-F 3 "~" H 1600 5200 50  0001 C CNN
+F 3 "" H 1600 5200 50  0001 C CNN
+F 4 "10" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1600 5200
 	0    -1   -1   0   
 $EndComp
@@ -1064,6 +1140,10 @@ F 0 "H1" H 4990 2646 50  0000 L CNN
 F 1 "Hole" H 4990 2555 50  0000 L CNN
 F 2 "Swadge_Parts:Hole" H 4850 2600 50  0001 C CNN
 F 3 "" H 4850 2600 50  0001 C CNN
+F 4 "0" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4850 2600
 	1    0    0    -1  
 $EndComp
@@ -1075,6 +1155,10 @@ F 0 "H3" H 5490 2646 50  0000 L CNN
 F 1 "Hole" H 5490 2555 50  0000 L CNN
 F 2 "Swadge_Parts:Hole" H 5350 2600 50  0001 C CNN
 F 3 "" H 5350 2600 50  0001 C CNN
+F 4 "0" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5350 2600
 	1    0    0    -1  
 $EndComp
@@ -1086,6 +1170,10 @@ F 0 "H2" H 4990 2946 50  0000 L CNN
 F 1 "Hole" H 4990 2855 50  0000 L CNN
 F 2 "Swadge_Parts:Hole" H 4850 2900 50  0001 C CNN
 F 3 "" H 4850 2900 50  0001 C CNN
+F 4 "0" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4850 2900
 	1    0    0    -1  
 $EndComp
@@ -1097,6 +1185,10 @@ F 0 "H4" H 5490 2946 50  0000 L CNN
 F 1 "Hole" H 5490 2855 50  0000 L CNN
 F 2 "Swadge_Parts:Hole" H 5350 2900 50  0001 C CNN
 F 3 "" H 5350 2900 50  0001 C CNN
+F 4 "0" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5350 2900
 	1    0    0    -1  
 $EndComp
