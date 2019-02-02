@@ -16,7 +16,6 @@ F8 "2460" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
 F9 "36-2460-ND" 1250 900 50 H I C CNN "Digikey"
 F10 "116" 0 0 10 H I C CNN "Cost100"
 F11 "Y" 0 0 0 H I C CNN "Substitutable"
-F12 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:2460
 $ENDFPLIST
@@ -42,7 +41,6 @@ F6 "FSM4JSMATR" 0 0 50 H I L BNN "MPN"
 F7 "450-1759-1-ND" 640 970 50 H I C CNN "Digikey"
 F8 "34" 0 0 10 H I C CNN "Cost100"
 F9 "Y" 0 0 10 H I C CNN "Substitutable"
-F10 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:SW_4-1437565-2
 $ENDFPLIST
@@ -83,7 +81,6 @@ F3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" 100 -250 50 H I C CNN
 F4 "AP2114H-3.3TRG1DICT-ND" -50 225 50 H I C CNN "Digikey"
 F5 "37" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 10 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:SOT-223-3_TabPin2
 $ENDFPLIST
@@ -105,7 +102,7 @@ F3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" 0 350
 F4 "n/a" 100 -950 50 H I C CNN "Digikey"
 F5 "0" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
+F7 "y" 0 0 10 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:BUS_PCIexpress
 $ENDFPLIST
@@ -160,7 +157,6 @@ F3 "http://www.memoryprotectiondevices.com/datasheets/BCAAPC-datasheet.pdf" -450
 F4 "BCAAPC-ND" 0 500 50 H I C CNN "Digikey"
 F5 "114" 300 300 50 H I C CNN "Cost100"
 F6 "Y" 400 400 50 H I C CNN "Substitutable"
-F7 "n" 600 600 50 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:BCAAPC
 $ENDFPLIST
@@ -192,7 +188,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "n/a" 125 200 50 H V C CNN "Digikey"
 F5 "10" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:C_0603_1608Metric
 $ENDFPLIST
@@ -214,7 +209,6 @@ F3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" 5
 F4 "336-4737-1-ND" -100 975 50 H I C CNN "Digikey"
 F5 "135" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
 $ENDFPLIST
@@ -258,7 +252,6 @@ F3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" 50 1100 50 H I C CNN
 F4 "S2012EC-21-ND" 150 1200 50 H I C CNN "Digikey"
 F5 "$0.00" 0 0 10 H I C CNN "73"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:PinHeader_2x21_P2.54mm_Vertical
 $ENDFPLIST
@@ -361,7 +354,6 @@ F3 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" -900 1600 50 H 
 F4 "1528-1512-ND" -800 1700 50 H I C CNN "Digikey"
 F5 "1995" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND
  Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND
@@ -436,7 +428,6 @@ F3 "https://www.elecrow.com/download/ESP-12F.pdf" -800 850 50 H I C CNN
 F4 "Electrodragon SKU NWI1059" 100 0 50 H I C CNN "Digikey"
 F5 "260" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:ESP-12E_SMD
 $ENDFPLIST
@@ -496,7 +487,6 @@ F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C C
 F4 "MCP6001UT-I/OTCT-ND" 50 350 50 H I C CNN "Digikey"
 F5 "25" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:SOT-23-5
 $ENDFPLIST
@@ -521,7 +511,6 @@ F4 "NXP Semiconductors" 0 0 50 H I L BNN "Manufacturer"
 F5 "MMA8452QR1CT-ND" -100 620 50 H I C CNN "Digikey"
 F6 "264" 0 0 10 H I C CNN "Cost100"
 F7 "Y" 0 0 0 H I C CNN "Substitutable"
-F8 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:QFN-16_0.5MM
 $ENDFPLIST
@@ -551,7 +540,6 @@ F3 "https://datasheet.lcsc.com/szlcsc/MEMSensing-Microsystems-MSA300_C107276.pdf
 F4 "LCSC Part #C107276" -900 200 50 H I C CNN "Digikey"
 F5 "34" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:MSA300
 $ENDFPLIST
@@ -582,7 +570,6 @@ F3 "https://www.cui.com/product/resource/cma-4544pf-w.pdf" 750 250 50 V I C CNN
 F4 "102-1721-ND" -400 350 50 H I C CNN "Digikey"
 F5 "70" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 10 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:CMA-4544PF-W
 $ENDFPLIST
@@ -606,7 +593,6 @@ F3 "" 100 0 50 V I C CNN
 F4 "n/a" 200 100 50 V V C CNN "Digikey"
 F5 "10" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 10 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:R_0603_1608Metric
 $ENDFPLIST
@@ -631,7 +617,6 @@ F3 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/do
 F4 "F2715CT-ND" 325 200 50 H I C CNN "Digikey"
 F5 "95" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:SOT-143
 $ENDFPLIST
@@ -667,7 +652,6 @@ F3 "https://www.ckswitches.com/media/1422/js.pdf" 0 170 50 H I C CNN
 F4 "401-2001-ND" 100 270 50 H I C CNN "Digikey"
 F5 "45" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:JS202011CQN
 $ENDFPLIST
@@ -695,7 +679,6 @@ F3 "https://www.ckswitches.com/media/1424/pcm.pdf" 0 170 50 H I C CNN
 F4 "401-2016-1-ND" 100 270 50 H I C CNN "Digikey"
 F5 "96" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:SW_SPDT_PCM12
 $ENDFPLIST
@@ -720,7 +703,6 @@ F3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" 150 -50 50 H I C CNN
 F4 "WM17141CT-ND" -100 550 50 H I C CNN "Digikey"
 F5 "112" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:USB_Micro-B_Molex_47346-0001
 $ENDFPLIST
@@ -759,7 +741,6 @@ F3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" 100 -375 50 H I L TNN
 F4 "1528-1104-ND" 300 325 50 H I C CNN "Digikey"
 F5 "45" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "n" 0 0 0 H I C CNN "NOBOM"
 F8 "Digikey item is x10" 400 425 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
