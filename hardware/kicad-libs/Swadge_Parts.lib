@@ -349,11 +349,12 @@ ENDDEF
 DEF DISP_OLED_UG-2864HSWEG01 U 0 40 Y Y 1 F N
 F0 "U" -900 1600 45 H V L BNN
 F1 "DISP_OLED_UG-2864HSWEG01" -900 -1700 45 H V L BNN
-F2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND" 30 150 20 H I C CNN
-F3 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" -900 1600 50 H I C CNN
-F4 "1528-1512-ND" -800 1700 50 H I C CNN "Digikey"
-F5 "1995" 0 0 10 H I C CNN "Cost100"
+F2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND" 30 150 20 H I C CNN
+F3 "http://www.vishay.com/docs/37903/oled128o064dgpp3n00000.pdf" -900 1600 50 H I C CNN
+F4 "541-3485-ND" -800 1700 50 H I C CNN "Digikey"
+F5 "988" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" -500 2000 50 H V C CNN "Adafruit"
 $FPLIST
  Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND
  Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND
@@ -604,6 +605,26 @@ P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
 P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SAO
+#
+DEF SAO U 0 40 Y Y 1 F N
+F0 "U" 50 -250 50 H V C CNN
+F1 "SAO" 50 250 50 H V C CNN
+F2 "Swadge_Parts:SAO" -50 -350 50 H I C CNN
+F3 "https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/shitty-add-on-standard/" 50 -250 50 H I C CNN
+F4 "Y" 150 -150 50 H I C CNN "NOBOM"
+F5 "Y" 250 -50 50 H I C CNN "Substitutable"
+F6 "0" 350 50 50 H I C CNN "Cost100"
+F7 "n/a" 450 150 50 H I C CNN "Digikey"
+DRAW
+S 50 200 300 -200 0 1 0 f
+X GND GND -100 -150 150 R 50 50 1 1 W
+X SCL SCL -100 50 150 R 50 50 1 1 I
+X SDA SDA -100 -50 150 R 50 50 1 1 I
+X VCC VCC -100 150 150 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

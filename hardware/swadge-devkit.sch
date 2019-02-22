@@ -1480,11 +1480,12 @@ U 1 1 5C3C7BBF
 P 5950 4050
 F 0 "U6" H 5100 2300 45  0000 L CNN
 F 1 "DISP_OLED_UG-2864HSWEG01" H 5100 2400 45  0000 L CNN
-F 2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND" H 5980 4200 20  0001 C CNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" H 5950 4050 50  0001 C CNN
-F 4 "1995" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1528-1512-ND" H 0   0   50  0001 C CNN "Digikey"
+F 2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND" H 5980 4200 20  0001 C CNN
+F 3 "http://www.vishay.com/docs/37903/oled128o064dgpp3n00000.pdf" H 5950 4050 50  0001 C CNN
+F 4 "988" H 0   0   50  0001 C CNN "Cost100"
+F 5 "541-3485-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" H 0   0   50  0001 C CNN "Adafruit"
 	1    5950 4050
 	1    0    0    -1  
 $EndComp
@@ -2268,4 +2269,67 @@ Wire Wire Line
 Connection ~ 9800 1550
 Wire Wire Line
 	9800 1550 10350 1550
+$Comp
+L Swadge_Parts:SAO U7
+U 1 1 5C708F32
+P 10100 2950
+F 0 "U7" H 10250 2650 50  0000 L CNN
+F 1 "SAO" H 10200 3200 50  0000 L CNN
+F 2 "Swadge_Parts:SAO" H 10050 2600 50  0001 C CNN
+F 3 "https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/shitty-add-on-standard/" H 10150 2700 50  0001 C CNN
+F 4 "0" H 0   0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+	1    10100 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 2900 0    50   Input ~ 0
+SCL
+Text GLabel 9950 3000 0    50   Input ~ 0
+SDA
+$Comp
+L power:+3.3V #PWR032
+U 1 1 5C7096B1
+P 10000 2750
+F 0 "#PWR032" H 10000 2600 50  0001 C CNN
+F 1 "+3.3V" H 9850 2750 50  0000 C CNN
+F 2 "" H 10000 2750 50  0001 C CNN
+F 3 "" H 10000 2750 50  0001 C CNN
+	1    10000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5C709736
+P 10000 3150
+F 0 "#PWR033" H 10000 2900 50  0001 C CNN
+F 1 "GND" H 10005 2977 50  0000 C CNN
+F 2 "" H 10000 3150 50  0001 C CNN
+F 3 "" H 10000 3150 50  0001 C CNN
+	1    10000 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2750 10000 2800
+Wire Wire Line
+	9950 2900 10000 2900
+Wire Wire Line
+	9950 3000 10000 3000
+Wire Wire Line
+	10000 3100 10000 3150
+Wire Notes Line
+	9550 2500 10450 2500
+Wire Notes Line
+	10450 2500 10450 3400
+Wire Notes Line
+	10450 3400 9550 3400
+Wire Notes Line
+	9550 3400 9550 2500
+Text Notes 9600 2600 0    50   ~ 0
+SAO
+Wire Notes Line
+	9550 2650 9800 2650
+Wire Notes Line
+	9800 2650 9800 2500
 $EndSCHEMATC
