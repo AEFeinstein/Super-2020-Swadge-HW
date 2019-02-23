@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:swadge-devkit-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2332,4 +2331,20 @@ Wire Notes Line
 	9550 2650 9800 2650
 Wire Notes Line
 	9800 2650 9800 2500
+Text Notes 9600 3850 0    50   ~ 0
+PCB must be 1.6mm\nthick for PCIe
+Wire Notes Line
+	9550 3450 9550 4650
+Wire Notes Line
+	9550 4650 10450 4650
+Wire Notes Line
+	10450 4650 10450 3450
+Wire Notes Line
+	10450 3450 9550 3450
+Text Notes 9600 3550 0    50   ~ 0
+Notes
+Wire Notes Line
+	9550 3600 9850 3600
+Wire Notes Line
+	9850 3600 9850 3450
 $EndSCHEMATC
