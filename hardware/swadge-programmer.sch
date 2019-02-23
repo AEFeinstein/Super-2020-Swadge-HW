@@ -261,7 +261,7 @@ F 1 "22.1k" H 1368 1755 50  0000 L CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1340 1790 50  0001 C CNN
 F 3 "" H 1300 1800 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT22K1CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1300 1800
 	1    0    0    -1  
@@ -275,7 +275,7 @@ F 1 "47.5k" H 1368 2155 50  0000 L CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1340 2190 50  0001 C CNN
 F 3 "" H 1300 2200 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 5 "P47.5KHCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1300 2200
 	1    0    0    -1  
@@ -340,7 +340,7 @@ F 1 "1k" H 2482 1295 50  0000 R CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 2590 1240 50  0001 C CNN
 F 3 "" H 2550 1250 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT1K00DKR-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2550 1250
 	-1   0    0    1   
@@ -378,7 +378,7 @@ F 1 "4.7u" H 2265 1755 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 2188 1650 50  0001 C CNN
 F 3 "" H 2150 1800 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1045-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2150 1800
 	1    0    0    -1  
@@ -392,7 +392,7 @@ F 1 "0.1u" H 1865 1755 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 1788 1650 50  0001 C CNN
 F 3 "" H 1750 1800 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1750 1800
 	1    0    0    -1  
@@ -406,7 +406,7 @@ F 1 "4.7u" H 3865 955 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 3788 850 50  0001 C CNN
 F 3 "" H 3750 1000 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1045-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    3750 1000
 	1    0    0    -1  
@@ -420,7 +420,7 @@ F 1 "0.1u" H 3415 955 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 3338 850 50  0001 C CNN
 F 3 "" H 3300 1000 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    3300 1000
 	1    0    0    -1  
@@ -1101,7 +1101,7 @@ F 1 "1" V 1500 4000 50  0000 L CNN
 F 2 "Swadge_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1640 4090 50  0001 C CNN
 F 3 "" H 1600 4100 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 5 "RNF14FTD1R00CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1600 4100
 	0    -1   -1   0   
@@ -1118,7 +1118,7 @@ F 1 "1" V 1500 5100 50  0000 L CNN
 F 2 "Swadge_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1640 5190 50  0001 C CNN
 F 3 "" H 1600 5200 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
+F 5 "RNF14FTD1R00CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1600 5200
 	0    -1   -1   0   

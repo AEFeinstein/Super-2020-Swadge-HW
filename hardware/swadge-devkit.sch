@@ -1483,7 +1483,7 @@ F 1 "DISP_OLED_UG-2864HSWEG01" H 5100 2400 45  0000 L CNN
 F 2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND" H 5980 4200 20  0001 C CNN
 F 3 "http://www.vishay.com/docs/37903/oled128o064dgpp3n00000.pdf" H 5950 4050 50  0001 C CNN
 F 4 "988" H 0   0   50  0001 C CNN "Cost100"
-F 5 "541-3485-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "541-3486-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 F 7 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" H 0   0   50  0001 C CNN "Adafruit"
 	1    5950 4050
@@ -1512,7 +1512,7 @@ F 1 "2.2u" H 4365 5355 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4288 5250 50  0001 C CNN
 F 3 "" H 4250 5400 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1885-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1085-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4250 5400
 	-1   0    0    1   
