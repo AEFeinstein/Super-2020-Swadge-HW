@@ -340,7 +340,7 @@ F 1 "1k" H 2482 1295 50  0000 R CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 2590 1240 50  0001 C CNN
 F 3 "" H 2550 1250 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "RMCF0603FT1K00DKR-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "311-1.00KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2550 1250
 	-1   0    0    1   
