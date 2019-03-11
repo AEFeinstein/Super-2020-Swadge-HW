@@ -38,17 +38,16 @@ F 3 "" H 1450 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:BUS_PCIexpress U1
+L Swadge_Parts:BUS_PCIexpress U
 U 1 1 5C4297AA
 P 1200 4950
-F 0 "U1" H 1200 6025 50  0000 C CNN
+F 0 "U" H 1200 6025 50  0000 C CNN
 F 1 "BUS_PCIexpress" H 1200 5934 50  0000 C CNN
-F 2 "Swadge_Parts:10018784-10210TLF" H 1200 5300 50  0001 C CNN
+F 2 "Swadge_Parts:BUS_PCIexpress" H 1200 5300 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" H 1200 5300 50  0001 C CNN
 F 4 "0" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
-F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 5 "609-2029-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1200 4950
 	1    0    0    -1  
 $EndComp
