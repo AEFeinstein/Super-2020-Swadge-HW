@@ -94,7 +94,7 @@ F 1 "220K" V 2386 1400 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 2540 1390 50  0001 C CNN
 F 3 "" H 2500 1400 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "311-220HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "A129716CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2500 1400
 	-1   0    0    1   
