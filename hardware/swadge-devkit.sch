@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:swadge-devkit-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -108,7 +109,7 @@ F 1 "47K" V 1386 1100 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1540 1090 50  0001 C CNN
 F 3 "" H 1500 1100 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "311-4.70KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "311-47KGRCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1500 1100
 	-1   0    0    1   
@@ -154,7 +155,7 @@ F 1 "47K" V 1736 1250 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1890 1240 50  0001 C CNN
 F 3 "" H 1850 1250 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "311-4.70KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "311-47KGRCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    1850 1250
 	0    -1   -1   0   
