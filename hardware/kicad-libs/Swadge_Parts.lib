@@ -99,10 +99,9 @@ F0 "U" 0 -1050 50 H V C CNN
 F1 "BUS_PCIexpress" 0 -950 50 H V C CNN
 F2 "Swadge_Parts:BUS_PCIexpress" 0 350 50 H I C CNN
 F3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" 0 350 50 H I C CNN
-F4 "n/a" 100 -950 50 H I C CNN "Digikey"
+F4 "609-2029-ND" 100 -950 50 H I C CNN "Digikey"
 F5 "0" 0 0 10 H I C CNN "Cost100"
-F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "y" 0 0 10 H I C CNN "NOBOM"
+F6 "Y" 0 0 10 H I C CNN "Substitutable"
 $FPLIST
  Swadge_Parts:BUS_PCIexpress
 $ENDFPLIST
