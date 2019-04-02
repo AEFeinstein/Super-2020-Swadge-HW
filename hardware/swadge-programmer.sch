@@ -1181,4 +1181,69 @@ Wire Notes Line
 	7500 500  7500 2600
 Wire Notes Line
 	7500 2600 6100 2600
+$Comp
+L Swadge_Parts:ftdi-header J4
+U 1 1 5CAF207F
+P 1750 1050
+F 0 "J4" H 1794 635 50  0000 C CNN
+F 1 "ftdi-header" H 1794 726 50  0000 C CNN
+F 2 "Swadge_Parts:ftdi-header" H 1700 1750 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232R_CABLES.pdf" H 1600 1650 50  0001 C CNN
+F 4 "n/a" H 1950 1550 50  0001 C CNN "Digikey"
+F 5 "0" H 2050 1650 50  0001 C CNN "Cost100"
+F 6 "n" H 2150 1750 50  0001 C CNN "Substitutable"
+F 7 "y" H 2250 1850 50  0001 C CNN "NOBOM"
+	1    1750 1050
+	-1   0    0    1   
+$EndComp
+Text GLabel 1900 1050 2    50   Input ~ 0
+TX
+Text GLabel 1900 950  2    50   Input ~ 0
+RX
+Wire Wire Line
+	1850 950  1900 950 
+Wire Wire Line
+	1850 1050 1900 1050
+$Comp
+L power:GND #PWR0101
+U 1 1 5CB0C37E
+P 1900 1350
+F 0 "#PWR0101" H 1900 1100 50  0001 C CNN
+F 1 "GND" H 1905 1177 50  0000 C CNN
+F 2 "" H 1900 1350 50  0001 C CNN
+F 3 "" H 1900 1350 50  0001 C CNN
+	1    1900 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1350 1900 1350
+Text GLabel 3800 1850 2    50   Input ~ 0
+RTS
+Text GLabel 3800 1750 2    50   Input ~ 0
+CTS
+Wire Wire Line
+	3800 1750 3750 1750
+Wire Wire Line
+	3800 1850 3750 1850
+Text GLabel 1900 1250 2    50   Input ~ 0
+CTS
+Text GLabel 1900 850  2    50   Input ~ 0
+RTS
+Wire Wire Line
+	1850 850  1900 850 
+Wire Wire Line
+	1850 1250 1900 1250
+$Comp
+L power:+5V #PWR0102
+U 1 1 5CB4B3FE
+P 2150 1150
+F 0 "#PWR0102" H 2150 1000 50  0001 C CNN
+F 1 "+5V" H 2165 1323 50  0000 C CNN
+F 2 "" H 2150 1150 50  0001 C CNN
+F 3 "" H 2150 1150 50  0001 C CNN
+	1    2150 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1150 2150 1150
 $EndSCHEMATC
