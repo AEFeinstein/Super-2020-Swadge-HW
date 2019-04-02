@@ -990,8 +990,6 @@ Connection ~ 3000 5650
 Wire Wire Line
 	3000 5850 3000 5950
 Connection ~ 3000 5950
-Text GLabel 7200 2300 2    50   Input ~ 0
-3.3V
 $Comp
 L Swadge_Parts:R_US R4
 U 1 1 5C5F21C8
@@ -1246,4 +1244,15 @@ F 3 "" H 2150 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1850 1150 2150 1150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CB557DC
+P 7200 2300
+F 0 "#PWR?" H 7200 2150 50  0001 C CNN
+F 1 "+3.3V" H 7215 2473 50  0000 C CNN
+F 2 "" H 7200 2300 50  0001 C CNN
+F 3 "" H 7200 2300 50  0001 C CNN
+	1    7200 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
