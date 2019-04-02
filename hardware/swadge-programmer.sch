@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:swadge-programmer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -145,39 +144,36 @@ Text GLabel 6500 1000 0    50   Input ~ 0
 GPIO0
 Text GLabel 6500 2300 0    50   Input ~ 0
 GPIO15
-NoConn ~ 6950 900 
-NoConn ~ 6950 1550
-NoConn ~ 6950 2200
 $Comp
 L power:GND #PWR05
 U 1 1 5C42F52E
-P 7100 1150
-F 0 "#PWR05" H 7100 900 50  0001 C CNN
-F 1 "GND" H 7105 977 50  0000 C CNN
-F 2 "" H 7100 1150 50  0001 C CNN
-F 3 "" H 7100 1150 50  0001 C CNN
-	1    7100 1150
+P 7200 1050
+F 0 "#PWR05" H 7200 800 50  0001 C CNN
+F 1 "GND" H 7205 877 50  0000 C CNN
+F 2 "" H 7200 1050 50  0001 C CNN
+F 3 "" H 7200 1050 50  0001 C CNN
+	1    7200 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5C42F541
-P 7100 1800
-F 0 "#PWR06" H 7100 1550 50  0001 C CNN
-F 1 "GND" H 7105 1627 50  0000 C CNN
-F 2 "" H 7100 1800 50  0001 C CNN
-F 3 "" H 7100 1800 50  0001 C CNN
-	1    7100 1800
+P 7200 1700
+F 0 "#PWR06" H 7200 1450 50  0001 C CNN
+F 1 "GND" H 7205 1527 50  0000 C CNN
+F 2 "" H 7200 1700 50  0001 C CNN
+F 3 "" H 7200 1700 50  0001 C CNN
+	1    7200 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 1750 7100 1750
+	7050 1650 7200 1650
 Wire Wire Line
-	7100 1750 7100 1800
+	7200 1650 7200 1700
 Wire Wire Line
-	6950 1100 7100 1100
+	7050 1000 7200 1000
 Wire Wire Line
-	7100 1100 7100 1150
+	7200 1000 7200 1050
 Wire Wire Line
 	6500 2300 6550 2300
 Wire Wire Line
@@ -726,7 +722,7 @@ Wire Wire Line
 	4600 4250 4550 4250
 Connection ~ 4550 4250
 Wire Wire Line
-	6950 2400 7100 2400
+	7050 2300 7200 2300
 $Comp
 L Swadge_Parts:SW_DPDT_x2 SW5
 U 2 1 5C48B8E0
@@ -791,12 +787,6 @@ Wire Notes Line
 	5050 3650 5050 6200
 Wire Notes Line
 	7950 500  6100 500 
-Wire Notes Line
-	6100 500  6100 2500
-Wire Notes Line
-	6100 2500 7950 2500
-Wire Notes Line
-	7950 500  7950 2500
 Text Notes 4250 600  0    50   ~ 0
 Power Switches
 Text Notes 6150 600  0    50   ~ 0
@@ -826,96 +816,6 @@ Wire Wire Line
 	1300 3300 3150 3300
 Wire Wire Line
 	1200 3300 1300 3300
-$Comp
-L Swadge_Parts:SW_DPDT_x2 SW1
-U 1 1 5C519EE6
-P 6750 1000
-F 0 "SW1" H 6750 1285 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 6750 1194 50  0000 C CNN
-F 2 "Swadge_Parts:JS202011CQN" H 6750 1000 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6750 1000 50  0001 C CNN
-F 4 "45" H 0   0   50  0001 C CNN "Cost100"
-F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    6750 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Swadge_Parts:SW_DPDT_x2 SW2
-U 1 1 5C519F7A
-P 6750 2300
-F 0 "SW2" H 6750 2585 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 6750 2494 50  0000 C CNN
-F 2 "Swadge_Parts:JS202011CQN" H 6750 2300 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6750 2300 50  0001 C CNN
-F 4 "45" H 0   0   50  0001 C CNN "Cost100"
-F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    6750 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Swadge_Parts:SW_DPDT_x2 SW1
-U 2 1 5C51AA60
-P 7650 1650
-AR Path="/5C51A884" Ref="SW1"  Part="2" 
-AR Path="/5C51AA60" Ref="SW3"  Part="2" 
-F 0 "SW3" H 7650 1935 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 7650 1844 50  0000 C CNN
-F 2 "Swadge_Parts:JS202011CQN" H 7650 1650 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7650 1650 50  0001 C CNN
-F 4 "45" H 0   0   50  0001 C CNN "Cost100"
-F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	2    7650 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Swadge_Parts:SW_DPDT_x2 SW?
-U 2 1 5C51B068
-P 7650 1000
-AR Path="/5C51A884" Ref="SW?"  Part="2" 
-AR Path="/5C51B068" Ref="SW1"  Part="2" 
-F 0 "SW1" H 7650 1285 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 7650 1194 50  0000 C CNN
-F 2 "Swadge_Parts:JS202011CQN" H 7650 1000 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7650 1000 50  0001 C CNN
-F 4 "45" H 0   0   50  0001 C CNN "Cost100"
-F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	2    7650 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Swadge_Parts:SW_DPDT_x2 SW2
-U 2 1 5C51B114
-P 7650 2300
-F 0 "SW2" H 7650 2585 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 7650 2494 50  0000 C CNN
-F 2 "Swadge_Parts:JS202011CQN" H 7650 2300 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7650 2300 50  0001 C CNN
-F 4 "45" H 0   0   50  0001 C CNN "Cost100"
-F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	2    7650 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Swadge_Parts:SW_DPDT_x2 SW?
-U 1 1 5C51B164
-P 6750 1650
-AR Path="/5C51A884" Ref="SW?"  Part="2" 
-AR Path="/5C51B164" Ref="SW3"  Part="1" 
-F 0 "SW3" H 6750 1935 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 6750 1844 50  0000 C CNN
-F 2 "Swadge_Parts:JS202011CQN" H 6750 1650 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6750 1650 50  0001 C CNN
-F 4 "45" H 0   0   50  0001 C CNN "Cost100"
-F 5 "401-2001-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    6750 1650
-	1    0    0    -1  
-$EndComp
 Connection ~ 4050 4150
 Connection ~ 4050 3950
 Connection ~ 4050 4350
@@ -1090,7 +990,7 @@ Connection ~ 3000 5650
 Wire Wire Line
 	3000 5850 3000 5950
 Connection ~ 3000 5950
-Text GLabel 7100 2400 2    50   Input ~ 0
+Text GLabel 7200 2300 2    50   Input ~ 0
 3.3V
 $Comp
 L Swadge_Parts:R_US R4
@@ -1206,4 +1106,79 @@ Wire Notes Line
 	4200 2100 4500 2100
 Wire Notes Line
 	4500 2100 4500 1950
+$Comp
+L Swadge_Parts:4-1437565-2 SW1
+U 1 1 5CA361AC
+P 6800 1100
+F 0 "SW1" H 6800 1415 50  0000 C CNN
+F 1 "4-1437565-2" H 6800 1324 50  0000 C CNN
+F 2 "Swadge_Parts:SW_4-1437565-2" H 6800 1100 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 6800 1100 50  0001 L BNN
+F 4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 6800 1100 50  0001 L BNN "Description"
+F 5 "TE Connectivity" H 6800 1100 50  0001 L BNN "Manufacturer"
+F 6 "FSM4JSMATR" H 6800 1100 50  0001 L BNN "MPN"
+F 7 "450-1759-1-ND" H 7440 2070 50  0001 C CNN "Digikey"
+F 8 "34" H 6800 1100 10  0001 C CNN "Cost100"
+F 9 "Y" H 6800 1100 10  0001 C CNN "Substitutable"
+	1    6800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:4-1437565-2 SW2
+U 1 1 5CA3636E
+P 6800 1750
+F 0 "SW2" H 6800 2065 50  0000 C CNN
+F 1 "4-1437565-2" H 6800 1974 50  0000 C CNN
+F 2 "Swadge_Parts:SW_4-1437565-2" H 6800 1750 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 6800 1750 50  0001 L BNN
+F 4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 6800 1750 50  0001 L BNN "Description"
+F 5 "TE Connectivity" H 6800 1750 50  0001 L BNN "Manufacturer"
+F 6 "FSM4JSMATR" H 6800 1750 50  0001 L BNN "MPN"
+F 7 "450-1759-1-ND" H 7440 2720 50  0001 C CNN "Digikey"
+F 8 "34" H 6800 1750 10  0001 C CNN "Cost100"
+F 9 "Y" H 6800 1750 10  0001 C CNN "Substitutable"
+	1    6800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:4-1437565-2 SW3
+U 1 1 5CA363D2
+P 6800 2400
+F 0 "SW3" H 6800 2715 50  0000 C CNN
+F 1 "4-1437565-2" H 6800 2624 50  0000 C CNN
+F 2 "Swadge_Parts:SW_4-1437565-2" H 6800 2400 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 6800 2400 50  0001 L BNN
+F 4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 6800 2400 50  0001 L BNN "Description"
+F 5 "TE Connectivity" H 6800 2400 50  0001 L BNN "Manufacturer"
+F 6 "FSM4JSMATR" H 6800 2400 50  0001 L BNN "MPN"
+F 7 "450-1759-1-ND" H 7440 3370 50  0001 C CNN "Digikey"
+F 8 "34" H 6800 2400 10  0001 C CNN "Cost100"
+F 9 "Y" H 6800 2400 10  0001 C CNN "Substitutable"
+	1    6800 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2300 7050 2500
+Connection ~ 7050 2300
+Wire Wire Line
+	6550 2500 6550 2300
+Connection ~ 6550 2300
+Wire Wire Line
+	6550 1850 6550 1650
+Connection ~ 6550 1650
+Wire Wire Line
+	7050 1650 7050 1850
+Connection ~ 7050 1650
+Wire Wire Line
+	7050 1200 7050 1000
+Connection ~ 7050 1000
+Wire Wire Line
+	6550 1000 6550 1200
+Connection ~ 6550 1000
+Wire Notes Line
+	6100 500  6100 2600
+Wire Notes Line
+	7500 500  7500 2600
+Wire Notes Line
+	7500 2600 6100 2600
 $EndSCHEMATC
