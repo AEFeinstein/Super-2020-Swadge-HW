@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:swadge-programmer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -37,10 +38,10 @@ F 3 "" H 1450 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:BUS_PCIexpress U
+L Swadge_Parts:BUS_PCIexpress U1
 U 1 1 5C4297AA
 P 1200 4950
-F 0 "U" H 1200 6025 50  0000 C CNN
+F 0 "U1" H 1200 6025 50  0000 C CNN
 F 1 "BUS_PCIexpress" H 1200 5934 50  0000 C CNN
 F 2 "Swadge_Parts:BUS_PCIexpress" H 1200 5300 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" H 1200 5300 50  0001 C CNN
@@ -345,12 +346,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR09
 U 1 1 5C469190
-P 1300 1650
-F 0 "#PWR09" H 1300 1500 50  0001 C CNN
-F 1 "+5V" H 1315 1823 50  0000 C CNN
-F 2 "" H 1300 1650 50  0001 C CNN
-F 3 "" H 1300 1650 50  0001 C CNN
-	1    1300 1650
+P 1550 1500
+F 0 "#PWR09" H 1550 1350 50  0001 C CNN
+F 1 "+5V" H 1565 1673 50  0000 C CNN
+F 2 "" H 1550 1500 50  0001 C CNN
+F 3 "" H 1550 1500 50  0001 C CNN
+	1    1550 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1181,77 +1182,92 @@ Wire Notes Line
 $Comp
 L Swadge_Parts:ftdi-header J4
 U 1 1 5CAF207F
-P 1750 1050
-F 0 "J4" H 1794 635 50  0000 C CNN
-F 1 "ftdi-header" H 1794 726 50  0000 C CNN
-F 2 "Swadge_Parts:ftdi-header" H 1700 1750 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232R_CABLES.pdf" H 1600 1650 50  0001 C CNN
-F 4 "n/a" H 1950 1550 50  0001 C CNN "Digikey"
-F 5 "0" H 2050 1650 50  0001 C CNN "Cost100"
-F 6 "n" H 2150 1750 50  0001 C CNN "Substitutable"
-F 7 "y" H 2250 1850 50  0001 C CNN "NOBOM"
-	1    1750 1050
+P 850 1150
+F 0 "J4" H 894 735 50  0000 C CNN
+F 1 "ftdi-header" H 894 826 50  0000 C CNN
+F 2 "Swadge_Parts:ftdi-header" H 800 1850 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232R_CABLES.pdf" H 700 1750 50  0001 C CNN
+F 4 "n/a" H 1050 1650 50  0001 C CNN "Digikey"
+F 5 "0" H 1150 1750 50  0001 C CNN "Cost100"
+F 6 "n" H 1250 1850 50  0001 C CNN "Substitutable"
+F 7 "y" H 1350 1950 50  0001 C CNN "NOBOM"
+	1    850  1150
 	-1   0    0    1   
 $EndComp
-Text GLabel 1900 1050 2    50   Input ~ 0
+Text GLabel 1000 1050 2    50   Input ~ 0
 TX
-Text GLabel 1900 950  2    50   Input ~ 0
+Text GLabel 1000 1150 2    50   Input ~ 0
 RX
 Wire Wire Line
-	1850 950  1900 950 
+	950  1050 1000 1050
 Wire Wire Line
-	1850 1050 1900 1050
+	950  1150 1000 1150
 $Comp
 L power:GND #PWR0101
 U 1 1 5CB0C37E
-P 1900 1350
-F 0 "#PWR0101" H 1900 1100 50  0001 C CNN
-F 1 "GND" H 1905 1177 50  0000 C CNN
-F 2 "" H 1900 1350 50  0001 C CNN
-F 3 "" H 1900 1350 50  0001 C CNN
-	1    1900 1350
+P 1000 1450
+F 0 "#PWR0101" H 1000 1200 50  0001 C CNN
+F 1 "GND" H 1005 1277 50  0000 C CNN
+F 2 "" H 1000 1450 50  0001 C CNN
+F 3 "" H 1000 1450 50  0001 C CNN
+	1    1000 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 1350 1900 1350
-Text GLabel 3800 1850 2    50   Input ~ 0
-RTS
+	950  1450 1000 1450
 Text GLabel 3800 1750 2    50   Input ~ 0
+RTS
+Text GLabel 3800 1850 2    50   Input ~ 0
 CTS
 Wire Wire Line
 	3800 1750 3750 1750
 Wire Wire Line
 	3800 1850 3750 1850
-Text GLabel 1900 1250 2    50   Input ~ 0
+Text GLabel 1000 950  2    50   Input ~ 0
 CTS
-Text GLabel 1900 850  2    50   Input ~ 0
+Text GLabel 1000 1350 2    50   Input ~ 0
 RTS
 Wire Wire Line
-	1850 850  1900 850 
+	950  950  1000 950 
 Wire Wire Line
-	1850 1250 1900 1250
+	950  1350 1000 1350
 $Comp
-L power:+5V #PWR0102
-U 1 1 5CB4B3FE
-P 2150 1150
-F 0 "#PWR0102" H 2150 1000 50  0001 C CNN
-F 1 "+5V" H 2165 1323 50  0000 C CNN
-F 2 "" H 2150 1150 50  0001 C CNN
-F 3 "" H 2150 1150 50  0001 C CNN
-	1    2150 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 1150 2150 1150
-$Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0102
 U 1 1 5CB557DC
 P 7200 2300
-F 0 "#PWR?" H 7200 2150 50  0001 C CNN
+F 0 "#PWR0102" H 7200 2150 50  0001 C CNN
 F 1 "+3.3V" H 7215 2473 50  0000 C CNN
 F 2 "" H 7200 2300 50  0001 C CNN
 F 3 "" H 7200 2300 50  0001 C CNN
 	1    7200 2300
 	1    0    0    -1  
 $EndComp
+Text Notes 1650 850  0    50   ~ 0
+UART data lines are\nlabeled from the\nperspective of the devkit
+$Comp
+L Swadge_Parts:Conn_01x03_Male J5
+U 1 1 5CA515AE
+P 2000 1350
+F 0 "J5" H 1973 1280 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 2200 1100 50  0000 R CNN
+F 2 "Swadge_Parts:PinHeader_1x03_P2.54mm_Vertical" H 1900 1450 50  0001 C CNN
+F 3 "https://www.metz-connect.com/us/system/files/productfiles/Data_sheet_PR202XXVBNN_PR202XXVBNN_OFF-024022P.pdf" H 2000 1550 50  0001 C CNN
+F 4 "1849-1003-ND" H 2100 1650 50  0001 C CNN "Digikey"
+F 5 "10" H 2200 1750 50  0001 C CNN "Cost100"
+F 6 "Y" H 2300 1850 50  0001 C CNN "Substitutable"
+	1    2000 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 1650 1750 1450
+Wire Wire Line
+	950  1250 1800 1250
+Wire Wire Line
+	1800 1450 1750 1450
+Wire Wire Line
+	1800 1350 1700 1350
+Wire Wire Line
+	1700 1350 1700 1500
+Wire Wire Line
+	1700 1500 1550 1500
 $EndSCHEMATC

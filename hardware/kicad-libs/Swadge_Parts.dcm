@@ -32,6 +32,12 @@ K USB UART bridge
 F http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf
 $ENDCMP
 #
+$CMP Conn_01x03_Male
+D Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_02x21_Top_Bottom
 D Generic connector, double row, 02x21, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
