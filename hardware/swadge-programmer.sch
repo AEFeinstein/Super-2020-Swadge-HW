@@ -180,9 +180,9 @@ Wire Wire Line
 	6500 1650 6550 1650
 Wire Wire Line
 	6500 1000 6550 1000
-Text GLabel 3800 2050 2    50   Input ~ 0
-TX
 Text GLabel 3800 1950 2    50   Input ~ 0
+TX
+Text GLabel 3800 2050 2    50   Input ~ 0
 RX
 Wire Wire Line
 	3750 1950 3800 1950
