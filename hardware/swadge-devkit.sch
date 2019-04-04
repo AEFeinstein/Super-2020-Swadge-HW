@@ -2133,58 +2133,46 @@ Wire Wire Line
 $Comp
 L Swadge_Parts:SAO U7
 U 1 1 5C708F32
-P 10100 2950
-F 0 "U7" H 10250 2650 50  0000 L CNN
-F 1 "SAO" H 10200 3200 50  0000 L CNN
-F 2 "Swadge_Parts:SAO" H 10050 2600 50  0001 C CNN
-F 3 "https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/shitty-add-on-standard/" H 10150 2700 50  0001 C CNN
-F 4 "0" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "NOBOM"
-F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    10100 2950
+P 10150 2950
+F 0 "U7" H 10350 2600 50  0000 L CNN
+F 1 "SAO" H 10300 3300 50  0000 L CNN
+F 2 "Swadge_Parts:SAO" H 10100 2600 50  0001 C CNN
+F 3 "https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/shitty-add-on-standard/" H 10200 2700 50  0001 C CNN
+F 4 "0" H 50  0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 50  0   50  0001 C CNN "Digikey"
+F 6 "Y" H 50  0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 50  0   50  0001 C CNN "Substitutable"
+	1    10150 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 9950 2900 0    50   Input ~ 0
+Text GLabel 9850 3000 0    50   Input ~ 0
 SCL
-Text GLabel 9950 3000 0    50   Input ~ 0
+Text GLabel 9850 3100 0    50   Input ~ 0
 SDA
 $Comp
 L power:+3.3V #PWR032
 U 1 1 5C7096B1
-P 10000 2750
-F 0 "#PWR032" H 10000 2600 50  0001 C CNN
-F 1 "+3.3V" H 9850 2750 50  0000 C CNN
-F 2 "" H 10000 2750 50  0001 C CNN
-F 3 "" H 10000 2750 50  0001 C CNN
-	1    10000 2750
+P 9850 2700
+F 0 "#PWR032" H 9850 2550 50  0001 C CNN
+F 1 "+3.3V" H 9700 2700 50  0000 C CNN
+F 2 "" H 9850 2700 50  0001 C CNN
+F 3 "" H 9850 2700 50  0001 C CNN
+	1    9850 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR033
 U 1 1 5C709736
-P 10000 3150
-F 0 "#PWR033" H 10000 2900 50  0001 C CNN
-F 1 "GND" H 10005 2977 50  0000 C CNN
-F 2 "" H 10000 3150 50  0001 C CNN
-F 3 "" H 10000 3150 50  0001 C CNN
-	1    10000 3150
+P 9850 3200
+F 0 "#PWR033" H 9850 2950 50  0001 C CNN
+F 1 "GND" H 9855 3027 50  0000 C CNN
+F 2 "" H 9850 3200 50  0001 C CNN
+F 3 "" H 9850 3200 50  0001 C CNN
+	1    9850 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10000 2750 10000 2800
-Wire Wire Line
-	9950 2900 10000 2900
-Wire Wire Line
-	9950 3000 10000 3000
-Wire Wire Line
-	10000 3100 10000 3150
 Wire Notes Line
-	9550 2500 10450 2500
-Wire Notes Line
-	10450 2500 10450 3400
-Wire Notes Line
-	10450 3400 9550 3400
+	10500 2500 10500 3400
 Wire Notes Line
 	9550 3400 9550 2500
 Text Notes 9600 2600 0    50   ~ 0
@@ -2198,11 +2186,7 @@ PCB must be 1.6mm\nthick for PCIe
 Wire Notes Line
 	9550 3450 9550 4650
 Wire Notes Line
-	9550 4650 10450 4650
-Wire Notes Line
-	10450 4650 10450 3450
-Wire Notes Line
-	10450 3450 9550 3450
+	10500 4650 10500 3450
 Text Notes 9600 3550 0    50   ~ 0
 Notes
 Wire Notes Line
@@ -2303,4 +2287,20 @@ F 3 "" H 4750 4850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 4850 4900 4850
+Wire Wire Line
+	9850 3000 9900 3000
+Wire Wire Line
+	9850 3100 9900 3100
+Wire Wire Line
+	9850 3200 9900 3200
+Wire Wire Line
+	9850 2700 9900 2700
+Wire Notes Line
+	9550 3400 10500 3400
+Wire Notes Line
+	9550 3450 10500 3450
+Wire Notes Line
+	9550 4650 10500 4650
+Wire Notes Line
+	9550 2500 10500 2500
 $EndSCHEMATC

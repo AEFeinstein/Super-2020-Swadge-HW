@@ -83,6 +83,10 @@ K r res resistor
 F ~
 $ENDCMP
 #
+$CMP SAO
+F https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/
+$ENDCMP
+#
 $CMP SP0503BAHT
 D TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package
 K usb esd protection suppression transient
