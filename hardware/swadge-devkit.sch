@@ -1474,13 +1474,6 @@ $EndComp
 Connection ~ 4900 3750
 Wire Wire Line
 	4950 3650 4750 3650
-NoConn ~ 4950 4150
-NoConn ~ 4950 4250
-NoConn ~ 4950 5050
-NoConn ~ 4950 4950
-NoConn ~ 4950 4850
-NoConn ~ 4950 4750
-NoConn ~ 4950 4650
 Wire Wire Line
 	4950 5250 4250 5250
 Wire Wire Line
@@ -1616,33 +1609,24 @@ Connection ~ 4750 3150
 Wire Wire Line
 	4750 3150 4300 3150
 Wire Wire Line
-	4950 4450 4900 4450
+	4950 4450 4800 4450
 Wire Wire Line
-	4900 4450 4900 4550
-Wire Wire Line
-	4900 4550 4950 4550
-Text GLabel 4900 4450 0    50   Input ~ 0
-SDA
-Text GLabel 4900 4350 0    50   Input ~ 0
-SCL
-Wire Wire Line
-	4950 4350 4900 4350
-Text Notes 3800 4450 0    50   ~ 0
-Pullups are in the\naccelerometer section
-Text GLabel 4900 3950 0    50   Input ~ 0
+	4950 4350 4800 4350
+Text Notes 3800 4800 0    50   ~ 0
+Pullups are in the\nboot resistor
+Text GLabel 4800 3950 0    50   Input ~ 0
 _RES
-NoConn ~ 4950 3850
 Wire Wire Line
-	4950 4050 4600 4050
+	4950 4050 4500 4050
 Wire Wire Line
-	4600 4050 4600 3750
-Connection ~ 4600 3750
+	4500 4050 4500 3750
+Connection ~ 4500 3750
 Wire Wire Line
-	4600 3750 4900 3750
+	4500 3750 4900 3750
 Text Notes 5500 4100 0    50   ~ 0
 I2C Address 0x78\nw/ SA0 at GND
 Wire Wire Line
-	4900 3950 4950 3950
+	4800 3950 4950 3950
 Wire Notes Line
 	6850 2500 3700 2500
 Wire Notes Line
@@ -1668,7 +1652,7 @@ Wire Wire Line
 	4000 3750 4150 3750
 Connection ~ 4150 3750
 Wire Wire Line
-	4150 3750 4600 3750
+	4150 3750 4500 3750
 Wire Wire Line
 	4000 3450 4000 3750
 Connection ~ 4000 3150
@@ -2262,4 +2246,61 @@ NoConn ~ 8950 4200
 NoConn ~ 8550 5000
 NoConn ~ 8550 5200
 NoConn ~ 8950 5000
+Text GLabel 4800 4350 0    50   Input ~ 0
+SCL
+Text GLabel 4800 4450 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	4950 5050 4900 5050
+Wire Wire Line
+	4900 3850 4950 3850
+Wire Wire Line
+	4900 3850 4900 4150
+Wire Wire Line
+	4950 4550 4800 4550
+Wire Wire Line
+	4800 4550 4800 4450
+Wire Wire Line
+	4950 4950 4900 4950
+Connection ~ 4900 4950
+Wire Wire Line
+	4900 4950 4900 5050
+Wire Wire Line
+	4950 4850 4900 4850
+Connection ~ 4900 4850
+Wire Wire Line
+	4900 4850 4900 4950
+Wire Wire Line
+	4950 4750 4900 4750
+Connection ~ 4900 4750
+Wire Wire Line
+	4900 4750 4900 4850
+Wire Wire Line
+	4950 4650 4900 4650
+Connection ~ 4900 4650
+Wire Wire Line
+	4900 4650 4900 4750
+Wire Wire Line
+	4950 4250 4900 4250
+Connection ~ 4900 4250
+Wire Wire Line
+	4900 4250 4900 4650
+Wire Wire Line
+	4950 4150 4900 4150
+Connection ~ 4900 4150
+Wire Wire Line
+	4900 4150 4900 4250
+$Comp
+L power:GND #PWR?
+U 1 1 5CCC3879
+P 4750 4850
+F 0 "#PWR?" H 4750 4600 50  0001 C CNN
+F 1 "GND" H 4755 4677 50  0000 C CNN
+F 2 "" H 4750 4850 50  0001 C CNN
+F 3 "" H 4750 4850 50  0001 C CNN
+	1    4750 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4850 4900 4850
 $EndSCHEMATC
