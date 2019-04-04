@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:swadge-devkit-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,20 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Swadge_Parts:ESP-12F U1
-U 1 1 5C3A0058
-P 2100 3350
-F 0 "U1" H 2100 4115 50  0000 C CNN
-F 1 "ESP-12F" H 2100 4024 50  0000 C CNN
-F 2 "Swadge_Parts:ESP-12E_SMD" H 2100 3350 50  0001 C CNN
-F 3 "https://www.elecrow.com/download/ESP-12F.pdf" H 2100 3350 50  0001 C CNN
-F 4 "260" H 0   0   50  0001 C CNN "Cost100"
-F 5 "Electrodragon SKU NWI1059" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    2100 3350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Swadge_Parts:MCP6001UT-I_OT U2
 U 1 1 5C3A211F
@@ -873,24 +858,10 @@ F 3 "" H 600 3250 50  0001 C CNN
 	1    600  3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 2150 4300 3    50   Input ~ 0
-SW2
-Text GLabel 3050 3650 2    50   Input ~ 0
-GPIO15
 Wire Notes Line
 	500  4650 500  2500
 Text Notes 550  2600 0    50   ~ 0
 ESP8266 Circuit
-Text GLabel 3050 3450 2    50   Input ~ 0
-GPIO0
-Text GLabel 3050 3550 2    50   Input ~ 0
-GPIO2
-Text GLabel 1500 4950 0    50   Input ~ 0
-GPIO0
-Text GLabel 1500 5300 0    50   Input ~ 0
-GPIO2
-Text GLabel 1500 5650 0    50   Input ~ 0
-GPIO15
 $Comp
 L Swadge_Parts:R_US R9
 U 1 1 5C3B6874
@@ -972,9 +943,9 @@ Wire Wire Line
 	1850 5300 1950 5300
 Wire Wire Line
 	1850 4950 1950 4950
-Text Notes 2100 5050 0    50   ~ 0
+Text Notes 2250 5000 0    50   ~ 0
 GPIO0 is pulled high to boot\nnormally and low to enter\nUART programming mode
-Text Notes 2100 5600 0    50   ~ 0
+Text Notes 2250 5400 0    50   ~ 0
 If GPIO2 is low and GPIO15\nis high it will boot in\nSD-Card mode
 Wire Notes Line
 	500  4700 500  5900
@@ -994,7 +965,7 @@ Wire Notes Line
 	500  5900 3650 5900
 Wire Notes Line
 	3700 500  3700 2450
-Text GLabel 3050 3250 2    50   Input ~ 0
+Text GLabel 3050 3450 2    50   Input ~ 0
 SCL
 Wire Notes Line
 	500  7750 500  5950
@@ -1098,7 +1069,7 @@ Wire Notes Line
 	9400 650  10000 650 
 Wire Notes Line
 	10000 650  10000 500 
-Text GLabel 3050 3350 2    50   Input ~ 0
+Text GLabel 3050 3550 2    50   Input ~ 0
 SDA
 Text GLabel 7250 3250 0    50   Input ~ 0
 SW2
@@ -1174,38 +1145,16 @@ F 3 "" H 9150 3600 50  0001 C CNN
 	1    9150 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 4300 3    50   Input ~ 0
-CS0
-Text GLabel 1950 4300 3    50   Input ~ 0
-MISO
-Text GLabel 2050 4300 3    50   Input ~ 0
-SW5
-Text GLabel 2250 4300 3    50   Input ~ 0
-MOSI
-Text GLabel 2350 4300 3    50   Input ~ 0
-SCLK
-Text GLabel 8500 4200 0    50   Input ~ 0
-CS0
-Text GLabel 9000 4200 2    50   Input ~ 0
-MISO
 Text GLabel 8500 4300 0    50   Input ~ 0
 SW5
 Text GLabel 9000 4300 2    50   Input ~ 0
 SW2
 Text GLabel 8500 4400 0    50   Input ~ 0
-MOSI
-Text GLabel 9000 4400 2    50   Input ~ 0
-SCLK
-Text GLabel 8500 5200 0    50   Input ~ 0
-GPIO15
-Text GLabel 8500 5000 0    50   Input ~ 0
-GPIO0
+_RES
 Text GLabel 8500 4900 0    50   Input ~ 0
 SCL
 Text GLabel 8500 4800 0    50   Input ~ 0
 TX
-Text GLabel 9000 5000 2    50   Input ~ 0
-GPIO2
 Text GLabel 9000 4900 2    50   Input ~ 0
 SDA
 Text GLabel 9000 4800 2    50   Input ~ 0
@@ -1335,18 +1284,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 3750 3050 3750
 Wire Wire Line
-	1850 4250 1850 4300
-Wire Wire Line
-	1950 4250 1950 4300
-Wire Wire Line
-	2050 4250 2050 4300
-Wire Wire Line
-	2150 4250 2150 4300
-Wire Wire Line
-	2250 4250 2250 4300
-Wire Wire Line
-	2350 4250 2350 4300
-Wire Wire Line
 	1500 4950 1550 4950
 Wire Wire Line
 	1500 5300 1550 5300
@@ -1365,17 +1302,11 @@ Wire Wire Line
 Wire Wire Line
 	8500 3800 8550 3800
 Wire Wire Line
-	8500 4200 8550 4200
-Wire Wire Line
 	8500 4300 8550 4300
 Wire Wire Line
 	8500 4400 8550 4400
 Wire Wire Line
-	9000 4200 8950 4200
-Wire Wire Line
 	9000 4300 8950 4300
-Wire Wire Line
-	9000 4400 8950 4400
 Wire Wire Line
 	8950 4600 9350 4600
 Wire Wire Line
@@ -1384,12 +1315,6 @@ Wire Wire Line
 	8500 4800 8550 4800
 Wire Wire Line
 	8500 4900 8550 4900
-Wire Wire Line
-	8500 5000 8550 5000
-Wire Wire Line
-	8500 5200 8550 5200
-Wire Wire Line
-	9000 5000 8950 5000
 Wire Wire Line
 	9000 4900 8950 4900
 Wire Wire Line
@@ -1705,7 +1630,7 @@ Wire Wire Line
 Text Notes 3800 4450 0    50   ~ 0
 Pullups are in the\naccelerometer section
 Text GLabel 4900 3950 0    50   Input ~ 0
-MOSI
+_RES
 NoConn ~ 4950 3850
 Wire Wire Line
 	4950 4050 4600 4050
@@ -1939,20 +1864,6 @@ F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2850 6950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Swadge_Parts:R_US R13
-U 1 1 5C450A37
-P 1600 6600
-F 0 "R13" V 1700 6600 50  0000 C CNN
-F 1 "4.7k" V 1486 6600 50  0000 C CNN
-F 2 "Swadge_Parts:R_0603_1608Metric" V 1640 6590 50  0001 C CNN
-F 3 "" H 1600 6600 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "311-4.70KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    1600 6600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2700 6700 3400 6700
 Wire Wire Line
@@ -1960,20 +1871,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 7100 2850 7100
 Connection ~ 2850 7100
-$Comp
-L Swadge_Parts:R_US R12
-U 1 1 5C450AE1
-P 1300 6600
-F 0 "R12" V 1400 6600 50  0000 C CNN
-F 1 "4.7k" V 1186 6600 50  0000 C CNN
-F 2 "Swadge_Parts:R_0603_1608Metric" V 1340 6590 50  0001 C CNN
-F 3 "" H 1300 6600 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "311-4.70KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    1300 6600
-	-1   0    0    1   
-$EndComp
 Connection ~ 2700 6450
 Wire Wire Line
 	2700 6450 2700 6700
@@ -1987,26 +1884,6 @@ Text GLabel 1200 6900 0    50   Input ~ 0
 SCL
 Text GLabel 1200 6800 0    50   Input ~ 0
 SDA
-Wire Wire Line
-	1900 6800 1600 6800
-Wire Wire Line
-	1900 6900 1300 6900
-Wire Wire Line
-	1300 6900 1300 6750
-Connection ~ 1300 6900
-Wire Wire Line
-	1300 6900 1200 6900
-Wire Wire Line
-	1600 6800 1600 6750
-Connection ~ 1600 6800
-Wire Wire Line
-	1600 6800 1200 6800
-Wire Wire Line
-	1300 6450 1600 6450
-Wire Wire Line
-	1600 6450 1800 6450
-Connection ~ 1600 6450
-Connection ~ 1800 6450
 Text Notes 900  7350 0    50   ~ 0
 I2C mode w/PS at VCC\nI2C address 0x4C&\n0x4D w/SD0 at GND
 $Comp
@@ -2348,4 +2225,41 @@ Wire Notes Line
 	9550 3600 9850 3600
 Wire Notes Line
 	9850 3600 9850 3450
+$Comp
+L Swadge_Parts:ESP-12F U1
+U 1 1 5C3A0058
+P 2100 3350
+F 0 "U1" H 2100 4115 50  0000 C CNN
+F 1 "ESP-12F" H 2100 4024 50  0000 C CNN
+F 2 "Swadge_Parts:ESP-12E_SMD" H 2100 3350 50  0001 C CNN
+F 3 "https://www.elecrow.com/download/ESP-12F.pdf" H 2100 3350 50  0001 C CNN
+F 4 "260" H 0   0   50  0001 C CNN "Cost100"
+F 5 "Electrodragon SKU NWI1059" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+	1    2100 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 3650 2    50   Input ~ 0
+_RES
+Text GLabel 3050 3250 2    50   Input ~ 0
+SW5
+Text GLabel 3050 3350 2    50   Input ~ 0
+SW2
+Text GLabel 1500 4950 0    50   Input ~ 0
+SCL
+Text GLabel 1500 5300 0    50   Input ~ 0
+SDA
+Text GLabel 1500 5650 0    50   Input ~ 0
+_RES
+Text Notes 2250 5750 0    50   ~ 0
+The resistors on SDA and SCL\nboth configure boot and are\npullups for I2C
+Wire Wire Line
+	1200 6800 1900 6800
+Wire Wire Line
+	1200 6900 1900 6900
+NoConn ~ 8550 4200
+NoConn ~ 8950 4200
+NoConn ~ 8550 5000
+NoConn ~ 8550 5200
+NoConn ~ 8950 5000
 $EndSCHEMATC
