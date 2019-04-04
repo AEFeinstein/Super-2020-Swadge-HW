@@ -55,6 +55,12 @@ K MODULE ESP8266 ESP-8266
 F https://www.electrodragon.com/product/esp-12f-esp8266-wifi-board/
 $ENDCMP
 #
+$CMP ESP-13-WROOM-02D
+D ESP8266 ESP-13-WROOM-02 module, 18 pins, 2mm, PCB antenna
+K MODULE ESP8266 ESP-8266
+F https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf
+$ENDCMP
+#
 $CMP MCP6001UT-I_OT
 D 10 MHz, 850 µA Op Amps, SOT-23-5
 K single opamp

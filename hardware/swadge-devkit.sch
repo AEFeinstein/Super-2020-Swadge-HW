@@ -27,10 +27,6 @@ F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    2900 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 3150 0    50   Input ~ 0
-ADC_PIN
-Text GLabel 1150 3450 0    50   Input ~ 0
-AUD_PWR
 $Comp
 L Swadge_Parts:R_US R1
 U 1 1 5C3A222A
@@ -58,17 +54,6 @@ F 1 "GND" H 2805 1327 50  0000 C CNN
 F 2 "" H 2800 1500 50  0001 C CNN
 F 3 "" H 2800 1500 50  0001 C CNN
 	1    2800 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5C3A2494
-P 3050 3750
-F 0 "#PWR0102" H 3050 3500 50  0001 C CNN
-F 1 "GND" H 3055 3577 50  0000 C CNN
-F 2 "" H 3050 3750 50  0001 C CNN
-F 3 "" H 3050 3750 50  0001 C CNN
-	1    3050 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -813,10 +798,6 @@ F 3 "" H 8850 2000 50  0001 C CNN
 	1    8850 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 3050 3150 2    50   Input ~ 0
-RX
-Text GLabel 3050 3050 2    50   Input ~ 0
-TX
 Text GLabel 3900 1300 1    50   Input ~ 0
 RX
 Wire Wire Line
@@ -846,17 +827,6 @@ F 5 "311-71.5HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    3900 1500
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR0103
-U 1 1 5C3B284C
-P 600 3250
-F 0 "#PWR0103" H 600 3100 50  0001 C CNN
-F 1 "+3.3V" H 615 3423 50  0000 C CNN
-F 2 "" H 600 3250 50  0001 C CNN
-F 3 "" H 600 3250 50  0001 C CNN
-	1    600  3250
-	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	500  4650 500  2500
@@ -965,8 +935,6 @@ Wire Notes Line
 	500  5900 3650 5900
 Wire Notes Line
 	3700 500  3700 2450
-Text GLabel 3050 3450 2    50   Input ~ 0
-SCL
 Wire Notes Line
 	500  7750 500  5950
 Text Notes 550  6050 0    50   ~ 0
@@ -1069,14 +1037,8 @@ Wire Notes Line
 	9400 650  10000 650 
 Wire Notes Line
 	10000 650  10000 500 
-Text GLabel 3050 3550 2    50   Input ~ 0
-SDA
 Text GLabel 7250 3250 0    50   Input ~ 0
 SW2
-Text GLabel 1150 3550 0    50   Input ~ 0
-SW4
-Text GLabel 1150 3650 0    50   Input ~ 0
-SW3
 Text GLabel 7250 5550 0    50   Input ~ 0
 SW5
 Text GLabel 7250 4750 0    50   Input ~ 0
@@ -1122,8 +1084,6 @@ F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    8750 4350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1100 3050 1    50   Input ~ 0
-REST
 Text GLabel 9000 3800 2    50   Input ~ 0
 REST
 Text GLabel 8500 3800 0    50   Input ~ 0
@@ -1203,19 +1163,6 @@ Wire Notes Line
 Wire Notes Line
 	8750 2650 8750 2500
 Wire Wire Line
-	1200 3750 600  3750
-Wire Wire Line
-	600  3750 600  3250
-Wire Wire Line
-	1200 3250 600  3250
-Connection ~ 600  3250
-Wire Wire Line
-	1200 3350 750  3350
-Wire Wire Line
-	750  3350 750  3050
-Wire Wire Line
-	750  3050 1200 3050
-Wire Wire Line
 	8950 3500 8950 3600
 Wire Wire Line
 	8950 5100 8950 5200
@@ -1259,30 +1206,6 @@ Wire Wire Line
 	3100 700  3150 700 
 Wire Wire Line
 	2150 2200 2200 2200
-Wire Wire Line
-	1150 3150 1200 3150
-Wire Wire Line
-	1150 3450 1200 3450
-Wire Wire Line
-	1150 3550 1200 3550
-Wire Wire Line
-	1150 3650 1200 3650
-Wire Wire Line
-	3000 3050 3050 3050
-Wire Wire Line
-	3000 3150 3050 3150
-Wire Wire Line
-	3000 3250 3050 3250
-Wire Wire Line
-	3000 3350 3050 3350
-Wire Wire Line
-	3000 3450 3050 3450
-Wire Wire Line
-	3000 3550 3050 3550
-Wire Wire Line
-	3000 3650 3050 3650
-Wire Wire Line
-	3000 3750 3050 3750
 Wire Wire Line
 	1500 4950 1550 4950
 Wire Wire Line
@@ -2193,26 +2116,6 @@ Wire Notes Line
 	9550 3600 9850 3600
 Wire Notes Line
 	9850 3600 9850 3450
-$Comp
-L Swadge_Parts:ESP-12F U1
-U 1 1 5C3A0058
-P 2100 3350
-F 0 "U1" H 2100 4115 50  0000 C CNN
-F 1 "ESP-12F" H 2100 4024 50  0000 C CNN
-F 2 "Swadge_Parts:ESP-12E_SMD" H 2100 3350 50  0001 C CNN
-F 3 "https://www.elecrow.com/download/ESP-12F.pdf" H 2100 3350 50  0001 C CNN
-F 4 "260" H 0   0   50  0001 C CNN "Cost100"
-F 5 "Electrodragon SKU NWI1059" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    2100 3350
-	1    0    0    -1  
-$EndComp
-Text GLabel 3050 3650 2    50   Input ~ 0
-_RES
-Text GLabel 3050 3250 2    50   Input ~ 0
-SW5
-Text GLabel 3050 3350 2    50   Input ~ 0
-SW2
 Text GLabel 1500 4950 0    50   Input ~ 0
 SCL
 Text GLabel 1500 5300 0    50   Input ~ 0
@@ -2303,4 +2206,140 @@ Wire Notes Line
 	9550 4650 10500 4650
 Wire Notes Line
 	9550 2500 10500 2500
+$Comp
+L Swadge_Parts:ESP-13-WROOM-02D U?
+U 1 1 5CD8DDB4
+P 1950 3400
+F 0 "U?" H 1925 4165 50  0000 C CNN
+F 1 "ESP-13-WROOM-02D" H 1925 4074 50  0000 C CNN
+F 2 "Swadge_Parts:ESP-13-WROOM-02" H 1850 3400 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf" H 1850 3400 50  0001 C CNN
+F 4 "Electrodragon SKU NWI1160" H 1950 3400 50  0001 C CNN "Digikey"
+F 5 "260" H 1950 3400 50  0001 C CNN "Cost100"
+F 6 "Y" H 1950 3400 50  0001 C CNN "Substitutable"
+	1    1950 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 900  3600 0    50   Input ~ 0
+_RES
+Text GLabel 900  3700 0    50   Input ~ 0
+SDA
+Text GLabel 900  3800 0    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR?
+U 1 1 5CD8FEC8
+P 950 3950
+F 0 "#PWR?" H 950 3700 50  0001 C CNN
+F 1 "GND" H 955 3777 50  0000 C CNN
+F 2 "" H 950 3950 50  0001 C CNN
+F 3 "" H 950 3950 50  0001 C CNN
+	1    950  3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CD90854
+P 950 3050
+F 0 "#PWR?" H 950 2900 50  0001 C CNN
+F 1 "+3.3V" H 965 3223 50  0000 C CNN
+F 2 "" H 950 3050 50  0001 C CNN
+F 3 "" H 950 3050 50  0001 C CNN
+	1    950  3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 900  3300 0    50   Input ~ 0
+AUD_PWR
+Text GLabel 900  3400 0    50   Input ~ 0
+SW4
+Text GLabel 900  3500 0    50   Input ~ 0
+SW3
+Text GLabel 2950 3500 2    50   Input ~ 0
+SW5
+Text GLabel 2950 3900 2    50   Input ~ 0
+SW2
+Text GLabel 2950 3700 2    50   Input ~ 0
+TX
+Text GLabel 2950 3800 2    50   Input ~ 0
+RX
+Text GLabel 3350 3200 2    50   Input ~ 0
+REST
+Text GLabel 2950 3300 2    50   Input ~ 0
+ADC_PIN
+Wire Wire Line
+	2900 3200 3350 3200
+Wire Wire Line
+	3350 3200 3350 3400
+Wire Wire Line
+	3350 3400 2900 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5CDDA877
+P 1950 4350
+F 0 "#PWR?" H 1950 4100 50  0001 C CNN
+F 1 "GND" H 1955 4177 50  0000 C CNN
+F 2 "" H 1950 4350 50  0001 C CNN
+F 3 "" H 1950 4350 50  0001 C CNN
+	1    1950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDDAE0D
+P 3200 3600
+F 0 "#PWR?" H 3200 3350 50  0001 C CNN
+F 1 "GND" H 3205 3427 50  0000 C CNN
+F 2 "" H 3200 3600 50  0001 C CNN
+F 3 "" H 3200 3600 50  0001 C CNN
+	1    3200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDDBB5A
+P 3050 2950
+F 0 "#PWR?" H 3050 2700 50  0001 C CNN
+F 1 "GND" H 3055 2777 50  0000 C CNN
+F 2 "" H 3050 2950 50  0001 C CNN
+F 3 "" H 3050 2950 50  0001 C CNN
+	1    3050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3050 950  3100
+Wire Wire Line
+	950  3300 900  3300
+Wire Wire Line
+	900  3400 950  3400
+Wire Wire Line
+	950  3500 900  3500
+Wire Wire Line
+	900  3600 950  3600
+Wire Wire Line
+	950  3700 900  3700
+Wire Wire Line
+	900  3800 950  3800
+Wire Wire Line
+	950  3900 950  3950
+Wire Wire Line
+	1950 4300 1950 4350
+Wire Wire Line
+	2900 3900 2950 3900
+Wire Wire Line
+	2950 3800 2900 3800
+Wire Wire Line
+	2900 3700 2950 3700
+Wire Wire Line
+	2900 3600 3200 3600
+Wire Wire Line
+	2900 3500 2950 3500
+Wire Wire Line
+	2900 3300 2950 3300
+Wire Wire Line
+	2900 3100 2900 2950
+Wire Wire Line
+	2900 2950 3050 2950
+Wire Wire Line
+	950  3200 950  3100
+Connection ~ 950  3100
 $EndSCHEMATC
