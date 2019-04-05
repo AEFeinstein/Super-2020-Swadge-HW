@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:swadge-devkit-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2250,13 +2251,13 @@ F 3 "" H 950 3050 50  0001 C CNN
 $EndComp
 Text GLabel 900  3300 0    50   Input ~ 0
 AUD_PWR
-Text GLabel 900  3400 0    50   Input ~ 0
+Text GLabel 2950 3900 2    50   Input ~ 0
 SW4
-Text GLabel 900  3500 0    50   Input ~ 0
+Text GLabel 900  3400 0    50   Input ~ 0
 SW3
 Text GLabel 2950 3500 2    50   Input ~ 0
 SW5
-Text GLabel 2950 3900 2    50   Input ~ 0
+Text GLabel 900  3500 0    50   Input ~ 0
 SW2
 Text GLabel 2950 3700 2    50   Input ~ 0
 TX
