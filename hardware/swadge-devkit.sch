@@ -1071,67 +1071,6 @@ Connection ~ 2500 1250
 Wire Wire Line
 	2500 1250 2600 1250
 $Comp
-L Swadge_Parts:BUS_PCIexpress U5
-U 1 1 5C3B5040
-P 8750 4350
-F 0 "U5" H 8750 5425 50  0000 C CNN
-F 1 "BUS_PCIexpress" H 8750 5334 50  0000 C CNN
-F 2 "Swadge_Parts:BUS_PCIexpress" H 8750 4700 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" H 8750 4700 50  0001 C CNN
-F 4 "0" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
-F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    8750 4350
-	1    0    0    -1  
-$EndComp
-Text GLabel 9000 3800 2    50   Input ~ 0
-REST
-Text GLabel 8500 3800 0    50   Input ~ 0
-ADC_PIN
-Text GLabel 8500 3700 0    50   Input ~ 0
-AUD_PWR
-Text GLabel 9000 3700 2    50   Input ~ 0
-SW4
-Text GLabel 8500 3500 0    50   Input ~ 0
-SW3
-$Comp
-L power:+3.3V #PWR0110
-U 1 1 5C3B6600
-P 9150 3600
-F 0 "#PWR0110" H 9150 3450 50  0001 C CNN
-F 1 "+3.3V" H 9165 3773 50  0000 C CNN
-F 2 "" H 9150 3600 50  0001 C CNN
-F 3 "" H 9150 3600 50  0001 C CNN
-	1    9150 3600
-	1    0    0    -1  
-$EndComp
-Text GLabel 8500 4300 0    50   Input ~ 0
-SW5
-Text GLabel 9000 4300 2    50   Input ~ 0
-SW2
-Text GLabel 8500 4400 0    50   Input ~ 0
-_RES
-Text GLabel 8500 4900 0    50   Input ~ 0
-SCL
-Text GLabel 8500 4800 0    50   Input ~ 0
-TX
-Text GLabel 9000 4900 2    50   Input ~ 0
-SDA
-Text GLabel 9000 4800 2    50   Input ~ 0
-RX
-$Comp
-L power:GND #PWR0111
-U 1 1 5C3BA3DC
-P 9150 5200
-F 0 "#PWR0111" H 9150 4950 50  0001 C CNN
-F 1 "GND" H 9155 5027 50  0000 C CNN
-F 2 "" H 9150 5200 50  0001 C CNN
-F 3 "" H 9150 5200 50  0001 C CNN
-	1    9150 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR038
 U 1 1 5C3BE999
 P 10050 950
@@ -1146,50 +1085,12 @@ Wire Wire Line
 	9950 950  10050 950 
 Wire Wire Line
 	10350 1450 10350 1550
-$Comp
-L power:+5V #PWR037
-U 1 1 5C3CDED6
-P 9350 4600
-F 0 "#PWR037" H 9350 4450 50  0001 C CNN
-F 1 "+5V" H 9365 4773 50  0000 C CNN
-F 2 "" H 9350 4600 50  0001 C CNN
-F 3 "" H 9350 4600 50  0001 C CNN
-	1    9350 4600
-	1    0    0    -1  
-$EndComp
 Text Notes 8100 2600 0    50   ~ 0
 Edge Connector
 Wire Notes Line
 	8050 2650 8750 2650
 Wire Notes Line
 	8750 2650 8750 2500
-Wire Wire Line
-	8950 3500 8950 3600
-Wire Wire Line
-	8950 5100 8950 5200
-NoConn ~ 8550 5100
-NoConn ~ 8550 4700
-NoConn ~ 8550 4500
-NoConn ~ 8950 4700
-NoConn ~ 8950 4000
-NoConn ~ 8950 3900
-NoConn ~ 8550 3900
-NoConn ~ 8550 4000
-NoConn ~ 8550 3600
-$Comp
-L power:+5V #PWR0112
-U 1 1 5C3F92F2
-P 8150 4600
-F 0 "#PWR0112" H 8150 4450 50  0001 C CNN
-F 1 "+5V" H 8165 4773 50  0000 C CNN
-F 2 "" H 8150 4600 50  0001 C CNN
-F 3 "" H 8150 4600 50  0001 C CNN
-	1    8150 4600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8950 4500
-NoConn ~ 8950 4100
-NoConn ~ 8550 4100
 Wire Wire Line
 	1150 850  1350 850 
 Wire Wire Line
@@ -1213,38 +1114,6 @@ Wire Wire Line
 	1500 5300 1550 5300
 Wire Wire Line
 	1500 5650 1550 5650
-Wire Wire Line
-	8500 3500 8550 3500
-Wire Wire Line
-	8950 3600 9150 3600
-Wire Wire Line
-	9000 3700 8950 3700
-Wire Wire Line
-	9000 3800 8950 3800
-Wire Wire Line
-	8500 3700 8550 3700
-Wire Wire Line
-	8500 3800 8550 3800
-Wire Wire Line
-	8500 4300 8550 4300
-Wire Wire Line
-	8500 4400 8550 4400
-Wire Wire Line
-	9000 4300 8950 4300
-Wire Wire Line
-	8950 4600 9350 4600
-Wire Wire Line
-	8150 4600 8550 4600
-Wire Wire Line
-	8500 4800 8550 4800
-Wire Wire Line
-	8500 4900 8550 4900
-Wire Wire Line
-	9000 4900 8950 4900
-Wire Wire Line
-	9000 4800 8950 4800
-Wire Wire Line
-	8950 5200 9150 5200
 Wire Wire Line
 	4300 1950 4300 2000
 Wire Wire Line
@@ -1980,11 +1849,7 @@ Wire Notes Line
 Wire Notes Line
 	8050 2500 8050 6500
 Wire Notes Line
-	8050 6500 9500 6500
-Wire Notes Line
-	9500 6500 9500 2500
-Wire Notes Line
-	9500 2500 8050 2500
+	9700 6500 9700 2500
 Text Notes 6000 7600 0    50   ~ 0
 I2C address 0x1C\nw/SA0 at GND
 NoConn ~ 1900 7000
@@ -2057,66 +1922,62 @@ Wire Wire Line
 $Comp
 L Swadge_Parts:SAO U7
 U 1 1 5C708F32
-P 10150 2950
-F 0 "U7" H 10350 2600 50  0000 L CNN
-F 1 "SAO" H 10300 3300 50  0000 L CNN
-F 2 "Swadge_Parts:SAO" H 10100 2600 50  0001 C CNN
-F 3 "https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/shitty-add-on-standard/" H 10200 2700 50  0001 C CNN
-F 4 "0" H 50  0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 50  0   50  0001 C CNN "Digikey"
-F 6 "Y" H 50  0   50  0001 C CNN "NOBOM"
-F 7 "Y" H 50  0   50  0001 C CNN "Substitutable"
-	1    10150 2950
+P 10350 2950
+F 0 "U7" H 10550 2600 50  0000 L CNN
+F 1 "SAO" H 10500 3300 50  0000 L CNN
+F 2 "Swadge_Parts:SAO" H 10300 2600 50  0001 C CNN
+F 3 "https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/shitty-add-on-standard/" H 10400 2700 50  0001 C CNN
+F 4 "0" H 250 0   50  0001 C CNN "Cost100"
+F 5 "n/a" H 250 0   50  0001 C CNN "Digikey"
+F 6 "Y" H 250 0   50  0001 C CNN "NOBOM"
+F 7 "Y" H 250 0   50  0001 C CNN "Substitutable"
+	1    10350 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 9850 3000 0    50   Input ~ 0
+Text GLabel 10050 3000 0    50   Input ~ 0
 SCL
-Text GLabel 9850 3100 0    50   Input ~ 0
+Text GLabel 10050 3100 0    50   Input ~ 0
 SDA
 $Comp
 L power:+3.3V #PWR032
 U 1 1 5C7096B1
-P 9850 2700
-F 0 "#PWR032" H 9850 2550 50  0001 C CNN
-F 1 "+3.3V" H 9700 2700 50  0000 C CNN
-F 2 "" H 9850 2700 50  0001 C CNN
-F 3 "" H 9850 2700 50  0001 C CNN
-	1    9850 2700
+P 10050 2700
+F 0 "#PWR032" H 10050 2550 50  0001 C CNN
+F 1 "+3.3V" H 9900 2700 50  0000 C CNN
+F 2 "" H 10050 2700 50  0001 C CNN
+F 3 "" H 10050 2700 50  0001 C CNN
+	1    10050 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR033
 U 1 1 5C709736
-P 9850 3200
-F 0 "#PWR033" H 9850 2950 50  0001 C CNN
-F 1 "GND" H 9855 3027 50  0000 C CNN
-F 2 "" H 9850 3200 50  0001 C CNN
-F 3 "" H 9850 3200 50  0001 C CNN
-	1    9850 3200
+P 10050 3200
+F 0 "#PWR033" H 10050 2950 50  0001 C CNN
+F 1 "GND" H 10055 3027 50  0000 C CNN
+F 2 "" H 10050 3200 50  0001 C CNN
+F 3 "" H 10050 3200 50  0001 C CNN
+	1    10050 3200
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	10500 2500 10500 3400
-Wire Notes Line
-	9550 3400 9550 2500
-Text Notes 9600 2600 0    50   ~ 0
+	10700 2500 10700 3400
+Text Notes 9800 2600 0    50   ~ 0
 SAO
 Wire Notes Line
-	9550 2650 9800 2650
+	9750 2650 10000 2650
 Wire Notes Line
-	9800 2650 9800 2500
-Text Notes 9600 3850 0    50   ~ 0
+	10000 2650 10000 2500
+Text Notes 9800 3850 0    50   ~ 0
 PCB must be 1.6mm\nthick for PCIe
 Wire Notes Line
-	9550 3450 9550 4650
-Wire Notes Line
-	10500 4650 10500 3450
-Text Notes 9600 3550 0    50   ~ 0
+	10700 4650 10700 3450
+Text Notes 9800 3550 0    50   ~ 0
 Notes
 Wire Notes Line
-	9550 3600 9850 3600
+	9750 3600 10050 3600
 Wire Notes Line
-	9850 3600 9850 3450
+	10050 3600 10050 3450
 Text GLabel 1500 4950 0    50   Input ~ 0
 SCL
 Text GLabel 1500 5300 0    50   Input ~ 0
@@ -2129,11 +1990,6 @@ Wire Wire Line
 	1200 6800 1900 6800
 Wire Wire Line
 	1200 6900 1900 6900
-NoConn ~ 8550 4200
-NoConn ~ 8950 4200
-NoConn ~ 8550 5000
-NoConn ~ 8550 5200
-NoConn ~ 8950 5000
 Text GLabel 4800 4350 0    50   Input ~ 0
 SCL
 Text GLabel 4800 4450 0    50   Input ~ 0
@@ -2192,35 +2048,21 @@ $EndComp
 Wire Wire Line
 	4750 4850 4900 4850
 Wire Wire Line
-	9850 3000 9900 3000
+	10050 3000 10100 3000
 Wire Wire Line
-	9850 3100 9900 3100
+	10050 3100 10100 3100
 Wire Wire Line
-	9850 3200 9900 3200
+	10050 3200 10100 3200
 Wire Wire Line
-	9850 2700 9900 2700
+	10050 2700 10100 2700
 Wire Notes Line
-	9550 3400 10500 3400
+	9750 3400 10700 3400
 Wire Notes Line
-	9550 3450 10500 3450
+	9750 3450 10700 3450
 Wire Notes Line
-	9550 4650 10500 4650
+	9750 4650 10700 4650
 Wire Notes Line
-	9550 2500 10500 2500
-$Comp
-L Swadge_Parts:ESP-13-WROOM-02D U1
-U 1 1 5CD8DDB4
-P 1950 3400
-F 0 "U1" H 1925 4165 50  0000 C CNN
-F 1 "ESP-13-WROOM-02D" H 1925 4074 50  0000 C CNN
-F 2 "Swadge_Parts:ESP-13-WROOM-02" H 1850 3400 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf" H 1850 3400 50  0001 C CNN
-F 4 "Electrodragon SKU NWI1160" H 1950 3400 50  0001 C CNN "Digikey"
-F 5 "260" H 1950 3400 50  0001 C CNN "Cost100"
-F 6 "Y" H 1950 3400 50  0001 C CNN "Substitutable"
-	1    1950 3400
-	1    0    0    -1  
-$EndComp
+	9750 2500 10700 2500
 Text GLabel 900  3600 0    50   Input ~ 0
 _RES
 Text GLabel 900  3700 0    50   Input ~ 0
@@ -2337,10 +2179,231 @@ Wire Wire Line
 Wire Wire Line
 	2900 3300 2950 3300
 Wire Wire Line
-	2900 3100 2900 2950
-Wire Wire Line
 	2900 2950 3050 2950
 Wire Wire Line
 	950  3200 950  3100
 Connection ~ 950  3100
+$Comp
+L Swadge_Parts:BUS_PCIexpress U5
+U 1 1 5C3B5040
+P 8850 3800
+F 0 "U5" H 8850 4875 50  0000 C CNN
+F 1 "BUS_PCIexpress" H 8850 4784 50  0000 C CNN
+F 2 "Swadge_Parts:BUS_PCIexpress" H 8850 4150 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" H 8850 4150 50  0001 C CNN
+F 4 "0" H 100 -550 50  0001 C CNN "Cost100"
+F 5 "n/a" H 100 -550 50  0001 C CNN "Digikey"
+F 6 "y" H 100 -550 50  0001 C CNN "NOBOM"
+F 7 "Y" H 100 -550 50  0001 C CNN "Substitutable"
+	1    8850 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9100 3250 2    50   Input ~ 0
+_RES
+Text GLabel 9100 3150 2    50   Input ~ 0
+SDA
+Text GLabel 9100 3050 2    50   Input ~ 0
+SCL
+Text GLabel 9100 3550 2    50   Input ~ 0
+AUD_PWR
+Text GLabel 9100 3450 2    50   Input ~ 0
+SW3
+Text GLabel 9100 3350 2    50   Input ~ 0
+SW2
+Text GLabel 9100 4550 2    50   Input ~ 0
+SW4
+Text GLabel 9100 4250 2    50   Input ~ 0
+SW5
+Text GLabel 9100 4350 2    50   Input ~ 0
+TX
+Text GLabel 9100 4450 2    50   Input ~ 0
+RX
+Text GLabel 9100 4150 2    50   Input ~ 0
+REST
+Text GLabel 9100 4050 2    50   Input ~ 0
+ADC_PIN
+$Comp
+L power:GND #PWR0110
+U 1 1 5CB24437
+P 9400 2950
+F 0 "#PWR0110" H 9400 2700 50  0001 C CNN
+F 1 "GND" H 9405 2777 50  0000 C CNN
+F 2 "" H 9400 2950 50  0001 C CNN
+F 3 "" H 9400 2950 50  0001 C CNN
+	1    9400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5CB3C64C
+P 9400 4650
+F 0 "#PWR0111" H 9400 4500 50  0001 C CNN
+F 1 "+5V" H 9415 4823 50  0000 C CNN
+F 2 "" H 9400 4650 50  0001 C CNN
+F 3 "" H 9400 4650 50  0001 C CNN
+	1    9400 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3100 2900 2950
+$Comp
+L Swadge_Parts:ESP-13-WROOM-02D U1
+U 1 1 5CD8DDB4
+P 1950 3400
+F 0 "U1" H 1925 4165 50  0000 C CNN
+F 1 "ESP-13-WROOM-02D" H 1925 4074 50  0000 C CNN
+F 2 "Swadge_Parts:ESP-13-WROOM-02" H 1850 3400 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf" H 1850 3400 50  0001 C CNN
+F 4 "Electrodragon SKU NWI1160" H 1950 3400 50  0001 C CNN "Digikey"
+F 5 "260" H 1950 3400 50  0001 C CNN "Cost100"
+F 6 "Y" H 1950 3400 50  0001 C CNN "Substitutable"
+	1    1950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 5CB52E95
+P 9550 3600
+F 0 "#PWR0112" H 9550 3450 50  0001 C CNN
+F 1 "+3.3V" H 9565 3773 50  0000 C CNN
+F 2 "" H 9550 3600 50  0001 C CNN
+F 3 "" H 9550 3600 50  0001 C CNN
+	1    9550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4650 9400 4650
+Wire Wire Line
+	9050 4550 9100 4550
+Wire Wire Line
+	9050 4450 9100 4450
+Wire Wire Line
+	9050 4350 9100 4350
+Wire Wire Line
+	9050 4250 9100 4250
+Wire Wire Line
+	9050 4150 9100 4150
+Wire Wire Line
+	9050 4050 9100 4050
+Wire Wire Line
+	9050 2950 9400 2950
+Wire Wire Line
+	9050 3050 9100 3050
+Wire Wire Line
+	9050 3150 9100 3150
+Wire Wire Line
+	9050 3250 9100 3250
+Wire Wire Line
+	9050 3350 9100 3350
+Wire Wire Line
+	9050 3450 9100 3450
+Wire Wire Line
+	9050 3550 9100 3550
+Wire Wire Line
+	9050 3650 9550 3650
+Text GLabel 8600 3050 0    50   Input ~ 0
+SCL
+Text GLabel 8600 3150 0    50   Input ~ 0
+SDA
+Text GLabel 8600 3250 0    50   Input ~ 0
+_RES
+Text GLabel 8600 3350 0    50   Input ~ 0
+SW2
+Text GLabel 8600 3450 0    50   Input ~ 0
+SW3
+Text GLabel 8600 3550 0    50   Input ~ 0
+AUD_PWR
+$Comp
+L power:+3.3V #PWR0122
+U 1 1 5CCD0516
+P 8150 3600
+F 0 "#PWR0122" H 8150 3450 50  0001 C CNN
+F 1 "+3.3V" H 8165 3773 50  0000 C CNN
+F 2 "" H 8150 3600 50  0001 C CNN
+F 3 "" H 8150 3600 50  0001 C CNN
+	1    8150 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 4050 0    50   Input ~ 0
+ADC_PIN
+Text GLabel 8600 4150 0    50   Input ~ 0
+REST
+Text GLabel 8600 4250 0    50   Input ~ 0
+SW5
+Text GLabel 8600 4350 0    50   Input ~ 0
+TX
+Text GLabel 8600 4450 0    50   Input ~ 0
+RX
+Text GLabel 8600 4550 0    50   Input ~ 0
+SW4
+$Comp
+L power:+5V #PWR0123
+U 1 1 5CCD2242
+P 8250 4650
+F 0 "#PWR0123" H 8250 4500 50  0001 C CNN
+F 1 "+5V" H 8265 4823 50  0000 C CNN
+F 2 "" H 8250 4650 50  0001 C CNN
+F 3 "" H 8250 4650 50  0001 C CNN
+	1    8250 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4650 8650 4650
+Wire Wire Line
+	8600 4550 8650 4550
+Wire Wire Line
+	8600 4450 8650 4450
+Wire Wire Line
+	8600 4350 8650 4350
+Wire Wire Line
+	8600 4250 8650 4250
+Wire Wire Line
+	8600 4150 8650 4150
+Wire Wire Line
+	8600 4050 8650 4050
+Wire Wire Line
+	8650 3650 8150 3650
+Wire Wire Line
+	8650 3550 8600 3550
+Wire Wire Line
+	8650 3450 8600 3450
+Wire Wire Line
+	8650 3350 8600 3350
+Wire Wire Line
+	8650 3250 8600 3250
+Wire Wire Line
+	8650 3150 8600 3150
+Wire Wire Line
+	8650 3050 8600 3050
+$Comp
+L power:GND #PWR0124
+U 1 1 5CDD49F2
+P 8300 2950
+F 0 "#PWR0124" H 8300 2700 50  0001 C CNN
+F 1 "GND" H 8305 2777 50  0000 C CNN
+F 2 "" H 8300 2950 50  0001 C CNN
+F 3 "" H 8300 2950 50  0001 C CNN
+	1    8300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 2950 8650 2950
+NoConn ~ 8650 3750
+NoConn ~ 8650 3850
+NoConn ~ 8650 3950
+NoConn ~ 9050 3950
+NoConn ~ 9050 3850
+NoConn ~ 9050 3750
+Wire Wire Line
+	8150 3600 8150 3650
+Wire Wire Line
+	9550 3600 9550 3650
+Wire Notes Line
+	9750 3400 9750 2500
+Wire Notes Line
+	9750 3450 9750 4650
+Wire Notes Line
+	8050 6500 9700 6500
+Wire Notes Line
+	8050 2500 9700 2500
 $EndSCHEMATC
