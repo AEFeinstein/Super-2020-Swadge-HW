@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:swadge-programmer-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,136 +13,41 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 1000 4200
-NoConn ~ 1000 4500
-NoConn ~ 1000 4600
-NoConn ~ 1000 4700
-NoConn ~ 1000 5100
-NoConn ~ 1000 5300
-NoConn ~ 1000 5700
-NoConn ~ 1400 4500
-NoConn ~ 1400 4600
-NoConn ~ 1400 4700
-NoConn ~ 1400 5100
-NoConn ~ 1400 5300
 $Comp
 L power:GND #PWR02
 U 1 1 5C42A6B6
-P 1450 5850
-F 0 "#PWR02" H 1450 5600 50  0001 C CNN
-F 1 "GND" H 1455 5677 50  0000 C CNN
-F 2 "" H 1450 5850 50  0001 C CNN
-F 3 "" H 1450 5850 50  0001 C CNN
-	1    1450 5850
+P 1750 4100
+F 0 "#PWR02" H 1750 3850 50  0001 C CNN
+F 1 "GND" H 1755 3927 50  0000 C CNN
+F 2 "" H 1750 4100 50  0001 C CNN
+F 3 "" H 1750 4100 50  0001 C CNN
+	1    1750 4100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Swadge_Parts:BUS_PCIexpress U1
-U 1 1 5C4297AA
-P 1200 4950
-F 0 "U1" H 1200 6025 50  0000 C CNN
-F 1 "BUS_PCIexpress" H 1200 5934 50  0000 C CNN
-F 2 "Swadge_Parts:BUS_PCIexpress" H 1200 5300 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" H 1200 5300 50  0001 C CNN
-F 4 "0" H 0   0   50  0001 C CNN "Cost100"
-F 5 "609-2029-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    1200 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 5800 1450 5800
-Wire Wire Line
-	1450 5800 1450 5850
-Wire Wire Line
-	1400 5700 1450 5700
-Wire Wire Line
-	1450 5700 1450 5800
-Connection ~ 1450 5800
-Wire Wire Line
-	1400 4200 1450 4200
-Wire Wire Line
-	1400 4100 1450 4100
-Wire Wire Line
-	1450 4100 1450 4200
-Text GLabel 950  4100 0    50   Input ~ 0
+Text GLabel 1450 4600 2    50   Input ~ 0
 SW3
-Text GLabel 950  4300 0    50   Input ~ 0
+Text GLabel 1450 4700 2    50   Input ~ 0
 AUD_PWR
-Text GLabel 950  4400 0    50   Input ~ 0
+Text GLabel 1450 5200 2    50   Input ~ 0
 ADC_PIN
-Text GLabel 950  4800 0    50   Input ~ 0
-CS0
-Text GLabel 950  4900 0    50   Input ~ 0
-SW5
-Text GLabel 950  5000 0    50   Input ~ 0
-MOSI
-Text GLabel 950  5400 0    50   Input ~ 0
-TX
-Text GLabel 950  5500 0    50   Input ~ 0
-SCL
-Text GLabel 950  5600 0    50   Input ~ 0
-GPIO0
-Text GLabel 950  5800 0    50   Input ~ 0
-GPIO15
-Text GLabel 1450 5600 2    50   Input ~ 0
-GPIO2
-Text GLabel 1450 5500 2    50   Input ~ 0
-SDA
 Text GLabel 1450 5400 2    50   Input ~ 0
-RX
-Text GLabel 1450 5000 2    50   Input ~ 0
-SCLK
-Text GLabel 1450 4900 2    50   Input ~ 0
-SW2
-Text GLabel 1450 4800 2    50   Input ~ 0
-MISO
-Text GLabel 1450 4400 2    50   Input ~ 0
-REST
+SW5
+Text GLabel 1450 5500 2    50   Input ~ 0
+TX
+Text GLabel 1450 4200 2    50   Input ~ 0
+SCL
 Text GLabel 1450 4300 2    50   Input ~ 0
+SDA
+Text GLabel 1450 5600 2    50   Input ~ 0
+RX
+Text GLabel 1450 4500 2    50   Input ~ 0
+SW2
+Text GLabel 1450 5300 2    50   Input ~ 0
+REST
+Text GLabel 1450 5700 2    50   Input ~ 0
 SW4
 Wire Wire Line
-	950  4100 1000 4100
-Wire Wire Line
-	950  4300 1000 4300
-Wire Wire Line
-	950  4400 1000 4400
-Wire Wire Line
-	950  4800 1000 4800
-Wire Wire Line
-	950  4900 1000 4900
-Wire Wire Line
-	950  5000 1000 5000
-Wire Wire Line
-	950  5400 1000 5400
-Wire Wire Line
-	950  5500 1000 5500
-Wire Wire Line
-	950  5600 1000 5600
-Wire Wire Line
-	950  5800 1000 5800
-Wire Wire Line
-	1400 5600 1450 5600
-Wire Wire Line
-	1400 5500 1450 5500
-Wire Wire Line
-	1400 5400 1450 5400
-Wire Wire Line
-	1400 5000 1450 5000
-Wire Wire Line
-	1400 4900 1450 4900
-Wire Wire Line
-	1400 4800 1450 4800
-Wire Wire Line
-	1400 4400 1450 4400
-Wire Wire Line
 	1400 4300 1450 4300
-Text GLabel 6500 1650 0    50   Input ~ 0
-GPIO2
-Text GLabel 6500 1000 0    50   Input ~ 0
-GPIO0
-Text GLabel 6500 2300 0    50   Input ~ 0
-GPIO15
 $Comp
 L power:GND #PWR05
 U 1 1 5C42F52E
@@ -485,165 +389,6 @@ Wire Wire Line
 	3050 1100 3050 850 
 Wire Wire Line
 	3050 1100 2550 1100
-Text GLabel 4000 3950 0    50   Input ~ 0
-SW3
-Wire Wire Line
-	4000 3950 4050 3950
-Wire Wire Line
-	4050 3950 4050 4050
-Wire Wire Line
-	4050 4250 4050 4150
-Text GLabel 4000 4350 0    50   Input ~ 0
-AUD_PWR
-Text GLabel 4000 4550 0    50   Input ~ 0
-SW4
-Wire Wire Line
-	4000 4350 4050 4350
-Wire Wire Line
-	4050 4350 4050 4450
-Wire Wire Line
-	4000 4550 4050 4550
-Wire Wire Line
-	4050 4550 4050 4650
-Text GLabel 4000 4750 0    50   Input ~ 0
-ADC_PIN
-Text GLabel 4000 4950 0    50   Input ~ 0
-REST
-Wire Wire Line
-	4000 4750 4050 4750
-Wire Wire Line
-	4050 4750 4050 4850
-Wire Wire Line
-	4000 4950 4050 4950
-Wire Wire Line
-	4050 5050 4050 4950
-Text GLabel 4000 5150 0    50   Input ~ 0
-CS0
-Text GLabel 4000 5350 0    50   Input ~ 0
-MISO
-Text GLabel 4000 5550 0    50   Input ~ 0
-SW5
-Text GLabel 4000 5750 0    50   Input ~ 0
-SW2
-Wire Wire Line
-	4000 5150 4050 5150
-Wire Wire Line
-	4050 5150 4050 5250
-Wire Wire Line
-	4000 5350 4050 5350
-Wire Wire Line
-	4050 5350 4050 5450
-Wire Wire Line
-	4000 5550 4050 5550
-Wire Wire Line
-	4050 5550 4050 5650
-Wire Wire Line
-	4000 5750 4050 5750
-Wire Wire Line
-	4050 5750 4050 5850
-Text GLabel 4600 3950 2    50   Input ~ 0
-MOSI
-Text GLabel 4600 4050 2    50   Input ~ 0
-SCLK
-Text GLabel 4600 4450 2    50   Input ~ 0
-TX
-Text GLabel 4600 4650 2    50   Input ~ 0
-RX
-Text GLabel 4600 4850 2    50   Input ~ 0
-SCL
-Text GLabel 4600 5050 2    50   Input ~ 0
-SDA
-Text GLabel 4600 5250 2    50   Input ~ 0
-GPIO0
-Text GLabel 4600 5450 2    50   Input ~ 0
-GPIO2
-Text GLabel 4600 5650 2    50   Input ~ 0
-GPIO15
-Connection ~ 4050 4750
-Connection ~ 4050 4550
-Connection ~ 4050 5750
-Connection ~ 4050 5550
-Connection ~ 4050 5350
-Connection ~ 4050 5150
-Connection ~ 4050 4950
-$Comp
-L Swadge_Parts:Conn_02x21_Top_Bottom J2
-U 1 1 5C43853E
-P 4250 4950
-F 0 "J2" H 4300 6167 50  0000 C CNN
-F 1 "Conn_02x21_Top_Bottom" H 4300 6076 50  0000 C CNN
-F 2 "Swadge_Parts:PinHeader_2x21_P2.54mm_Vertical" H 4250 4950 50  0001 C CNN
-F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 4250 4950 50  0001 C CNN
-F 4 "S2012EC-21-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 6 "73" H 0   0   50  0001 C CNN "Cost100"
-	1    4250 4950
-	1    0    0    -1  
-$EndComp
-Text GLabel 4000 5950 0    50   Input ~ 0
-MOSI
-Wire Wire Line
-	4000 5950 4050 5950
-Wire Wire Line
-	4600 3950 4550 3950
-Wire Wire Line
-	4600 4050 4550 4050
-Wire Wire Line
-	4550 4050 4550 4150
-Connection ~ 4550 4050
-Wire Wire Line
-	4550 4250 4550 4350
-Wire Wire Line
-	4600 4450 4550 4450
-Wire Wire Line
-	4550 4450 4550 4550
-Connection ~ 4550 4450
-Wire Wire Line
-	4600 4650 4550 4650
-Wire Wire Line
-	4550 4650 4550 4750
-Connection ~ 4550 4650
-Wire Wire Line
-	4600 4850 4550 4850
-Wire Wire Line
-	4550 4850 4550 4950
-Connection ~ 4550 4850
-Wire Wire Line
-	4600 5050 4550 5050
-Wire Wire Line
-	4550 5050 4550 5150
-Connection ~ 4550 5050
-Wire Wire Line
-	4600 5250 4550 5250
-Wire Wire Line
-	4550 5250 4550 5350
-Connection ~ 4550 5250
-Wire Wire Line
-	4600 5450 4550 5450
-Wire Wire Line
-	4550 5450 4550 5550
-Connection ~ 4550 5450
-Wire Wire Line
-	4600 5650 4550 5650
-Wire Wire Line
-	4550 5650 4550 5750
-Connection ~ 4550 5650
-$Comp
-L power:GND #PWR015
-U 1 1 5C4E6B59
-P 4700 5950
-F 0 "#PWR015" H 4700 5700 50  0001 C CNN
-F 1 "GND" H 4705 5777 50  0000 C CNN
-F 2 "" H 4700 5950 50  0001 C CNN
-F 3 "" H 4700 5950 50  0001 C CNN
-	1    4700 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 5950 4700 5950
-Wire Wire Line
-	4550 5850 4550 5950
-Connection ~ 4550 5950
 $Comp
 L Swadge_Parts:SW_DPDT_x2 SW4
 U 1 1 5C4F30A9
@@ -704,23 +449,12 @@ Text GLabel 5700 1550 2    50   Input ~ 0
 5V
 NoConn ~ 5000 1100
 NoConn ~ 5000 1450
-Text GLabel 1800 4100 2    50   Input ~ 0
+Text GLabel 1800 4900 2    50   Input ~ 0
 3.3V
-Text GLabel 1800 5200 2    50   Input ~ 0
+Text GLabel 1850 5900 2    50   Input ~ 0
 5V
 Wire Wire Line
-	950  5200 1000 5200
-Wire Wire Line
-	1400 5200 1450 5200
-Text GLabel 4600 4250 2    50   Input ~ 0
-5V
-Text GLabel 4000 4150 0    50   Input ~ 0
-3.3V
-Wire Wire Line
-	4000 4150 4050 4150
-Wire Wire Line
-	4600 4250 4550 4250
-Connection ~ 4550 4250
+	1450 5900 1500 5900
 Wire Wire Line
 	7050 2300 7200 2300
 $Comp
@@ -816,220 +550,38 @@ Wire Wire Line
 	1300 3300 3150 3300
 Wire Wire Line
 	1200 3300 1300 3300
-Connection ~ 4050 4150
-Connection ~ 4050 3950
-Connection ~ 4050 4350
-Text GLabel 2450 3950 0    50   Input ~ 0
-SW3
-Wire Wire Line
-	2450 3950 2500 3950
-Text GLabel 2450 4350 0    50   Input ~ 0
-AUD_PWR
-Text GLabel 2450 4550 0    50   Input ~ 0
-SW4
-Wire Wire Line
-	2450 4350 2500 4350
-Wire Wire Line
-	2450 4550 2500 4550
-Text GLabel 2450 4750 0    50   Input ~ 0
-ADC_PIN
-Text GLabel 2450 4950 0    50   Input ~ 0
-REST
-Wire Wire Line
-	2450 4750 2500 4750
-Wire Wire Line
-	2450 4950 2500 4950
-Text GLabel 2450 5150 0    50   Input ~ 0
-CS0
-Text GLabel 2450 5350 0    50   Input ~ 0
-MISO
-Text GLabel 2450 5550 0    50   Input ~ 0
-SW5
-Text GLabel 2450 5750 0    50   Input ~ 0
-SW2
-Wire Wire Line
-	2450 5150 2500 5150
-Wire Wire Line
-	2450 5350 2500 5350
-Wire Wire Line
-	2450 5550 2500 5550
-Wire Wire Line
-	2450 5750 2500 5750
-Text GLabel 3050 3950 2    50   Input ~ 0
-MOSI
-Text GLabel 3050 4050 2    50   Input ~ 0
-SCLK
-Text GLabel 3050 4450 2    50   Input ~ 0
-TX
-Text GLabel 3050 4650 2    50   Input ~ 0
-RX
-Text GLabel 3050 4850 2    50   Input ~ 0
-SCL
-Text GLabel 3050 5050 2    50   Input ~ 0
-SDA
-Text GLabel 3050 5250 2    50   Input ~ 0
-GPIO0
-Text GLabel 3050 5450 2    50   Input ~ 0
-GPIO2
-Text GLabel 3050 5650 2    50   Input ~ 0
-GPIO15
-$Comp
-L Swadge_Parts:Conn_02x21_Top_Bottom J3
-U 1 1 5C54A20B
-P 2700 4950
-F 0 "J3" H 2750 6167 50  0000 C CNN
-F 1 "Conn_02x21_Top_Bottom" H 2750 6076 50  0000 C CNN
-F 2 "Swadge_Parts:PinHeader_2x21_P2.54mm_Vertical" H 2700 4950 50  0001 C CNN
-F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 2700 4950 50  0001 C CNN
-F 4 "S2012EC-21-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 6 "73" H 0   0   50  0001 C CNN "Cost100"
-	1    2700 4950
-	1    0    0    -1  
-$EndComp
-Text GLabel 2450 5950 0    50   Input ~ 0
-MOSI
-Wire Wire Line
-	2450 5950 2500 5950
-Wire Wire Line
-	3050 3950 3000 3950
-Wire Wire Line
-	3050 4050 3000 4050
-Wire Wire Line
-	3050 4450 3000 4450
-Wire Wire Line
-	3050 4650 3000 4650
-Wire Wire Line
-	3050 4850 3000 4850
-Wire Wire Line
-	3050 5050 3000 5050
-Wire Wire Line
-	3050 5250 3000 5250
-Wire Wire Line
-	3050 5450 3000 5450
-Wire Wire Line
-	3050 5650 3000 5650
-$Comp
-L power:GND #PWR04
-U 1 1 5C54A22D
-P 3150 5950
-F 0 "#PWR04" H 3150 5700 50  0001 C CNN
-F 1 "GND" H 3155 5777 50  0000 C CNN
-F 2 "" H 3150 5950 50  0001 C CNN
-F 3 "" H 3150 5950 50  0001 C CNN
-	1    3150 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 5950 3150 5950
-Text GLabel 3050 4250 2    50   Input ~ 0
-5V
-Text GLabel 2450 4150 0    50   Input ~ 0
-3.3V
-Wire Wire Line
-	2450 4150 2500 4150
-Wire Wire Line
-	3050 4250 3000 4250
-Wire Wire Line
-	2500 3950 2500 4050
-Connection ~ 2500 3950
-Wire Wire Line
-	2500 4150 2500 4250
-Connection ~ 2500 4150
-Wire Wire Line
-	2500 4350 2500 4450
-Connection ~ 2500 4350
-Wire Wire Line
-	2500 4550 2500 4650
-Connection ~ 2500 4550
-Wire Wire Line
-	2500 4750 2500 4850
-Connection ~ 2500 4750
-Wire Wire Line
-	3000 4050 3000 4150
-Connection ~ 3000 4050
-Wire Wire Line
-	3000 4250 3000 4350
-Connection ~ 3000 4250
-Wire Wire Line
-	3000 4450 3000 4550
-Connection ~ 3000 4450
-Wire Wire Line
-	3000 4650 3000 4750
-Connection ~ 3000 4650
-Wire Wire Line
-	3000 4850 3000 4950
-Connection ~ 3000 4850
-Wire Wire Line
-	3000 5050 3000 5150
-Connection ~ 3000 5050
-Wire Wire Line
-	3000 5250 3000 5350
-Connection ~ 3000 5250
-Wire Wire Line
-	2500 4950 2500 5050
-Connection ~ 2500 4950
-Wire Wire Line
-	2500 5150 2500 5250
-Connection ~ 2500 5150
-Wire Wire Line
-	2500 5350 2500 5450
-Connection ~ 2500 5350
-Wire Wire Line
-	2500 5550 2500 5650
-Connection ~ 2500 5550
-Wire Wire Line
-	2500 5750 2500 5850
-Connection ~ 2500 5750
-Wire Wire Line
-	3000 5450 3000 5550
-Connection ~ 3000 5450
-Wire Wire Line
-	3000 5650 3000 5750
-Connection ~ 3000 5650
-Wire Wire Line
-	3000 5850 3000 5950
-Connection ~ 3000 5950
 $Comp
 L Swadge_Parts:R_US R4
 U 1 1 5C5F21C8
-P 1600 4100
-F 0 "R4" V 1700 4050 50  0000 L CNN
-F 1 "1" V 1500 4000 50  0000 L CNN
-F 2 "Swadge_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1640 4090 50  0001 C CNN
-F 3 "" H 1600 4100 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "RNF14FTD1R00CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    1600 4100
+P 1600 4900
+F 0 "R4" V 1700 4850 50  0000 L CNN
+F 1 "1" V 1500 4800 50  0000 L CNN
+F 2 "Swadge_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1640 4890 50  0001 C CNN
+F 3 "" H 1600 4900 50  0001 C CNN
+F 4 "10" H 0   800 50  0001 C CNN "Cost100"
+F 5 "RNF14FTD1R00CT-ND" H 0   800 50  0001 C CNN "Digikey"
+F 6 "Y" H 0   800 50  0001 C CNN "Substitutable"
+	1    1600 4900
 	0    -1   -1   0   
 $EndComp
-Connection ~ 1450 4100
 Wire Wire Line
-	1800 4100 1750 4100
+	1800 4900 1750 4900
 $Comp
 L Swadge_Parts:R_US R5
 U 1 1 5C610779
-P 1600 5200
-F 0 "R5" V 1700 5150 50  0000 L CNN
-F 1 "1" V 1500 5100 50  0000 L CNN
-F 2 "Swadge_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1640 5190 50  0001 C CNN
-F 3 "" H 1600 5200 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "RNF14FTD1R00CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    1600 5200
+P 1650 5900
+F 0 "R5" V 1750 5850 50  0000 L CNN
+F 1 "1" V 1550 5800 50  0000 L CNN
+F 2 "Swadge_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1690 5890 50  0001 C CNN
+F 3 "" H 1650 5900 50  0001 C CNN
+F 4 "10" H 50  700 50  0001 C CNN "Cost100"
+F 5 "RNF14FTD1R00CT-ND" H 50  700 50  0001 C CNN "Digikey"
+F 6 "Y" H 50  700 50  0001 C CNN "Substitutable"
+	1    1650 5900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1800 5200 1750 5200
-Wire Wire Line
-	950  5200 950  5150
-Wire Wire Line
-	950  5150 1400 5150
-Wire Wire Line
-	1400 5150 1400 5200
-Connection ~ 1400 5200
+	1850 5900 1800 5900
 $Comp
 L Swadge_Parts:Hole H1
 U 1 1 5C63A01C
@@ -1270,4 +822,395 @@ Wire Wire Line
 	1700 1350 1700 1500
 Wire Wire Line
 	1700 1500 1550 1500
+$Comp
+L Swadge_Parts:BUS_PCIexpress U1
+U 1 1 5C4297AA
+P 1200 4950
+F 0 "U1" H 1200 6025 50  0000 C CNN
+F 1 "BUS_PCIexpress" H 1200 5934 50  0000 C CNN
+F 2 "Swadge_Parts:10018784-10210TLF" H 1200 5300 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" H 1200 5300 50  0001 C CNN
+F 4 "0" H 0   0   50  0001 C CNN "Cost100"
+F 5 "609-2029-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+	1    1200 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4100 1750 4100
+Wire Wire Line
+	1400 4200 1450 4200
+Wire Wire Line
+	1400 4500 1450 4500
+Wire Wire Line
+	1400 4600 1450 4600
+Wire Wire Line
+	1400 4700 1450 4700
+Wire Wire Line
+	1450 4900 1450 4850
+Wire Wire Line
+	1450 4800 1400 4800
+Wire Wire Line
+	1400 5200 1450 5200
+Wire Wire Line
+	1400 5300 1450 5300
+Wire Wire Line
+	1400 5400 1450 5400
+Wire Wire Line
+	1400 5500 1450 5500
+Wire Wire Line
+	1400 5600 1450 5600
+Wire Wire Line
+	1400 5700 1450 5700
+Wire Wire Line
+	1400 5800 1450 5800
+Wire Wire Line
+	1450 5800 1450 5900
+Text GLabel 1450 4400 2    50   Input ~ 0
+_RES
+Wire Wire Line
+	1450 4400 1400 4400
+NoConn ~ 1400 4900
+NoConn ~ 1400 5000
+NoConn ~ 1400 5100
+NoConn ~ 1000 5100
+NoConn ~ 1000 5000
+NoConn ~ 1000 4900
+$Comp
+L power:GND #PWR0103
+U 1 1 5CBF2752
+P 650 4100
+F 0 "#PWR0103" H 650 3850 50  0001 C CNN
+F 1 "GND" H 655 3927 50  0000 C CNN
+F 2 "" H 650 4100 50  0001 C CNN
+F 3 "" H 650 4100 50  0001 C CNN
+	1    650  4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  4600 0    50   Input ~ 0
+SW3
+Text GLabel 950  4700 0    50   Input ~ 0
+AUD_PWR
+Text GLabel 950  5200 0    50   Input ~ 0
+ADC_PIN
+Text GLabel 950  5400 0    50   Input ~ 0
+SW5
+Text GLabel 950  5500 0    50   Input ~ 0
+TX
+Text GLabel 950  4200 0    50   Input ~ 0
+SCL
+Text GLabel 950  4300 0    50   Input ~ 0
+SDA
+Text GLabel 950  5600 0    50   Input ~ 0
+RX
+Text GLabel 950  4500 0    50   Input ~ 0
+SW2
+Text GLabel 950  5300 0    50   Input ~ 0
+REST
+Text GLabel 950  5700 0    50   Input ~ 0
+SW4
+Text GLabel 950  4400 0    50   Input ~ 0
+_RES
+Wire Wire Line
+	650  4100 1000 4100
+Wire Wire Line
+	1000 4800 1000 4850
+Wire Wire Line
+	1000 4850 1450 4850
+Connection ~ 1450 4850
+Wire Wire Line
+	1450 4850 1450 4800
+Wire Wire Line
+	1000 5800 1000 5900
+Wire Wire Line
+	1000 5900 1450 5900
+Connection ~ 1450 5900
+Wire Wire Line
+	950  5700 1000 5700
+Wire Wire Line
+	950  5600 1000 5600
+Wire Wire Line
+	950  5500 1000 5500
+Wire Wire Line
+	950  5400 1000 5400
+Wire Wire Line
+	950  5300 1000 5300
+Wire Wire Line
+	950  5200 1000 5200
+Wire Wire Line
+	950  4700 1000 4700
+Wire Wire Line
+	950  4600 1000 4600
+Wire Wire Line
+	1000 4500 950  4500
+Wire Wire Line
+	950  4400 1000 4400
+Wire Wire Line
+	1000 4300 950  4300
+Wire Wire Line
+	950  4200 1000 4200
+Text GLabel 3900 4300 0    50   Input ~ 0
+SCL
+Text GLabel 3900 4500 0    50   Input ~ 0
+SDA
+Text GLabel 3900 4700 0    50   Input ~ 0
+_RES
+Text GLabel 3900 4900 0    50   Input ~ 0
+SW2
+Text GLabel 3900 5100 0    50   Input ~ 0
+SW3
+Text GLabel 3900 5300 0    50   Input ~ 0
+AUD_PWR
+Text GLabel 3900 5500 0    50   Input ~ 0
+3.3V
+Text GLabel 4500 4400 2    50   Input ~ 0
+REST
+Text GLabel 4500 4600 2    50   Input ~ 0
+SW5
+Text GLabel 4500 4800 2    50   Input ~ 0
+TX
+Text GLabel 4500 5000 2    50   Input ~ 0
+RX
+Text GLabel 4500 5200 2    50   Input ~ 0
+SW4
+Text GLabel 4500 5400 2    50   Input ~ 0
+5V
+$Comp
+L Swadge_Parts:Conn_02x15_Top_Bottom J3
+U 1 1 5CD70835
+P 4150 4800
+F 0 "J3" H 4200 5717 50  0000 C CNN
+F 1 "Conn_02x15_Top_Bottom" H 4200 5626 50  0000 C CNN
+F 2 "Swadge_Parts:PinHeader_2x15_P2.54mm_Vertical" H 4150 4800 50  0001 C CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 4150 4800 50  0001 C CNN
+F 4 "S2012EC-15-ND" H 4150 4800 50  0001 C CNN "Digikey"
+F 5 "57" H 4150 4800 50  0001 C CNN "Cost100"
+F 6 "Y" H 4150 4800 50  0001 C CNN "Substitutable"
+	1    4150 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4100 3950 4200
+Wire Wire Line
+	3950 4300 3950 4400
+Wire Wire Line
+	3950 4500 3950 4600
+Wire Wire Line
+	3950 4700 3950 4800
+Wire Wire Line
+	3950 4900 3950 5000
+Wire Wire Line
+	3950 5100 3950 5200
+Wire Wire Line
+	3950 5300 3950 5400
+Wire Wire Line
+	4450 4200 4450 4300
+Wire Wire Line
+	4450 4400 4450 4500
+Wire Wire Line
+	4450 4600 4450 4700
+Wire Wire Line
+	4450 4800 4450 4900
+Wire Wire Line
+	4450 5000 4450 5100
+Wire Wire Line
+	4450 5200 4450 5300
+Wire Wire Line
+	4450 5400 4450 5500
+Text GLabel 4500 4200 2    50   Input ~ 0
+ADC_PIN
+Text GLabel 4500 4100 2    50   Input ~ 0
+3.3V
+$Comp
+L power:GND #PWR07
+U 1 1 5CE4D7E5
+P 3600 4100
+F 0 "#PWR07" H 3600 3850 50  0001 C CNN
+F 1 "GND" H 3605 3927 50  0000 C CNN
+F 2 "" H 3600 4100 50  0001 C CNN
+F 3 "" H 3600 4100 50  0001 C CNN
+	1    3600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4100 3950 4100
+Connection ~ 3950 4100
+Wire Wire Line
+	3900 4300 3950 4300
+Connection ~ 3950 4300
+Wire Wire Line
+	3900 4500 3950 4500
+Connection ~ 3950 4500
+Wire Wire Line
+	3900 4700 3950 4700
+Connection ~ 3950 4700
+Wire Wire Line
+	3900 4900 3950 4900
+Connection ~ 3950 4900
+Wire Wire Line
+	3900 5100 3950 5100
+Connection ~ 3950 5100
+Wire Wire Line
+	3900 5300 3950 5300
+Connection ~ 3950 5300
+Wire Wire Line
+	3900 5500 3950 5500
+Wire Wire Line
+	4500 4100 4450 4100
+Wire Wire Line
+	4500 4200 4450 4200
+Connection ~ 4450 4200
+Wire Wire Line
+	4500 4400 4450 4400
+Connection ~ 4450 4400
+Wire Wire Line
+	4500 4600 4450 4600
+Connection ~ 4450 4600
+Wire Wire Line
+	4500 4800 4450 4800
+Connection ~ 4450 4800
+Wire Wire Line
+	4500 5000 4450 5000
+Connection ~ 4450 5000
+Wire Wire Line
+	4500 5200 4450 5200
+Connection ~ 4450 5200
+Wire Wire Line
+	4500 5400 4450 5400
+Connection ~ 4450 5400
+Text GLabel 2450 4300 0    50   Input ~ 0
+SCL
+Text GLabel 2450 4500 0    50   Input ~ 0
+SDA
+Text GLabel 2450 4700 0    50   Input ~ 0
+_RES
+Text GLabel 2450 4900 0    50   Input ~ 0
+SW2
+Text GLabel 2450 5100 0    50   Input ~ 0
+SW3
+Text GLabel 2450 5300 0    50   Input ~ 0
+AUD_PWR
+Text GLabel 2450 5500 0    50   Input ~ 0
+3.3V
+Text GLabel 3050 4400 2    50   Input ~ 0
+REST
+Text GLabel 3050 4600 2    50   Input ~ 0
+SW5
+Text GLabel 3050 4800 2    50   Input ~ 0
+TX
+Text GLabel 3050 5000 2    50   Input ~ 0
+RX
+Text GLabel 3050 5200 2    50   Input ~ 0
+SW4
+Text GLabel 3050 5400 2    50   Input ~ 0
+5V
+$Comp
+L Swadge_Parts:Conn_02x15_Top_Bottom J2
+U 1 1 5CEF4C93
+P 2700 4800
+F 0 "J2" H 2750 5717 50  0000 C CNN
+F 1 "Conn_02x15_Top_Bottom" H 2750 5626 50  0000 C CNN
+F 2 "Swadge_Parts:PinHeader_2x15_P2.54mm_Vertical" H 2700 4800 50  0001 C CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 2700 4800 50  0001 C CNN
+F 4 "S2012EC-15-ND" H 2700 4800 50  0001 C CNN "Digikey"
+F 5 "57" H 2700 4800 50  0001 C CNN "Cost100"
+F 6 "Y" H 2700 4800 50  0001 C CNN "Substitutable"
+	1    2700 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4100 2500 4200
+Wire Wire Line
+	2500 4300 2500 4400
+Wire Wire Line
+	2500 4500 2500 4600
+Wire Wire Line
+	2500 4700 2500 4800
+Wire Wire Line
+	2500 4900 2500 5000
+Wire Wire Line
+	2500 5100 2500 5200
+Wire Wire Line
+	2500 5300 2500 5400
+Wire Wire Line
+	3000 4200 3000 4300
+Wire Wire Line
+	3000 4400 3000 4500
+Wire Wire Line
+	3000 4600 3000 4700
+Wire Wire Line
+	3000 4800 3000 4900
+Wire Wire Line
+	3000 5000 3000 5100
+Wire Wire Line
+	3000 5200 3000 5300
+Wire Wire Line
+	3000 5400 3000 5500
+Text GLabel 3050 4200 2    50   Input ~ 0
+ADC_PIN
+Text GLabel 3050 4100 2    50   Input ~ 0
+3.3V
+$Comp
+L power:GND #PWR04
+U 1 1 5CEF4CAD
+P 2150 4100
+F 0 "#PWR04" H 2150 3850 50  0001 C CNN
+F 1 "GND" H 2155 3927 50  0000 C CNN
+F 2 "" H 2150 4100 50  0001 C CNN
+F 3 "" H 2150 4100 50  0001 C CNN
+	1    2150 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4100 2500 4100
+Connection ~ 2500 4100
+Wire Wire Line
+	2450 4300 2500 4300
+Connection ~ 2500 4300
+Wire Wire Line
+	2450 4500 2500 4500
+Connection ~ 2500 4500
+Wire Wire Line
+	2450 4700 2500 4700
+Connection ~ 2500 4700
+Wire Wire Line
+	2450 4900 2500 4900
+Connection ~ 2500 4900
+Wire Wire Line
+	2450 5100 2500 5100
+Connection ~ 2500 5100
+Wire Wire Line
+	2450 5300 2500 5300
+Connection ~ 2500 5300
+Wire Wire Line
+	2450 5500 2500 5500
+Wire Wire Line
+	3050 4100 3000 4100
+Wire Wire Line
+	3050 4200 3000 4200
+Connection ~ 3000 4200
+Wire Wire Line
+	3050 4400 3000 4400
+Connection ~ 3000 4400
+Wire Wire Line
+	3050 4600 3000 4600
+Connection ~ 3000 4600
+Wire Wire Line
+	3050 4800 3000 4800
+Connection ~ 3000 4800
+Wire Wire Line
+	3050 5000 3000 5000
+Connection ~ 3000 5000
+Wire Wire Line
+	3050 5200 3000 5200
+Connection ~ 3000 5200
+Wire Wire Line
+	3050 5400 3000 5400
+Connection ~ 3000 5400
+Text GLabel 6500 1000 0    50   Input ~ 0
+SCL
+Text GLabel 6500 1650 0    50   Input ~ 0
+SDA
+Text GLabel 6500 2300 0    50   Input ~ 0
+_RES
 $EndSCHEMATC
