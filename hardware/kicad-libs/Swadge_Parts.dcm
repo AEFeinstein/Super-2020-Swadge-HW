@@ -17,7 +17,7 @@ $ENDCMP
 $CMP Battery
 D Multiple-cell battery
 K batt voltage-source cell
-F ~
+F http://www.keyelco.com/product-pdf.cfm?p=1025
 $ENDCMP
 #
 $CMP C

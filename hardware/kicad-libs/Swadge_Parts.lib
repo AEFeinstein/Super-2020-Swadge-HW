@@ -151,10 +151,10 @@ ENDDEF
 DEF Battery BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
 F1 "Battery" 100 0 50 H V L CNN
-F2 "Swadge_Parts:BCAAPC" -300 450 50 V I C CNN
-F3 "http://www.memoryprotectiondevices.com/datasheets/BCAAPC-datasheet.pdf" -450 700 50 V I C CNN
-F4 "BCAAPC-ND" 0 500 50 H I C CNN "Digikey"
-F5 "114" 300 300 50 H I C CNN "Cost100"
+F2 "Swadge_Parts:2460" -300 450 50 V I C CNN
+F3 "" -450 700 50 V I C CNN
+F4 "36-2460-ND" 0 500 50 H I C CNN "Digikey"
+F5 "116" 300 300 50 H I C CNN "Cost100"
 F6 "Y" 400 400 50 H I C CNN "Substitutable"
 $FPLIST
  Swadge_Parts:BCAAPC

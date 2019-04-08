@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:swadge-devkit-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1885,10 +1886,10 @@ U 1 1 5C4A23EF
 P 10450 2000
 F 0 "BT2" V 10205 2000 50  0000 C CNN
 F 1 "Battery" V 10296 2000 50  0000 C CNN
-F 2 "Swadge_Parts:BCAAPC" V 10450 2060 50  0001 C CNN
-F 3 "http://www.memoryprotectiondevices.com/datasheets/BCAAPC-datasheet.pdf" V 10450 2060 50  0001 C CNN
-F 4 "114" H 0   0   50  0001 C CNN "Cost100"
-F 5 "BCAAPC-ND" H 0   0   50  0001 C CNN "Digikey"
+F 2 "Swadge_Parts:2460" V 10450 2060 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1025" V 10450 2060 50  0001 C CNN
+F 4 "116" H 0   0   50  0001 C CNN "Cost100"
+F 5 "36-2460-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    10450 2000
 	0    1    1    0   
@@ -1899,10 +1900,10 @@ U 1 1 5C4A255C
 P 10000 2000
 F 0 "BT1" V 9755 2000 50  0000 C CNN
 F 1 "Battery" V 9846 2000 50  0000 C CNN
-F 2 "Swadge_Parts:BCAAPC" V 10000 2060 50  0001 C CNN
-F 3 "http://www.memoryprotectiondevices.com/datasheets/BCAAPC-datasheet.pdf" V 10000 2060 50  0001 C CNN
-F 4 "114" H 0   0   50  0001 C CNN "Cost100"
-F 5 "BCAAPC-ND" H 0   0   50  0001 C CNN "Digikey"
+F 2 "Swadge_Parts:2460" V 10000 2060 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1025" V 10000 2060 50  0001 C CNN
+F 4 "116" H 0   0   50  0001 C CNN "Cost100"
+F 5 "36-2460-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    10000 2000
 	0    1    1    0   
