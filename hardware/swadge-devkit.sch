@@ -2247,8 +2247,8 @@ F 0 "U1" H 1975 4415 50  0000 C CNN
 F 1 "ESP-13-WROOM-02D" H 1975 4324 50  0000 C CNN
 F 2 "Swadge_Parts:ESP-13-WROOM-02" H 1900 3650 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf" H 1900 3650 50  0001 C CNN
-F 4 "Electrodragon SKU NWI1160" H 2000 3650 50  0001 C CNN "Digikey"
-F 5 "260" H 2000 3650 50  0001 C CNN "Cost100"
+F 4 "1904-1021-1-ND" H 2000 3650 50  0001 C CNN "Digikey"
+F 5 "270" H 2000 3650 50  0001 C CNN "Cost100"
 F 6 "Y" H 2000 3650 50  0001 C CNN "Substitutable"
 	1    2000 3650
 	1    0    0    -1  
