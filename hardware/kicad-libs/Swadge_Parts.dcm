@@ -122,7 +122,7 @@ $ENDCMP
 $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro
-F https://www.digikey.com/product-detail/en/molex-llc/0473460001/WM17141CT-ND/1782474
+F https://www.molex.com/pdm_docs/sd/473460001_sd.pdf
 $ENDCMP
 #
 $CMP WS2812B

@@ -861,7 +861,7 @@ DEF USB_B_Micro J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
 F1 "USB_B_Micro" -200 350 50 H V L CNN
 F2 "Swadge_Parts:USB_Micro-B_Molex_47346-0001" 150 -50 50 H I C CNN
-F3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
 F4 "WM17141CT-ND" -100 550 50 H I C CNN "Digikey"
 F5 "112" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"

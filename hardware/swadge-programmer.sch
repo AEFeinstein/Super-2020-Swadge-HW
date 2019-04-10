@@ -100,7 +100,7 @@ P 800 2650
 F 0 "J1" H 855 3117 50  0000 C CNN
 F 1 "USB_B_Micro" H 855 3026 50  0000 C CNN
 F 2 "Swadge_Parts:USB_Micro-B_Molex_47346-0001" H 950 2600 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/molex-llc/0473460001/WM17141CT-ND/1782474" H 950 2600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 950 2600 50  0001 C CNN
 F 4 "112" H 0   0   50  0001 C CNN "Cost100"
 F 5 "WM17141CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
