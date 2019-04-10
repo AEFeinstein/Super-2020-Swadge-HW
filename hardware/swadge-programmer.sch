@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:swadge-programmer-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -99,7 +100,7 @@ P 800 2650
 F 0 "J1" H 855 3117 50  0000 C CNN
 F 1 "USB_B_Micro" H 855 3026 50  0000 C CNN
 F 2 "Swadge_Parts:USB_Micro-B_Molex_47346-0001" H 950 2600 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 950 2600 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/molex-llc/0473460001/WM17141CT-ND/1782474" H 950 2600 50  0001 C CNN
 F 4 "112" H 0   0   50  0001 C CNN "Cost100"
 F 5 "WM17141CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
@@ -131,7 +132,7 @@ P 1300 3100
 F 0 "D1" H 1505 3146 50  0000 L CNN
 F 1 "SP0503BAHT" H 1505 3055 50  0000 L CNN
 F 2 "Swadge_Parts:SOT-143" H 1525 3050 50  0001 L CNN
-F 3 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1425 3225 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1425 3225 50  0001 C CNN
 F 4 "95" H 0   0   50  0001 C CNN "Cost100"
 F 5 "F2715CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
@@ -159,7 +160,7 @@ P 1300 1800
 F 0 "R1" H 1368 1846 50  0000 L CNN
 F 1 "22.1k" H 1368 1755 50  0000 L CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1340 1790 50  0001 C CNN
-F 3 "" H 1300 1800 50  0001 C CNN
+F 3 "~" H 1300 1800 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "RMCF0603FT22K1CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
@@ -173,7 +174,7 @@ P 1300 2200
 F 0 "R2" H 1368 2246 50  0000 L CNN
 F 1 "47.5k" H 1368 2155 50  0000 L CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1340 2190 50  0001 C CNN
-F 3 "" H 1300 2200 50  0001 C CNN
+F 3 "~" H 1300 2200 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "P47.5KHCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
@@ -203,7 +204,7 @@ P 3150 2250
 F 0 "U2" H 3300 3150 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN24" H 3650 3050 50  0000 C CNN
 F 2 "Swadge_Parts:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 3600 1450 50  0001 L CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 3200 1200 50  0001 C CNN
+F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 3200 1200 50  0001 C CNN
 F 4 "135" H 0   0   50  0001 C CNN "Cost100"
 F 5 "336-4737-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
@@ -238,7 +239,7 @@ P 2550 1250
 F 0 "R3" H 2482 1204 50  0000 R CNN
 F 1 "1k" H 2482 1295 50  0000 R CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 2590 1240 50  0001 C CNN
-F 3 "" H 2550 1250 50  0001 C CNN
+F 3 "~" H 2550 1250 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "311-1.00KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
@@ -276,7 +277,7 @@ P 2150 1800
 F 0 "C4" H 2265 1846 50  0000 L CNN
 F 1 "4.7u" H 2265 1755 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 2188 1650 50  0001 C CNN
-F 3 "" H 2150 1800 50  0001 C CNN
+F 3 "~" H 2150 1800 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1045-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
@@ -290,7 +291,7 @@ P 1750 1800
 F 0 "C3" H 1865 1846 50  0000 L CNN
 F 1 "0.1u" H 1865 1755 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 1788 1650 50  0001 C CNN
-F 3 "" H 1750 1800 50  0001 C CNN
+F 3 "~" H 1750 1800 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
@@ -304,7 +305,7 @@ P 3750 1000
 F 0 "C2" H 3865 1046 50  0000 L CNN
 F 1 "4.7u" H 3865 955 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 3788 850 50  0001 C CNN
-F 3 "" H 3750 1000 50  0001 C CNN
+F 3 "~" H 3750 1000 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1045-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
@@ -318,7 +319,7 @@ P 3300 1000
 F 0 "C1" H 3415 1046 50  0000 L CNN
 F 1 "0.1u" H 3415 955 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 3338 850 50  0001 C CNN
-F 3 "" H 3300 1000 50  0001 C CNN
+F 3 "~" H 3300 1000 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
@@ -557,7 +558,7 @@ P 1600 4900
 F 0 "R4" V 1700 4850 50  0000 L CNN
 F 1 "1" V 1500 4800 50  0000 L CNN
 F 2 "Swadge_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1640 4890 50  0001 C CNN
-F 3 "" H 1600 4900 50  0001 C CNN
+F 3 "~" H 1600 4900 50  0001 C CNN
 F 4 "10" H 0   800 50  0001 C CNN "Cost100"
 F 5 "RNF14FTD1R00CT-ND" H 0   800 50  0001 C CNN "Digikey"
 F 6 "Y" H 0   800 50  0001 C CNN "Substitutable"
@@ -573,7 +574,7 @@ P 1650 5900
 F 0 "R5" V 1750 5850 50  0000 L CNN
 F 1 "1" V 1550 5800 50  0000 L CNN
 F 2 "Swadge_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1690 5890 50  0001 C CNN
-F 3 "" H 1650 5900 50  0001 C CNN
+F 3 "~" H 1650 5900 50  0001 C CNN
 F 4 "10" H 50  700 50  0001 C CNN "Cost100"
 F 5 "RNF14FTD1R00CT-ND" H 50  700 50  0001 C CNN "Digikey"
 F 6 "Y" H 50  700 50  0001 C CNN "Substitutable"
@@ -589,11 +590,10 @@ P 4850 2600
 F 0 "H1" H 4990 2646 50  0000 L CNN
 F 1 "Hole" H 4990 2555 50  0000 L CNN
 F 2 "Swadge_Parts:Hole" H 4850 2600 50  0001 C CNN
-F 3 "" H 4850 2600 50  0001 C CNN
-F 4 "0" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
-F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 3 "https://www.bumperspecialties.com/wp-content/uploads/2017/01/Bumper-Technical-Drawing-BS02.pdf" H 4850 2600 50  0001 C CNN
+F 4 "9" H 0   0   50  0001 C CNN "Cost100"
+F 5 "2042-1007-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4850 2600
 	1    0    0    -1  
 $EndComp
@@ -604,11 +604,10 @@ P 5350 2600
 F 0 "H3" H 5490 2646 50  0000 L CNN
 F 1 "Hole" H 5490 2555 50  0000 L CNN
 F 2 "Swadge_Parts:Hole" H 5350 2600 50  0001 C CNN
-F 3 "" H 5350 2600 50  0001 C CNN
-F 4 "0" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
-F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 3 "https://www.bumperspecialties.com/wp-content/uploads/2017/01/Bumper-Technical-Drawing-BS02.pdf" H 5350 2600 50  0001 C CNN
+F 4 "9" H 0   0   50  0001 C CNN "Cost100"
+F 5 "2042-1007-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5350 2600
 	1    0    0    -1  
 $EndComp
@@ -619,11 +618,10 @@ P 4850 2900
 F 0 "H2" H 4990 2946 50  0000 L CNN
 F 1 "Hole" H 4990 2855 50  0000 L CNN
 F 2 "Swadge_Parts:Hole" H 4850 2900 50  0001 C CNN
-F 3 "" H 4850 2900 50  0001 C CNN
-F 4 "0" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
-F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 3 "https://www.bumperspecialties.com/wp-content/uploads/2017/01/Bumper-Technical-Drawing-BS02.pdf" H 4850 2900 50  0001 C CNN
+F 4 "9" H 0   0   50  0001 C CNN "Cost100"
+F 5 "2042-1007-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4850 2900
 	1    0    0    -1  
 $EndComp
@@ -634,11 +632,10 @@ P 5350 2900
 F 0 "H4" H 5490 2946 50  0000 L CNN
 F 1 "Hole" H 5490 2855 50  0000 L CNN
 F 2 "Swadge_Parts:Hole" H 5350 2900 50  0001 C CNN
-F 3 "" H 5350 2900 50  0001 C CNN
-F 4 "0" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "y" H 0   0   50  0001 C CNN "NOBOM"
-F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 3 "https://www.bumperspecialties.com/wp-content/uploads/2017/01/Bumper-Technical-Drawing-BS02.pdf" H 5350 2900 50  0001 C CNN
+F 4 "9" H 0   0   50  0001 C CNN "Cost100"
+F 5 "2042-1007-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5350 2900
 	1    0    0    -1  
 $EndComp
@@ -663,7 +660,7 @@ P 6800 1100
 F 0 "SW1" H 6800 1415 50  0000 C CNN
 F 1 "4-1437565-2" H 6800 1324 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 6800 1100 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 6800 1100 50  0001 L BNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 6800 1100 50  0001 L BNN
 F 4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 6800 1100 50  0001 L BNN "Description"
 F 5 "TE Connectivity" H 6800 1100 50  0001 L BNN "Manufacturer"
 F 6 "FSM4JSMATR" H 6800 1100 50  0001 L BNN "MPN"
@@ -680,7 +677,7 @@ P 6800 1750
 F 0 "SW2" H 6800 2065 50  0000 C CNN
 F 1 "4-1437565-2" H 6800 1974 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 6800 1750 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 6800 1750 50  0001 L BNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 6800 1750 50  0001 L BNN
 F 4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 6800 1750 50  0001 L BNN "Description"
 F 5 "TE Connectivity" H 6800 1750 50  0001 L BNN "Manufacturer"
 F 6 "FSM4JSMATR" H 6800 1750 50  0001 L BNN "MPN"
@@ -697,7 +694,7 @@ P 6800 2400
 F 0 "SW3" H 6800 2715 50  0000 C CNN
 F 1 "4-1437565-2" H 6800 2624 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 6800 2400 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 6800 2400 50  0001 L BNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 6800 2400 50  0001 L BNN
 F 4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 6800 2400 50  0001 L BNN "Description"
 F 5 "TE Connectivity" H 6800 2400 50  0001 L BNN "Manufacturer"
 F 6 "FSM4JSMATR" H 6800 2400 50  0001 L BNN "MPN"
@@ -803,7 +800,7 @@ P 2000 1350
 F 0 "J5" H 1973 1280 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 2200 1100 50  0000 R CNN
 F 2 "Swadge_Parts:PinHeader_1x03_P2.54mm_Vertical" H 1900 1450 50  0001 C CNN
-F 3 "https://www.metz-connect.com/us/system/files/productfiles/Data_sheet_PR202XXVBNN_PR202XXVBNN_OFF-024022P.pdf" H 2000 1550 50  0001 C CNN
+F 3 "~" H 2000 1550 50  0001 C CNN
 F 4 "1849-1003-ND" H 2100 1650 50  0001 C CNN "Digikey"
 F 5 "10" H 2200 1750 50  0001 C CNN "Cost100"
 F 6 "Y" H 2300 1850 50  0001 C CNN "Substitutable"

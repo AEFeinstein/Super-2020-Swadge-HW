@@ -606,10 +606,9 @@ F0 "H" 0 50 50 H V C CNN
 F1 "Hole" 0 -50 50 H V C CNN
 F2 "Swadge_Parts:Hole" -100 -50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
-F4 "n/a" 100 150 50 H V C CNN "Digikey"
-F5 "0" 0 0 10 H I C CNN "Cost100"
+F4 "2042-1007-ND" 100 150 50 H I C CNN "Digikey"
+F5 "9" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "y" 0 0 10 H I C CNN "NOBOM"
 $FPLIST
  Swadge_Parts:Hole
 $ENDFPLIST

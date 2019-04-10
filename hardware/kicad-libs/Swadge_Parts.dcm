@@ -67,6 +67,10 @@ K MODULE ESP8266 ESP-8266
 F https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP Hole
+F https://www.bumperspecialties.com/wp-content/uploads/2017/01/Bumper-Technical-Drawing-BS02.pdf
+$ENDCMP
+#
 $CMP MCP6001UT-I_OT
 D 10 MHz, 850 µA Op Amps, SOT-23-5
 K single opamp
