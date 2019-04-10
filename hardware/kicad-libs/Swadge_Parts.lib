@@ -34,7 +34,7 @@ DEF 4-1437565-2 SW 0 40 Y N 1 F N
 F0 "SW" -160 170 50 H V L BNN
 F1 "4-1437565-2" -180 -240 50 H V L BNN
 F2 "Swadge_Parts:SW_4-1437565-2" 0 0 50 H I L BNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
 F4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" 0 0 50 H I L BNN "Description"
 F5 "TE Connectivity" 0 0 50 H I L BNN "Manufacturer"
 F6 "FSM4JSMATR" 0 0 50 H I L BNN "MPN"

@@ -7,7 +7,7 @@ $ENDCMP
 #
 $CMP 4-1437565-2
 D Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 1A SOT-223
-F https://www.diodes.com/assets/Datasheets/AP2114.pdf
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
 $CMP BUS_PCIexpress

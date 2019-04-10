@@ -660,7 +660,7 @@ P 6800 1100
 F 0 "SW1" H 6800 1415 50  0000 C CNN
 F 1 "4-1437565-2" H 6800 1324 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 6800 1100 50  0001 L BNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 6800 1100 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 6800 1100 50  0001 L BNN
 F 4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 6800 1100 50  0001 L BNN "Description"
 F 5 "TE Connectivity" H 6800 1100 50  0001 L BNN "Manufacturer"
 F 6 "FSM4JSMATR" H 6800 1100 50  0001 L BNN "MPN"
@@ -677,7 +677,7 @@ P 6800 1750
 F 0 "SW2" H 6800 2065 50  0000 C CNN
 F 1 "4-1437565-2" H 6800 1974 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 6800 1750 50  0001 L BNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 6800 1750 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 6800 1750 50  0001 L BNN
 F 4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 6800 1750 50  0001 L BNN "Description"
 F 5 "TE Connectivity" H 6800 1750 50  0001 L BNN "Manufacturer"
 F 6 "FSM4JSMATR" H 6800 1750 50  0001 L BNN "MPN"
@@ -694,7 +694,7 @@ P 6800 2400
 F 0 "SW3" H 6800 2715 50  0000 C CNN
 F 1 "4-1437565-2" H 6800 2624 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 6800 2400 50  0001 L BNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 6800 2400 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 6800 2400 50  0001 L BNN
 F 4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 6800 2400 50  0001 L BNN "Description"
 F 5 "TE Connectivity" H 6800 2400 50  0001 L BNN "Manufacturer"
 F 6 "FSM4JSMATR" H 6800 2400 50  0001 L BNN "MPN"
