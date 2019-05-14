@@ -1,4 +1,4 @@
-update=2/23/2019 10:39:58 AM
+update=4/10/2019 8:50:24 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../output/swadge-programmer/
+PlotDirectoryName=C:/Users/Adam Feinstein/Desktop/2.0.0-swadge-programmer/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

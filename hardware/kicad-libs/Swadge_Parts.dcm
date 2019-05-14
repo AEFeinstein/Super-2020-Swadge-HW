@@ -67,6 +67,10 @@ K MODULE ESP8266 ESP-8266
 F https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP GS321-TR
+F https://datasheet.lcsc.com/szlcsc/1901081202_Gainsil-GS321-TR_C157695.pdf
+$ENDCMP
+#
 $CMP Hole
 F https://www.bumperspecialties.com/wp-content/uploads/2017/01/Bumper-Technical-Drawing-BS02.pdf
 $ENDCMP
