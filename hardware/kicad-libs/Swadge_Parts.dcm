@@ -97,6 +97,10 @@ K Microphone
 F https://www.digikey.com/product-detail/en/pui-audio-inc/POM-2738P-R/668-1158-ND/1464897
 $ENDCMP
 #
+$CMP QMA6981
+F https://datasheet.lcsc.com/szlcsc/QST-QMA6981_C310611.pdf
+$ENDCMP
+#
 $CMP R_US
 D Resistor US symbol
 K r res resistor
