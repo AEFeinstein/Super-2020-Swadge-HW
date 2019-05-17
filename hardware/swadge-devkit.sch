@@ -1803,10 +1803,6 @@ Wire Notes Line
 	8000 6500 8000 2500
 Wire Notes Line
 	8000 2500 6900 2500
-Wire Notes Line
-	8050 2500 8050 6500
-Wire Notes Line
-	9700 6500 9700 2500
 Text Notes 6000 7600 0    50   ~ 0
 I2C address 0x1C\nw/SA0 at GND
 NoConn ~ 1900 7000
@@ -1927,8 +1923,6 @@ Wire Notes Line
 	10000 2650 10000 2500
 Text Notes 9800 3850 0    50   ~ 0
 PCB must be 1.6mm\nthick for PCIe
-Wire Notes Line
-	10700 4650 10700 3450
 Text Notes 9800 3550 0    50   ~ 0
 Notes
 Wire Notes Line
@@ -2017,7 +2011,7 @@ Wire Notes Line
 Wire Notes Line
 	9750 3450 10700 3450
 Wire Notes Line
-	9750 4650 10700 4650
+	9750 4750 10700 4750
 Wire Notes Line
 	9750 2500 10700 2500
 Text GLabel 950  3850 0    50   Input ~ 0
@@ -2351,9 +2345,7 @@ Wire Wire Line
 Wire Notes Line
 	9750 3400 9750 2500
 Wire Notes Line
-	9750 3450 9750 4650
-Wire Notes Line
-	8050 6500 9700 6500
+	8050 4750 9700 4750
 Wire Notes Line
 	8050 2500 9700 2500
 $Comp
@@ -2523,4 +2515,171 @@ F 7 "https://lcsc.com/product-detail/Low-Power-OpAmps_Gainsil-GS321-TR_C157695.h
 	1    2950 1150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Swadge_Parts:QMA6981 U9
+U 1 1 5CE08D23
+P 9050 5650
+F 0 "U9" H 9300 6000 50  0000 C CNN
+F 1 "QMA6981" H 8750 6000 50  0000 C CNN
+F 2 "Swadge_Parts:LGA-12_2x2mm_P0.5mm" H 8850 6350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/QST-QMA6981_C310611.pdf" H 9050 5600 50  0001 C CNN
+F 4 "LCSC Part #C310611" H 8750 6450 50  0001 C CNN "Digikey"
+F 5 "36" H 8600 6550 50  0001 C CNN "Cost100"
+F 6 "Y" H 8600 6650 50  0001 C CNN "Substitutable"
+	1    9050 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 5600 0    50   Input ~ 0
+SDA
+Text GLabel 9000 5250 1    50   Input ~ 0
+SCL
+NoConn ~ 9000 6000
+NoConn ~ 9100 6000
+$Comp
+L power:GND #PWR066
+U 1 1 5CE3B9AC
+P 9650 6100
+F 0 "#PWR066" H 9650 5850 50  0001 C CNN
+F 1 "GND" H 9655 5927 50  0000 C CNN
+F 2 "" H 9650 6100 50  0001 C CNN
+F 3 "" H 9650 6100 50  0001 C CNN
+	1    9650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5600 9650 5600
+Wire Wire Line
+	9650 5600 9650 5700
+Wire Wire Line
+	9500 5700 9650 5700
+Connection ~ 9650 5700
+Wire Wire Line
+	9650 5700 9650 6100
+$Comp
+L power:+3.3V #PWR064
+U 1 1 5CE6D6B7
+P 8200 5700
+F 0 "#PWR064" H 8200 5550 50  0001 C CNN
+F 1 "+3.3V" H 8215 5873 50  0000 C CNN
+F 2 "" H 8200 5700 50  0001 C CNN
+F 3 "" H 8200 5700 50  0001 C CNN
+	1    8200 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 5800 8550 6100
+Wire Wire Line
+	8550 6100 9650 6100
+Connection ~ 9650 6100
+$Comp
+L power:+3.3V #PWR065
+U 1 1 5CEBCCB3
+P 10150 5800
+F 0 "#PWR065" H 10150 5650 50  0001 C CNN
+F 1 "+3.3V" H 10165 5973 50  0000 C CNN
+F 2 "" H 10150 5800 50  0001 C CNN
+F 3 "" H 10150 5800 50  0001 C CNN
+	1    10150 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:C C27
+U 1 1 5CED6CD6
+P 9950 5950
+F 0 "C27" H 10065 5996 50  0000 L CNN
+F 1 "0.1u" H 10065 5905 50  0000 L CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 9988 5800 50  0001 C CNN
+F 3 "" H 9950 5950 50  0001 C CNN
+F 4 "10" H 7100 -1000 50  0001 C CNN "Cost100"
+F 5 "1276-1000-1-ND" H 7100 -1000 50  0001 C CNN "Digikey"
+F 6 "Y" H 7100 -1000 50  0001 C CNN "Substitutable"
+	1    9950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:C C28
+U 1 1 5CED81BB
+P 10350 5950
+F 0 "C28" H 10465 5996 50  0000 L CNN
+F 1 "2.2u" H 10465 5905 50  0000 L CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 10388 5800 50  0001 C CNN
+F 3 "" H 10350 5950 50  0001 C CNN
+F 4 "10" H 7500 -1000 50  0001 C CNN "Cost100"
+F 5 "1276-1000-1-ND" H 7500 -1000 50  0001 C CNN "Digikey"
+F 6 "Y" H 7500 -1000 50  0001 C CNN "Substitutable"
+	1    10350 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5800 10150 5800
+Connection ~ 9950 5800
+Connection ~ 10150 5800
+Wire Wire Line
+	10150 5800 10350 5800
+Wire Wire Line
+	9500 5800 9950 5800
+Wire Wire Line
+	10350 6100 9950 6100
+Wire Wire Line
+	9950 6100 9650 6100
+Connection ~ 9950 6100
+Wire Wire Line
+	9000 5250 9000 5300
+Wire Wire Line
+	8500 5600 8550 5600
+$Comp
+L Swadge_Parts:C C26
+U 1 1 5CFDFB93
+P 8200 5850
+F 0 "C26" H 8315 5896 50  0000 L CNN
+F 1 "0.01u" H 8315 5805 50  0000 L CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 8238 5700 50  0001 C CNN
+F 3 "" H 8200 5850 50  0001 C CNN
+F 4 "10" H 5350 -1100 50  0001 C CNN "Cost100"
+F 5 "1276-1000-1-ND" H 5350 -1100 50  0001 C CNN "Digikey"
+F 6 "Y" H 5350 -1100 50  0001 C CNN "Substitutable"
+	1    8200 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 5700
+Wire Wire Line
+	8200 5700 8550 5700
+Wire Wire Line
+	8200 6000 8200 6100
+Wire Wire Line
+	8200 6100 8550 6100
+Connection ~ 8550 6100
+NoConn ~ 9100 5300
+NoConn ~ 9500 5500
+Wire Wire Line
+	8100 6100 8200 6100
+Connection ~ 8200 6100
+Wire Wire Line
+	8550 5500 8550 5450
+Wire Wire Line
+	8550 5450 8100 5450
+Wire Wire Line
+	8100 5450 8100 6100
+Wire Notes Line
+	9700 2500 9700 4750
+Wire Notes Line
+	9750 3450 9750 4750
+Wire Notes Line
+	10700 3450 10700 4750
+Wire Notes Line
+	8050 4750 8050 2500
+Wire Notes Line
+	8050 4800 8050 6500
+Wire Notes Line
+	8050 6500 10700 6500
+Wire Notes Line
+	10700 6500 10700 4800
+Wire Notes Line
+	10700 4800 8050 4800
+Text Notes 8100 4900 0    50   ~ 0
+Accelerometer Circuit
+Wire Notes Line
+	8050 4950 8950 4950
+Wire Notes Line
+	8950 4950 8950 4800
 $EndSCHEMATC

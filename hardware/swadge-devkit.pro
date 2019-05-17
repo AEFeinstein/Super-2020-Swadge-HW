@@ -1,4 +1,4 @@
-update=4/10/2019 8:50:50 PM
+update=5/16/2019 11:54:06 PM
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=C:/Users/Adam Feinstein/Desktop/2.0.0-swadge-devkit/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -28,12 +38,13 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.4
-TrackWidth2=0.28
-TrackWidth3=0.3048
-TrackWidth4=0.4
+TrackWidth1=0.3048
+TrackWidth2=0.24
+TrackWidth3=0.28
+TrackWidth4=0.3048
+TrackWidth5=0.4
 ViaDiameter1=0.635
-ViaDrill1=0.45
+ViaDrill1=0.3556
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -84,13 +95,14 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=C:/Users/Adam Feinstein/Desktop/2.0.0-swadge-devkit/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
+[pcbnew/Netclasses/3]
+Name=xThin
+Clearance=0.19558
+TrackWidth=0.2
+ViaDiameter=0.635
+ViaDrill=0.3556
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
