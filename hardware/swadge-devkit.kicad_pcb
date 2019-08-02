@@ -1,7 +1,7 @@
 (kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-2")
 
   (general
-    (thickness 1.6)
+    (thickness 1)
     (drawings 29)
     (tracks 635)
     (zones 0)
@@ -256,7 +256,7 @@
     (uvia_drill 0.1)
   )
 
-  (module Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND (layer F.Cu) (tedit 5D425B91) (tstamp 5CAC00E2)
+  (module Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND (layer F.Cu) (tedit 5D4380FC) (tstamp 5CAC00E2)
     (at 130.56 65.4146 180)
     (path /5C3C7BBF)
     (attr smd)
@@ -350,10 +350,10 @@
       (net 46 "Net-(C12-Pad1)"))
     (pad 1 smd rect (at -10.14984 1.19888 270) (size 2.19964 0.34798) (layers B.Cu B.Mask)
       (net 3 GND))
-    (model ${KIPRJMOD}/kicad-libs/package3d/oled.wrl
-      (offset (xyz -13.45 -4.92 0))
-      (scale (xyz 0.396 0.396 0.396))
-      (rotate (xyz 0 0 0))
+    (model ${KIPRJMOD}/kicad-libs/package3d/oled_curved.step
+      (offset (xyz 0 18.88 -1.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
