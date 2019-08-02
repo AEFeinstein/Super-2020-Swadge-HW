@@ -1,4 +1,4 @@
-(module microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND (layer F.Cu) (tedit 5D425B91)
+(module microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND (layer F.Cu) (tedit 5D4380FC)
   (attr smd)
   (fp_text reference U6 (at -8.89 -13.335) (layer F.SilkS)
     (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
@@ -64,5 +64,10 @@
     (offset (xyz -13.45 -4.92 0))
     (scale (xyz 0.396 0.396 0.396))
     (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/kicad-libs/package3d/oled_curved.step
+    (offset (xyz 0 18.88 -1.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )
