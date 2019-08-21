@@ -10,6 +10,11 @@ D Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 1A SOT-223
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
+$CMP B3FS-4002P
+D Black Cap Tactile Switch, SPST-NO 50 mA @ 24 V dc 0.4mm
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf
+$ENDCMP
+#
 $CMP BUS_PCIexpress
 D Edge Connector
 $ENDCMP
