@@ -25,6 +25,12 @@ K batt voltage-source cell
 F http://www.keyelco.com/product-pdf.cfm?p=1025
 $ENDCMP
 #
+$CMP Buzzer
+D Buzzer, polarized
+K quartz resonator ceramic
+F https://www.aliexpress.com/item/33004601553.html?spm=a2g0s.9042311.0.0.56834c4diZwZhE
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 K cap capacitor
@@ -104,6 +110,12 @@ $ENDCMP
 #
 $CMP QMA6981
 F https://datasheet.lcsc.com/szlcsc/QST-QMA6981_C310611.pdf
+$ENDCMP
+#
+$CMP Q_NPN_BEC
+D NPN transistor, base/collector/emitter
+K transistor NPN
+F https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF
 $ENDCMP
 #
 $CMP R_US
