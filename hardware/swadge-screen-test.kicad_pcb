@@ -1011,10 +1011,10 @@
   (gr_line (start 240.276408 77.627413) (end 226.06 102.235) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 226.06 102.235) (end 197.641002 102.227018) (layer Edge.Cuts) (width 0.2))
 
-  (via (at 227.33 92.075) (size 4) (drill 0.4) (layers F.Cu B.Cu) (net 0))
-  (via (at 196.215 92.075) (size 4) (drill 0.4) (layers F.Cu B.Cu) (net 0))
-  (via (at 196.215 66.04) (size 4) (drill 0.4) (layers F.Cu B.Cu) (net 0))
-  (via (at 227.965 66.04) (size 4) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 227.33 92.075) (size 4) (drill 3.99) (layers F.Cu B.Cu) (net 0))
+  (via (at 196.215 92.075) (size 4) (drill 3.99) (layers F.Cu B.Cu) (net 0))
+  (via (at 196.215 66.04) (size 4) (drill 3.99) (layers F.Cu B.Cu) (net 0))
+  (via (at 227.965 66.04) (size 4) (drill 3.99) (layers F.Cu B.Cu) (net 0))
 
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
