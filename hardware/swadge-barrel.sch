@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:swadge-barrel-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1822,4 +1823,94 @@ Wire Notes Line
 	500  500  3650 500 
 Wire Notes Line
 	3650 500  3650 2450
+$Comp
+L Swadge_Parts:Buzzer BZ1
+U 1 1 5D5EB51A
+P 1600 6600
+F 0 "BZ1" H 1752 6629 50  0000 L CNN
+F 1 "Buzzer" H 1752 6538 50  0000 L CNN
+F 2 "Swadge_Parts:Buzzer_12x9.5RM7.6" H 1850 6950 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/33004601553.html?spm=a2g0s.9042311.0.0.56834c4diZwZhE" V 1575 6700 50  0001 C CNN
+F 4 "433-1285-ND" H 1950 7050 50  0001 C CNN "Digikey"
+F 5 "49" H 1850 6850 50  0001 C CNN "Cost100"
+F 6 "Y" H 1850 7150 50  0001 C CNN "Substitutable"
+	1    1600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:Q_NPN_BEC Q1
+U 1 1 5D5EC406
+P 1400 6950
+F 0 "Q1" H 1591 6996 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 1591 6905 50  0000 L CNN
+F 2 "Swadge_Parts:SOT-23" H 2050 7300 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF" H 1400 6950 50  0001 C CNN
+F 4 "BC848BLT3GOSTR-ND" H 2050 7200 50  0001 C CNN "Digikey"
+F 5 "1.554" H 1750 7400 50  0001 C CNN "Cost100"
+F 6 "Y" H 1700 7500 50  0001 C CNN "Substitutable"
+	1    1400 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR033
+U 1 1 5D5EE737
+P 1500 6450
+F 0 "#PWR033" H 1500 6300 50  0001 C CNN
+F 1 "+3.3V" H 1515 6623 50  0000 C CNN
+F 2 "" H 1500 6450 50  0001 C CNN
+F 3 "" H 1500 6450 50  0001 C CNN
+	1    1500 6450
+	1    0    0    -1  
+$EndComp
+Text GLabel 800  6950 0    50   Input ~ 0
+SW5
+Wire Wire Line
+	1150 6950 1200 6950
+$Comp
+L power:GND #PWR048
+U 1 1 5D5FD0B6
+P 1500 7200
+F 0 "#PWR048" H 1500 6950 50  0001 C CNN
+F 1 "GND" H 1505 7027 50  0000 C CNN
+F 2 "" H 1500 7200 50  0001 C CNN
+F 3 "" H 1500 7200 50  0001 C CNN
+	1    1500 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 7150 1500 7200
+$Comp
+L Swadge_Parts:R_US R7
+U 1 1 5D60B5AD
+P 1000 6950
+F 0 "R7" V 1100 6950 50  0000 C CNN
+F 1 "100" V 886 6950 50  0000 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1040 6940 50  0001 C CNN
+F 3 "" H 1000 6950 50  0001 C CNN
+F 4 "10" H -700 1300 50  0001 C CNN "Cost100"
+F 5 "RNCP0603FTD10K0CT-ND" H -700 1300 50  0001 C CNN "Digikey"
+F 6 "Y" H -700 1300 50  0001 C CNN "Substitutable"
+	1    1000 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  6950 850  6950
+Wire Wire Line
+	1500 6450 1500 6500
+Wire Wire Line
+	1500 6700 1500 6750
+Wire Notes Line
+	500  5950 500  7750
+Wire Notes Line
+	500  7750 2100 7750
+Wire Notes Line
+	2100 7750 2100 5950
+Wire Notes Line
+	2100 5950 500  5950
+Text Notes 550  6050 0    50   ~ 0
+Buzzer
+Wire Notes Line
+	500  6100 850  6100
+Wire Notes Line
+	850  6100 850  5950
 $EndSCHEMATC
