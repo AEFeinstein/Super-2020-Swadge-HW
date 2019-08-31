@@ -586,20 +586,6 @@ $EndComp
 Wire Wire Line
 	9650 1550 9550 1550
 NoConn ~ 9950 1350
-$Comp
-L Swadge_Parts:SW_SPDT SW4
-U 1 1 5C3F7306
-P 10850 1500
-F 0 "SW4" H 10850 1800 50  0000 C CNN
-F 1 "SW_SPDT" H 10850 1700 50  0000 C CNN
-F 2 "Swadge_Parts:SW_SPDT_PCM12" H 10850 1500 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1424/pcm.pdf" H 10850 1500 50  0001 C CNN
-F 4 "96" H 0   0   50  0001 C CNN "Cost100"
-F 5 "401-2016-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    10850 1500
-	-1   0    0    1   
-$EndComp
 Connection ~ 9650 1550
 $Comp
 L power:+3.3V #PWR047
@@ -1913,4 +1899,41 @@ Wire Notes Line
 	500  6100 850  6100
 Wire Notes Line
 	850  6100 850  5950
+$Comp
+L power:GND #PWR0102
+U 1 1 5D73519E
+P 11000 1000
+F 0 "#PWR0102" H 11000 750 50  0001 C CNN
+F 1 "GND" H 11005 827 50  0000 C CNN
+F 2 "" H 11000 1000 50  0001 C CNN
+F 3 "" H 11000 1000 50  0001 C CNN
+	1    11000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:SW_SPDT SW4
+U 1 1 5C3F7306
+P 10850 1500
+F 0 "SW4" H 10850 1800 50  0000 C CNN
+F 1 "SW_SPDT" H 10850 1700 50  0000 C CNN
+F 2 "Swadge_Parts:SW_SPDT_PCM12" H 10850 1500 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1424/pcm.pdf" H 10850 1500 50  0001 C CNN
+F 4 "96" H 0   0   50  0001 C CNN "Cost100"
+F 5 "401-2016-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+	1    10850 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10700 1150 10800 1150
+Wire Wire Line
+	10900 1150 10800 1150
+Connection ~ 10800 1150
+Wire Wire Line
+	10900 1150 11000 1150
+Connection ~ 10900 1150
+Wire Wire Line
+	10800 1150 10800 1000
+Wire Wire Line
+	10800 1000 11000 1000
 $EndSCHEMATC
