@@ -982,10 +982,10 @@ Connection ~ 10050 950
 Wire Wire Line
 	10050 950  10050 1150
 $Comp
-L Swadge_Parts:4-1437565-2 SW2
+L Swadge_Parts:4-1437565-2 S3
 U 1 1 5C53358A
 P 2150 1950
-F 0 "SW2" H 2150 2265 50  0000 C CNN
+F 0 "S3" H 2150 2265 50  0000 C CNN
 F 1 "4-1437565-2" H 2150 2174 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 2150 1950 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 2150 1950 50  0001 L BNN

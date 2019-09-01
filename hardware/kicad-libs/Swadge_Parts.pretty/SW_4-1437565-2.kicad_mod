@@ -1,4 +1,4 @@
-(module SW_4-1437565-2 (layer F.Cu) (tedit 5D69C701)
+(module SW_4-1437565-2 (layer F.Cu) (tedit 5D6B42CE)
   (attr smd)
   (fp_text reference SW_4-1437565-2 (at -4.13865 -3.82856) (layer F.Fab)
     (effects (font (size 0.640957 0.640957) (thickness 0.05)))
