@@ -1810,20 +1810,6 @@ Wire Notes Line
 Wire Notes Line
 	3650 500  3650 2450
 $Comp
-L Swadge_Parts:Buzzer BZ1
-U 1 1 5D5EB51A
-P 1600 6600
-F 0 "BZ1" H 1752 6629 50  0000 L CNN
-F 1 "Buzzer" H 1752 6538 50  0000 L CNN
-F 2 "Swadge_Parts:Buzzer_12x9.5RM7.6" H 1850 6950 50  0001 C CNN
-F 3 "https://www.aliexpress.com/item/33004601553.html?spm=a2g0s.9042311.0.0.56834c4diZwZhE" V 1575 6700 50  0001 C CNN
-F 4 "433-1285-ND" H 1950 7050 50  0001 C CNN "Digikey"
-F 5 "49" H 1850 6850 50  0001 C CNN "Cost100"
-F 6 "Y" H 1850 7150 50  0001 C CNN "Substitutable"
-	1    1600 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Swadge_Parts:Q_NPN_BEC Q1
 U 1 1 5D5EC406
 P 1400 6950
@@ -1881,18 +1867,10 @@ F 6 "Y" H -700 1300 50  0001 C CNN "Substitutable"
 $EndComp
 Wire Wire Line
 	800  6950 850  6950
-Wire Wire Line
-	1500 6450 1500 6500
-Wire Wire Line
-	1500 6700 1500 6750
 Wire Notes Line
 	500  5950 500  7750
 Wire Notes Line
-	500  7750 2100 7750
-Wire Notes Line
-	2100 7750 2100 5950
-Wire Notes Line
-	2100 5950 500  5950
+	2200 7750 2200 5950
 Text Notes 550  6050 0    50   ~ 0
 Buzzer
 Wire Notes Line
@@ -1936,4 +1914,26 @@ Wire Wire Line
 	10800 1150 10800 1000
 Wire Wire Line
 	10800 1000 11000 1000
+$Comp
+L Swadge_Parts:Speaker LS1
+U 1 1 5D6E9B01
+P 1700 6550
+F 0 "LS1" H 1870 6546 50  0000 L CNN
+F 1 "Speaker" H 1870 6455 50  0000 L CNN
+F 2 "Swadge_Parts:Speaker_9mm" H 1700 6350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-HNB09A03_C96102.pdf" H 1690 6500 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Buzzers_Jiangsu-Huaneng-Elec-HNB09A03_C96102.html" H 1300 6900 50  0001 C CNN "Digikey"
+F 5 "13.48" H 1950 6800 50  0001 C CNN "Cost100"
+F 6 "Y" H 1950 7050 50  0001 C CNN "Substitutable"
+	1    1700 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6650 1500 6750
+Wire Wire Line
+	1500 6450 1500 6550
+Wire Notes Line
+	500  5950 2200 5950
+Wire Notes Line
+	500  7750 2200 7750
 $EndSCHEMATC
