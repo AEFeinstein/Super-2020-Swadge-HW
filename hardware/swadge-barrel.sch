@@ -607,7 +607,7 @@ Wire Notes Line
 Wire Notes Line
 	10000 650  10000 500 
 Text GLabel 1850 1850 0    50   Input ~ 0
-SW3
+SW1
 $Comp
 L power:GND #PWR034
 U 1 1 5C4436EA
@@ -982,10 +982,10 @@ Connection ~ 10050 950
 Wire Wire Line
 	10050 950  10050 1150
 $Comp
-L Swadge_Parts:4-1437565-2 S3
+L Swadge_Parts:4-1437565-2 S1
 U 1 1 5C53358A
 P 2150 1950
-F 0 "S3" H 2150 2265 50  0000 C CNN
+F 0 "S1" H 2150 2265 50  0000 C CNN
 F 1 "4-1437565-2" H 2150 2174 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 2150 1950 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 2150 1950 50  0001 L BNN
@@ -1159,11 +1159,11 @@ $EndComp
 Text GLabel 950  3550 0    50   Input ~ 0
 AUD_PWR
 Text GLabel 3000 4150 2    50   Input ~ 0
-SW4
-Text GLabel 950  3650 0    50   Input ~ 0
 SW3
+Text GLabel 950  3650 0    50   Input ~ 0
+SW1
 Text GLabel 3000 3750 2    50   Input ~ 0
-SW5
+BZR
 Text GLabel 950  3750 0    50   Input ~ 0
 SW2
 Text GLabel 3000 3950 2    50   Input ~ 0
@@ -1241,21 +1241,6 @@ Wire Wire Line
 	2950 3550 3000 3550
 Wire Wire Line
 	2950 3200 3100 3200
-$Comp
-L Swadge_Parts:BUS_PCIexpress U3
-U 1 1 5C3B5040
-P 7700 3800
-F 0 "U3" H 7700 4875 50  0000 C CNN
-F 1 "BUS_PCIexpress" H 7700 4784 50  0000 C CNN
-F 2 "Swadge_Parts:BUS_PCIexpress" H 7700 4150 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" H 7700 4150 50  0001 C CNN
-F 4 "0" H -1050 -550 50  0001 C CNN "Cost100"
-F 5 "n/a" H -1050 -550 50  0001 C CNN "Digikey"
-F 6 "y" H -1050 -550 50  0001 C CNN "NOBOM"
-F 7 "Y" H -1050 -550 50  0001 C CNN "Substitutable"
-	1    7700 3800
-	1    0    0    -1  
-$EndComp
 Text GLabel 7950 3250 2    50   Input ~ 0
 _RES
 Text GLabel 7950 3150 2    50   Input ~ 0
@@ -1265,13 +1250,13 @@ SCL
 Text GLabel 7950 3550 2    50   Input ~ 0
 AUD_PWR
 Text GLabel 7950 3450 2    50   Input ~ 0
-SW3
+SW1
 Text GLabel 7950 3350 2    50   Input ~ 0
 SW2
 Text GLabel 7950 4550 2    50   Input ~ 0
-SW4
+SW3
 Text GLabel 7950 4250 2    50   Input ~ 0
-SW5
+BZR
 Text GLabel 7950 4350 2    50   Input ~ 0
 TX
 Text GLabel 7950 4450 2    50   Input ~ 0
@@ -1368,7 +1353,7 @@ _RES
 Text GLabel 7450 3350 0    50   Input ~ 0
 SW2
 Text GLabel 7450 3450 0    50   Input ~ 0
-SW3
+SW1
 Text GLabel 7450 3550 0    50   Input ~ 0
 AUD_PWR
 $Comp
@@ -1387,13 +1372,13 @@ ADC_PIN
 Text GLabel 7450 4150 0    50   Input ~ 0
 REST
 Text GLabel 7450 4250 0    50   Input ~ 0
-SW5
+BZR
 Text GLabel 7450 4350 0    50   Input ~ 0
 TX
 Text GLabel 7450 4450 0    50   Input ~ 0
 RX
 Text GLabel 7450 4550 0    50   Input ~ 0
-SW4
+SW3
 $Comp
 L power:+5V #PWR038
 U 1 1 5CCD2242
@@ -1448,8 +1433,6 @@ Wire Wire Line
 	7150 2950 7500 2950
 NoConn ~ 7500 3750
 NoConn ~ 7500 3850
-NoConn ~ 7500 3950
-NoConn ~ 7900 3950
 NoConn ~ 7900 3850
 NoConn ~ 7900 3750
 Wire Wire Line
@@ -1758,10 +1741,10 @@ F 3 "" H 1900 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:B3FS-4002P S2
+L Swadge_Parts:B3FS-4002P S3
 U 1 1 5D5D7962
 P 2300 1150
-F 0 "S2" H 2775 1375 50  0000 C CNN
+F 0 "S3" H 2775 1375 50  0000 C CNN
 F 1 "B3FS-4002P" H 2775 1284 50  0000 C CNN
 F 2 "Swadge_Parts:B3FS4002P" H 2750 1600 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf" H 3100 1150 50  0001 L CNN
@@ -1772,10 +1755,10 @@ F 6 "Y" H 2450 1650 50  0001 C CNN "Substitutable"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:B3FS-4002P S1
+L Swadge_Parts:B3FS-4002P S2
 U 1 1 5D5D65F5
 P 950 1150
-F 0 "S1" H 1425 1375 50  0000 C CNN
+F 0 "S2" H 1425 1375 50  0000 C CNN
 F 1 "B3FS-4002P" H 1425 1284 50  0000 C CNN
 F 2 "Swadge_Parts:B3FS4002P" H 1400 1600 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf" H 1750 1150 50  0001 L CNN
@@ -1797,7 +1780,7 @@ F 3 "" H 3250 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2300 1150 0    50   Input ~ 0
-SW4
+SW3
 Text GLabel 950  1150 0    50   Input ~ 0
 SW2
 Connection ~ 1900 1850
@@ -1835,7 +1818,7 @@ F 3 "" H 1500 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 800  6950 0    50   Input ~ 0
-SW5
+BZR
 Wire Wire Line
 	1150 6950 1200 6950
 $Comp
@@ -1889,10 +1872,10 @@ F 3 "" H 11000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:SW_SPDT SW4
+L Swadge_Parts:SW_SPDT S4
 U 1 1 5C3F7306
 P 10850 1500
-F 0 "SW4" H 10850 1800 50  0000 C CNN
+F 0 "S4" H 10850 1800 50  0000 C CNN
 F 1 "SW_SPDT" H 10850 1700 50  0000 C CNN
 F 2 "Swadge_Parts:SW_SPDT_PCM12" H 10850 1500 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1424/pcm.pdf" H 10850 1500 50  0001 C CNN
@@ -1987,4 +1970,29 @@ F 3 "" H 2600 6550 50  0001 C CNN
 	1    2600 6550
 	1    0    0    -1  
 $EndComp
+Text GLabel 7900 1650 2    50   Input ~ 0
+LED_OUT
+Text GLabel 7950 3950 2    50   Input ~ 0
+LED_OUT
+Text GLabel 7450 3950 0    50   Input ~ 0
+LED_OUT
+$Comp
+L Swadge_Parts:BUS_PCIexpress U3
+U 1 1 5C3B5040
+P 7700 3800
+F 0 "U3" H 7700 4875 50  0000 C CNN
+F 1 "BUS_PCIexpress" H 7700 4784 50  0000 C CNN
+F 2 "Swadge_Parts:BUS_PCIexpress" H 7700 4150 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10018784.pdf" H 7700 4150 50  0001 C CNN
+F 4 "0" H -1050 -550 50  0001 C CNN "Cost100"
+F 5 "n/a" H -1050 -550 50  0001 C CNN "Digikey"
+F 6 "y" H -1050 -550 50  0001 C CNN "NOBOM"
+F 7 "Y" H -1050 -550 50  0001 C CNN "Substitutable"
+	1    7700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3950 7500 3950
+Wire Wire Line
+	7950 3950 7900 3950
 $EndSCHEMATC
