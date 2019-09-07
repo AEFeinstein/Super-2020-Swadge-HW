@@ -36,12 +36,10 @@ F1 "4-1437565-2" -180 -240 50 H V L BNN
 F2 "Swadge_Parts:SW_4-1437565-2" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" 0 0 50 H I L BNN "Description"
-F5 "TE Connectivity" 0 0 50 H I L BNN "Manufacturer"
-F6 "FSM4JSMATR" 0 0 50 H I L BNN "MPN"
-F7 "450-1759-1-ND" 640 970 50 H I C CNN "Digikey"
-F8 "34" 0 0 10 H I C CNN "Cost100"
-F9 "Y" 0 0 10 H I C CNN "Substitutable"
-F10 "Use standard SMT box tactile buttons.  Similar to PTS645SM43SMTR92." -250 300 50 H I C CNN "Notes"
+F5 "450-1759-1-ND" 640 970 50 H I C CNN "Digikey"
+F6 "34" 0 0 10 H I C CNN "Cost100"
+F7 "Y" 0 0 10 H I C CNN "Substitutable"
+F8 "Use standard SMT box tactile buttons.  Similar to PTS645SM43SMTR92." -250 300 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:SW_4-1437565-2
 $ENDFPLIST
@@ -493,82 +491,6 @@ X Pin_9 9 -200 200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DISP_OLED_UG-2864HSWEG01
-#
-DEF DISP_OLED_UG-2864HSWEG01 U 0 40 Y Y 1 F N
-F0 "U" -900 1600 45 H V L BNN
-F1 "DISP_OLED_UG-2864HSWEG01" -900 -1700 45 H V L BNN
-F2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND" 30 150 20 H I C CNN
-F3 "" -900 1600 50 H I C CNN
-F4 "541-3485-ND" -800 1700 50 H I C CNN "Digikey"
-F5 "988" 0 0 10 H I C CNN "Cost100"
-F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" -500 2000 50 H I C CNN "Adafruit"
-F8 "This is two parts: display and connector. Display must be one color, white, with SSD1306 driver, 0.96\". Both display and connector must have top contacts. https://www.buydisplay.com/default/128x64-oled-i2c-0-96-display-white-color-connector-fpc-ssd1306 https://lcsc.com/product-detail/FFC-FPC-Connectors_JUSHUO-AFC07-S30ECC-00_C11095.html" -1350 1850 50 H I C CNN "Notes"
-$FPLIST
- Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND
- Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND
-$ENDFPLIST
-DRAW
-T 0 -99 303 56 0 1 0 0 Normal 0 C C
-T 0 -99 503 56 0 1 0 0 Normal 0 C C
-T 0 226 303 56 0 1 0 0 Normal 0 C C
-T 0 226 403 56 0 1 0 0 Normal 0 C C
-T 0 526 303 56 0 1 0 0 Normal 0 C C
-T 0 526 403 56 0 1 0 0 Normal 0 C C
-T 0 526 503 56 0 1 0 0 Normal 0 C C
-T 0 -99 403 56 0 1 0 1 Normal 0 C C
-T 0 226 503 56 0 1 0 1 Normal 0 C C
-T 0 -27 1190 80 0 1 0 "128x64 OLED" Normal 0 C C
-T 0 415 828 56 0 1 0 2.8-3.3V Normal 0 C C
-T 0 538 -397 56 0 1 0 Connect Normal 0 C C
-T 0 -204 928 56 0 1 0 Controller: Normal 0 C C
-T 0 538 -497 56 0 1 0 "for I2C" Normal 0 C C
-T 0 -95 628 56 0 1 0 I2C Normal 0 C C
-T 0 257 628 56 0 1 0 SPI3 Normal 0 C C
-T 0 557 628 56 0 1 0 SPI4 Normal 0 C C
-T 0 388 928 56 0 1 0 SSD1306 Normal 0 C C
-T 0 -393 828 56 0 1 0 VDD: Normal 0 C C
-S -900 1500 750 -1550 1 0 0 f
-P 2 1 0 0 -575 300 -225 300 N
-P 2 1 0 0 -575 400 -225 400 N
-P 2 1 0 0 -575 500 -225 500 N
-P 2 1 0 0 250 -400 300 -400 N
-P 2 1 0 0 300 -500 -200 -500 N
-P 2 1 0 0 300 -400 300 -500 N
-X NC(GND) 1 -1000 1400 100 R 40 40 1 1 I
-X BS0 10 -1000 500 100 R 40 40 1 1 I
-X BS1 11 -1000 400 100 R 40 40 1 1 I
-X BS2 12 -1000 300 100 R 40 40 1 1 I
-X /CS 13 -1000 200 100 R 40 40 1 1 I
-X /RES 14 -1000 100 100 R 40 40 1 1 I
-X DC/I2C_SA0 15 -1000 0 100 R 40 40 1 1 I
-X R/W 16 -1000 -100 100 R 40 40 1 1 I
-X E/RD 17 -1000 -200 100 R 40 40 1 1 I
-X D0/SPI_SCLK/I2C_SCK 18 -1000 -300 100 R 40 40 1 1 B
-X D1/SPI_SDIN/I2C_SDA 19 -1000 -400 100 R 40 40 1 1 B
-X C2P 2 -1000 1300 100 R 40 40 1 1 I
-X D2/I2C_SDA 20 -1000 -500 100 R 40 40 1 1 B
-X D3 21 -1000 -600 100 R 40 40 1 1 B
-X D4 22 -1000 -700 100 R 40 40 1 1 B
-X D5 23 -1000 -800 100 R 40 40 1 1 B
-X D6 24 -1000 -900 100 R 40 40 1 1 B
-X D7 25 -1000 -1000 100 R 40 40 1 1 B
-X IREF 26 -1000 -1100 100 R 40 40 1 1 I
-X VCOMH 27 -1000 -1200 100 R 40 40 1 1 O
-X VCC 28 -1000 -1300 100 R 40 40 1 1 W
-X VLSS 29 -1000 -1400 100 R 40 40 1 1 W
-X C2N 3 -1000 1200 100 R 40 40 1 1 I
-X NC(GND) 30 -1000 -1500 100 R 40 40 1 1 I
-X C1P 4 -1000 1100 100 R 40 40 1 1 I
-X C1N 5 -1000 1000 100 R 40 40 1 1 I
-X VBAT 6 -1000 900 100 R 40 40 1 1 I
-X NC 7 -1000 800 100 R 40 40 1 1 U
-X VSS 8 -1000 700 100 R 40 40 1 1 W
-X VDD 9 -1000 600 100 R 40 40 1 1 W
-ENDDRAW
-ENDDEF
-#
 # ESP-12F
 #
 DEF ESP-12F U 0 40 Y Y 1 F N
@@ -792,6 +714,98 @@ X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# OLED_CONNECTOR
+#
+DEF OLED_CONNECTOR U 0 40 Y Y 1 F N
+F0 "U" -900 1600 45 H V L BNN
+F1 "OLED_CONNECTOR" -900 -1700 45 H V L BNN
+F2 "Swadge_Parts:oled-flat_copy" 30 150 20 H I C CNN
+F3 "" -900 1600 50 H I C CNN
+F4 "LCSC #C11095" -800 1700 50 H I C CNN "Digikey"
+F5 "119" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 0 H I C CNN "Substitutable"
+F7 "Must have top contacts, same as the OLED" -1350 1850 50 H I C CNN "Notes"
+$FPLIST
+ Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND
+ Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND
+$ENDFPLIST
+DRAW
+T 0 -99 303 56 0 1 0 0 Normal 0 C C
+T 0 -99 503 56 0 1 0 0 Normal 0 C C
+T 0 226 303 56 0 1 0 0 Normal 0 C C
+T 0 226 403 56 0 1 0 0 Normal 0 C C
+T 0 526 303 56 0 1 0 0 Normal 0 C C
+T 0 526 403 56 0 1 0 0 Normal 0 C C
+T 0 526 503 56 0 1 0 0 Normal 0 C C
+T 0 -99 403 56 0 1 0 1 Normal 0 C C
+T 0 226 503 56 0 1 0 1 Normal 0 C C
+T 0 -27 1190 80 0 1 0 "128x64 OLED" Normal 0 C C
+T 0 415 828 56 0 1 0 2.8-3.3V Normal 0 C C
+T 0 538 -397 56 0 1 0 Connect Normal 0 C C
+T 0 -204 928 56 0 1 0 Controller: Normal 0 C C
+T 0 538 -497 56 0 1 0 "for I2C" Normal 0 C C
+T 0 -95 628 56 0 1 0 I2C Normal 0 C C
+T 0 257 628 56 0 1 0 SPI3 Normal 0 C C
+T 0 557 628 56 0 1 0 SPI4 Normal 0 C C
+T 0 388 928 56 0 1 0 SSD1306 Normal 0 C C
+T 0 -393 828 56 0 1 0 VDD: Normal 0 C C
+S -900 1500 750 -1550 1 0 0 f
+P 2 1 0 0 -575 300 -225 300 N
+P 2 1 0 0 -575 400 -225 400 N
+P 2 1 0 0 -575 500 -225 500 N
+P 2 1 0 0 250 -400 300 -400 N
+P 2 1 0 0 300 -500 -200 -500 N
+P 2 1 0 0 300 -400 300 -500 N
+X NC(GND) 1 -1000 1400 100 R 40 40 1 1 I
+X BS0 10 -1000 500 100 R 40 40 1 1 I
+X BS1 11 -1000 400 100 R 40 40 1 1 I
+X BS2 12 -1000 300 100 R 40 40 1 1 I
+X /CS 13 -1000 200 100 R 40 40 1 1 I
+X /RES 14 -1000 100 100 R 40 40 1 1 I
+X DC/I2C_SA0 15 -1000 0 100 R 40 40 1 1 I
+X R/W 16 -1000 -100 100 R 40 40 1 1 I
+X E/RD 17 -1000 -200 100 R 40 40 1 1 I
+X D0/SPI_SCLK/I2C_SCK 18 -1000 -300 100 R 40 40 1 1 B
+X D1/SPI_SDIN/I2C_SDA 19 -1000 -400 100 R 40 40 1 1 B
+X C2P 2 -1000 1300 100 R 40 40 1 1 I
+X D2/I2C_SDA 20 -1000 -500 100 R 40 40 1 1 B
+X D3 21 -1000 -600 100 R 40 40 1 1 B
+X D4 22 -1000 -700 100 R 40 40 1 1 B
+X D5 23 -1000 -800 100 R 40 40 1 1 B
+X D6 24 -1000 -900 100 R 40 40 1 1 B
+X D7 25 -1000 -1000 100 R 40 40 1 1 B
+X IREF 26 -1000 -1100 100 R 40 40 1 1 I
+X VCOMH 27 -1000 -1200 100 R 40 40 1 1 O
+X VCC 28 -1000 -1300 100 R 40 40 1 1 W
+X VLSS 29 -1000 -1400 100 R 40 40 1 1 W
+X C2N 3 -1000 1200 100 R 40 40 1 1 I
+X NC(GND) 30 -1000 -1500 100 R 40 40 1 1 I
+X C1P 4 -1000 1100 100 R 40 40 1 1 I
+X C1N 5 -1000 1000 100 R 40 40 1 1 I
+X VBAT 6 -1000 900 100 R 40 40 1 1 I
+X NC 7 -1000 800 100 R 40 40 1 1 U
+X VSS 8 -1000 700 100 R 40 40 1 1 W
+X VDD 9 -1000 600 100 R 40 40 1 1 W
+ENDDRAW
+ENDDEF
+#
+# OLED_DISPLAY
+#
+DEF OLED_DISPLAY U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "OLED_DISPLAY" 0 0 50 H V C CNN
+F2 "Swadge_Parts:NULL" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" 0 0 50 H I C CNN "Datasheet2"
+F5 "EastRising# ER-OLED0.96-1.3W" 0 0 50 H I C CNN "Digikey"
+F6 "352" 0 0 50 H I C CNN "Cost100"
+F7 "Y" 0 0 50 H I C CNN "Substitutable"
+F8 "Must be a single color, white. Must have SSD1306 driver. Must have top pins, 0.5mm pitch, like the connector" 0 0 50 H I C CNN "Notes"
+DRAW
+S -300 200 300 -200 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # QMA6981
 #
 DEF QMA6981 U 0 40 Y Y 1 F N
@@ -830,6 +844,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "BC848BLT3GOSTR-ND" 650 250 50 H I C CNN "Digikey"
 F5 "1.554" 350 450 50 H I C CNN "Cost100"
 F6 "Y" 300 550 50 H I C CNN "Substitutable"
+F7 "Use any NPN transistor in SOT-23 package with the same leads as BC848BLT3G (1=base, 2=emitter, 3=collector)" -150 650 50 H I C CNN "Notes"
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -960,7 +975,7 @@ F3 "" 0 170 50 H I C CNN
 F4 "401-2016-1-ND" 100 270 50 H I C CNN "Digikey"
 F5 "96" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "Use SPDT slide switch" 0 0 50 H I C CNN "Notes"
+F7 "Use SPDT slide switch. Similar to PCM12SMTR" 0 0 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:SW_SPDT_PCM12
 $ENDFPLIST
@@ -985,11 +1000,12 @@ ENDDEF
 DEF Speaker LS 0 0 Y N 1 F N
 F0 "LS" 50 225 50 H V R CNN
 F1 "Speaker" 50 150 50 H V R CNN
-F2 "Swadge_Parts:Speaker_9mm" 0 -200 50 H I C CNN
+F2 "Swadge_Parts:Buzzer_12x9.5RM7.6" 0 -200 50 H I C CNN
 F3 "" -10 -50 50 H I C CNN
 F4 "https://lcsc.com/product-detail/Buzzers_Jiangsu-Huaneng-Elec-HNB09A03_C96102.html" -400 350 50 H I C CNN "Digikey"
 F5 "13.48" 250 250 50 H I C CNN "Cost100"
 F6 "Y" 250 500 50 H I C CNN "Substitutable"
+F7 "Use magnetic buzzer, 3V rated, 9mm diameter, 5mm between the leads" -300 450 50 H I C CNN "Notes"
 DRAW
 T 0 -150 50 50 0 0 0 + Normal 0 C C
 S -100 50 40 -150 0 0 10 N

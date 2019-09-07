@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Swadge_Parts)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/Swadge_Parts.lib)(options "")(descr ""))
+  (lib (name swadge-barrel-rescue)(type Legacy)(uri ${KIPRJMOD}/swadge-barrel-rescue.lib)(options "")(descr ""))
 )

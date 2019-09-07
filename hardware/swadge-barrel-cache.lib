@@ -9,12 +9,10 @@ F1 "Swadge_Parts_4-1437565-2" -180 -240 50 H V L BNN
 F2 "Swadge_Parts:SW_4-1437565-2" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" 0 0 50 H I L BNN "Description"
-F5 "TE Connectivity" 0 0 50 H I L BNN "Manufacturer"
-F6 "FSM4JSMATR" 0 0 50 H I L BNN "MPN"
-F7 "450-1759-1-ND" 640 970 50 H I C CNN "Digikey"
-F8 "34" 0 0 10 H I C CNN "Cost100"
-F9 "Y" 0 0 10 H I C CNN "Substitutable"
-F10 "Use standard SMT box tactile buttons.  Similar to PTS645SM43SMTR92." -250 300 50 H I C CNN "Notes"
+F5 "450-1759-1-ND" 640 970 50 H I C CNN "Digikey"
+F6 "34" 0 0 10 H I C CNN "Cost100"
+F7 "Y" 0 0 10 H I C CNN "Substitutable"
+F8 "Use standard SMT box tactile buttons.  Similar to PTS645SM43SMTR92." -250 300 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:SW_4-1437565-2
 $ENDFPLIST
@@ -194,18 +192,55 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Swadge_Parts_DISP_OLED_UG-2864HSWEG01
+# Swadge_Parts_ESP-13-WROOM-02D
 #
-DEF Swadge_Parts_DISP_OLED_UG-2864HSWEG01 U 0 40 Y Y 1 F N
+DEF Swadge_Parts_ESP-13-WROOM-02D U 0 40 Y Y 1 F N
+F0 "U" 0 -100 50 H V C CNN
+F1 "Swadge_Parts_ESP-13-WROOM-02D" 0 450 50 H V C CNN
+F2 "Swadge_Parts:ESP-13-WROOM-02" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+F4 "1904-1021-1-ND" 0 0 50 H I C CNN "Digikey"
+F5 "270" 0 0 50 H I C CNN "Cost100"
+F6 "Y" 0 0 50 H I C CNN "Substitutable"
+F7 "Use ESP-WROOM-02D" 0 0 50 H I C CNN "Notes"
+$FPLIST
+ ESP-13*
+$ENDFPLIST
+DRAW
+S -700 -700 650 600 1 0 0 f
+X VCC 1 -1000 300 300 R 50 50 1 1 I
+X GPIO4 10 950 -500 300 L 50 50 1 1 B
+X RXD 11 950 -400 300 L 50 50 1 1 B
+X TXD 12 950 -300 300 L 50 50 1 1 B
+X GND 13 950 -200 300 L 50 50 1 1 W
+X GPIO5 14 950 -100 300 L 50 50 1 1 B
+X RST 15 950 0 300 L 50 50 1 1 I
+X TOUT 16 950 100 300 L 50 50 1 1 O
+X GPIO16 17 950 200 300 L 50 50 1 1 B
+X GND 18 950 300 300 L 50 50 1 1 W
+X EN 2 -1000 200 300 R 50 50 1 1 P
+X GPIO14 3 -1000 100 300 R 50 50 1 1 I
+X GPIO12 4 -1000 0 300 R 50 50 1 1 B
+X GPIO13 5 -1000 -100 300 R 50 50 1 1 B
+X GPIO15 6 -1000 -200 300 R 50 50 1 1 B
+X GPIO2 7 -1000 -300 300 R 50 50 1 1 B
+X GPIO0 8 -1000 -400 300 R 50 50 1 1 B
+X GND 9 -1000 -500 300 R 50 50 1 1 W
+X GND PAD 0 -900 197 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Swadge_Parts_OLED_CONNECTOR
+#
+DEF Swadge_Parts_OLED_CONNECTOR U 0 40 Y Y 1 F N
 F0 "U" -900 1600 45 H V L BNN
-F1 "Swadge_Parts_DISP_OLED_UG-2864HSWEG01" -900 -1700 45 H V L BNN
-F2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND" 30 150 20 H I C CNN
+F1 "Swadge_Parts_OLED_CONNECTOR" -900 -1700 45 H V L BNN
+F2 "Swadge_Parts:oled-flat_copy" 30 150 20 H I C CNN
 F3 "" -900 1600 50 H I C CNN
-F4 "541-3485-ND" -800 1700 50 H I C CNN "Digikey"
-F5 "988" 0 0 10 H I C CNN "Cost100"
+F4 "LCSC #C11095" -800 1700 50 H I C CNN "Digikey"
+F5 "119" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" -500 2000 50 H I C CNN "Adafruit"
-F8 "This is two parts: display and connector. Display must be one color, white, with SSD1306 driver, 0.96\". Both display and connector must have top contacts. https://www.buydisplay.com/default/128x64-oled-i2c-0-96-display-white-color-connector-fpc-ssd1306 https://lcsc.com/product-detail/FFC-FPC-Connectors_JUSHUO-AFC07-S30ECC-00_C11095.html" -1350 1850 50 H I C CNN "Notes"
+F7 "Must have top contacts, same as the OLED" -1350 1850 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND
  Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND
@@ -270,41 +305,20 @@ X VDD 9 -1000 600 100 R 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Swadge_Parts_ESP-13-WROOM-02D
+# Swadge_Parts_OLED_DISPLAY
 #
-DEF Swadge_Parts_ESP-13-WROOM-02D U 0 40 Y Y 1 F N
-F0 "U" 0 -100 50 H V C CNN
-F1 "Swadge_Parts_ESP-13-WROOM-02D" 0 450 50 H V C CNN
-F2 "Swadge_Parts:ESP-13-WROOM-02" -100 0 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
-F4 "1904-1021-1-ND" 0 0 50 H I C CNN "Digikey"
-F5 "270" 0 0 50 H I C CNN "Cost100"
-F6 "Y" 0 0 50 H I C CNN "Substitutable"
-F7 "Use ESP-WROOM-02D" 0 0 50 H I C CNN "Notes"
-$FPLIST
- ESP-13*
-$ENDFPLIST
+DEF Swadge_Parts_OLED_DISPLAY U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Swadge_Parts_OLED_DISPLAY" 0 0 50 H V C CNN
+F2 "Swadge_Parts:NULL" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" 0 0 50 H I C CNN "Datasheet2"
+F5 "EastRising# ER-OLED0.96-1.3W" 0 0 50 H I C CNN "Digikey"
+F6 "352" 0 0 50 H I C CNN "Cost100"
+F7 "Y" 0 0 50 H I C CNN "Substitutable"
+F8 "Must be a single color, white. Must have SSD1306 driver. Must have top pins, 0.5mm pitch, like the connector" 0 0 50 H I C CNN "Notes"
 DRAW
-S -700 -700 650 600 1 0 0 f
-X VCC 1 -1000 300 300 R 50 50 1 1 I
-X GPIO4 10 950 -500 300 L 50 50 1 1 B
-X RXD 11 950 -400 300 L 50 50 1 1 B
-X TXD 12 950 -300 300 L 50 50 1 1 B
-X GND 13 950 -200 300 L 50 50 1 1 W
-X GPIO5 14 950 -100 300 L 50 50 1 1 B
-X RST 15 950 0 300 L 50 50 1 1 I
-X TOUT 16 950 100 300 L 50 50 1 1 O
-X GPIO16 17 950 200 300 L 50 50 1 1 B
-X GND 18 950 300 300 L 50 50 1 1 W
-X EN 2 -1000 200 300 R 50 50 1 1 P
-X GPIO14 3 -1000 100 300 R 50 50 1 1 I
-X GPIO12 4 -1000 0 300 R 50 50 1 1 B
-X GPIO13 5 -1000 -100 300 R 50 50 1 1 B
-X GPIO15 6 -1000 -200 300 R 50 50 1 1 B
-X GPIO2 7 -1000 -300 300 R 50 50 1 1 B
-X GPIO0 8 -1000 -400 300 R 50 50 1 1 B
-X GND 9 -1000 -500 300 R 50 50 1 1 W
-X GND PAD 0 -900 197 U 50 50 1 1 W
+S -300 200 300 -200 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -346,6 +360,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "BC848BLT3GOSTR-ND" 650 250 50 H I C CNN "Digikey"
 F5 "1.554" 350 450 50 H I C CNN "Cost100"
 F6 "Y" 300 550 50 H I C CNN "Substitutable"
+F7 "Use any NPN transistor in SOT-23 package with the same leads as BC848BLT3G (1=base, 2=emitter, 3=collector)" -150 650 50 H I C CNN "Notes"
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -392,7 +407,7 @@ F3 "" 0 170 50 H I C CNN
 F4 "401-2016-1-ND" 100 270 50 H I C CNN "Digikey"
 F5 "96" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "Use SPDT slide switch" 0 0 50 H I C CNN "Notes"
+F7 "Use SPDT slide switch. Similar to PCM12SMTR" 0 0 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:SW_SPDT_PCM12
 $ENDFPLIST
@@ -417,11 +432,12 @@ ENDDEF
 DEF Swadge_Parts_Speaker LS 0 0 Y N 1 F N
 F0 "LS" 50 225 50 H V R CNN
 F1 "Swadge_Parts_Speaker" 50 150 50 H V R CNN
-F2 "Swadge_Parts:Speaker_9mm" 0 -200 50 H I C CNN
+F2 "Swadge_Parts:Buzzer_12x9.5RM7.6" 0 -200 50 H I C CNN
 F3 "" -10 -50 50 H I C CNN
 F4 "https://lcsc.com/product-detail/Buzzers_Jiangsu-Huaneng-Elec-HNB09A03_C96102.html" -400 350 50 H I C CNN "Digikey"
 F5 "13.48" 250 250 50 H I C CNN "Cost100"
 F6 "Y" 250 500 50 H I C CNN "Substitutable"
+F7 "Use magnetic buzzer, 3V rated, 9mm diameter, 5mm between the leads" -300 450 50 H I C CNN "Notes"
 DRAW
 T 0 -150 50 50 0 0 0 + Normal 0 C C
 S -100 50 40 -150 0 0 10 N

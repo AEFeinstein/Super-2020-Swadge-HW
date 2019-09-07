@@ -61,11 +61,6 @@ K connector
 F ~
 $ENDCMP
 #
-$CMP DISP_OLED_UG-2864HSWEG01
-D Display
-F https://lcsc.com/product-detail/_WiseChip-VG-2864KSWEG01_C194313.html
-$ENDCMP
-#
 $CMP ESP-12F
 D ESP8266 ESP-12F module, 22 pins, 2mm, PCB antenna
 K MODULE ESP8266 ESP-8266
@@ -106,6 +101,15 @@ $CMP Microphone
 D Microphone
 K Microphone
 F https://www.digikey.com/product-detail/en/pui-audio-inc/POM-2738P-R/668-1158-ND/1464897
+$ENDCMP
+#
+$CMP OLED_CONNECTOR
+D Display
+F https://datasheet.lcsc.com/szlcsc/JUSHUO-AFC07-S30ECC-00_C11095.pdf
+$ENDCMP
+#
+$CMP OLED_DISPLAY
+F https://www.buydisplay.com/download/ic/SSD1306.pdf
 $ENDCMP
 #
 $CMP QMA6981

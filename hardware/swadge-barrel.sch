@@ -51,6 +51,7 @@ F 3 "" H 4450 1050 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 4450 1050 50  0001 C CNN "Notes"
 	1    4450 1050
 	1    0    0    -1  
 $EndComp
@@ -118,6 +119,7 @@ F 3 "" H 5100 1050 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 5100 1050 50  0001 C CNN "Notes"
 	1    5100 1050
 	1    0    0    -1  
 $EndComp
@@ -182,6 +184,7 @@ F 3 "" H 5750 1050 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 5750 1050 50  0001 C CNN "Notes"
 	1    5750 1050
 	1    0    0    -1  
 $EndComp
@@ -244,6 +247,7 @@ F 3 "" H 6400 1050 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 6400 1050 50  0001 C CNN "Notes"
 	1    6400 1050
 	1    0    0    -1  
 $EndComp
@@ -311,6 +315,7 @@ F 3 "" H 7050 1050 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 7050 1050 50  0001 C CNN "Notes"
 	1    7050 1050
 	1    0    0    -1  
 $EndComp
@@ -378,6 +383,7 @@ F 3 "" H 7700 1050 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 7700 1050 50  0001 C CNN "Notes"
 	1    7700 1050
 	1    0    0    -1  
 $EndComp
@@ -420,6 +426,7 @@ F 3 "" H 3900 1500 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "311-71.5HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 3900 1500 50  0001 C CNN "Notes"
 	1    3900 1500
 	-1   0    0    1   
 $EndComp
@@ -438,6 +445,7 @@ F 3 "" H 1700 4950 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "RNCP0603FTD10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 1700 4950 50  0001 C CNN "Notes"
 	1    1700 4950
 	0    1    1    0   
 $EndComp
@@ -452,6 +460,7 @@ F 3 "" H 1700 5300 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "RNCP0603FTD10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 1700 5300 50  0001 C CNN "Notes"
 	1    1700 5300
 	0    1    1    0   
 $EndComp
@@ -466,6 +475,7 @@ F 3 "" H 1700 5650 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "RNCP0603FTD10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 1700 5650 50  0001 C CNN "Notes"
 	1    1700 5650
 	0    1    1    0   
 $EndComp
@@ -727,6 +737,7 @@ F 3 "" H 4650 5500 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "490-10469-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 4650 5500 50  0001 C CNN "Notes"
 	1    4650 5500
 	-1   0    0    1   
 $EndComp
@@ -741,6 +752,7 @@ F 3 "" H 4250 5400 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1085-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 4250 5400 50  0001 C CNN "Notes"
 	1    4250 5400
 	-1   0    0    1   
 $EndComp
@@ -791,6 +803,7 @@ F 3 "" H 4050 5150 50  0001 C CNN
 F 4 "10" H -200 0   50  0001 C CNN "Cost100"
 F 5 "311-390KHRCT-ND" H -200 0   50  0001 C CNN "Digikey"
 F 6 "Y" H -200 0   50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 4050 5150 50  0001 C CNN "Notes"
 	1    4050 5150
 	0    -1   -1   0   
 $EndComp
@@ -822,8 +835,9 @@ F 1 "1u" H 3850 3550 50  0000 L CNN
 F 2 "Swadge_Parts:C_1206_3216Metric" H 4188 3450 50  0001 C CNN
 F 3 "" H 4150 3600 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "1206 Package, must be at least 1.5mm tall, may be taller. 1.8mm is common and preferrable. This protects the OLED's corners" H 4150 3600 50  0001 C CNN "Notes"
 	1    4150 3600
 	-1   0    0    1   
 $EndComp
@@ -836,8 +850,9 @@ F 1 "1u" H 4115 3255 50  0000 L CNN
 F 2 "Swadge_Parts:C_1206_3216Metric" H 4038 3150 50  0001 C CNN
 F 3 "" H 4000 3300 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "1206 Package, must be at least 1.5mm tall, may be taller. 1.8mm is common and preferrable. This protects the OLED's corners" H 4000 3300 50  0001 C CNN "Notes"
 	1    4000 3300
 	-1   0    0    1   
 $EndComp
@@ -862,8 +877,9 @@ F 1 "1u" H 4565 2655 50  0000 L CNN
 F 2 "Swadge_Parts:C_1206_3216Metric" H 4488 2550 50  0001 C CNN
 F 3 "" H 4450 2700 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "1206 Package, must be at least 1.5mm tall, may be taller. 1.8mm is common and preferrable. This protects the OLED's corners" H 4450 2700 50  0001 C CNN "Notes"
 	1    4450 2700
 	1    0    0    -1  
 $EndComp
@@ -884,8 +900,9 @@ F 1 "1u" H 4165 2855 50  0000 L CNN
 F 2 "Swadge_Parts:C_1206_3216Metric" H 4088 2750 50  0001 C CNN
 F 3 "" H 4050 2900 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "1206 Package, must be at least 1.5mm tall, may be taller. 1.8mm is common and preferrable. This protects the OLED's corners" H 4050 2900 50  0001 C CNN "Notes"
 	1    4050 2900
 	1    0    0    -1  
 $EndComp
@@ -978,9 +995,7 @@ F 4 "34" H -5400 -2150 50  0001 C CNN "Cost100"
 F 5 "450-1759-1-ND" H -5400 -2150 50  0001 C CNN "Digikey"
 F 6 "Y" H -5400 -2150 50  0001 C CNN "Substitutable"
 F 7 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 2150 1950 50  0001 C CNN "Description"
-F 8 "FSM4JSMATR" H 2150 1950 50  0001 C CNN "MPN"
-F 9 "TE Connectivity" H 2150 1950 50  0001 C CNN "Manufacturer"
-F 10 "Use standard SMT box tactile buttons.  Similar to PTS645SM43SMTR92." H 2150 1950 50  0001 C CNN "Notes"
+F 8 "Use standard SMT box tactile buttons.  Similar to PTS645SM43SMTR92." H 2150 1950 50  0001 C CNN "Notes"
 	1    2150 1950
 	1    0    0    -1  
 $EndComp
@@ -1438,6 +1453,7 @@ F 3 "" H 1300 2850 50  0001 C CNN
 F 4 "10" H -3350 -2650 50  0001 C CNN "Cost100"
 F 5 "490-10469-1-ND" H -3350 -2650 50  0001 C CNN "Digikey"
 F 6 "Y" H -3350 -2650 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 1300 2850 50  0001 C CNN "Notes"
 	1    1300 2850
 	-1   0    0    1   
 $EndComp
@@ -1452,6 +1468,7 @@ F 3 "" H 700 3150 50  0001 C CNN
 F 4 "10" H -4350 -3750 50  0001 C CNN "Cost100"
 F 5 "1276-1000-1-ND" H -4350 -3750 50  0001 C CNN "Digikey"
 F 6 "Y" H -4350 -3750 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 700 3150 50  0001 C CNN "Notes"
 	1    700  3150
 	-1   0    0    1   
 $EndComp
@@ -1466,6 +1483,7 @@ F 3 "" H 1500 2850 50  0001 C CNN
 F 4 "10" H -3550 -4050 50  0001 C CNN "Cost100"
 F 5 "1276-1000-1-ND" H -3550 -4050 50  0001 C CNN "Digikey"
 F 6 "Y" H -3550 -4050 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 1500 2850 50  0001 C CNN "Notes"
 	1    1500 2850
 	-1   0    0    1   
 $EndComp
@@ -1480,6 +1498,7 @@ F 3 "" H 700 2850 50  0001 C CNN
 F 4 "10" H -1200 1050 50  0001 C CNN "Cost100"
 F 5 "RNCP0603FTD10K0CT-ND" H -1200 1050 50  0001 C CNN "Digikey"
 F 6 "Y" H -1200 1050 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 700 2850 50  0001 C CNN "Notes"
 	1    700  2850
 	1    0    0    -1  
 $EndComp
@@ -1615,6 +1634,7 @@ F 3 "" H 8800 5950 50  0001 C CNN
 F 4 "10" H 5950 -1000 50  0001 C CNN "Cost100"
 F 5 "1276-1000-1-ND" H 5950 -1000 50  0001 C CNN "Digikey"
 F 6 "Y" H 5950 -1000 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 8800 5950 50  0001 C CNN "Notes"
 	1    8800 5950
 	1    0    0    -1  
 $EndComp
@@ -1629,6 +1649,7 @@ F 3 "" H 9200 5950 50  0001 C CNN
 F 4 "10" H 6350 -1000 50  0001 C CNN "Cost100"
 F 5 "1276-1085-1-ND" H 6350 -1000 50  0001 C CNN "Digikey"
 F 6 "Y" H 6350 -1000 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 9200 5950 50  0001 C CNN "Notes"
 	1    9200 5950
 	1    0    0    -1  
 $EndComp
@@ -1660,6 +1681,7 @@ F 3 "" H 7050 5850 50  0001 C CNN
 F 4 "10" H 4200 -1100 50  0001 C CNN "Cost100"
 F 5 "1276-1000-1-ND" H 4200 -1100 50  0001 C CNN "Digikey"
 F 6 "Y" H 4200 -1100 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 7050 5850 50  0001 C CNN "Notes"
 	1    7050 5850
 	1    0    0    -1  
 $EndComp
@@ -1790,6 +1812,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF" H 1400 6950 50  0001
 F 4 "BC848BLT3GOSTR-ND" H 2050 7200 50  0001 C CNN "Digikey"
 F 5 "1.554" H 1750 7400 50  0001 C CNN "Cost100"
 F 6 "Y" H 1700 7500 50  0001 C CNN "Substitutable"
+F 7 "Use any NPN transistor in SOT-23 package with the same leads as BC848BLT3G (1=base, 2=emitter, 3=collector)" H 1400 6950 50  0001 C CNN "Notes"
 	1    1400 6950
 	1    0    0    -1  
 $EndComp
@@ -1832,6 +1855,7 @@ F 3 "" H 1000 6950 50  0001 C CNN
 F 4 "10" H -700 1300 50  0001 C CNN "Cost100"
 F 5 "RNCP0603FTD10K0CT-ND" H -700 1300 50  0001 C CNN "Digikey"
 F 6 "Y" H -700 1300 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 1000 6950 50  0001 C CNN "Notes"
 	1    1000 6950
 	0    1    1    0   
 $EndComp
@@ -1859,17 +1883,17 @@ F 3 "" H 11000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:SW_SPDT S4
+L Swadge_Parts:SW_SPDT SW1
 U 1 1 5C3F7306
 P 10850 1500
-F 0 "S4" H 10850 1800 50  0000 C CNN
+F 0 "SW1" H 10850 1800 50  0000 C CNN
 F 1 "SW_SPDT" H 10850 1700 50  0000 C CNN
 F 2 "Swadge_Parts:SW_SPDT_PCM12" H 10850 1500 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1424/pcm.pdf" H 10850 1500 50  0001 C CNN
 F 4 "96" H 0   0   50  0001 C CNN "Cost100"
 F 5 "401-2016-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "Use SPDT slide switch" H 10850 1500 50  0001 C CNN "Notes"
+F 7 "Use SPDT slide switch. Similar to PCM12SMTR" H 10850 1500 50  0001 C CNN "Notes"
 	1    10850 1500
 	-1   0    0    1   
 $EndComp
@@ -1891,11 +1915,12 @@ U 1 1 5D6E9B01
 P 1700 6550
 F 0 "LS1" H 1870 6546 50  0000 L CNN
 F 1 "Speaker" H 1870 6455 50  0000 L CNN
-F 2 "Swadge_Parts:Speaker_9mm" H 1700 6350 50  0001 C CNN
+F 2 "Swadge_Parts:Buzzer_12x9.5RM7.6" H 1700 6350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-HNB09A03_C96102.pdf" H 1690 6500 50  0001 C CNN
-F 4 "LCSC Part #C96102" H 1300 6900 50  0001 C CNN "Digikey"
+F 4 "https://lcsc.com/product-detail/Buzzers_Jiangsu-Huaneng-Elec-HNB09A03_C96102.html" H 1300 6900 50  0001 C CNN "Digikey"
 F 5 "13.48" H 1950 6800 50  0001 C CNN "Cost100"
 F 6 "Y" H 1950 7050 50  0001 C CNN "Substitutable"
+F 7 "Use magnetic buzzer, 3V rated, 9mm diameter, 5mm between the leads" H 1400 7000 50  0001 C CNN "Notes"
 	1    1700 6550
 	1    0    0    -1  
 $EndComp
@@ -1918,6 +1943,7 @@ F 3 "~" V 2700 6400 50  0001 C CNN
 F 4 "RMCF0603ZT0R00CT-ND" H 2668 6309 50  0000 L CNN "Digikey"
 F 5 "10" H 2600 6400 10  0001 C CNN "Cost100"
 F 6 "Y" H 2600 6400 10  0001 C CNN "Substitutable"
+F 7 "0603 Package, must not be taller than 0.8mm, this sits under part of the OLED" H 2600 6400 50  0001 C CNN "Notes"
 	1    2600 6400
 	1    0    0    -1  
 $EndComp
@@ -1932,6 +1958,7 @@ F 3 "~" V 3050 6400 50  0001 C CNN
 F 4 "RMCF0603ZT0R00CT-ND" H 3018 6309 50  0000 L CNN "Digikey"
 F 5 "10" H 2950 6400 10  0001 C CNN "Cost100"
 F 6 "Y" H 2950 6400 10  0001 C CNN "Substitutable"
+F 7 "0603 Package, must not be taller than 0.8mm, this sits under part of the OLED" H 2950 6400 50  0001 C CNN "Notes"
 	1    2950 6400
 	1    0    0    -1  
 $EndComp
@@ -1991,19 +2018,34 @@ Wire Wire Line
 Wire Wire Line
 	4950 3050 4050 3050
 $Comp
-L Swadge_Parts:DISP_OLED_UG-2864HSWEG01 U
+L Swadge_Parts:OLED_CONNECTOR U6
 U 1 1 5C3C7BBF
 P 5950 4050
-F 0 "U" H 5100 2300 45  0000 L CNN
-F 1 "DISP_OLED_UG-2864HSWEG01" H 5100 2400 45  0000 L CNN
+F 0 "U6" H 5100 2300 45  0000 L CNN
+F 1 "OLED_CONNECTOR" H 5100 2400 45  0000 L CNN
 F 2 "Swadge_Parts:oled-flat_copy" H 5980 4200 20  0001 C CNN
-F 3 "https://lcsc.com/product-detail/_WiseChip-VG-2864KSWEG01_C194313.html" H 5950 4050 50  0001 C CNN
-F 4 "988" H 0   0   50  0001 C CNN "Cost100"
-F 5 "541-3485-ND" H 0   0   50  0001 C CNN "Digikey"
+F 3 "https://datasheet.lcsc.com/szlcsc/JUSHUO-AFC07-S30ECC-00_C11095.pdf" H 5950 4050 50  0001 C CNN
+F 4 "119" H 0   0   50  0001 C CNN "Cost100"
+F 5 "LCSC #C11095" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" H 0   0   50  0001 C CNN "Adafruit"
-F 8 "This is two parts: display and connector. Display must be one color, white, with SSD1306 driver, 0.96\". Both display and connector must have top contacts. https://www.buydisplay.com/default/128x64-oled-i2c-0-96-display-white-color-connector-fpc-ssd1306 https://lcsc.com/product-detail/FFC-FPC-Connectors_JUSHUO-AFC07-S30ECC-00_C11095.html" H 5950 4050 50  0001 C CNN "Notes"
+F 7 "Must have top contacts, same as the OLED" H 5950 4050 50  0001 C CNN "Notes"
 	1    5950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:OLED_DISPLAY U2
+U 1 1 5D78A9AC
+P 5100 6500
+F 0 "U2" H 5428 6546 50  0000 L CNN
+F 1 "OLED_DISPLAY" H 5428 6455 50  0000 L CNN
+F 2 "Swadge_Parts:NULL" H 5100 6500 50  0001 C CNN
+F 3 "https://www.buydisplay.com/download/ic/SSD1306.pdf" H 5100 6500 50  0001 C CNN
+F 4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" H 5100 6500 50  0001 C CNN "Datasheet2"
+F 5 "EastRising# ER-OLED0.96-1.3W" H 5100 6500 50  0001 C CNN "Digikey"
+F 6 "352" H 5100 6500 50  0001 C CNN "Cost100"
+F 7 "Y" H 5100 6500 50  0001 C CNN "Substitutable"
+F 8 "Must be a single color, white. Must have SSD1306 driver. Must have top pins, 0.5mm pitch, like the connector" H 5100 6500 50  0001 C CNN "Notes"
+	1    5100 6500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
