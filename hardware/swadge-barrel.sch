@@ -24,7 +24,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4350 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4400 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4300 1650
 	1    0    0    -1  
@@ -91,7 +91,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5000 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5050 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4950 1650
 	1    0    0    -1  
@@ -155,7 +155,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5650 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5700 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5600 1650
 	1    0    0    -1  
@@ -217,7 +217,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6300 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6350 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    6250 1650
 	1    0    0    -1  
@@ -284,7 +284,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6950 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7000 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    6900 1650
 	1    0    0    -1  
@@ -351,7 +351,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7600 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    7550 1650
 	1    0    0    -1  
@@ -553,6 +553,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 10450 900 50  0001 C
 F 4 "37" H 0   0   50  0001 C CNN "Cost100"
 F 5 "AP2114H-3.3TRG1DICT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "Use any 1117 3.3V SOT-223 regulator.  I.e. AZ1117 or AP1117" H 10350 1150 50  0001 C CNN "Notes"
 	1    10350 1150
 	1    0    0    -1  
 $EndComp
@@ -567,6 +568,7 @@ F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 9800 1100 50  0001 C 
 F 4 "112" H 0   0   50  0001 C CNN "Cost100"
 F 5 "WM17141CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "Must use micro USB SMT-only Header" H 9650 1150 50  0001 C CNN "Notes"
 	1    9650 1150
 	1    0    0    -1  
 $EndComp
@@ -714,21 +716,6 @@ Wire Notes Line
 	9400 2450 9400 500 
 Wire Wire Line
 	10650 1150 10650 1400
-$Comp
-L Swadge_Parts:DISP_OLED_UG-2864HSWEG01 U2
-U 1 1 5C3C7BBF
-P 5950 4050
-F 0 "U2" H 5100 2300 45  0000 L CNN
-F 1 "DISP_OLED_UG-2864HSWEG01" H 5100 2400 45  0000 L CNN
-F 2 "Swadge_Parts:oled-flat_copy" H 5980 4200 20  0001 C CNN
-F 3 "http://www.vishay.com/docs/37903/oled128o064dgpp3n00000.pdf" H 5950 4050 50  0001 C CNN
-F 4 "988" H 0   0   50  0001 C CNN "Cost100"
-F 5 "541-3486-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" H 0   0   50  0001 C CNN "Adafruit"
-	1    5950 4050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Swadge_Parts:C C10
 U 1 1 5C3D117F
@@ -903,8 +890,6 @@ F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 3050 4050 3050
-Wire Wire Line
 	4950 2950 4350 2950
 Wire Wire Line
 	4350 2950 4350 2750
@@ -992,9 +977,10 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 F 4 "34" H -5400 -2150 50  0001 C CNN "Cost100"
 F 5 "450-1759-1-ND" H -5400 -2150 50  0001 C CNN "Digikey"
 F 6 "Y" H -5400 -2150 50  0001 C CNN "Substitutable"
-F 7 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H -5400 -2150 50  0001 C CNN "Description"
-F 8 "FSM4JSMATR" H -5400 -2150 50  0001 C CNN "MPN"
-F 9 "TE Connectivity" H -5400 -2150 50  0001 C CNN "Manufacturer"
+F 7 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H 2150 1950 50  0001 C CNN "Description"
+F 8 "FSM4JSMATR" H 2150 1950 50  0001 C CNN "MPN"
+F 9 "TE Connectivity" H 2150 1950 50  0001 C CNN "Manufacturer"
+F 10 "Use standard SMT box tactile buttons.  Similar to PTS645SM43SMTR92." H 2150 1950 50  0001 C CNN "Notes"
 	1    2150 1950
 	1    0    0    -1  
 $EndComp
@@ -1003,12 +989,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 1850 1900 2050
 Wire Wire Line
-	4950 5450 4950 5550
-Wire Wire Line
 	2400 1850 2400 2050
-Connection ~ 4950 5550
-Wire Wire Line
-	4950 5550 4950 5650
 Connection ~ 2400 2050
 Wire Wire Line
 	2400 2050 2400 2100
@@ -1023,6 +1004,7 @@ F 3 "http://www.keyelco.com/product-pdf.cfm?p=1025" V 10450 2060 50  0001 C CNN
 F 4 "116" H 0   0   50  0001 C CNN "Cost100"
 F 5 "36-2460-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "Use through-hole AA Battery Holder in Style of Keystone 2460" H 10450 2000 50  0001 C CNN "Notes"
 	1    10450 2000
 	0    1    1    0   
 $EndComp
@@ -1037,6 +1019,7 @@ F 3 "http://www.keyelco.com/product-pdf.cfm?p=1025" V 10000 2060 50  0001 C CNN
 F 4 "116" H 0   0   50  0001 C CNN "Cost100"
 F 5 "36-2460-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "Use through-hole AA Battery Holder in Style of Keystone 2460" H 10000 2000 50  0001 C CNN "Notes"
 	1    10000 2000
 	0    1    1    0   
 $EndComp
@@ -1300,6 +1283,7 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_e
 F 4 "1904-1021-1-ND" H 2000 3650 50  0001 C CNN "Digikey"
 F 5 "270" H 2000 3650 50  0001 C CNN "Cost100"
 F 6 "Y" H 2000 3650 50  0001 C CNN "Substitutable"
+F 7 "Use ESP-WROOM-02D" H 2000 3650 50  0001 C CNN "Notes"
 	1    2000 3650
 	1    0    0    -1  
 $EndComp
@@ -1563,6 +1547,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/QST-QMA6981_C310611.pdf" H 7900 5600 50  
 F 4 "LCSC Part #C310611" H 7600 6450 50  0001 C CNN "Digikey"
 F 5 "36" H 7450 6550 50  0001 C CNN "Cost100"
 F 6 "Y" H 7450 6650 50  0001 C CNN "Substitutable"
+F 7 "Use https://lcsc.com/product-detail/Others_QST-QMA6981_C310611.html " H 7900 5650 50  0001 C CNN "Notes"
 	1    7900 5650
 	1    0    0    -1  
 $EndComp
@@ -1642,7 +1627,7 @@ F 1 "2.2u" H 9315 5905 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 9238 5800 50  0001 C CNN
 F 3 "" H 9200 5950 50  0001 C CNN
 F 4 "10" H 6350 -1000 50  0001 C CNN "Cost100"
-F 5 "1276-1000-1-ND" H 6350 -1000 50  0001 C CNN "Digikey"
+F 5 "1276-1085-1-ND" H 6350 -1000 50  0001 C CNN "Digikey"
 F 6 "Y" H 6350 -1000 50  0001 C CNN "Substitutable"
 	1    9200 5950
 	1    0    0    -1  
@@ -1751,6 +1736,7 @@ F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf" H 3100 1150 
 F 4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3FS-4002P/SW1278TR-ND/2772023" H 2800 1750 50  0001 C CNN "Digikey"
 F 5 "76" H 2600 1600 50  0001 C CNN "Cost100"
 F 6 "Y" H 2450 1650 50  0001 C CNN "Substitutable"
+F 7 "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q." H 2300 1150 50  0001 C CNN "Notes"
 	1    2300 1150
 	1    0    0    -1  
 $EndComp
@@ -1765,6 +1751,7 @@ F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf" H 1750 1150 
 F 4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3FS-4002P/SW1278TR-ND/2772023" H 1450 1750 50  0001 C CNN "Digikey"
 F 5 "76" H 1250 1600 50  0001 C CNN "Cost100"
 F 6 "Y" H 1100 1650 50  0001 C CNN "Substitutable"
+F 7 "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q." H 950 1150 50  0001 C CNN "Notes"
 	1    950  1150
 	1    0    0    -1  
 $EndComp
@@ -1882,6 +1869,7 @@ F 3 "https://www.ckswitches.com/media/1424/pcm.pdf" H 10850 1500 50  0001 C CNN
 F 4 "96" H 0   0   50  0001 C CNN "Cost100"
 F 5 "401-2016-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "Use SPDT slide switch" H 10850 1500 50  0001 C CNN "Notes"
 	1    10850 1500
 	-1   0    0    1   
 $EndComp
@@ -1905,7 +1893,7 @@ F 0 "LS1" H 1870 6546 50  0000 L CNN
 F 1 "Speaker" H 1870 6455 50  0000 L CNN
 F 2 "Swadge_Parts:Speaker_9mm" H 1700 6350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-HNB09A03_C96102.pdf" H 1690 6500 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Buzzers_Jiangsu-Huaneng-Elec-HNB09A03_C96102.html" H 1300 6900 50  0001 C CNN "Digikey"
+F 4 "LCSC Part #C96102" H 1300 6900 50  0001 C CNN "Digikey"
 F 5 "13.48" H 1950 6800 50  0001 C CNN "Cost100"
 F 6 "Y" H 1950 7050 50  0001 C CNN "Substitutable"
 	1    1700 6550
@@ -1927,7 +1915,7 @@ F 0 "R8" H 2668 6491 50  0000 L CNN
 F 1 "0" H 2668 6400 50  0000 L CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 2640 6390 50  0001 C CNN
 F 3 "~" V 2700 6400 50  0001 C CNN
-F 4 "n/a" H 2668 6309 50  0000 L CNN "Digikey"
+F 4 "RMCF0603ZT0R00CT-ND" H 2668 6309 50  0000 L CNN "Digikey"
 F 5 "10" H 2600 6400 10  0001 C CNN "Cost100"
 F 6 "Y" H 2600 6400 10  0001 C CNN "Substitutable"
 	1    2600 6400
@@ -1941,7 +1929,7 @@ F 0 "R9" H 3018 6491 50  0000 L CNN
 F 1 "0" H 3018 6400 50  0000 L CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 2990 6390 50  0001 C CNN
 F 3 "~" V 3050 6400 50  0001 C CNN
-F 4 "n/a" H 3018 6309 50  0000 L CNN "Digikey"
+F 4 "RMCF0603ZT0R00CT-ND" H 3018 6309 50  0000 L CNN "Digikey"
 F 5 "10" H 2950 6400 10  0001 C CNN "Cost100"
 F 6 "Y" H 2950 6400 10  0001 C CNN "Substitutable"
 	1    2950 6400
@@ -1995,4 +1983,27 @@ Wire Wire Line
 	7450 3950 7500 3950
 Wire Wire Line
 	7950 3950 7900 3950
+Connection ~ 4950 5550
+Wire Wire Line
+	4950 5550 4950 5650
+Wire Wire Line
+	4950 5450 4950 5550
+Wire Wire Line
+	4950 3050 4050 3050
+$Comp
+L Swadge_Parts:DISP_OLED_UG-2864HSWEG01 U
+U 1 1 5C3C7BBF
+P 5950 4050
+F 0 "U" H 5100 2300 45  0000 L CNN
+F 1 "DISP_OLED_UG-2864HSWEG01" H 5100 2400 45  0000 L CNN
+F 2 "Swadge_Parts:oled-flat_copy" H 5980 4200 20  0001 C CNN
+F 3 "https://lcsc.com/product-detail/_WiseChip-VG-2864KSWEG01_C194313.html" H 5950 4050 50  0001 C CNN
+F 4 "988" H 0   0   50  0001 C CNN "Cost100"
+F 5 "541-3485-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
+F 7 "https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf" H 0   0   50  0001 C CNN "Adafruit"
+F 8 "This is two parts: display and connector. Display must be one color, white, with SSD1306 driver, 0.96\". Both display and connector must have top contacts. https://www.buydisplay.com/default/128x64-oled-i2c-0-96-display-white-color-connector-fpc-ssd1306 https://lcsc.com/product-detail/FFC-FPC-Connectors_JUSHUO-AFC07-S30ECC-00_C11095.html" H 5950 4050 50  0001 C CNN "Notes"
+	1    5950 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
