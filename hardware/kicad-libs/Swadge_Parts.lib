@@ -99,7 +99,7 @@ F0 "S" 250 100 50 H V L CNN
 F1 "B3FS-4002P" 250 -200 50 H V L CNN
 F2 "Swadge_Parts:B3FS4002P" 450 450 50 H I L CNN
 F3 "" 800 0 50 H I L CNN
-F4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3FS-4002P/SW1278TR-ND/2772023" 500 600 50 H I C CNN "Digikey"
+F4 "SW1278CT-ND" 500 600 50 H I C CNN "Digikey"
 F5 "76" 300 450 50 H I C CNN "Cost100"
 F6 "Y" 150 500 50 H I C CNN "Substitutable"
 F7 "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q." 0 0 50 H I C CNN "Notes"
@@ -724,7 +724,7 @@ F3 "" -900 1600 50 H I C CNN
 F4 "LCSC #C11095" -800 1700 50 H I C CNN "Digikey"
 F5 "119" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "Must have top contacts, same as the OLED" -1350 1850 50 H I C CNN "Notes"
+F7 "Must have top contacts. same as the OLED" -1350 1850 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND
  Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND
@@ -800,7 +800,7 @@ F4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pd
 F5 "EastRising# ER-OLED0.96-1.3W" 0 0 50 H I C CNN "Digikey"
 F6 "352" 0 0 50 H I C CNN "Cost100"
 F7 "Y" 0 0 50 H I C CNN "Substitutable"
-F8 "Must be a single color, white. Must have SSD1306 driver. Must have top pins, 0.5mm pitch, like the connector" 0 0 50 H I C CNN "Notes"
+F8 "Must be a single color. white. Must have SSD1306 driver. Must have top pins. 0.5mm pitch. like the connector" 0 0 50 H I C CNN "Notes"
 DRAW
 S -300 200 300 -200 0 1 0 N
 ENDDRAW
@@ -844,7 +844,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "BC848BLT3GOSTR-ND" 650 250 50 H I C CNN "Digikey"
 F5 "1.554" 350 450 50 H I C CNN "Cost100"
 F6 "Y" 300 550 50 H I C CNN "Substitutable"
-F7 "Use any NPN transistor in SOT-23 package with the same leads as BC848BLT3G (1=base, 2=emitter, 3=collector)" -150 650 50 H I C CNN "Notes"
+F7 "Use any NPN transistor in SOT-23 package with the same leads as BC848BLT3G (1=base. 2=emitter. 3=collector)" -150 650 50 H I C CNN "Notes"
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -1002,10 +1002,10 @@ F0 "LS" 50 225 50 H V R CNN
 F1 "Speaker" 50 150 50 H V R CNN
 F2 "Swadge_Parts:Buzzer_12x9.5RM7.6" 0 -200 50 H I C CNN
 F3 "" -10 -50 50 H I C CNN
-F4 "https://lcsc.com/product-detail/Buzzers_Jiangsu-Huaneng-Elec-HNB09A03_C96102.html" -400 350 50 H I C CNN "Digikey"
+F4 "LCSC Part #C96102" -400 350 50 H I C CNN "Digikey"
 F5 "13.48" 250 250 50 H I C CNN "Cost100"
 F6 "Y" 250 500 50 H I C CNN "Substitutable"
-F7 "Use magnetic buzzer, 3V rated, 9mm diameter, 5mm between the leads" -300 450 50 H I C CNN "Notes"
+F7 "Use magnetic buzzer. 3V rated. 9mm diameter. 5mm between the leads" -300 450 50 H I C CNN "Notes"
 DRAW
 T 0 -150 50 50 0 0 0 + Normal 0 C C
 S -100 50 40 -150 0 0 10 N
@@ -1064,7 +1064,7 @@ F3 "" 100 -375 50 H I L TNN
 F4 "1528-1104-ND" 300 325 50 H I C CNN "Digikey"
 F5 "45" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "Use WS2812B LED, Digikey item is x10" 400 425 50 H I C CNN "Notes"
+F7 "Use WS2812B LED. Digikey item is x10" 400 425 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
 $ENDFPLIST

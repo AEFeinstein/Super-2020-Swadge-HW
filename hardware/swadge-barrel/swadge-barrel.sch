@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:swadge-barrel-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -24,7 +23,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4350 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4400 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED. Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4300 1650
 	1    0    0    -1  
@@ -92,7 +91,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5000 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5050 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED. Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    4950 1650
 	1    0    0    -1  
@@ -157,7 +156,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5650 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5700 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED. Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    5600 1650
 	1    0    0    -1  
@@ -220,7 +219,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6300 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6350 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED. Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    6250 1650
 	1    0    0    -1  
@@ -288,7 +287,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6950 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7000 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED. Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    6900 1650
 	1    0    0    -1  
@@ -356,7 +355,7 @@ F 2 "Swadge_Parts:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7600 1350 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 1275 50  0001 L TNN
 F 4 "45" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Use WS2812B LED, Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
+F 6 "Use WS2812B LED. Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    7550 1650
 	1    0    0    -1  
@@ -837,7 +836,7 @@ F 3 "" H 4150 3600 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "1206 Package, must be at least 1.5mm tall, may be taller. 1.8mm is common and preferrable. This protects the OLED's corners" H 4150 3600 50  0001 C CNN "Notes"
+F 7 "1206 Package. must be at least 1.5mm tall. may be taller. 1.8mm is common and preferable. This protects the OLED's corners" H 4150 3600 50  0001 C CNN "Notes"
 	1    4150 3600
 	-1   0    0    1   
 $EndComp
@@ -852,7 +851,7 @@ F 3 "" H 4000 3300 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "1206 Package, must be at least 1.5mm tall, may be taller. 1.8mm is common and preferrable. This protects the OLED's corners" H 4000 3300 50  0001 C CNN "Notes"
+F 7 "1206 Package. must be at least 1.5mm tall. may be taller. 1.8mm is common and preferable. This protects the OLED's corners" H 4000 3300 50  0001 C CNN "Notes"
 	1    4000 3300
 	-1   0    0    1   
 $EndComp
@@ -879,7 +878,7 @@ F 3 "" H 4450 2700 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "1206 Package, must be at least 1.5mm tall, may be taller. 1.8mm is common and preferrable. This protects the OLED's corners" H 4450 2700 50  0001 C CNN "Notes"
+F 7 "1206 Package. must be at least 1.5mm tall. may be taller. 1.8mm is common and preferable. This protects the OLED's corners" H 4450 2700 50  0001 C CNN "Notes"
 	1    4450 2700
 	1    0    0    -1  
 $EndComp
@@ -902,7 +901,7 @@ F 3 "" H 4050 2900 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
 F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "1206 Package, must be at least 1.5mm tall, may be taller. 1.8mm is common and preferrable. This protects the OLED's corners" H 4050 2900 50  0001 C CNN "Notes"
+F 7 "1206 Package. must be at least 1.5mm tall. may be taller. 1.8mm is common and preferable. This protects the OLED's corners" H 4050 2900 50  0001 C CNN "Notes"
 	1    4050 2900
 	1    0    0    -1  
 $EndComp
@@ -1754,8 +1753,8 @@ P 2300 1150
 F 0 "S3" H 2775 1375 50  0000 C CNN
 F 1 "B3FS-4002P" H 2775 1284 50  0000 C CNN
 F 2 "Swadge_Parts:B3FS4002P" H 2750 1600 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf" H 3100 1150 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3FS-4002P/SW1278TR-ND/2772023" H 2800 1750 50  0001 C CNN "Digikey"
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf" H 3100 1150 50  0001 L CNN
+F 4 "SW1278CT-ND" H 2800 1750 50  0001 C CNN "Digikey"
 F 5 "76" H 2600 1600 50  0001 C CNN "Cost100"
 F 6 "Y" H 2450 1650 50  0001 C CNN "Substitutable"
 F 7 "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q." H 2300 1150 50  0001 C CNN "Notes"
@@ -1769,8 +1768,8 @@ P 950 1150
 F 0 "S2" H 1425 1375 50  0000 C CNN
 F 1 "B3FS-4002P" H 1425 1284 50  0000 C CNN
 F 2 "Swadge_Parts:B3FS4002P" H 1400 1600 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf" H 1750 1150 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3FS-4002P/SW1278TR-ND/2772023" H 1450 1750 50  0001 C CNN "Digikey"
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf" H 1750 1150 50  0001 L CNN
+F 4 "SW1278CT-ND" H 1450 1750 50  0001 C CNN "Digikey"
 F 5 "76" H 1250 1600 50  0001 C CNN "Cost100"
 F 6 "Y" H 1100 1650 50  0001 C CNN "Substitutable"
 F 7 "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q." H 950 1150 50  0001 C CNN "Notes"
@@ -1812,7 +1811,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF" H 1400 6950 50  0001
 F 4 "BC848BLT3GOSTR-ND" H 2050 7200 50  0001 C CNN "Digikey"
 F 5 "1.554" H 1750 7400 50  0001 C CNN "Cost100"
 F 6 "Y" H 1700 7500 50  0001 C CNN "Substitutable"
-F 7 "Use any NPN transistor in SOT-23 package with the same leads as BC848BLT3G (1=base, 2=emitter, 3=collector)" H 1400 6950 50  0001 C CNN "Notes"
+F 7 "Use any NPN transistor in SOT-23 package with the same leads as BC848BLT3G (1=base. 2=emitter. 3=collector)" H 1400 6950 50  0001 C CNN "Notes"
 	1    1400 6950
 	1    0    0    -1  
 $EndComp
@@ -1917,10 +1916,10 @@ F 0 "LS1" H 1870 6546 50  0000 L CNN
 F 1 "Speaker" H 1870 6455 50  0000 L CNN
 F 2 "Swadge_Parts:Buzzer_12x9.5RM7.6" H 1700 6350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-HNB09A03_C96102.pdf" H 1690 6500 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Buzzers_Jiangsu-Huaneng-Elec-HNB09A03_C96102.html" H 1300 6900 50  0001 C CNN "Digikey"
+F 4 "LCSC Part #C96102" H 1300 6900 50  0001 C CNN "Digikey"
 F 5 "13.48" H 1950 6800 50  0001 C CNN "Cost100"
 F 6 "Y" H 1950 7050 50  0001 C CNN "Substitutable"
-F 7 "Use magnetic buzzer, 3V rated, 9mm diameter, 5mm between the leads" H 1400 7000 50  0001 C CNN "Notes"
+F 7 "Use magnetic buzzer. 3V rated. 9mm diameter. 5mm between the leads" H 1400 7000 50  0001 C CNN "Notes"
 	1    1700 6550
 	1    0    0    -1  
 $EndComp
@@ -1943,7 +1942,7 @@ F 3 "~" V 2700 6400 50  0001 C CNN
 F 4 "RMCF0603ZT0R00CT-ND" H 2668 6309 50  0000 L CNN "Digikey"
 F 5 "10" H 2600 6400 10  0001 C CNN "Cost100"
 F 6 "Y" H 2600 6400 10  0001 C CNN "Substitutable"
-F 7 "0603 Package, must not be taller than 0.8mm, this sits under part of the OLED" H 2600 6400 50  0001 C CNN "Notes"
+F 7 "0603 Package. must not be taller than 0.8mm. this sits under part of the OLED" H 2600 6400 50  0001 C CNN "Notes"
 	1    2600 6400
 	1    0    0    -1  
 $EndComp
@@ -1958,7 +1957,7 @@ F 3 "~" V 3050 6400 50  0001 C CNN
 F 4 "RMCF0603ZT0R00CT-ND" H 3018 6309 50  0000 L CNN "Digikey"
 F 5 "10" H 2950 6400 10  0001 C CNN "Cost100"
 F 6 "Y" H 2950 6400 10  0001 C CNN "Substitutable"
-F 7 "0603 Package, must not be taller than 0.8mm, this sits under part of the OLED" H 2950 6400 50  0001 C CNN "Notes"
+F 7 "0603 Package. must not be taller than 0.8mm. this sits under part of the OLED" H 2950 6400 50  0001 C CNN "Notes"
 	1    2950 6400
 	1    0    0    -1  
 $EndComp
@@ -2028,7 +2027,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/JUSHUO-AFC07-S30ECC-00_C11095.pdf" H 5950
 F 4 "119" H 0   0   50  0001 C CNN "Cost100"
 F 5 "LCSC #C11095" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "Must have top contacts, same as the OLED" H 5950 4050 50  0001 C CNN "Notes"
+F 7 "Must have top contacts. same as the OLED" H 5950 4050 50  0001 C CNN "Notes"
 	1    5950 4050
 	1    0    0    -1  
 $EndComp
@@ -2044,7 +2043,7 @@ F 4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.p
 F 5 "EastRising# ER-OLED0.96-1.3W" H 5100 6500 50  0001 C CNN "Digikey"
 F 6 "352" H 5100 6500 50  0001 C CNN "Cost100"
 F 7 "Y" H 5100 6500 50  0001 C CNN "Substitutable"
-F 8 "Must be a single color, white. Must have SSD1306 driver. Must have top pins, 0.5mm pitch, like the connector" H 5100 6500 50  0001 C CNN "Notes"
+F 8 "Must be a single color. white. Must have SSD1306 driver. Must have top pins. 0.5mm pitch. like the connector" H 5100 6500 50  0001 C CNN "Notes"
 	1    5100 6500
 	1    0    0    -1  
 $EndComp
