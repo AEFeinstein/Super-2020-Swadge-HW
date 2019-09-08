@@ -11,7 +11,7 @@
   )
   (pad 1 thru_hole rect (at 2.5 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.5 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kicad-libs/package3d/Buzzer.step
+  (model ${KIPRJMOD}/../kicad-libs/package3d/Buzzer.step
     (offset (xyz 0 0.4 0))
     (scale (xyz 0.4 0.75 0.75))
     (rotate (xyz 90 -90 0))

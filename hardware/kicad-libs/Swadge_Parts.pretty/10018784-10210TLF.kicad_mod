@@ -47,7 +47,7 @@
   (pad A8 thru_hole circle (at -4.65 -3.25) (size 1.3 1.3) (drill 0.762) (layers *.Cu *.Mask))
   (pad A10 thru_hole circle (at -2.65 -3.25) (size 1.3 1.3) (drill 0.762) (layers *.Cu *.Mask))
   (pad A11 thru_hole circle (at -1.65 -1.25) (size 1.3 1.3) (drill 0.762) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kicad-libs/package3d/10018784-10210TLF.step
+  (model ${KIPRJMOD}/../kicad-libs/package3d/10018784-10210TLF.step
     (offset (xyz -0.15 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

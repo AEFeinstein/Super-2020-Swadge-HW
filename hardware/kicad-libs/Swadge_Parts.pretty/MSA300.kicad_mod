@@ -29,7 +29,7 @@
          (xy 0.08 0.14) (xy -0.14 0.14) (xy -0.14 -0.14) (xy 0.14 -0.14) (xy 0.14 0.08)
 ) (width 0))
     ))
-  (model ${KIPRJMOD}/kicad-libs/package3d/DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.wrl
+  (model ${KIPRJMOD}/../kicad-libs/package3d/DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

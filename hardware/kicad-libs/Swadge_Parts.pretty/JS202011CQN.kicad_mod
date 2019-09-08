@@ -15,7 +15,7 @@
   (pad 5 thru_hole circle (at 0 -1.65) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -2.5 1.65) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at -2.5 -1.65) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kicad-libs/package3d/js202011cqn.stp
+  (model ${KIPRJMOD}/../kicad-libs/package3d/js202011cqn.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

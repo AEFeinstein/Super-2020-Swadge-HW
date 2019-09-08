@@ -57,7 +57,7 @@
   (pad 28 thru_hole oval (at 2.54 33.02) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 29 thru_hole oval (at 0 35.56) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 30 thru_hole oval (at 2.54 35.56) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kicad-libs/package3d/PinHeader_2x15_P2.54mm_Vertical.wrl
+  (model ${KIPRJMOD}/../kicad-libs/package3d/PinHeader_2x15_P2.54mm_Vertical.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

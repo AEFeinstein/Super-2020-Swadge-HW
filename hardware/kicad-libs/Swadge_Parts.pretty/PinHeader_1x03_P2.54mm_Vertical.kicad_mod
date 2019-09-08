@@ -28,7 +28,7 @@
   (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kicad-libs/package3d/PinHeader_1x03_P2.54mm_Vertical.wrl
+  (model ${KIPRJMOD}/../kicad-libs/package3d/PinHeader_1x03_P2.54mm_Vertical.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

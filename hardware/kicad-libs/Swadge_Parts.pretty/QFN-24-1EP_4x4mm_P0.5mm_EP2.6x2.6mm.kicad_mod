@@ -56,7 +56,7 @@
   (pad 22 smd roundrect (at -0.25 -1.9375) (size 0.25 0.825) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 23 smd roundrect (at -0.75 -1.9375) (size 0.25 0.825) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 24 smd roundrect (at -1.25 -1.9375) (size 0.25 0.825) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/kicad-libs/package3d/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl
+  (model ${KIPRJMOD}/../kicad-libs/package3d/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

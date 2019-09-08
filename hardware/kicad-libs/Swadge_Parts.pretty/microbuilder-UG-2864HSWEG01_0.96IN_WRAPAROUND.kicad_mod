@@ -60,12 +60,12 @@
   (pad 28 smd rect (at 8.74776 1.19888 90) (size 2.19964 0.34798) (layers B.Cu B.Mask))
   (pad 29 smd rect (at 9.4488 1.19888 90) (size 2.19964 0.34798) (layers B.Cu B.Mask))
   (pad 30 smd rect (at 10.14984 1.19888 90) (size 2.19964 0.34798) (layers B.Cu B.Mask))
-  (model ${KIPRJMOD}/kicad-libs/package3d/oled.wrl
+  (model ${KIPRJMOD}/../kicad-libs/package3d/oled.wrl
     (offset (xyz -13.45 -4.92 0))
     (scale (xyz 0.396 0.396 0.396))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/kicad-libs/package3d/oled_curved.step
+  (model ${KIPRJMOD}/../kicad-libs/package3d/oled_curved.step
     (offset (xyz 0 18.88 -1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

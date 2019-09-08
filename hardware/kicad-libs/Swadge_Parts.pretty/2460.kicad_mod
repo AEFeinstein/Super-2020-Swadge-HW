@@ -20,7 +20,7 @@
   (fp_line (start -22.86 0) (end -20.32 0) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at 25.995 0.045 90) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at -25.995 0.045 90) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask F.SilkS))
-  (model "${KIPRJMOD}/kicad-libs/package3d/KEYSTONE 2460.step"
+  (model "${KIPRJMOD}/../kicad-libs/package3d/KEYSTONE 2460.step"
     (offset (xyz -28.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
