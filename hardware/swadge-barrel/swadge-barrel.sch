@@ -832,12 +832,12 @@ U 1 1 5C5EA1C9
 P 4150 3600
 F 0 "C6" H 3850 3650 50  0000 L CNN
 F 1 "1u" H 3850 3550 50  0000 L CNN
-F 2 "Swadge_Parts:C_1206_3216Metric" H 4188 3450 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4188 3450 50  0001 C CNN
 F 3 "" H 4150 3600 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "1206 Package. must be at least 1.5mm tall. may be taller. 1.8mm is common and preferable. This protects the OLED's corners" H 4150 3600 50  0001 C CNN "Notes"
+F 7 "0603 Package" H 4150 3600 50  0001 C CNN "Notes"
 	1    4150 3600
 	-1   0    0    1   
 $EndComp
@@ -847,12 +847,12 @@ U 1 1 5C5EA421
 P 4000 3300
 F 0 "C4" H 4115 3346 50  0000 L CNN
 F 1 "1u" H 4115 3255 50  0000 L CNN
-F 2 "Swadge_Parts:C_1206_3216Metric" H 4038 3150 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4038 3150 50  0001 C CNN
 F 3 "" H 4000 3300 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "1206 Package. must be at least 1.5mm tall. may be taller. 1.8mm is common and preferable. This protects the OLED's corners" H 4000 3300 50  0001 C CNN "Notes"
+F 7 "0603 Package" H 4000 3300 50  0001 C CNN "Notes"
 	1    4000 3300
 	-1   0    0    1   
 $EndComp
@@ -874,12 +874,12 @@ U 1 1 5C655AC1
 P 4450 2700
 F 0 "C9" H 4565 2746 50  0000 L CNN
 F 1 "1u" H 4565 2655 50  0000 L CNN
-F 2 "Swadge_Parts:C_1206_3216Metric" H 4488 2550 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4488 2550 50  0001 C CNN
 F 3 "" H 4450 2700 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "1206 Package. must be at least 1.5mm tall. may be taller. 1.8mm is common and preferable. This protects the OLED's corners" H 4450 2700 50  0001 C CNN "Notes"
+F 7 "0603 Package" H 4450 2700 50  0001 C CNN "Notes"
 	1    4450 2700
 	1    0    0    -1  
 $EndComp
@@ -897,12 +897,12 @@ U 1 1 5C66AFCB
 P 4050 2900
 F 0 "C5" H 4165 2946 50  0000 L CNN
 F 1 "1u" H 4165 2855 50  0000 L CNN
-F 2 "Swadge_Parts:C_1206_3216Metric" H 4088 2750 50  0001 C CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 4088 2750 50  0001 C CNN
 F 3 "" H 4050 2900 50  0001 C CNN
 F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1097-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "1206 Package. must be at least 1.5mm tall. may be taller. 1.8mm is common and preferable. This protects the OLED's corners" H 4050 2900 50  0001 C CNN "Notes"
+F 7 "0603 Package" H 4050 2900 50  0001 C CNN "Notes"
 	1    4050 2900
 	1    0    0    -1  
 $EndComp
@@ -1932,59 +1932,6 @@ Wire Notes Line
 	500  5950 2200 5950
 Wire Notes Line
 	500  7750 2200 7750
-$Comp
-L Swadge_Parts:R_US R8
-U 1 1 5D6E1A5B
-P 2600 6400
-F 0 "R8" H 2668 6491 50  0000 L CNN
-F 1 "0" H 2668 6400 50  0000 L CNN
-F 2 "Swadge_Parts:R_0603_1608Metric" V 2640 6390 50  0001 C CNN
-F 3 "~" V 2700 6400 50  0001 C CNN
-F 4 "RMCF0603ZT0R00CT-ND" H 2668 6309 50  0000 L CNN "Digikey"
-F 5 "10" H 2600 6400 10  0001 C CNN "Cost100"
-F 6 "Y" H 2600 6400 10  0001 C CNN "Substitutable"
-F 7 "0603 Package. must not be taller than 0.8mm. this sits under part of the OLED" H 2600 6400 50  0001 C CNN "Notes"
-	1    2600 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Swadge_Parts:R_US R9
-U 1 1 5D6E3BEA
-P 2950 6400
-F 0 "R9" H 3018 6491 50  0000 L CNN
-F 1 "0" H 3018 6400 50  0000 L CNN
-F 2 "Swadge_Parts:R_0603_1608Metric" V 2990 6390 50  0001 C CNN
-F 3 "~" V 3050 6400 50  0001 C CNN
-F 4 "RMCF0603ZT0R00CT-ND" H 3018 6309 50  0000 L CNN "Digikey"
-F 5 "10" H 2950 6400 10  0001 C CNN "Cost100"
-F 6 "Y" H 2950 6400 10  0001 C CNN "Substitutable"
-F 7 "0603 Package. must not be taller than 0.8mm. this sits under part of the OLED" H 2950 6400 50  0001 C CNN "Notes"
-	1    2950 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 6250 2600 6250
-Wire Wire Line
-	2950 6550 2600 6550
-Wire Wire Line
-	2600 6550 2500 6550
-Wire Wire Line
-	2500 6550 2500 6250
-Wire Wire Line
-	2500 6250 2600 6250
-Connection ~ 2600 6550
-Connection ~ 2600 6250
-$Comp
-L power:GND #PWR049
-U 1 1 5D712417
-P 2600 6550
-F 0 "#PWR049" H 2600 6300 50  0001 C CNN
-F 1 "GND" H 2605 6377 50  0000 C CNN
-F 2 "" H 2600 6550 50  0001 C CNN
-F 3 "" H 2600 6550 50  0001 C CNN
-	1    2600 6550
-	1    0    0    -1  
-$EndComp
 Text GLabel 7900 1650 2    50   Input ~ 0
 LED_OUT
 Text GLabel 7950 3950 2    50   Input ~ 0
@@ -2055,10 +2002,10 @@ Right
 Text Notes 2050 1550 0    50   ~ 0
 Menu
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5D809654
 P 6800 2650
-F 0 "#PWR?" H 6800 2400 50  0001 C CNN
+F 0 "#PWR0103" H 6800 2400 50  0001 C CNN
 F 1 "GND" H 6805 2477 50  0000 C CNN
 F 2 "" H 6800 2650 50  0001 C CNN
 F 3 "" H 6800 2650 50  0001 C CNN
