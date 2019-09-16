@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:swadge-barrel-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -617,7 +618,7 @@ Wire Notes Line
 	9400 650  10000 650 
 Wire Notes Line
 	10000 650  10000 500 
-Text GLabel 1850 1850 0    50   Input ~ 0
+Text GLabel 2300 1150 0    50   Input ~ 0
 SW1
 $Comp
 L power:GND #PWR034
@@ -1787,9 +1788,9 @@ F 3 "" H 3250 1250 50  0001 C CNN
 	1    3250 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 2300 1150 0    50   Input ~ 0
-SW3
 Text GLabel 950  1150 0    50   Input ~ 0
+SW3
+Text GLabel 1850 1850 0    50   Input ~ 0
 SW2
 Connection ~ 1900 1850
 Wire Notes Line
@@ -2047,4 +2048,10 @@ F 8 "Must be a single color. white. Must have SSD1306 driver. Must have top pins
 	1    5100 6500
 	1    0    0    -1  
 $EndComp
+Text Notes 1350 850  0    50   ~ 0
+Left
+Text Notes 2650 850  0    50   ~ 0
+Right
+Text Notes 2050 1550 0    50   ~ 0
+Menu
 $EndSCHEMATC
