@@ -2012,4 +2012,15 @@ F 3 "" H 6800 2650 50  0001 C CNN
 	1    6800 2650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Swadge_Parts:Headband H1
+U 1 1 5D829692
+P 2800 6450
+F 0 "H1" H 2825 6496 50  0000 L CNN
+F 1 "Headband" H 2825 6405 50  0000 L CNN
+F 2 "Swadge_Parts:Headband" H 2800 6450 50  0001 C CNN
+F 3 "" H 2800 6450 50  0001 C CNN
+	1    2800 6450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

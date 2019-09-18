@@ -590,6 +590,17 @@ X VDD 5 0 300 120 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# Headband
+#
+DEF Headband H 0 40 Y Y 1 F N
+F0 "H" 0 0 50 H V C CNN
+F1 "Headband" 0 0 50 H V C CNN
+F2 "Swadge_Parts:Headband" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
 # Hole
 #
 DEF Hole H 0 40 Y Y 1 F N
