@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:swadge-banana-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1970,29 +1969,14 @@ U 1 1 5C3C7BBF
 P 5950 4050
 F 0 "U6" H 5100 2300 45  0000 L CNN
 F 1 "OLED_CONNECTOR" H 5100 2400 45  0000 L CNN
-F 2 "Swadge_Parts:ER-OLED0.96-1.3" H 5980 4200 20  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/JUSHUO-AFC07-S30ECC-00_C11095.pdf" H 5950 4050 50  0001 C CNN
-F 4 "119" H 0   0   50  0001 C CNN "Cost100"
-F 5 "LCSC #C11095" H 0   0   50  0001 C CNN "Digikey"
+F 2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND" H 5980 4200 20  0001 C CNN
+F 3 "https://www.buydisplay.com/download/ic/SSD1306.pdf" H 5950 4050 50  0001 C CNN
+F 4 "352" H 0   0   50  0001 C CNN "Cost100"
+F 5 "EastRising# ER-OLED0.96-1W" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "Must have top contacts. same as the OLED" H 5950 4050 50  0001 C CNN "Notes"
+F 7 "Must be a single color. white. Must have SSD1306 driver. Must have 0.7mm pitch pins. Will be soldered on and covered with kapton tape" H 5950 4050 50  0001 C CNN "Notes"
+F 8 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" H 0   0   50  0001 C CNN "Datasheet2"
 	1    5950 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Swadge_Parts:OLED_DISPLAY U2
-U 1 1 5D78A9AC
-P 5100 6500
-F 0 "U2" H 5428 6546 50  0000 L CNN
-F 1 "OLED_DISPLAY" H 5428 6455 50  0000 L CNN
-F 2 "Swadge_Parts:NULL" H 5100 6500 50  0001 C CNN
-F 3 "https://www.buydisplay.com/download/ic/SSD1306.pdf" H 5100 6500 50  0001 C CNN
-F 4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" H 5100 6500 50  0001 C CNN "Datasheet2"
-F 5 "EastRising# ER-OLED0.96-1.3W" H 5100 6500 50  0001 C CNN "Digikey"
-F 6 "352" H 5100 6500 50  0001 C CNN "Cost100"
-F 7 "Y" H 5100 6500 50  0001 C CNN "Substitutable"
-F 8 "Must be a single color. white. Must have SSD1306 driver. Must have top pins. 0.5mm pitch. like the connector" H 5100 6500 50  0001 C CNN "Notes"
-	1    5100 6500
 	1    0    0    -1  
 $EndComp
 Text Notes 1350 850  0    50   ~ 0
