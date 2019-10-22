@@ -77,6 +77,10 @@ $CMP GS321-TR
 F https://datasheet.lcsc.com/szlcsc/1901081202_Gainsil-GS321-TR_C157695.pdf
 $ENDCMP
 #
+$CMP Headband
+F https://cdn.harwin.com/pdfs/M50-353.pdf
+$ENDCMP
+#
 $CMP Hole
 F https://www.bumperspecialties.com/wp-content/uploads/2017/01/Bumper-Technical-Drawing-BS02.pdf
 $ENDCMP
@@ -151,7 +155,7 @@ $ENDCMP
 $CMP Speaker
 D Speaker
 K speaker sound
-F https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-HNB09A03_C96102.pdf
+F https://datasheet.lcsc.com/szlcsc/1808301434_ZLFY-ZL-YDW1207-4005PA-5-0_C219727.pdf
 $ENDCMP
 #
 $CMP USB_B_Micro
