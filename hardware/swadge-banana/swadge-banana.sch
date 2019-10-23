@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:swadge-banana-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -946,11 +947,7 @@ Wire Wire Line
 Wire Notes Line
 	6850 2500 3700 2500
 Wire Notes Line
-	3700 2500 3700 5900
-Wire Notes Line
-	3700 5900 6850 5900
-Wire Notes Line
-	6850 5900 6850 2500
+	3700 6500 6850 6500
 Text Notes 3750 2600 0    50   ~ 0
 Display Circuit
 Wire Notes Line
@@ -1800,66 +1797,38 @@ Wire Notes Line
 	500  500  3650 500 
 Wire Notes Line
 	3650 500  3650 2450
-$Comp
-L Swadge_Parts:Q_NPN_BEC Q1
-U 1 1 5D5EC406
-P 1400 6950
-F 0 "Q1" H 1591 6996 50  0000 L CNN
-F 1 "Q_NPN_BEC" H 1591 6905 50  0000 L CNN
-F 2 "Swadge_Parts:SOT-23" H 2050 7300 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF" H 1400 6950 50  0001 C CNN
-F 4 "BC848BLT3GOSTR-ND" H 2050 7200 50  0001 C CNN "Digikey"
-F 5 "1.554" H 1750 7400 50  0001 C CNN "Cost100"
-F 6 "Y" H 1700 7500 50  0001 C CNN "Substitutable"
-F 7 "Use any NPN transistor in SOT-23 package with the same leads as BC848BLT3G (1=base. 2=emitter. 3=collector)" H 1400 6950 50  0001 C CNN "Notes"
-	1    1400 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR033
-U 1 1 5D5EE737
-P 1500 6450
-F 0 "#PWR033" H 1500 6300 50  0001 C CNN
-F 1 "+3.3V" H 1515 6623 50  0000 C CNN
-F 2 "" H 1500 6450 50  0001 C CNN
-F 3 "" H 1500 6450 50  0001 C CNN
-	1    1500 6450
-	1    0    0    -1  
-$EndComp
-Text GLabel 800  6950 0    50   Input ~ 0
+Text GLabel 900  6750 0    50   Input ~ 0
 BZR
 Wire Wire Line
-	1150 6950 1200 6950
+	1250 6750 1300 6750
 $Comp
 L power:GND #PWR048
 U 1 1 5D5FD0B6
-P 1500 7200
-F 0 "#PWR048" H 1500 6950 50  0001 C CNN
-F 1 "GND" H 1505 7027 50  0000 C CNN
-F 2 "" H 1500 7200 50  0001 C CNN
-F 3 "" H 1500 7200 50  0001 C CNN
-	1    1500 7200
+P 1300 6950
+F 0 "#PWR048" H 1300 6700 50  0001 C CNN
+F 1 "GND" H 1305 6777 50  0000 C CNN
+F 2 "" H 1300 6950 50  0001 C CNN
+F 3 "" H 1300 6950 50  0001 C CNN
+	1    1300 6950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 7150 1500 7200
 $Comp
 L Swadge_Parts:R_US R7
 U 1 1 5D60B5AD
-P 1000 6950
-F 0 "R7" V 1100 6950 50  0000 C CNN
-F 1 "100" V 886 6950 50  0000 C CNN
-F 2 "Swadge_Parts:R_0603_1608Metric" V 1040 6940 50  0001 C CNN
-F 3 "" H 1000 6950 50  0001 C CNN
-F 4 "10" H -700 1300 50  0001 C CNN "Cost100"
-F 5 "RNCP0603FTD10K0CT-ND" H -700 1300 50  0001 C CNN "Digikey"
-F 6 "Y" H -700 1300 50  0001 C CNN "Substitutable"
-F 7 "0603 Package" H 1000 6950 50  0001 C CNN "Notes"
-	1    1000 6950
+P 1100 6750
+F 0 "R7" V 1200 6750 50  0000 C CNN
+F 1 "100" V 986 6750 50  0000 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1140 6740 50  0001 C CNN
+F 3 "" H 1100 6750 50  0001 C CNN
+F 4 "10" H -600 1100 50  0001 C CNN "Cost100"
+F 5 "RNCP0603FTD10K0CT-ND" H -600 1100 50  0001 C CNN "Digikey"
+F 6 "Y" H -600 1100 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 1100 6750 50  0001 C CNN "Notes"
+	1    1100 6750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	800  6950 850  6950
+	900  6750 950  6750
 Wire Notes Line
 	500  5950 500  7750
 Wire Notes Line
@@ -1911,22 +1880,20 @@ Wire Wire Line
 $Comp
 L Swadge_Parts:Speaker LS1
 U 1 1 5D6E9B01
-P 1700 6550
-F 0 "LS1" H 1870 6546 50  0000 L CNN
-F 1 "Speaker" H 1870 6455 50  0000 L CNN
-F 2 "Swadge_Parts:Buzzer_12x9.5RM7.6" H 1700 6350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-HNB09A03_C96102.pdf" H 1690 6500 50  0001 C CNN
-F 4 "LCSC Part #C96102" H 1300 6900 50  0001 C CNN "Digikey"
-F 5 "13.48" H 1950 6800 50  0001 C CNN "Cost100"
-F 6 "Y" H 1950 7050 50  0001 C CNN "Substitutable"
-F 7 "Use magnetic buzzer. 3V rated. 9mm diameter. 5mm between the leads" H 1400 7000 50  0001 C CNN "Notes"
-	1    1700 6550
+P 1500 6750
+F 0 "LS1" H 1670 6746 50  0000 L CNN
+F 1 "Speaker" H 1670 6655 50  0000 L CNN
+F 2 "Swadge_Parts:Buzzer_12x9.5RM7.6" H 1500 6550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1808301434_ZLFY-ZL-YDW1207-4005PA-5-0_C219727.pdf" H 1490 6700 50  0001 C CNN
+F 4 "LCSC Part #C219727" H 1100 7100 50  0001 C CNN "Digikey"
+F 5 "9.32" H 1750 7000 50  0001 C CNN "Cost100"
+F 6 "Y" H 1750 7250 50  0001 C CNN "Substitutable"
+F 7 "Use piezo buzzer. 1 ~ 25V operating voltage. 12.5mm diameter. 5mm between the leads" H 1200 7200 50  0001 C CNN "Notes"
+	1    1500 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 6650 1500 6750
-Wire Wire Line
-	1500 6450 1500 6550
+	1300 6850 1300 6950
 Wire Notes Line
 	500  5950 2200 5950
 Wire Notes Line
@@ -1969,14 +1936,29 @@ U 1 1 5C3C7BBF
 P 5950 4050
 F 0 "U6" H 5100 2300 45  0000 L CNN
 F 1 "OLED_CONNECTOR" H 5100 2400 45  0000 L CNN
-F 2 "Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND" H 5980 4200 20  0001 C CNN
-F 3 "https://www.buydisplay.com/download/ic/SSD1306.pdf" H 5950 4050 50  0001 C CNN
-F 4 "352" H 0   0   50  0001 C CNN "Cost100"
-F 5 "EastRising# ER-OLED0.96-1W" H 0   0   50  0001 C CNN "Digikey"
+F 2 "Swadge_Parts:ER-OLED0.96-1.3" H 5980 4200 20  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/JUSHUO-AFC07-S30ECC-00_C11095.pdf" H 5950 4050 50  0001 C CNN
+F 4 "119" H 0   0   50  0001 C CNN "Cost100"
+F 5 "LCSC #C11095" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "Must be a single color. white. Must have SSD1306 driver. Must have 0.7mm pitch pins. Will be soldered on and covered with kapton tape" H 5950 4050 50  0001 C CNN "Notes"
-F 8 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" H 0   0   50  0001 C CNN "Datasheet2"
+F 7 "Must have top contacts. same as the OLED" H 5950 4050 50  0001 C CNN "Notes"
 	1    5950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:OLED_DISPLAY U2
+U 1 1 5D78A9AC
+P 5850 6100
+F 0 "U2" H 6178 6146 50  0000 L CNN
+F 1 "OLED_DISPLAY" H 6178 6055 50  0000 L CNN
+F 2 "Swadge_Parts:NULL" H 5850 6100 50  0001 C CNN
+F 3 "https://www.buydisplay.com/download/ic/SSD1306.pdf" H 5850 6100 50  0001 C CNN
+F 4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" H 5850 6100 50  0001 C CNN "Datasheet2"
+F 5 "EastRising# ER-OLED0.96-1.3W" H 5850 6100 50  0001 C CNN "Digikey"
+F 6 "352" H 5850 6100 50  0001 C CNN "Cost100"
+F 7 "Y" H 5850 6100 50  0001 C CNN "Substitutable"
+F 8 "Must be a single color. white. Must have SSD1306 driver. Must have top pins. 0.5mm pitch. like the connector" H 5850 6100 50  0001 C CNN "Notes"
+	1    5850 6100
 	1    0    0    -1  
 $EndComp
 Text Notes 1350 850  0    50   ~ 0
@@ -1999,12 +1981,20 @@ $EndComp
 $Comp
 L Swadge_Parts:Headband H1
 U 1 1 5D829692
-P 2800 6450
-F 0 "H1" H 2825 6496 50  0000 L CNN
-F 1 "Headband" H 2825 6405 50  0000 L CNN
-F 2 "Swadge_Parts:Headband" H 2800 6450 50  0001 C CNN
-F 3 "" H 2800 6450 50  0001 C CNN
-	1    2800 6450
+P 4600 6150
+F 0 "H1" H 4600 6150 50  0000 C CNN
+F 1 "Headband" H 4600 6250 50  0000 C CNN
+F 2 "Swadge_Parts:Headband" H 4600 6150 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M50-353.pdf" H 4600 6150 50  0001 C CNN
+F 4 "" H 4600 6150 50  0001 C CNN "Cost100"
+F 5 "952-3598-ND" H 4600 6150 50  0001 C CNN "Digikey"
+F 6 "Use Swadge Headband PCB and two 2x1 male pin headers with 1.27mm spacing for assembly. Must attach OLED display before soldering headband. This is meant to protect the OLED's corners" H 4600 6150 50  0001 C CNN "Notes"
+F 7 "N" H 4600 6150 50  0001 C CNN "Substitutable"
+	1    4600 6150
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	3700 2500 3700 6500
+Wire Notes Line
+	6850 2500 6850 6500
 $EndSCHEMATC
