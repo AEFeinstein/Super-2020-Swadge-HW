@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:swadge-banana-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -70,7 +69,6 @@ Wire Wire Line
 	4450 900  4300 900 
 Wire Wire Line
 	4300 1350 4300 900 
-Connection ~ 4300 900 
 $Comp
 L power:GND #PWR014
 U 1 1 5C3A78DA
@@ -106,21 +104,6 @@ F 1 "+3.3V" H 4965 1073 50  0000 C CNN
 F 2 "" H 4950 900 50  0001 C CNN
 F 3 "" H 4950 900 50  0001 C CNN
 	1    4950 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Swadge_Parts:C C11
-U 1 1 5C3A88B1
-P 5100 1050
-F 0 "C11" H 5215 1096 50  0000 L CNN
-F 1 "1u" H 5215 1005 50  0000 L CNN
-F 2 "Swadge_Parts:C_0603_1608Metric" H 5138 900 50  0001 C CNN
-F 3 "" H 5100 1050 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "0603 Package" H 5100 1050 50  0001 C CNN "Notes"
-	1    5100 1050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -237,21 +220,6 @@ F 3 "" H 6250 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:C C13
-U 1 1 5C3A9206
-P 6400 1050
-F 0 "C13" H 6515 1096 50  0000 L CNN
-F 1 "1u" H 6515 1005 50  0000 L CNN
-F 2 "Swadge_Parts:C_0603_1608Metric" H 6438 900 50  0001 C CNN
-F 3 "" H 6400 1050 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "0603 Package" H 6400 1050 50  0001 C CNN "Notes"
-	1    6400 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR026
 U 1 1 5C3A920C
 P 6400 1250
@@ -266,7 +234,6 @@ Wire Wire Line
 	6400 900  6250 900 
 Wire Wire Line
 	6250 1350 6250 900 
-Connection ~ 6250 900 
 $Comp
 L power:GND #PWR025
 U 1 1 5C3A9215
@@ -334,7 +301,6 @@ Wire Wire Line
 	7050 900  6900 900 
 Wire Wire Line
 	6900 1350 6900 900 
-Connection ~ 6900 900 
 $Comp
 L power:GND #PWR028
 U 1 1 5C3A9737
@@ -359,43 +325,6 @@ F 5 "1528-1104-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Use WS2812B LED. Digikey item is x10" H 0   0   50  0001 C CNN "Notes"
 F 7 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    7550 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR030
-U 1 1 5C3A9743
-P 7550 900
-F 0 "#PWR030" H 7550 750 50  0001 C CNN
-F 1 "+3.3V" H 7565 1073 50  0000 C CNN
-F 2 "" H 7550 900 50  0001 C CNN
-F 3 "" H 7550 900 50  0001 C CNN
-	1    7550 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Swadge_Parts:C C15
-U 1 1 5C3A9749
-P 7700 1050
-F 0 "C15" H 7815 1096 50  0000 L CNN
-F 1 "1u" H 7815 1005 50  0000 L CNN
-F 2 "Swadge_Parts:C_0603_1608Metric" H 7738 900 50  0001 C CNN
-F 3 "" H 7700 1050 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "1276-1036-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "0603 Package" H 7700 1050 50  0001 C CNN "Notes"
-	1    7700 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR032
-U 1 1 5C3A974F
-P 7700 1250
-F 0 "#PWR032" H 7700 1000 50  0001 C CNN
-F 1 "GND" H 7705 1077 50  0000 C CNN
-F 2 "" H 7700 1250 50  0001 C CNN
-F 3 "" H 7700 1250 50  0001 C CNN
-	1    7700 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -714,12 +643,10 @@ Wire Notes Line
 	3700 2450 9350 2450
 Wire Wire Line
 	4950 1350 4950 900 
-Connection ~ 4950 900 
 Wire Wire Line
 	5600 1350 5600 900 
 Wire Wire Line
 	5600 900  5750 900 
-Connection ~ 5600 900 
 Wire Notes Line
 	9350 500  9350 2450
 Wire Notes Line
@@ -825,7 +752,6 @@ F 3 "" H 4950 5650 50  0001 C CNN
 	1    4950 5650
 	1    0    0    -1  
 $EndComp
-Connection ~ 4950 5650
 $Comp
 L Swadge_Parts:C C6
 U 1 1 5C5EA1C9
@@ -919,7 +845,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 2650 4900 3350
 Connection ~ 4900 3350
-Connection ~ 4000 3750
 Wire Wire Line
 	4750 3650 4750 3150
 Connection ~ 4750 3150
@@ -968,15 +893,11 @@ Wire Wire Line
 	4150 3750 4500 3750
 Wire Wire Line
 	4000 3450 4000 3750
-Connection ~ 4000 3150
 Wire Wire Line
 	7550 1350 7550 900 
-Connection ~ 7550 900 
 Wire Wire Line
 	4950 3450 4300 3450
 Connection ~ 4300 3450
-Connection ~ 9550 1550
-Connection ~ 10050 950 
 Wire Wire Line
 	10050 950  10050 1150
 $Comp
@@ -1525,11 +1446,6 @@ $EndComp
 Wire Wire Line
 	1000 2700 700  2700
 Wire Wire Line
-	1300 2700 1400 2700
-Connection ~ 1400 2700
-Wire Wire Line
-	1400 2700 1500 2700
-Wire Wire Line
 	1300 2700 1000 2700
 Connection ~ 1300 2700
 Connection ~ 1000 2700
@@ -1649,12 +1565,7 @@ F 7 "0603 Package" H 9200 5950 50  0001 C CNN "Notes"
 	1    9200 5950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 5800 9000 5800
 Connection ~ 8800 5800
-Connection ~ 9000 5800
-Wire Wire Line
-	9000 5800 9200 5800
 Wire Wire Line
 	8350 5800 8800 5800
 Wire Wire Line
@@ -1681,7 +1592,6 @@ F 7 "0603 Package" H 7050 5850 50  0001 C CNN "Notes"
 	1    7050 5850
 	1    0    0    -1  
 $EndComp
-Connection ~ 7050 5700
 Wire Wire Line
 	7050 5700 7400 5700
 Wire Wire Line
@@ -1722,14 +1632,12 @@ Wire Notes Line
 	6900 4950 7800 4950
 Wire Notes Line
 	7800 4950 7800 4800
-Connection ~ 3250 1250
 Wire Wire Line
 	3250 1150 3250 1250
 Wire Wire Line
 	2300 1150 2300 1250
 Wire Wire Line
 	950  1150 950  1250
-Connection ~ 1900 1250
 Wire Wire Line
 	1900 1150 1900 1250
 $Comp
@@ -1839,17 +1747,6 @@ Wire Notes Line
 	500  6100 850  6100
 Wire Notes Line
 	850  6100 850  5950
-$Comp
-L power:GND #PWR0102
-U 1 1 5D73519E
-P 11000 1000
-F 0 "#PWR0102" H 11000 750 50  0001 C CNN
-F 1 "GND" H 11005 827 50  0000 C CNN
-F 2 "" H 11000 1000 50  0001 C CNN
-F 3 "" H 11000 1000 50  0001 C CNN
-	1    11000 1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Swadge_Parts:SW_SPDT SW1
 U 1 1 5C3F7306
@@ -1997,4 +1894,41 @@ Wire Notes Line
 	3700 2500 3700 6500
 Wire Notes Line
 	6850 2500 6850 6500
+Wire Wire Line
+	1300 2700 1500 2700
+Wire Wire Line
+	8800 5800 9200 5800
+$Comp
+L power:+3.3V #PWR030
+U 1 1 5C3A9743
+P 7550 900
+F 0 "#PWR030" H 7550 750 50  0001 C CNN
+F 1 "+3.3V" H 7565 1073 50  0000 C CNN
+F 2 "" H 7550 900 50  0001 C CNN
+F 3 "" H 7550 900 50  0001 C CNN
+	1    7550 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D73519E
+P 11000 1000
+F 0 "#PWR0102" H 11000 750 50  0001 C CNN
+F 1 "GND" H 11005 827 50  0000 C CNN
+F 2 "" H 11000 1000 50  0001 C CNN
+F 3 "" H 11000 1000 50  0001 C CNN
+	1    11000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB27E5A
+P 7700 1250
+F 0 "#PWR?" H 7700 1000 50  0001 C CNN
+F 1 "GND" H 7705 1077 50  0000 C CNN
+F 2 "" H 7700 1250 50  0001 C CNN
+F 3 "" H 7700 1250 50  0001 C CNN
+	1    7700 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
