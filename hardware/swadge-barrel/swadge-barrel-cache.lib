@@ -237,8 +237,8 @@ F0 "H" 0 0 50 H V C CNN
 F1 "Swadge_Parts_Headband" 0 0 50 H V C CNN
 F2 "Swadge_Parts:Headband" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "N" 0 0 50 H I C CNN "Substitutable"
-F5 "952-3598-ND" 0 0 50 H I C CNN "Digikey"
+F4 "952-3598-ND" 0 0 50 H I C CNN "Digikey"
+F5 "N" 0 0 50 H I C CNN "Substitutable"
 F6 "Use Swadge Headband PCB and two 2x1 male pin headers with 1.27mm spacing for assembly. Must attach OLED display before soldering headband. This is meant to protect the OLED's corners" 0 0 50 H I C CNN "Notes"
 DRAW
 ENDDRAW
