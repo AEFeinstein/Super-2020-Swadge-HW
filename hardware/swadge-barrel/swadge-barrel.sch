@@ -1860,9 +1860,9 @@ F 1 "OLED_CONNECTOR" H 5100 2400 45  0000 L CNN
 F 2 "Swadge_Parts:ER-OLED0.96-1.3" H 5980 4200 20  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/JUSHUO-AFC07-S30ECC-00_C11095.pdf" H 5950 4050 50  0001 C CNN
 F 4 "119" H 0   0   50  0001 C CNN "Cost100"
-F 5 "LCSC #C11095" H 0   0   50  0001 C CNN "Digikey"
+F 5 "LCSC Part #C11060" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-F 7 "Must have top contacts. same as the OLED" H 5950 4050 50  0001 C CNN "Notes"
+F 7 "Must have bottom contacts. same as the OLED" H 5950 4050 50  0001 C CNN "Notes"
 	1    5950 4050
 	1    0    0    -1  
 $EndComp
@@ -1875,10 +1875,10 @@ F 1 "OLED_DISPLAY" H 6178 6055 50  0000 L CNN
 F 2 "Swadge_Parts:NULL" H 5850 6100 50  0001 C CNN
 F 3 "https://www.buydisplay.com/download/ic/SSD1306.pdf" H 5850 6100 50  0001 C CNN
 F 4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" H 5850 6100 50  0001 C CNN "Datasheet2"
-F 5 "EastRising# ER-OLED0.96-1.3W" H 5850 6100 50  0001 C CNN "Digikey"
+F 5 "EastRising# ER-OLED0.96-1.1W" H 5850 6100 50  0001 C CNN "Digikey"
 F 6 "352" H 5850 6100 50  0001 C CNN "Cost100"
 F 7 "Y" H 5850 6100 50  0001 C CNN "Substitutable"
-F 8 "Must be a single color. white. Must have SSD1306 driver. Must have top pins. 0.5mm pitch. like the connector" H 5850 6100 50  0001 C CNN "Notes"
+F 8 "Must be a single color, white. Must have SSD1306 driver. Must have bottom pins, same as connector. 0.5mm pitch, like the connector" H 5850 6100 50  0001 C CNN "Notes"
 	1    5850 6100
 	1    0    0    -1  
 $EndComp
@@ -1907,10 +1907,9 @@ F 0 "H1" H 4600 6150 50  0000 C CNN
 F 1 "Headband" H 4600 6250 50  0000 C CNN
 F 2 "Swadge_Parts:Headband" H 4600 6150 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/M50-353.pdf" H 4600 6150 50  0001 C CNN
-F 4 "" H 4600 6150 50  0001 C CNN "Cost100"
-F 5 "952-3598-ND" H 4600 6150 50  0001 C CNN "Digikey"
-F 6 "Use Swadge Headband PCB and two 2x1 male pin headers with 1.27mm spacing for assembly. Must attach OLED display before soldering headband. This is meant to protect the OLED's corners" H 4600 6150 50  0001 C CNN "Notes"
-F 7 "N" H 4600 6150 50  0001 C CNN "Substitutable"
+F 4 "952-3598-ND" H 4600 6150 50  0001 C CNN "Digikey"
+F 5 "Use Swadge Headband PCB and two 2x1 male pin headers with 1.27mm spacing for assembly. Must attach OLED display before soldering headband. This is meant to protect the OLED's corners" H 4600 6150 50  0001 C CNN "Notes"
+F 6 "N" H 4600 6150 50  0001 C CNN "Substitutable"
 	1    4600 6150
 	1    0    0    -1  
 $EndComp

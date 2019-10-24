@@ -251,10 +251,10 @@ F0 "U" -900 1600 45 H V L BNN
 F1 "Swadge_Parts_OLED_CONNECTOR" -900 -1700 45 H V L BNN
 F2 "Swadge_Parts:ER-OLED0.96-1.3" 30 150 20 H I C CNN
 F3 "" -900 1600 50 H I C CNN
-F4 "LCSC #C11095" -800 1700 50 H I C CNN "Digikey"
+F4 "LCSC Part #C11060" -800 1700 50 H I C CNN "Digikey"
 F5 "119" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "Must have top contacts. same as the OLED" -1350 1850 50 H I C CNN "Notes"
+F7 "Must have bottom contacts. same as the OLED" -1350 1850 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND
  Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND
@@ -328,10 +328,10 @@ F1 "Swadge_Parts_OLED_DISPLAY" 0 0 50 H V C CNN
 F2 "Swadge_Parts:NULL" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" 0 0 50 H I C CNN "Datasheet2"
-F5 "EastRising# ER-OLED0.96-1.3W" 0 0 50 H I C CNN "Digikey"
+F5 "EastRising# ER-OLED0.96-1.1W" 0 0 50 H I C CNN "Digikey"
 F6 "352" 0 0 50 H I C CNN "Cost100"
 F7 "Y" 0 0 50 H I C CNN "Substitutable"
-F8 "Must be a single color. white. Must have SSD1306 driver. Must have top pins. 0.5mm pitch. like the connector" 0 0 50 H I C CNN "Notes"
+F8 "Must be a single color, white. Must have SSD1306 driver. Must have bottom pins, same as connector. 0.5mm pitch, like the connector" 0 0 50 H I C CNN "Notes"
 DRAW
 S -300 200 300 -200 0 1 0 N
 ENDDRAW
