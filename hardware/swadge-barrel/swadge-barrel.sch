@@ -1878,7 +1878,7 @@ F 4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.p
 F 5 "EastRising# ER-OLED0.96-1.1W" H 5850 6100 50  0001 C CNN "Digikey"
 F 6 "352" H 5850 6100 50  0001 C CNN "Cost100"
 F 7 "Y" H 5850 6100 50  0001 C CNN "Substitutable"
-F 8 "Must be a single color, white. Must have SSD1306 driver. Must have bottom pins, same as connector. 0.5mm pitch, like the connector" H 5850 6100 50  0001 C CNN "Notes"
+F 8 "Must be a single color; white. Must have SSD1306 driver. Must have bottom pins; same as connector. 0.5mm pitch; like the connector" H 5850 6100 50  0001 C CNN "Notes"
 	1    5850 6100
 	1    0    0    -1  
 $EndComp

@@ -815,7 +815,7 @@ F4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pd
 F5 "EastRising# ER-OLED0.96-1.1W" 0 0 50 H I C CNN "Digikey"
 F6 "352" 0 0 50 H I C CNN "Cost100"
 F7 "Y" 0 0 50 H I C CNN "Substitutable"
-F8 "Must be a single color, white. Must have SSD1306 driver. Must have bottom pins, same as connector. 0.5mm pitch, like the connector" 0 0 50 H I C CNN "Notes"
+F8 "Must be a single color; white. Must have SSD1306 driver. Must have bottom pins; same as connector. 0.5mm pitch; like the connector" 0 0 50 H I C CNN "Notes"
 DRAW
 S -300 200 300 -200 0 1 0 N
 ENDDRAW
