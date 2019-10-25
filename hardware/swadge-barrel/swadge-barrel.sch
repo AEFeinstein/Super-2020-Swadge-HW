@@ -1902,15 +1902,15 @@ $EndComp
 $Comp
 L Swadge_Parts:Headband H1
 U 1 1 5D829692
-P 4600 6150
-F 0 "H1" H 4600 6150 50  0000 C CNN
-F 1 "Headband" H 4600 6250 50  0000 C CNN
-F 2 "Swadge_Parts:Headband" H 4600 6150 50  0001 C CNN
-F 3 "https://cdn.harwin.com/pdfs/M50-353.pdf" H 4600 6150 50  0001 C CNN
-F 4 "952-3598-ND" H 4600 6150 50  0001 C CNN "Digikey"
-F 5 "Use Swadge Headband PCB and two 2x1 male pin headers with 1.27mm spacing for assembly. Must attach OLED display before soldering headband. This is meant to protect the OLED's corners" H 4600 6150 50  0001 C CNN "Notes"
-F 6 "N" H 4600 6150 50  0001 C CNN "Substitutable"
-	1    4600 6150
+P 4500 6200
+F 0 "H1" H 4500 6200 50  0000 C CNN
+F 1 "Headband" H 4500 6300 50  0000 C CNN
+F 2 "Swadge_Parts:Headband" H 4500 6200 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M50-353.pdf" H 4500 6200 50  0001 C CNN
+F 4 "952-3598-ND" H 4500 6200 50  0001 C CNN "Digikey"
+F 5 "Use Swadge Headband PCB and two 2x1 male pin headers with 1.27mm spacing for assembly. Must attach OLED display before soldering headband. This is meant to protect the OLED's corners" H 4500 6200 50  0001 C CNN "Notes"
+F 6 "N" H 4500 6200 50  0001 C CNN "Substitutable"
+	1    4500 6200
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1944,4 +1944,18 @@ Wire Notes Line
 	8550 500  8550 2450
 Wire Notes Line
 	8550 2450 3700 2450
+$Comp
+L Swadge_Parts:Headband H2
+U 1 1 5DB44B4F
+P 4900 6200
+F 0 "H2" H 4900 6200 50  0000 C CNN
+F 1 "Headband" H 4900 6300 50  0000 C CNN
+F 2 "Swadge_Parts:NULL" H 4900 6200 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M50-353.pdf" H 4900 6200 50  0001 C CNN
+F 4 "952-3598-ND" H 4900 6200 50  0001 C CNN "Digikey"
+F 5 "This is the second 2x1 male pin header with 1.27mm spacing for assembly. " H 4900 6200 50  0001 C CNN "Notes"
+F 6 "N" H 4900 6200 50  0001 C CNN "Substitutable"
+	1    4900 6200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
