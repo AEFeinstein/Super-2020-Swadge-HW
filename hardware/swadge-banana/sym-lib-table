@@ -1,9 +1,3 @@
 (sym_lib_table
   (lib (name Swadge_Parts)(type Legacy)(uri ${KIPRJMOD}/../kicad-libs/Swadge_Parts.lib)(options "")(descr ""))
-  (lib (name swadge-banana-cache)(type Legacy)(uri ${KIPRJMOD}/swadge-banana-cache.lib)(options "")(descr ""))
-  (lib (name swadge-banana-rescue)(type Legacy)(uri ${KIPRJMOD}/swadge-banana-rescue.lib)(options "")(descr ""))
-  (lib (name swadge-barrel-cache)(type Legacy)(uri /home/cnlohr/git/Swadge-Devkit/hardware/swadge-barrel/swadge-barrel-cache.lib)(options "")(descr ""))
-  (lib (name swadge-barrel-rescue)(type Legacy)(uri /home/cnlohr/git/Swadge-Devkit/hardware/swadge-barrel/swadge-barrel-rescue.lib)(options "")(descr ""))
-  (lib (name +3v6)(type Legacy)(uri /home/cnlohr/electrical/kicad/+3v6.lib)(options "")(descr ""))
-  (lib (name 5050RGB)(type Legacy)(uri /home/cnlohr/electrical/kicad/5050RGB.lib)(options "")(descr ""))
 )
