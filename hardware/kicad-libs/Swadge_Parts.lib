@@ -1,6 +1,37 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# +3V3
+#
+DEF +3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V
+#
+DEF +5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # 2460
 #
 DEF 2460 U 0 30 Y Y 1 F N
@@ -569,6 +600,19 @@ X GND PAD 0 -900 197 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# GND
+#
+DEF GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # GS321-TR
 #
 DEF GS321-TR U 0 40 Y Y 1 F N
@@ -735,10 +779,10 @@ F0 "U" -900 1600 45 H V L BNN
 F1 "OLED_CONNECTOR" -900 -1700 45 H V L BNN
 F2 "Swadge_Parts:ER-OLED0.96-1.3" 30 150 20 H I C CNN
 F3 "" -900 1600 50 H I C CNN
-F4 "LCSC #C11095" -800 1700 50 H I C CNN "Digikey"
+F4 "LCSC Part #C11060" -800 1700 50 H I C CNN "Digikey"
 F5 "119" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
-F7 "Must have top contacts. same as the OLED" -1350 1850 50 H I C CNN "Notes"
+F7 "Must have bottom contacts. same as the OLED" -1350 1850 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:microbuilder-UG-2864HSWEG01_0.96IN_WRAPAROUND
  Swadge_Parts:microbuilder-UG-2864HSWEG01_1.3_WRAPAROUND
@@ -812,10 +856,10 @@ F1 "OLED_DISPLAY" 0 0 50 H V C CNN
 F2 "Swadge_Parts:NULL" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" 0 0 50 H I C CNN "Datasheet2"
-F5 "EastRising# ER-OLED0.96-1.3W" 0 0 50 H I C CNN "Digikey"
+F5 "EastRising# ER-OLED0.96-1.1W" 0 0 50 H I C CNN "Digikey"
 F6 "352" 0 0 50 H I C CNN "Cost100"
 F7 "Y" 0 0 50 H I C CNN "Substitutable"
-F8 "Must be a single color. white. Must have SSD1306 driver. Must have top pins. 0.5mm pitch. like the connector" 0 0 50 H I C CNN "Notes"
+F8 "Must be a single color; white. Must have SSD1306 driver. Must have bottom pins; same as connector. 0.5mm pitch; like the connector" 0 0 50 H I C CNN "Notes"
 DRAW
 S -300 200 300 -200 0 1 0 N
 ENDDRAW

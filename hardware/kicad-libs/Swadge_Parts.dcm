@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3V3
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
 $CMP 2460
 D Battery Holder; AA; Polypropylene; PC Mount; 1; Spring; PC Lug
 F https://www.digikey.com/product-detail/en/keystone-electronics/2460/36-2460-ND/280629
@@ -71,6 +86,11 @@ $CMP ESP-13-WROOM-02D
 D ESP8266 ESP-13-WROOM-02 module, 18 pins, 2mm, PCB antenna
 K MODULE ESP8266 ESP-8266
 F https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
 $ENDCMP
 #
 $CMP GS321-TR
