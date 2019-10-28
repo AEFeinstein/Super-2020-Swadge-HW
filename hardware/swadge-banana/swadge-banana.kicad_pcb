@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-2")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.3-ffb9f22~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "plots-rev_-"))
+      (outputdirectory "plots-rev_A"))
   )
 
   (net 0 "")
@@ -2247,7 +2247,7 @@
     )
   )
 
-  (gr_text swadge-banana-rev- (at 132.588 103.124 80) (layer B.SilkS)
+  (gr_text swadge-banana-revA (at 132.588 103.124 80) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 190.827837 18.988906) (end 190.616677 18.788795) (layer Edge.Cuts) (width 0.132291))
@@ -3996,7 +3996,7 @@
   (segment (start 112.525 104.975) (end 112.3 104.975) (width 0.25) (layer F.Cu) (net 38))
   (segment (start 112.3 104.975) (end 111.663252 104.975536) (width 0.25) (layer F.Cu) (net 38))
 
-  (zone (net 31) (net_name GND) (layer F.Cu) (tstamp 5DB4FDC5) (hatch edge 0.508)
+  (zone (net 31) (net_name GND) (layer F.Cu) (tstamp 5DB69515) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -5582,7 +5582,7 @@
       )
     )
   )
-  (zone (net 31) (net_name GND) (layer B.Cu) (tstamp 5DB4FDC2) (hatch edge 0.508)
+  (zone (net 31) (net_name GND) (layer B.Cu) (tstamp 5DB69512) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
