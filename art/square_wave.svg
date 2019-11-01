@@ -15,7 +15,7 @@
    version="1.1"
    id="svg96"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="drawing-1.svg">
+   sodipodi:docname="square_wave.svg">
   <defs
      id="defs90" />
   <sodipodi:namedview
@@ -25,15 +25,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="70.96099"
-     inkscape:cy="-19.89325"
+     inkscape:zoom="16"
+     inkscape:cx="32.018064"
+     inkscape:cy="7.6617384"
      inkscape:document-units="mm"
      inkscape:current-layer="g107"
      showgrid="true"
-     inkscape:window-width="1858"
-     inkscape:window-height="1177"
-     inkscape:window-x="54"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      borderlayer="true">
@@ -73,13 +73,14 @@
   <g
      id="g107"
      inkscape:groupmode="layer"
-     inkscape:label="F.Cu">
+     inkscape:label="F.Cu"
+     style="display:inline">
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16373807;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 0,4.5 1.851388,4.481921 V 0.4392724 h 3.603397 v 4.0426481 h 4.055049 0.4377 V 0.4392724 h 3.603398 l -0.0057,4.0607323 4.499467,-0.018097 V 0.4392591 h 3.603398 V 4.4819072 L 23.5,4.482 V 4.043 l -1.413165,1.461e-4 V -1.8e-5 H 17.604936 V 4.0431461 H 13.99017 V 0.8180208 L 13.99127,-1.8e-5 h -0.0011 -4.480862 -0.0011 V 4.0431461 H 5.894002 V -1.8e-5 H 1.412103 V 4.0431461 L 0,4.044 Z"
+       d="M 0,4.5 H 1.851388 L 1.851,0.4392724 H 5.455 L 5.454785,4.5 H 9.947534 L 9.948,0.4392724 H 13.551 V 4.5 H 18.044699 L 18.045,0.4392591 H 21.648 L 21.648097,4.5 H 23.5 V 4.061 H 22.087 V -1.8e-5 H 17.605 L 17.604936,4.061 H 13.991 L 13.99155,-1.8e-5 H 13.99045 9.50955 9.50845 L 9.509,4.061 H 5.894002 L 5.894,-1.8e-5 1.412,0 1.412103,4.061 H 0 Z"
        id="path1437-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccc" />
   </g>
   <g
      id="g109"
