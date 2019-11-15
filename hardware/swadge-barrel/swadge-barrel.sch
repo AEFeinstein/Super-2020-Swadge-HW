@@ -1487,9 +1487,9 @@ F 7 "Use https://lcsc.com/product-detail/Others_QST-QMA6981_C310611.html " H 790
 	1    7900 5650
 	1    0    0    -1  
 $EndComp
-Text GLabel 7350 5600 0    50   Input ~ 0
+Text GLabel 7050 5250 1    50   Input ~ 0
 SDA
-Text GLabel 7850 5250 1    50   Input ~ 0
+Text GLabel 8200 5100 2    50   Input ~ 0
 SCL
 NoConn ~ 7850 6000
 NoConn ~ 7950 6000
@@ -1583,8 +1583,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 6100 8500 6100
 Connection ~ 8800 6100
-Wire Wire Line
-	7850 5250 7850 5300
 Wire Wire Line
 	7350 5600 7400 5600
 $Comp
@@ -1957,5 +1955,43 @@ F 5 "This is the second 2x1 male pin header with 1.27mm spacing for assembly. " 
 F 6 "N" H 4900 6200 50  0001 C CNN "Substitutable"
 	1    4900 6200
 	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:R_US R9
+U 1 1 5DCFA389
+P 8000 5100
+F 0 "R9" V 8100 5100 50  0000 C CNN
+F 1 "47" V 7886 5100 50  0000 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 8040 5090 50  0001 C CNN
+F 3 "" H 8000 5100 50  0001 C CNN
+F 4 "10" H 6300 150 50  0001 C CNN "Cost100"
+F 5 "RMCF0603FT47R0TR-ND" H 6300 150 50  0001 C CNN "Digikey"
+F 6 "Y" H 6300 150 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 8000 5100 50  0001 C CNN "Notes"
+	1    8000 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 5100 8150 5100
+Wire Wire Line
+	7850 5100 7850 5300
+Wire Wire Line
+	7050 5250 7050 5300
+Wire Wire Line
+	7350 5300 7350 5600
+$Comp
+L Swadge_Parts:R_US R8
+U 1 1 5DD38085
+P 7200 5300
+F 0 "R8" V 7300 5300 50  0000 C CNN
+F 1 "47" V 7086 5300 50  0000 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 7240 5290 50  0001 C CNN
+F 3 "" H 7200 5300 50  0001 C CNN
+F 4 "10" H 5500 350 50  0001 C CNN "Cost100"
+F 5 "RMCF0603FT47R0TR-ND" H 5500 350 50  0001 C CNN "Digikey"
+F 6 "Y" H 5500 350 50  0001 C CNN "Substitutable"
+F 7 "0603 Package" H 7200 5300 50  0001 C CNN "Notes"
+	1    7200 5300
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
