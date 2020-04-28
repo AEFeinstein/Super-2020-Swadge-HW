@@ -197,7 +197,7 @@
     (add_net "Net-(SW1-Pad3)")
   )
 
-  (module Swadge_Parts:QMA6981_2 (layer F.Cu) (tedit 5DD4CEB1) (tstamp 5DB173DD)
+  (module Swadge_Parts:QMA6981_2 (layer F.Cu) (tedit 5E0B9448) (tstamp 5DB173DD)
     (at 123.625 83.975 80)
     (path /5CE08D23)
     (fp_text reference U5 (at 1.239898 1.970429 80) (layer F.SilkS)
@@ -231,7 +231,7 @@
       (net 39 "Net-(R8-Pad1)"))
     (pad 1 smd rect (at -0.75 -0.75 80) (size 0.3 0.3) (layers F.Cu F.Paste F.Mask)
       (net 31 GND))
-    (model D:/git/Swadge-Devkit/hardware/kicad-libs/package3d/LGA-12_2x2mm_P0.5mm.wrl
+    (model ${KIPRJMOD}/../kicad-libs/package3d/LGA-12_2x2mm_P0.5mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
