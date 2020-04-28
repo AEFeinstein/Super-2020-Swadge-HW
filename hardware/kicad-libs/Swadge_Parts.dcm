@@ -127,6 +127,10 @@ K Microphone
 F https://www.digikey.com/product-detail/en/pui-audio-inc/POM-2738P-R/668-1158-ND/1464897
 $ENDCMP
 #
+$CMP NAV_SWITCH
+F https://cdn.sparkfun.com/datasheets/Components/Switches/LEVER8184.pdf
+$ENDCMP
+#
 $CMP OLED_CONNECTOR
 D Display
 F https://datasheet.lcsc.com/szlcsc/JUSHUO-AFC07-S30ECC-00_C11095.pdf
