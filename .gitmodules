@@ -1,0 +1,3 @@
+[submodule "hardware/Swadge-Parts"]
+	path = hardware/Swadge-Parts
+	url = https://github.com/AEFeinstein/Swadge-Parts.git

@@ -241,7 +241,7 @@
       (net 39 "Net-(R8-Pad1)"))
     (pad 1 smd rect (at -0.75 -0.75) (size 0.3 0.3) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/LGA-12_2x2mm_P0.5mm.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/LGA-12_2x2mm_P0.5mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -277,7 +277,7 @@
       (net 15 SCL))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 40 "Net-(R9-Pad2)"))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -313,7 +313,7 @@
       (net 39 "Net-(R8-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 16 SDA))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3588,7 +3588,7 @@
       (net 3 "Net-(BT2-Pad1)"))
     (pad 2 thru_hole circle (at -25.995 -0.045 180) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask B.SilkS)
       (net 2 "Net-(BT1-Pad1)"))
-    (model "${KIPRJMOD}/../kicad-libs/package3d/KEYSTONE 2460.step"
+    (model "${KIPRJMOD}/../Swadge-Parts/package3d/KEYSTONE 2460.step"
       (offset (xyz -28.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -3690,12 +3690,12 @@
       (net 1 GND))
     (pad 23 smd rect (at 3.75 13.5164 90) (size 1.3 0.3) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/ssfv30r_3stlf.stp
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/ssfv30r_3stlf.stp
       (offset (xyz -9.449999999999999 -9.300000000000001 1.9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
-    (model ${KIPRJMOD}/../kicad-libs/package3d/oled-0.5.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/oled-0.5.step
       (offset (xyz -13.36 0.5 0))
       (scale (xyz 0.394 0.394 0.394))
       (rotate (xyz 0 0 0))
@@ -3843,17 +3843,17 @@
     (pad 1 thru_hole rect (at 14.5368 -0.635) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
     (pad 1 thru_hole rect (at -14.5368 -0.635) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
     (pad 2 thru_hole oval (at -14.5368 0.635) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/headband.step
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/headband.step
       (offset (xyz -16.5 2.5 1.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/../kicad-libs/package3d/PinHeader_1x02_P1.27mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/PinHeader_1x02_P1.27mm_Vertical.step
       (offset (xyz 14.5368 0.635 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/../kicad-libs/package3d/PinHeader_1x02_P1.27mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/PinHeader_1x02_P1.27mm_Vertical.step
       (offset (xyz -14.5368 0.635 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3889,7 +3889,7 @@
       (net 5 "Net-(C5-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 6 "Net-(C5-Pad1)"))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3925,7 +3925,7 @@
       (net 4 +3V3))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3961,7 +3961,7 @@
       (net 35 "Net-(C8-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 34 "Net-(C8-Pad1)"))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3997,7 +3997,7 @@
       (net 4 +3V3))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4029,7 +4029,7 @@
       (net 1 GND))
     (pad 2 thru_hole circle (at 5 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/Buzzer_12x9.5RM7.6.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/Buzzer_12x9.5RM7.6.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 0.5))
       (rotate (xyz 0 0 0))
@@ -4115,7 +4115,7 @@
       (net 1 GND))
     (pad PAD smd rect (at 10.12 6.58 357) (size 4.3 4.3) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/ESP-WROOM-02D.stp
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/ESP-WROOM-02D.stp
       (offset (xyz 3.4 -6.265 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4151,7 +4151,7 @@
       (net 30 BZR))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 33 "Net-(LS1-Pad1)"))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4187,7 +4187,7 @@
       (net 38 "Net-(R4-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4223,7 +4223,7 @@
       (net 18 RX))
     (pad 1 smd roundrect (at -0.7875 0 177) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 9 "Net-(D1-Pad4)"))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4259,7 +4259,7 @@
       (net 17 _RES))
     (pad 1 smd roundrect (at -0.7875 0 177) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4295,7 +4295,7 @@
       (net 16 SDA))
     (pad 1 smd roundrect (at -0.7875 0 177) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4331,7 +4331,7 @@
       (net 15 SCL))
     (pad 1 smd roundrect (at -0.7875 0 177) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4367,7 +4367,7 @@
       (net 7 "Net-(C9-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4403,7 +4403,7 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.7875 0 100) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4439,7 +4439,7 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.7875 0 280) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4475,7 +4475,7 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.7875 0 100) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4511,7 +4511,7 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4547,7 +4547,7 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.7875 0 355) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4583,7 +4583,7 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.7875 0 80) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 14 +5V))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4619,7 +4619,7 @@
       (net 37 "Net-(C13-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4655,7 +4655,7 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.7875 0 5) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4691,7 +4691,7 @@
       (net 36 "Net-(C12-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4727,7 +4727,7 @@
       (net 4 +3V3))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4763,7 +4763,7 @@
       (net 4 +3V3))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4799,7 +4799,7 @@
       (net 7 "Net-(C9-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4858,7 +4858,7 @@
     (pad 2 smd rect (at -0.65 -1.46 5) (size 0.45 1.38) (layers F.Cu F.Paste F.Mask))
     (pad 1 smd rect (at -1.3 -1.46 5) (size 0.45 1.38) (layers F.Cu F.Paste F.Mask)
       (net 14 +5V))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/USB_Micro-B_Molex_47346-0001.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/USB_Micro-B_Molex_47346-0001.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4901,7 +4901,7 @@
       (net 14 +5V))
     (pad 1 smd rect (at -3.15 -2.3 80) (size 2 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/SOT-223.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/SOT-223.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4966,7 +4966,7 @@
       (net 3 "Net-(BT2-Pad1)"))
     (pad "" np_thru_hole circle (at 1.5 0.33 355) (size 0.9 0.9) (drill 0.9) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -1.5 0.33 355) (size 0.9 0.9) (drill 0.9) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/SW_SPDT_PCM12.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/SW_SPDT_PCM12.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5005,7 +5005,7 @@
       (net 19 SW2))
     (pad 1 smd rect (at -4.55 -2.275) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask)
       (net 19 SW2))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/FSM4JSMATR--3DModel-STEP-56544.STEP
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/FSM4JSMATR--3DModel-STEP-56544.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -5044,7 +5044,7 @@
       (net 1 GND))
     (pad 4 smd rect (at -8.275 -2.5 90) (size 2.3 2.4) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/B3FS-4002P.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/B3FS-4002P.step
       (offset (xyz -1.1 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -5083,7 +5083,7 @@
       (net 1 GND))
     (pad 4 smd rect (at -8.275 -2.5 90) (size 2.3 2.4) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/B3FS-4002P.wrl
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/B3FS-4002P.step
       (offset (xyz -1.1 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -5116,7 +5116,7 @@
       (net 2 "Net-(BT1-Pad1)"))
     (pad 2 thru_hole circle (at -25.995 -0.045) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask B.SilkS)
       (net 1 GND))
-    (model "${KIPRJMOD}/../kicad-libs/package3d/KEYSTONE 2460.step"
+    (model "${KIPRJMOD}/../Swadge-Parts/package3d/KEYSTONE 2460.step"
       (offset (xyz -28.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -5162,7 +5162,7 @@
       (net 13 "Net-(D5-Pad2)"))
     (pad 1 smd rect (at -2.45 -1.6 180) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/WS2812_RGB_LED_updated.stp
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/WS2812_RGB_LED_updated.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5380,7 +5380,7 @@
       (net 29 LED_OUT))
     (pad 1 smd rect (at -2.45 -1.6 185) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/WS2812_RGB_LED_updated.stp
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/WS2812_RGB_LED_updated.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5426,7 +5426,7 @@
       (net 12 "Net-(D4-Pad2)"))
     (pad 1 smd rect (at -2.45 -1.6 175) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/WS2812_RGB_LED_updated.stp
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/WS2812_RGB_LED_updated.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5472,7 +5472,7 @@
       (net 11 "Net-(D3-Pad2)"))
     (pad 1 smd rect (at -2.45 -1.6 5) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/WS2812_RGB_LED_updated.stp
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/WS2812_RGB_LED_updated.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5518,7 +5518,7 @@
       (net 10 "Net-(D2-Pad2)"))
     (pad 1 smd rect (at -2.45 -1.6) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/WS2812_RGB_LED_updated.stp
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/WS2812_RGB_LED_updated.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5564,7 +5564,7 @@
       (net 8 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -2.45 -1.6 355) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model ${KIPRJMOD}/../kicad-libs/package3d/WS2812_RGB_LED_updated.stp
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/WS2812_RGB_LED_updated.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
